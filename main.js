@@ -90,7 +90,7 @@ function MM_showHideLayers() { //v6.0
 
 
 var WebS_Menu=new Array()
-WebS_Menu[0]='<B>Web Searches</B>'
+WebS_Menu[0]='<span class="yellowsans">Web Searches</span>'
 WebS_Menu[2]='<a class="whitelink" href="https://duckduckgo.com/">DuckDuckGo</A>'
 WebS_Menu[3]='<a class="whitelink" href="http://www.polycola.com/">Polycola</a>'
 WebS_Menu[4]='<a class="whitelink" href="http://www.dogpile.com/">Dogpile Metasearch</A>'
@@ -100,19 +100,19 @@ WebS_Menu[7]='<a class="whitelink" href="http://www.wolframalpha.com/">Wolfram A
 
 WebS_Menu[8]='<a class="whitelink" href="http://searchenginewatch.com/">Search Engine Watch (SEO)</a>'
 WebS_Menu[9]='<a class="whitelink" href="http://www.internetmarketingninjas.com">InternetMarketingNinjas.com</a>'
-WebS_Menu[10]='<B>Web Indicies</B>'
+WebS_Menu[10]='<span class="yellowsans">Web Indicies</span>'
 WebS_Menu[11]='<a class="whitelink" href="http://www.archive.org/">The Internet Archive</a>'
 WebS_Menu[12]='<a class="whitelink" href="http://dmoz.org">The DMOZ Open Directory Project</a>'
 WebS_Menu[13]='<a class="whitelink" href="http://vlib.org/">The WWW Virtual Library</a>'
 
-WebS_Menu[15]='<B>File Searches</B>'
+WebS_Menu[15]='<span class="yellowsans">File Searches</span>'
 WebS_Menu[16]='<a class="whitelink" href="http://www.filesearching.com/advanced/">FileSearching</a>'
 WebS_Menu[17]='<a class="whitelink" href="http://www.filewatcher.org">FileWatcher</a>'
 WebS_Menu[18]='<a class="whitelink" href="http://www.driverguide.com/">DriverGuide.com</A>'
 
 
 var USGov_Menu=new Array()
-USGov_Menu[0]='<B>US Govt Resources</B>'
+USGov_Menu[0]='<span class="yellowsans">US Govt Resources</span>'
 USGov_Menu[1]='<a class="whitelink" href="http://www.firstgov.gov/">FirstGov - US Govt Central</A>'
 USGov_Menu[2]='<a class="whitelink" href="http://thomas.loc.gov/">THOMAS - US Legislative Gateway</a> '
 USGov_Menu[3]='<a class="whitelink" href="http://www.gpoaccess.gov/index.html">GPO Access- Govt Printing Ofc</a>'
@@ -123,7 +123,7 @@ USGov_Menu[7]='<a class="whitelink" href="http://gsulaw.gsu.edu/metaindex/">US L
 USGov_Menu[8]='<a class="whitelink" href="http://www.ncsl.org/">Natl Conf of State Legislatures</A>'
 USGov_Menu[9]='<a class="whitelink" href="http://www.nara.gov/">NARA - The US National Archives</A>'
 USGov_Menu[10]='<a class="whitelink" href="http://www.census.gov/">US Census Bureau</a>'
-USGov_Menu[11]='<B>Texas Govt Resources</B>'
+USGov_Menu[11]='<span class="yellowsans">Texas Govt Resources</span>'
 USGov_Menu[12]='<a class="whitelink" href="http://www.state.tx.us/">TexasOnline - The State of Texas</a>'
 USGov_Menu[13]='<a class="whitelink" href="http://www.capitol.state.tx.us/">The Texas Legislature Online</a>'
 USGov_Menu[14]='<a class="whitelink" href="http://www.lrl.state.tx.us/">Tx Legislative Reference Library</A>'
@@ -137,7 +137,7 @@ USGov_Menu[21]='<a class="whitelink" href="http://www.courts.state.tx.us/">Texas
 USGov_Menu[22]='<a class="whitelink" href="http://204.65.105.13/texreg/issues.html">The Texas Register</a>'
 
 var TxGov_Menu=new Array()
-TxGov_Menu[0]='<B>Texas Govt Resources</B>'
+TxGov_Menu[0]='<span class="yellowsans">Texas Govt Resources</span>'
 TxGov_Menu[1]='<a class="whitelink" href="http://www.state.tx.us/">TexasOnline - The State of Texas</a>'
 TxGov_Menu[2]='<a class="whitelink" href="http://www.capitol.state.tx.us/">The Texas Legislature Online</a>'
 TxGov_Menu[3]='<a class="whitelink" href="http://www.lrl.state.tx.us/">Tx Legislative Reference Library</A>'
@@ -151,7 +151,7 @@ TxGov_Menu[10]='<a class="whitelink" href="http://www.courts.state.tx.us/">Texas
 TxGov_Menu[11]='<a class="whitelink" href="http://204.65.105.13/texreg/issues.html">The Texas Register</a>'
 
 var UTexas_Menu=new Array()
-UTexas_Menu[0]='<B>The University of Texas</B>'
+UTexas_Menu[0]='<span class="yellowsans">The University of Texas</span>'
 UTexas_Menu[1]='<a class="whitelink" href="http://www.utexas.edu/">UT Austin - Main</A>'
 UTexas_Menu[2]='<a class="whitelink" href="http://www.lib.utexas.edu/">UT Libraries</a>'
 UTexas_Menu[3]='<a class="whitelink" href="http://x500.utexas.edu/">x500 Directory</a>'
@@ -160,7 +160,7 @@ UTexas_Menu[5]='<a class="whitelink" href="http://www.dailytexanonline.com/">The
 
 
 var Libs_Menu=new Array()
-Libs_Menu[0]='<B>Notable Libraries</B>'
+Libs_Menu[0]='<span class="yellowsans">Notable Libraries</span>'
 Libs_Menu[1]='<a class="whitelink" href="http://www.loc.gov">The Library of Congress</a>'
 Libs_Menu[2]='<a class="whitelink" href="http://www.lib.utexas.edu/">U of Texas Libraries</a>'
 Libs_Menu[3]='<a class="whitelink" href="http://www.libdex.com/">LibDex</a>'
@@ -169,7 +169,7 @@ Libs_Menu[5]='<a class="whitelink" href="http://www.lii.org">The Librarians Inte
 
 
 var Business_Menu=new Array()
-Business_Menu[0]='<B>Employment: Career Resources</B>'
+Business_Menu[0]='<span class="yellowsans">Employment: Career Resources</span>'
 Business_Menu[1]='<a class="whitelink" href="http://www.indeed.com/">Indeed</A>'
 Business_Menu[2]='<a class="whitelink" href="http://www.careerjet.com/">CareerJet</A>'
 Business_Menu[3]='<a class="whitelink" href="http://www.simplyhired.com/">SimplyHired</a>'
@@ -190,7 +190,7 @@ Business_Menu[17]='<a class="whitelink" href="http://www.payscale.com/">PayScale
 Business_Menu[18]='<a class="whitelink" href="http://www.glassdoor.com/">Glassdoor</A>'
 Business_Menu[19]='<a class="whitelink" href="https://www.careerbliss.com/">CareerBliss</A>'
 
-Business_Menu[20]='<B>Business News and Data</B>'
+Business_Menu[20]='<span class="yellowsans">Business News and Data</span>'
 Business_Menu[21]='<a class="whitelink" href="http://www.ceoexpress.com/">CEOExpress</A>'
 Business_Menu[22]='<a class="whitelink" href="http://www.businesswire.com/">BusinessWire</A>'
 Business_Menu[23]='<a class="whitelink" href="http://www.redherring.com/">Red Herring</A>'
@@ -210,7 +210,7 @@ Business_Menu[32]='<a class="whitelink" href="https://www.vbprofiles.com/">Ventu
 
 
 var Austin_Menu=new Array()
-Austin_Menu[0]='<B>Austin, Texas</B>'
+Austin_Menu[0]='<span class="yellowsans">Austin, Texas</span>'
 Austin_Menu[1]='<a class="whitelink" href="http://www.ci.austin.tx.us/">The City of Austin</a>'
 Austin_Menu[2]='<a class="whitelink" href="http://www.co.travis.tx.us/">Travis County, Texas</a>'
 Austin_Menu[3]='<a class="whitelink" href="http://www.capmetro.org/">Capital Metro</a>'
@@ -224,7 +224,7 @@ Austin_Menu[7]='<a class="whitelink" href="http://www.ProgressiveAustin.org">Pro
 // ---------------------------------------------------------------------------
 
 var Mac_Menu=new Array()
-Mac_Menu[0]='<B>Macintosh Resources</B>'
+Mac_Menu[0]='<span class="yellowsans">Macintosh Resources</span>'
 Mac_Menu[1]='<a class="whitelink" href="http://www.tuaw.com/">TUAWeblog</A>'
 Mac_Menu[2]='<a class="whitelink" href="http://www.macnn.com/">MacNN</A>'
 Mac_Menu[3]='<a class="whitelink" href="macworld.com/">MacWorld</A>'
@@ -234,7 +234,7 @@ Mac_Menu[7]='<a class="whitelink" href="http://www.macosxhints.com/">Mac OS X Hi
 Mac_Menu[8]='<a class="whitelink" href="http://forums.applecentral.com/">AppleCentral Forums</A>'
 Mac_Menu[10]='<a class="whitelink" href="http://www.hackintosh.com/">Hackintosh</A>'
 
-Mac_Menu[11]='<B>Windows Resources</B>'
+Mac_Menu[11]='<span class="yellowsans">Windows Resources</span>'
 Mac_Menu[12]='<a class="whitelink" href="https://msdn.microsoft.com/en-us/">MS DevNet</A>'
 Mac_Menu[13]='<a class="whitelink" href="https://technet.microsoft.com/en-us/">MS Technet</A>'
 Mac_Menu[14]='<a class="whitelink" href="http://support.microsoft.com/">MSN Main Support</a>' 
@@ -245,7 +245,7 @@ Mac_Menu[19]='<a class="whitelink" href="http://www.annoyances.org/">Windows Ann
 Mac_Menu[21]='<a class="whitelink" href="http://www.petri.com">Petri IT Kbase</A>'
 Mac_Menu[22]='<a class="whitelink" href="http://computerperformance.co.uk/">Guy Thomas - Computer Perf LTD</a>'
 
-Mac_Menu[23]='<B>Software Downloads</B>'
+Mac_Menu[23]='<span class="yellowsans">Software Downloads</span>'
 Mac_Menu[24]='<a class="whitelink" href="http://www.nirsoft.net/">Nirsoft</A>'
 Mac_Menu[25]='<a class="whitelink" href="https://technet.microsoft.com/en-us/sysinternals/bb545021.aspx">Sysinternals</A>'
 Mac_Menu[26]='<a class="whitelink" href="http://www.joeware.net/freetools/index.htm">Joeware.net</A>'
@@ -265,14 +265,14 @@ Mac_Menu[41]='<a class="whitelink" href="http://www.oldversion.com/">OldVersion.
 
 
 var Unix_Menu=new Array()
-Unix_Menu[0]='<B>Linux Support, Info, Tutorials</B>'
+Unix_Menu[0]='<span class="yellowsans">Linux Support, Info, Tutorials</span>'
 Unix_Menu[1]='<a class="whitelink" href="http://www.linuxfoundation.org">The Linux Foundation</A>'
 Unix_Menu[2]='<a class="whitelink" href="http://www.tldp.org/">The Linux Documentation Project</A>'
 Unix_Menu[3]='<a class="whitelink" href="http://www.kernel.org/">Linux Kernel Archives</A>'
 Unix_Menu[4]='<a class="whitelink" href="http://distrowatch.com/">DistroWatch</a>'
 Unix_Menu[5]='<a class="whitelink" href="http://www.linuxtoday.com/">LinuxToday News</A>'
 
-Unix_Menu[6]='<B>----------------------</B>'
+Unix_Menu[6]='----------------------'
 Unix_Menu[7]='<a class="whitelink" href="http://www.tecmint.com">Tecmint</A>'
 Unix_Menu[8]='<a class="whitelink" href="http://www.thegeekstuff.com">The Geek Stuff - R Natarajan</A>'
 Unix_Menu[9]='<a class="whitelink" href="http://www.binarytides.com/">BinaryTides</A>'
@@ -286,7 +286,7 @@ Unix_Menu[17]='<a class="whitelink" href="http://www.unixpower.org">UnixPower</A
 Unix_Menu[15]='<a class="whitelink" href="http://linux-ip.net">Linux-IP.net</A>'
 Unix_Menu[15]='<a class="whitelink" href="http://www.paktronix.com/">Linux Policy Routing</A>'
 
-Unix_Menu[18]='<B>Distributions (more in SecTools)</B>'
+Unix_Menu[18]='<span class="yellowsans">Distributions (more in SecTools)</span>'
 Unix_Menu[19]='<a class="whitelink" href="http://www.freebsd.net/">FreeBSD.net</A>'
 Unix_Menu[20]='<a class="whitelink" href="http://www.openbsd.net/">OpenBSD.net</A>'
 Unix_Menu[21]='<a class="whitelink" href="https://netbsd.org/">NetBSD.org</A>' 
@@ -306,7 +306,7 @@ Unix_Menu[33]='<a class="whitelink" href="https://www.privacy-cd.org/en">UPR - U
 
 
 var HW_Menu=new Array()
-HW_Menu[0]='<B>Computer Hardware</B>'
+HW_Menu[0]='<span class="yellowsans">Computer Hardware</span>'
 HW_Menu[1]='<a class="whitelink" href="http://www.sysinternals.com/">SysInternals.com</a>'
 HW_Menu[2]='<a class="whitelink" href="http://sysopt.earthweb.com/">SysOpt.com</a>'
 HW_Menu[3]='<a class="whitelink" href="http://www.netsys.com/">NetSys.com</a>'
@@ -324,7 +324,7 @@ HW_Menu[12]='<a class="whitelink" href="http://www.fcc.gov/oet/fccid/">Search Eq
 // http://www.hardware-one.com/links.asp
 
 var ComSec_Menu=new Array()
-ComSec_Menu[0]='<B>Security News</B>'
+ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
 ComSec_Menu[2]='<a class="whitelink" href="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
 ComSec_Menu[3]='<a class="whitelink" href="http://thehackernews.com/">The Hacker News</A>'
 ComSec_Menu[4]='<a class="whitelink" href="http://krebsonsecurity.com">Krebs on Security</A>'
@@ -337,7 +337,7 @@ ComSec_Menu[10]='<a class="whitelink" href="http://arstechnica.com/security/">Ar
 ComSec_Menu[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
 ComSec_Menu[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
 
-ComSec_Menu[13]='CVE - Vulnerability Advisories'
+ComSec_Menu[13]='<span class="yellowsans">CVE - Vulnerability Advisories</span>'
 ComSec_Menu[14]='<a class="whitelink" href="http://www.securiteam.com">SecuriTeam</A>'
 ComSec_Menu[15]='<a class="whitelink" href="http://www.securitytracker.com/">SecurityTracker</a>'
 ComSec_Menu[16]='<a class="whitelink" href="http://www.securityfocus.com/">SecurityFocus</a>'
@@ -347,7 +347,7 @@ ComSec_Menu[19]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln 
 ComSec_Menu[20]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
 ComSec_Menu[21]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
 
-ComSec_Menu[22]='Resources and Conferences'
+ComSec_Menu[22]='<span class="yellowsans">Resources and Conferences</span>'
 ComSec_Menu[23]='<a class="whitelink" href="http://www.cert.org/">CMU - CERT</a>'
 ComSec_Menu[24]='<a class="whitelink" href="http://www.sans.org/">SANS Institute</a>'
 ComSec_Menu[25]='<a class="whitelink" href="https://www.offensive-security.com/">Offensive Security</A>'
@@ -359,7 +359,7 @@ ComSec_Menu[30]='<a class="whitelink" href="http://pacsec.jp/">PacSec Security C
 
 
 var ComSec2_Menu=new Array()
-ComSec2_Menu[0]='Security Tools'
+ComSec2_Menu[0]='<span class="yellowsans">Security Tools</span>'
 ComSec2_Menu[1]='<a class="whitelink" href="http://sectools.org/">SecTools.org</A>'
 ComSec2_Menu[2]='<a class="whitelink" href="http://www.securitywizardry.com/index.php/products.html">Security Wizardry</A>'
 ComSec2_Menu[3]='<a class="whitelink" href="http://www.securityfocus.com/tools">SecurityFocus Tools</A>'
@@ -371,7 +371,7 @@ ComSec2_Menu[8]='<a class="whitelink" href="http://www.kitploit.com/">KitPloit.c
 ComSec2_Menu[9]='<a class="whitelink" href="https://www.concise-courses.com/hacking-tools/">Concise-Courses.com List</A>'
 ComSec2_Menu[10]='<a class="whitelink" href="https://www.defcon.org/html/links/dc-tools.html">DefCon Archive</a>'
 ComSec2_Menu[11]='<a class="whitelink" href="https://forensics.cert.org/">CERT Forensics Linux Repo</A>'
-ComSec2_Menu[12]='Security OS Distributions'
+ComSec2_Menu[12]='<span class="yellowsans">Security OS Distributions</span>'
 ComSec2_Menu[13]='<a class="whitelink" href="https://www.kali.org/">Kali Linux - Pentesting</A>'
 ComSec2_Menu[14]='<a class="whitelink" href="https://backbox.org/linux">BackBox Linux - Pentesting</A>'
 ComSec2_Menu[15]='<a class="whitelink" href="https://www.parrotsec.org/">Parrot (Frozenbox+Kali)</A>'
@@ -387,38 +387,38 @@ ComSec2_Menu[22]='<a class="whitelink" href="http://www.deftlinux.net/">DEFT For
 ComSec2_Menu[23]='<a class="whitelink" href="http://www.caine-live.net/">CAINE Investigative Environment</A>'
 ComSec2_Menu[24]='<a class="whitelink" href="https://www.owasp.org/index.php/OWASP_OWTF">OWASP Offensive Web Testing</A>'
 ComSec2_Menu[25]='<a class="whitelink" href="https://sourceforge.net/projects/samurai/files/">Samurai Web Testing Framework</A>'
-ComSec2_Menu[26]='Privacy OS Distributions'
+ComSec2_Menu[26]='<span class="yellowsans">Privacy OS Distributions</span>'
 ComSec2_Menu[27]='<a class="whitelink" href="https://tails.boum.org/">TAILS - Privacy distribution</A>'
 ComSec2_Menu[28]='<a class="whitelink" href="https://www.qubes-os.org/">QubesOS - Privacy distribution</A>'
 ComSec2_Menu[29]='<a class="whitelink" href="https://www.privacy-cd.org/en">UPR - Ubuntu Privacy Remix</A>'
 
 var NetTool_Menu=new Array()
-NetTool_Menu[0]='<B>Regional Internet Registries</B>'
+NetTool_Menu[0]='<span class="yellowsans">Regional Internet Registries</span>'
 NetTool_Menu[4]='<a class="whitelink" HREF="https://wq.apnic.net/whois-search/static/search.html">APNIC Whois</A>'
 NetTool_Menu[5]='<a class="whitelink" href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN">LACNIC Whois</A>'
 NetTool_Menu[6]='<a class="whitelink" HREF="http://www.afrinic.net/en/services/whois-query">AfriNIC Whois</A>'
 NetTool_Menu[7]='<a class="whitelink" HREF="http://whois.arin.net/ui/advanced.jsp">ARIN Adv Whois</A>'
 NetTool_Menu[8]='<a class="whitelink" HREF="https://stat.ripe.net/">RIPEstat Lookup</A>'
-NetTool_Menu[9]='<B>General Net and DNS Tools</b>'
+NetTool_Menu[9]='<span class="yellowsans">General Net and DNS Tools</span>'
 NetTool_Menu[10]='<a class="whitelink" HREF="http://www.dnsstuff.com/tools">DNSstuff Toolbox </A>'
 NetTool_Menu[11]='<a class="whitelink" HREF="http://network-tools.com/">Network-Tools.com</A>'
 NetTool_Menu[12]='<a class="whitelink" HREF="http://www.kloth.net/services/">Kloth.net Services</A>'
 NetTool_Menu[13]='<a class="whitelink" HREF="https://stat.ripe.net/widget/list">RIPEstat Widget List</A>'
 NetTool_Menu[14]='<a class="whitelink" HREF="http://www.dnsqueries.com/en/">DNSQueries.com Toolkit</A>'
-NetTool_Menu[17]='More Complex Lookups'
+NetTool_Menu[17]='<span class="yellowsans">More Complex Lookups</span>'
 NetTool_Menu[18]='<a class="whitelink" href="http://nswalk.com">NSWalk DNS Tracing</A>'
 NetTool_Menu[19]='<a class="whitelink" HREF="https://www.robtex.net/">Robtex Graphical DNS</A>'
 NetTool_Menu[20]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
 NetTool_Menu[21]='<a class="whitelink" HREF="http://dnsdigger.com/">DNS-Digger (hosts in subnet)</A>'
 NetTool_Menu[22]='<a class="whitelink" HREF="http://searchdns.netcraft.com/">Netcraft SearchDNS</A>'
 NetTool_Menu[23]='<a class="whitelink" HREF="http://toolbar.netcraft.com/site_report?url=undefined">Netcraft Site Report</A>'
-NetTool_Menu[24]='IP Geolocation'
+NetTool_Menu[24]='<span class="yellowsans">IP Geolocation</span>'
 NetTool_Menu[25]='<a class="whitelink" HREF="http://www.ipaddresslocation.org/">IPAddressLocation.org</A>'
 NetTool_Menu[26]='<a class="whitelink" HREF="http://www.hostip.info/">Hostip.info IP Geolocation</A>'
-NetTool_Menu[27]='DNS and MX Diagnosis'
+NetTool_Menu[27]='<span class="yellowsans">DNS and MX Diagnosis</span>'
 NetTool_Menu[28]='<a class="whitelink" HREF="http://www.intodns.com/">intoDNS: DNS/MX Health</A>'
 NetTool_Menu[29]='<a class="whitelink" HREF="http://mxtoolbox.com/">MxToolbox Lookup</A>'
-NetTool_Menu[30]='Backbones; Proxies; Blacklisting'
+NetTool_Menu[30]='<span class="yellowsans">Backbones; Proxies; Blacklisting</span>'
 NetTool_Menu[31]='<a class="whitelink" HREF="http://www.telekom-icss.com/ournetwork">Deutsche Telekom Backbone Map</a>'
 NetTool_Menu[32]='<a class="whitelink" HREF="http://www.reach.com/imap/imap.html">Reach Network Backbone Map</a>'
 NetTool_Menu[33]='<a class="whitelink" HREF="https://www.pccwglobal.com/en/global-coverage/our-global-network#">PCCW Network Backbone Map</a>'
@@ -451,7 +451,7 @@ Quickref_Menu[20]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">
 Quickref_Menu[21]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
 
 var Prog_Menu=new Array()
-Prog_Menu[0]='<B>Programming and Coding</B>'
+Prog_Menu[0]='<span class="yellowsans">Programming and Coding</span>'
 // http://stackexchange.com/sites#
 // http://stackoverflow.com/
 // http://serverfault.com/
@@ -486,7 +486,7 @@ Prog_Menu[27]='<a class="whitelink" href="http://www.gamelan.com/">Gamelan Java<
 Prog_Menu[28]='<a class="whitelink" href="http://java.sun.com/">Java at Sun</a>'
 
 var Game_Menu=new Array()
-Game_Menu[0]='<B>Gaming and Arcade Emulation</B>'
+Game_Menu[0]='<span class="yellowsans">Gaming and Arcade Emulation</span>'
 Game_Menu[1]='<a class="whitelink" href="http://www.zophar.net/">Zophars Domain</a>'
 Game_Menu[2]='<a class="whitelink" href="http://www.emulator-zone.com/">Emulator Zone</A>'
 Game_Menu[3]='<a class="whitelink" href="http://www.mameworld.info/">MAMEWorld</a>'
@@ -501,7 +501,7 @@ Game_Menu[8]='<a class="whitelink" href="http://www.atarimuseum.com/">Atari Hist
 // ---------------------------------------------------------------------------
 
 var NewsMain_Menu=new Array()
-NewsMain_Menu[0]='<B>News Outlets</B>'
+NewsMain_Menu[0]='<span class="yellowsans">News Outlets</span>'
 NewsMain_Menu[1]='<a class="whitelink" href="http://news.google.com/">Google News</a>'
 NewsMain_Menu[2]='<a class="whitelink" href="http://news.yahoo.com/">Yahoo News</a>'
 NewsMain_Menu[3]='<a class="whitelink" href="http://newslink.org/">NewsLink.org</a>'
@@ -533,7 +533,7 @@ NewsMain_Menu[27]='<a class="whitelink" href="http://www.datafuse.net/">DataFuse
 
 
 var Science_Menu=new Array()
-Science_Menu[0]='<B>Science News and Resources</B>'
+Science_Menu[0]='<span class="yellowsans">Science News and Resources</span>'
 Science_Menu[1]='<a class="whitelink" href="http://www.sciencedaily.com/">Science Daily</a>'
 Science_Menu[2]='<a class="whitelink" href="http://www.sciencemag.org/netwatch/">Science Magazine NetWatch</A>'
 Science_Menu[3]='--------------------------------'
@@ -550,7 +550,7 @@ Science_Menu[13]='<A class="whitelink" HREF="http://ie.lbl.gov/education/glossar
 Science_Menu[14]='See also "Medical"'
 
 var Medical_Menu=new Array()
-Medical_Menu[0]='<B>Medical News and Resources</B>'
+Medical_Menu[0]='<span class="yellowsans">Medical News and Resources</span>'
 Medical_Menu[1]='<A class="whitelink" HREF="http://www.nlm.nih.gov/">U.S. Natl Library of Medicine</a>'
 Medical_Menu[2]='<A class="whitelink" HREF="http://wonder.cdc.gov/">CDC: Epidemiologic Research</A>'
 Medical_Menu[3]='<A class="whitelink" HREF="http://www.gdb.org/">The Human Genome Database</A>'
@@ -568,14 +568,12 @@ Medical_Menu[12]='<A class="whitelink" HREF="http://www.thehealthencyclopedia.co
 // Medical_Menu[15]='<a class="whitelink" href="http://www.mayoclinic.org/">MayoClinic</A>'
 
 var Legal_Menu=new Array()
-Legal_Menu[0]='<B>Legal News and Resources</B>'
+Legal_Menu[0]='<span class="yellowsans">Legal News and Resources</span>'
 Legal_Menu[1]='<a class="whitelink" href="http://www.alllaw.com/">AllLaw</A>'
 Legal_Menu[2]='<a class="whitelink" href="http://www.catalaw.com/">CataLaw</A>'
-Legal_Menu[3]='<a class="whitelink" href="http://www.findlaw.com/">FindLaw</A>'
-Legal_Menu[4]='<a class="whitelink" href="http://www.lexisone.com/">LexisOne</A>'
-Legal_Menu[5]='<a class="whitelink" href="http://www.martindale.com/">Martindale-Hubbell</A>'
+Legal_Menu[3]='<a class="whitelink" href="http://lp.findlaw.com/">FindLaw</A>'
 Legal_Menu[6]='<a class="whitelink" href="https://www.law.cornell.edu/">Cornell Law - Legal Info Inst.</A>'
-Legal_Menu[7]='<a class="whitelink" href="http://www.paralegals.org/displaycommon.cfm?an=1">NFPA Legal Reference Library</A>'
+Legal_Menu[7]='<a class="whitelink" href="https://law.duke.edu/lib/researchguides/intresearch/">Duke Law - Legal Research on the Web</A>'
 Legal_Menu[8]='<a class="whitelink" href="http://www.legaldirectories.com/">Legal Directories Publishing Co.</A>'
 Legal_Menu[9]='<a class="whitelink" href="https://www.justice.gov/criminal-ccips">US DOJ Computer Crime (CCIPS)</A>'
 Legal_Menu[10]='------------------------'
@@ -586,7 +584,7 @@ Legal_Menu[14]='<a class="whitelink" href="http://www.abanet.org/legalservices/l
 Legal_Menu[15]='<a class="whitelink" href="http://www.aclu.org/">ACLU</A>'
 
 var USGrps_Menu=new Array()
-USGrps_Menu[0]='<B>US Journalism and Groups</B>'
+USGrps_Menu[0]='<span class="yellowsans">US Journalism and Groups</span>'
 USGrps_Menu[1]='<a class="whitelink" href="http://www.alternet.org/">AlterNet</A>'
 USGrps_Menu[2]='<a class="whitelink" href="http://www.thenation.com/">The Nation</A>'
 USGrps_Menu[3]='<a class="whitelink" href="http://www.motherjones.org/">Mother Jones</a>'
@@ -606,7 +604,7 @@ USGrps_Menu[16]='<a class="whitelink" href="http://www.thismodernworld.com/">Thi
 
 
 var TxGrps_Menu=new Array()
-TxGrps_Menu[0]='<B>Texas Journalism and Groups</B>'
+TxGrps_Menu[0]='<span class="yellowsans">Texas Journalism and Groups</span>'
 TxGrps_Menu[1]='<a class="whitelink" href="http://UTWatch.org/">UT Watch (University of Texas)</a>'
 TxGrps_Menu[2]='<a class="whitelink" href="http://www.tpj.org">Texans for Public Justice</a>'
 TxGrps_Menu[3]='<a class="whitelink" href="http://ProgressiveAustin.org">ProgressiveAustin.org</A>'
@@ -616,7 +614,7 @@ TxGrps_Menu[6]='<A class="whitelink" HREF="http://www.citizen.org/texas/">Public
 
 
 var Politics_Menu=new Array()
-Politics_Menu[0]='<B>General Politics</B>'
+Politics_Menu[0]='<span class="yellowsans">General Politics</span>'
 Politics_Menu[1]='<a class="whitelink" href="http://www.moveon.org/">MoveOn.org</A>'
 Politics_Menu[2]='<a class="whitelink" href="http://www.democracynow.org">Democracy Now</a>'
 Politics_Menu[3]='<a class="whitelink" href="http://www.peaceaction.org">Peace Action</a>'
@@ -631,7 +629,7 @@ Politics_Menu[10]='<a class="whitelink" href="http://www.truthtellingproject.org
 
 
 var Enviro_Menu=new Array()
-Enviro_Menu[0]='<B>Environmental Orgs</B>'
+Enviro_Menu[0]='<span class="yellowsans">Environmental Orgs</span>'
 Enviro_Menu[1]='<a class="whitelink" href="http://www.sierraclub.org">Sierra Club</a>'
 Enviro_Menu[2]='<a class="whitelink" href="http://www.earthfirstjournal.org/">Earth First! Journal</a>'
 Enviro_Menu[3]='<a class="whitelink" href="http://www.seashepherd.org/">Sea Shepherds Society</a>'
@@ -640,7 +638,7 @@ Enviro_Menu[5]='<a class="whitelink" href="http://www.greenpeace.org/">GreenPeac
 
 
 var CleanE_Menu=new Array()
-CleanE_Menu[0]='<B>Clean Energy</B>'
+CleanE_Menu[0]='<span class="yellowsans">Clean Energy</span>'
 CleanE_Menu[1]='<A class="whitelink" HREF="http://www.txses.org/">Tx Solar Energy Society</a>'
 CleanE_Menu[2]='<A class="whitelink" HREF="http://www.solaraustin.org/">www.SolarAustin.org</a>'
 CleanE_Menu[3]='<A class="whitelink" HREF="http://www.seedcoalition.org/">Texas SEED Coalition</a>'
@@ -657,7 +655,7 @@ CleanE_Menu[13]='<A class="whitelink" HREF="http://www.fuelcells.org/">FuelCells
 	
 
 var Nuke_Menu=new Array()
-Nuke_Menu[0]='<B>Nuclear Issues</B>'
+Nuke_Menu[0]='<span class="yellowsans">Nuclear Issues</span>'
 Nuke_Menu[1]='<a class="whitelink" href="http://www.ieer.org/">Inst for Energy and Environ Resrch</a>'
 Nuke_Menu[2]='<a class="whitelink" href="http://www.antenna.nl/wise">World Info Svc on Energy (WISE)</a>'
 Nuke_Menu[3]='<a class="whitelink" href="http://www.nirs.org">Nuclear Info Resource Svc (NIRS)</a>'
@@ -693,7 +691,7 @@ Nuke_Menu[26]='<a class="whitelink" href="http://www.lm.doe.gov">DOE Office of L
 
 
 var Widget_Menu=new Array()
-Widget_Menu[0]='<B>Converters and Tools</B>'
+Widget_Menu[0]='<span class="yellowsans">Converters and Tools</span>'
 Widget_Menu[1]='<a class="whitelink" href="http://www.google.com/about/products/">Google Tools</a>'
 Widget_Menu[2]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
 Widget_Menu[5]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'

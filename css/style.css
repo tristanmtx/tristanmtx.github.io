@@ -118,10 +118,12 @@ body {
 .whitelink:visited {color: #DDDDDD; text-decoration : none !important}
 .whitelink:hover {color: #FFFFFF; text-decoration : none !important}
 
-.whitesans {font-family: Helvetica,  Arial, sans-serif; font-size: 9px; color: #DDDDDD}
-.whitesans:link {color: #DDDDDD; text-decoration : none !important}
-.whitesans:visited {color: #DDDDDD; text-decoration : none !important}
+.whitesans {font-family: Helvetica,  Arial, sans-serif; font-size: 9px; color: #FFFFFF}
+.whitesans:link {color: #FFFFFF; text-decoration : none !important}
+.whitesans:visited {color: #FFFFFF; text-decoration : none !important}
 .whitesans:hover {color: #FFFFFF; text-decoration : none !important}
+
+
 
 .whitesans12 {font-family: Helvetica,  Arial, sans-serif; font-size: 12px; color: #DDDDDD}
 .whitesans12:link {color: #DDDDDD; text-decoration : none !important}
@@ -255,6 +257,7 @@ body {
 }
 .h_logo{
 	float: left;
+	font-family: Helvetica,  Arial, sans-serif; font-size: 9px; color: #DDDDDD
 }
 
 /* start slider */
