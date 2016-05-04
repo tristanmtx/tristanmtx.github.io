@@ -460,7 +460,6 @@ Prog_Menu[4]='<a class="whitelink" href="https://isocpp.org/">The C++ Foundation
 Prog_Menu[5]='<a class="whitelink" href="http://www.cplusplus.com/">cplusplus.com</A>'
 Prog_Menu[6]='<a class="whitelink" href="http://www.learncpp.com/">LearnCpp.com</A>'
 Prog_Menu[7]='<a class="whitelink" href="http://www.mindviewinc.com">Eckel- Thinking in C++/Java</A>'
-Prog_Menu[8]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
 
 
 Prog_Menu[9]='<span class="yellowsans">Python Specific</span>'
@@ -487,12 +486,13 @@ Prog_Menu[28]='<a class="whitelink" href="http:/www.railstutorial.org/">Ruby on 
 Prog_Menu[29]='<a class="whitelink" href="http://railscasts.com/">RailCasts.com - screencasts</A>'
 Prog_Menu[30]='<a class="whitelink" href="https://gorails.com/">GoRails.com - screencasts</A>'
 
-Prog_Menu[31]='<span class="yellowsans">Programming and Coding</span>'
+Prog_Menu[31]='<span class="yellowsans">General Programming</span>'
 Prog_Menu[32]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange.com</A>'
 Prog_Menu[33]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
 Prog_Menu[34]='<a class="whitelink" href="http://serverfault.com/">ServerFault.com</A>'
 Prog_Menu[35]='<a class="whitelink" href="http://superuser.com/">SuperUser.com</A>'
 Prog_Menu[36]='<a class="whitelink" href="http://www.developershed.com/">Developer Shed</a>'
+Prog_Menu[37]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
 
 
 var Game_Menu=new Array()
