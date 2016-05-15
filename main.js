@@ -462,7 +462,7 @@ Quickref_Menu[3]='<a class="whitelink" href="https://learningspace.cisco.com/">C
 Quickref_Menu[4]='<a class="whitelink" href="http://www.tcpipguide.com/">TCPIPGuide.com Wiki</A>'
 Quickref_Menu[5]='<a class="whitelink" href="https://wiki.wireshark.org/FrontPage">The Wireshark Wiki</A>'
 Quickref_Menu[6]='<a class="whitelink" href="http://www.thenetworkencyclopedia.com/">NetworkEncyclopedia.com Wiki</A>'
-Quickref_Menu[7]='<a class="whitelink" href="http://www.rackspace.com/knowledge_center/product-articles/cloud-servers">Rackspace Knowledgebase</A>'
+Quickref_Menu[7]='<a class="whitelink" href="https://support.rackspace.com/how-to/">Rackspace HowTo (replaces Kbase)</A>'
 Quickref_Menu[8]='<a class="whitelink" href="http://linuxmanpages.net/">Fedora Manpages</A>'
 Quickref_Menu[9]='<a class="whitelink" href="http://manpages.debian.org/cgi-bin/man.cgi">Debian Manpages</A>'
 Quickref_Menu[10]='<a class="whitelink" href="http://manpages.ubuntu.com/">Ubuntu Manpages</A>'
