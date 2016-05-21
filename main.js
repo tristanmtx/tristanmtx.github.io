@@ -347,6 +347,57 @@ HW_Menu[34]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardwar
 HW_Menu[35]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
 HW_Menu[36]='<a class="whitelink" href="http://www.hardwaresecrets.com/">HardwareSecrets.com</A>'
 
+var Cluster_Menu=new Array()
+Cluster_Menu[0]='<span class="yellowsans">Kubernetes - Ubernetes</span>'
+Cluster_Menu[1]='<a class="whitelink" href="http://kubernetes.io/">Kubernetes</A>'
+Cluster_Menu[2]='<a class="whitelink" href="http://kubernetes.io/docs/reference/">Kubernetes Docs</a>'
+Cluster_Menu[3]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes.github.io">K8s Docs (newer repo)</a>'
+Cluster_Menu[4]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes">K8s GitHub (lots more)</A>'
+Cluster_Menu[5]='<a class="whitelink" href="http://k8s.info/">K8s Community Pgs</A>'
+Cluster_Menu[6]='<a class="whitelink" href="http://k8s.info/cs.html">Kubectl Cheat Sheet</A>'
+Cluster_Menu[7]='<a class="whitelink" href="http://paper.li/skippbox/1446802542">Kubernetes Daily pg</A>'
+Cluster_Menu[8]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/proposals/federation.md">K8s Federation</a>'
+Cluster_Menu[9]='<a class="whitelink" href="http://blog.kubernetes.io/">Kubernetes Blog</A>'
+
+Cluster_Menu[10]='<span class="yellowsans">Red Hat OpenShift Ecosystem</span>'
+Cluster_Menu[11]='<a class="whitelink" href="https://docs.openshift.com/">OpenShift Docs</A>'
+Cluster_Menu[12]='<a class="whitelink" href="https://docs.openshift.org/">OpenShift Origin Docs</A>'
+Cluster_Menu[13]='<a class="whitelink" href="http://commons.openshift.org/">OpenShift Commons</A>'
+Cluster_Menu[14]='<a class="whitelink" href="https://www.openshift.com/enterprise/resources.html">OpenShift Resources</A>'
+Cluster_Menu[16]='<a class="whitelink" href="https://github.com/openshift/origin">OpenShift Origin at GitHub</A>'
+Cluster_Menu[17]='<a class="whitelink" href="https://hub.openshift.com/">OpenShift Hub</A>'
+Cluster_Menu[18]='<a class="whitelink" href="https://developers.openshift.com">OpenShift Developer</a>'
+Cluster_Menu[19]='<a class="whitelink" href="http://securepaas.com/">SecurePaaS</A>'
+
+Cluster_Menu[20]='<span class="yellowsans">Apache Mesos Ecosystem</span>'
+Cluster_Menu[21]='<a class="whitelink" href="https://mesos.apache.org/">Mesos</A>'
+Cluster_Menu[22]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Docs</A>'
+Cluster_Menu[23]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
+Cluster_Menu[24]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/home.md">Docs (most recent)</A>'
+Cluster_Menu[25]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
+Cluster_Menu[26]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
+Cluster_Menu[27]='<a class="whitelink" href="https://github.com/mesosphere/marathon">Marathon at Github</A>'
+Cluster_Menu[28]='<a class="whitelink" href="https://github.com/airbnb/chronos">Chronos at GitHub</a>'
+Cluster_Menu[29]='<a class="whitelink" href="https://wiki.jenkins-ci.org/display/JENKINS/Mesos+Plugin">Jenkins for Mesos</A>'
+
+Cluster_Menu[30]='<span class="yellowsans">Docker Provisioning</span>'
+Cluster_Menu[31]='<a class="whitelink" href="https://www.docker.com/">Docker main page</A>'
+Cluster_Menu[32]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
+Cluster_Menu[33]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
+Cluster_Menu[34]='<a class="whitelink" href="https://training.docker.com/self-paced-training">Docker Training</A>'
+Cluster_Menu[35]='<a class="whitelink" href="https://blog.docker.com/category/engineering/">Docker Blog</A>'
+
+Cluster_Menu[36]='<span class="yellowsans">OpenStack Provisioning</span>'
+Cluster_Menu[37]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
+Cluster_Menu[38]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
+Cluster_Menu[39]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
+Cluster_Menu[40]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
+
+
+
+
+
+
 
 
 var ComSec_Menu=new Array()
@@ -549,9 +600,9 @@ Game_Menu[8]='<a class="whitelink" href="http://www.atarimuseum.com/">Atari Hist
 
 var NewsMain_Menu=new Array()
 NewsMain_Menu[0]='<span class="yellowsans">News Outlets</span>'
-NewsMain_Menu[1]='<a class="whitelink" href="http://news.google.com/">Google News</a>'
-NewsMain_Menu[2]='<a class="whitelink" href="http://news.yahoo.com/">Yahoo News</a>'
-//NewsMain_Menu[3]='<a class="whitelink" href="http://newslink.org/">NewsLink.org</a>'
+NewsMain_Menu[1]='<a class="whitelink" href="http://www.realclearpolitics.com/epolls/latest_polls/">RCPs Polling Aggregation</A>'
+NewsMain_Menu[2]='<a class="whitelink" href="http://news.google.com/">Google News</a>'
+NewsMain_Menu[3]='<a class="whitelink" href="http://news.yahoo.com/">Yahoo News</a>'
 NewsMain_Menu[4]='<a class="whitelink" href="http://www.findarticles.com/">CBSi FindArticles</a>'
 NewsMain_Menu[5]='-----------'
 NewsMain_Menu[6]='<a class="whitelink" href="http://www.c-span.org">C-SPAN</a>'
@@ -561,22 +612,23 @@ NewsMain_Menu[9]='<a class="whitelink" href="http://news.npr.org/">Natl Public R
 NewsMain_Menu[10]='<a class="whitelink" href="http://news.bbc.co.uk/">BBC Online</a>'
 NewsMain_Menu[11]='<a class="whitelink" href="http://www.cnn.com/">CNN Online</a>'
 NewsMain_Menu[12]='<a class="whitelink" href="http://www.aljazeera.com/">Al Jazeera</A>'
-NewsMain_Menu[13]='-----------'
-NewsMain_Menu[14]='<a class="whitelink" href="http://www.nytimes.com">NY Times</a>'
-NewsMain_Menu[15]='<a class="whitelink" href="http://www.washingtonpost.com">Washington Post</a>'
-NewsMain_Menu[16]='<a class="whitelink" href="http://online.wsj.com/public/us">Wall St Journal</a>'
-NewsMain_Menu[17]='<a class="whitelink" href="http://www.indymedia.org">Independent Media Center</a>'
+NewsMain_Menu[13]='<a class="whitelink" href="https://www.rt.com">RT Network</A>'
+NewsMain_Menu[14]='<a class="whitelink" href="https://theintercept.com/">The Intercept</A>'
+NewsMain_Menu[15]='<a class="whitelink" href="http://www.nytimes.com">NY Times</a>'
+NewsMain_Menu[16]='<a class="whitelink" href="http://www.washingtonpost.com">Washington Post</a>'
+NewsMain_Menu[17]='<a class="whitelink" href="http://online.wsj.com/public/us">Wall St Journal</a>'
+NewsMain_Menu[18]='<a class="whitelink" href="http://www.indymedia.org">Independent Media Center</a>'
 
-NewsMain_Menu[18]='-----------'
-NewsMain_Menu[19]='<a class="whitelink" href="http://www.slashdot.org/">/. SlashDot&nbsp; /.</a>'
-NewsMain_Menu[20]='<a class="whitelink" href="http://www.arstechnica.com/">ArsTechnica</a>'
-NewsMain_Menu[21]='<a class="whitelink" href="http://www.techweb.com/">TechWeb</a>'
-NewsMain_Menu[22]='<a class="whitelink" href="http://www.cmp.com/">CMP Media</a>'
-NewsMain_Menu[23]='<a class="whitelink" href="http://www.zdnet.com/">CBSi - ZDNet</a>'
-NewsMain_Menu[24]='<a class="whitelink" href="http://www.cnet.com/">CBSi - C|Net</a>'
-NewsMain_Menu[25]='<a class="whitelink" href="http://www.internet.com/">Internet.com</a>'
-NewsMain_Menu[26]='<a class="whitelink" href="http://www.techgenix.com/">TechGenix</A>'
-NewsMain_Menu[27]='<a class="whitelink" href="http://www.datafuse.net/">DataFuse</a>'
+NewsMain_Menu[19]='<a class="whitelink" href="http://www.theregister.co.uk/">The Register</a>'
+NewsMain_Menu[20]='<a class="whitelink" href="http://www.slashdot.org/">/. SlashDot&nbsp; /.</a>'
+NewsMain_Menu[21]='<a class="whitelink" href="http://www.arstechnica.com/">ArsTechnica</a>'
+NewsMain_Menu[22]='<a class="whitelink" href="http://www.techweb.com/">TechWeb</a>'
+NewsMain_Menu[23]='<a class="whitelink" href="http://www.cmp.com/">CMP Media</a>'
+NewsMain_Menu[24]='<a class="whitelink" href="http://www.zdnet.com/">CBSi - ZDNet</a>'
+NewsMain_Menu[25]='<a class="whitelink" href="http://www.cnet.com/">CBSi - C|Net</a>'
+NewsMain_Menu[26]='<a class="whitelink" href="http://www.internet.com/">Internet.com</a>'
+NewsMain_Menu[27]='<a class="whitelink" href="http://www.techgenix.com/">TechGenix</A>'
+NewsMain_Menu[28]='<a class="whitelink" href="http://www.datafuse.net/">DataFuse</a>'
 
 
 var Science_Menu=new Array()
