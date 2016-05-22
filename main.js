@@ -372,7 +372,7 @@ Cluster_Menu[18]='<a class="whitelink" href="http://mesos.apache.org/documentati
 Cluster_Menu[20]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
 Cluster_Menu[21]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
 
-Cluster_Menu[22]='<span class="yellowsans">SNF-NFV - Open Networking</span>'
+Cluster_Menu[22]='<span class="yellowsans">SDF-NFV - Open Networking</span>'
 Cluster_Menu[23]='<a class="whitelink" href="https://www.opennetworking.org/">The Open Networking Foundation</A>'
 Cluster_Menu[24]='<a class="whitelink" href="http://onrc.stanford.edu/">Open Networking Research Ctr</A>'
 Cluster_Menu[25]='<a class="whitelink" href="http://onlab.us/">Open Networking Lab (ONOS, etc)</A>'
@@ -392,7 +392,7 @@ Cluster_Menu[37]='<a class="whitelink" href="https://github.com/docker/">Docker 
 Cluster_Menu[38]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
 
 
-Cluster_Menu[39]='<span class="yellowsans">OpenStack Foundation</span>'
+Cluster_Menu[39]='<span class="yellowsans">The OpenStack Foundation</span>'
 Cluster_Menu[40]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
 Cluster_Menu[41]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
 Cluster_Menu[42]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
