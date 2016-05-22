@@ -356,7 +356,7 @@ Cluster_Menu[4]='<a class="whitelink" href="http://k8s.info/">K8s Community Pgs<
 Cluster_Menu[5]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/proposals/federation.md">K8s Federation</a>'
 Cluster_Menu[6]='<a class="whitelink" href="http://blog.kubernetes.io/">Kubernetes Blog</A>'
 
-Cluster_Menu[7]='<span class="yellowsans">Red Hat OpenShift Ecosystem</span>'
+Cluster_Menu[7]='<span class="yellowsans">OpenShift Ecosystem</span>'
 Cluster_Menu[8]='<a class="whitelink" href="https://docs.openshift.com/">OpenShift Docs</A>'
 Cluster_Menu[9]='<a class="whitelink" href="https://docs.openshift.org/">OpenShift Origin Docs</A>'
 Cluster_Menu[10]='<a class="whitelink" href="http://commons.openshift.org/">OpenShift Commons</A>'
