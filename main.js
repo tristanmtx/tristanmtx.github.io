@@ -372,7 +372,7 @@ Cluster_Menu[18]='<a class="whitelink" href="http://mesos.apache.org/documentati
 Cluster_Menu[20]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
 Cluster_Menu[21]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
 
-Cluster_Menu[22]='<span class="yellowsans">SDF-NFV - Open Networking</span>'
+Cluster_Menu[22]='<span class="yellowsans">SDN-NFV - Open Networking</span>'
 Cluster_Menu[23]='<a class="whitelink" href="https://www.opennetworking.org/">The Open Networking Foundation</A>'
 Cluster_Menu[24]='<a class="whitelink" href="http://onrc.stanford.edu/">Open Networking Research Ctr</A>'
 Cluster_Menu[25]='<a class="whitelink" href="http://onlab.us/">Open Networking Lab (ONOS, etc)</A>'
