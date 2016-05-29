@@ -566,10 +566,10 @@ Prog_Menu[15]='<a class="whitelink" href="http://www.diveintopython3.net/">Dive 
 Prog_Menu[16]='<a class="whitelink" href="http://docs.python-guide.org">Hitchhickers Guide to Python</A>'
 Prog_Menu[17]='<a class="whitelink" href="http://python-forensics.org/">Python Forensics</A>'
 Prog_Menu[18]='<a class="whitelink" href="http://awesome-python.com/">Awesome Python</A>'
-Prog_Menu[19]='<a class="whitelink" href="http://pydev.sourceforge.net/">PyDev IDE for Eclipse</A>'
-Prog_Menu[20]='<a class="whitelink" href="https://www.continuum.io/">Anaconda Scientific Python</A>'
+//Prog_Menu[19]='<a class="whitelink" href="http://pydev.sourceforge.net/">PyDev IDE for Eclipse</A>'
+Prog_Menu[20]='<a class="whitelink" href="http://www.scipy.org/">Scientific Python</A>'
 Prog_Menu[21]='<a class="whitelink" href="https://pythontips.com/python-resources/">PythonTips.com resource list</a>'
-Prog_Menu[22]='<a class="whitelink" href="https://www.fullstackpython.com/best-python-resources.html">Full Stack Python list</A>'
+Prog_Menu[22]='<a class="whitelink" href="https://www.fullstackpython.com/best-python-resources.html">FullStackPython.com list</A>'
 
 Prog_Menu[23]='<span class="yellowsans">Ruby Specific</span>'
 Prog_Menu[24]='<a class="whitelink" href="https://www.ruby-lang.org/Ruby-Lang.org</A>'
@@ -583,13 +583,14 @@ Prog_Menu[31]='<a class="whitelink" href="http://railscasts.com/">RailCasts.com 
 Prog_Menu[32]='<a class="whitelink" href="https://gorails.com/">GoRails.com - screencasts</A>'
 
 Prog_Menu[33]='<span class="yellowsans">General Programming</span>'
-Prog_Menu[34]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange.com</A>'
-Prog_Menu[35]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
-Prog_Menu[36]='<a class="whitelink" href="http://serverfault.com/">ServerFault.com</A>'
-Prog_Menu[37]='<a class="whitelink" href="http://superuser.com/">SuperUser.com</A>'
-Prog_Menu[38]='<a class="whitelink" href="http://www.developershed.com/">Developer Shed</a>'
-Prog_Menu[39]='<a class="whitelink" href="https://dzone.com/portals">DZone areas (includes Java)</A>'
-Prog_Menu[40]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
+Prog_Menu[34]='<a class="whitelink" href="http://www.rosettacode.org/">Rosetta Code</A>'
+Prog_Menu[35]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange.com</A>'
+Prog_Menu[36]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
+Prog_Menu[37]='<a class="whitelink" href="http://serverfault.com/">ServerFault.com</A>'
+Prog_Menu[38]='<a class="whitelink" href="http://superuser.com/">SuperUser.com</A>'
+Prog_Menu[39]='<a class="whitelink" href="http://www.developershed.com/">Developer Shed</a>'
+Prog_Menu[40]='<a class="whitelink" href="https://dzone.com/portals">DZone areas (includes Java)</A>'
+Prog_Menu[41]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
 
 
 var Game_Menu=new Array()
