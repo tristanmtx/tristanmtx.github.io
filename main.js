@@ -509,7 +509,7 @@ NetTool_Menu[28]='<a class="whitelink" HREF="http://www.hostip.info/">Hostip.inf
 NetTool_Menu[29]='<span class="yellowsans">DNS and MX Diagnosis</span>'
 NetTool_Menu[30]='<a class="whitelink" HREF="http://www.intodns.com/">intoDNS: DNS/MX Health</A>'
 NetTool_Menu[31]='<a class="whitelink" HREF="http://mxtoolbox.com/">MxToolbox Lookup</A>'
-NetTool_Menu[32]='<span class="yellowsans">Backbones; Proxies; Blacklisting</span>'
+NetTool_Menu[32]='<span class="yellowsans">Backbones; Proxies; Etc</span>'
 NetTool_Menu[33]='<a class="whitelink" HREF="http://www.datacentermap.com/">DataCenterMap.com</a>'
 NetTool_Menu[34]='<a class="whitelink" HREF="http://www.telekom-icss.com/ournetwork">Deutsche Telekom Backbone Map</a>'
 NetTool_Menu[35]='<a class="whitelink" HREF="http://www.reach.com/imap/imap.html">Reach Network Backbone Map</a>'
