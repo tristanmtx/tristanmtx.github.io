@@ -607,7 +607,8 @@ Game_Menu[5]='<a class="whitelink" href="http://mameosx.sourceforge.net/">MAME O
 Game_Menu[6]='<a class="whitelink" href="http://www.openemu.org/">OpenEmu</A>'
 Game_Menu[7]='<a class="whitelink" href="http://www.theoldcomputer.com/MainMenu.htm">TheOldComputer.com</a>'
 Game_Menu[8]='<a class="whitelink" href="http://www.atarimuseum.com/">Atari History Museum</a>'
-
+Game_Menu[9]='<a class="whitelink" href="http://www.ipdb.org/">Internet Pinball Machine DB</A>'
+Game_Menu[10]='<a class="whitelink" href="http://www.arcade-museum.com">Intl Arcade Museum</A>'
 
 
 // ---------------------------------------------------------------------------
