@@ -504,9 +504,10 @@ NetTool_Menu[22]='<a class="whitelink" HREF="http://searchdns.netcraft.com/">Net
 NetTool_Menu[23]='<a class="whitelink" HREF="http://toolbar.netcraft.com/site_report?url=undefined">Netcraft Site Report</A>'
 
 NetTool_Menu[24]='<span class="yellowsans">AS/ BGP Lookups</span>'
-NetTool_Menu[25]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
-NetTool_Menu[26]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
-NetTool_Menu[27]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BPG Tools</A>'
+
+NetTool_Menu[25]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
+NetTool_Menu[26]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BPG Tools</A>'
+NetTool_Menu[27]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
 NetTool_Menu[28]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
 NetTool_Menu[29]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
 NetTool_Menu[30]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
