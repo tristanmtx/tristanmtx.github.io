@@ -272,10 +272,9 @@ Unix_Menu[2]='<a class="whitelink" href="http://www.tldp.org/">The Linux Documen
 Unix_Menu[3]='<a class="whitelink" href="http://www.kernel.org/">Linux Kernel Archives</A>'
 Unix_Menu[4]='<a class="whitelink" href="http://distrowatch.com/">DistroWatch</a>'
 Unix_Menu[5]='<a class="whitelink" href="http://www.linuxtoday.com/">LinuxToday News</A>'
-
-Unix_Menu[6]='----------------------'
-Unix_Menu[7]='<a class="whitelink" href="http://www.tecmint.com">Tecmint</A>'
-Unix_Menu[8]='<a class="whitelink" href="http://www.thegeekstuff.com">The Geek Stuff - R Natarajan</A>'
+Unix_Menu[6]='<a class="whitelink" href="http://www.tecmint.com">Tecmint How-tos and Guides</A>'
+Unix_Menu[7]='<a class="whitelink" href="http://www.thegeekstuff.com">TheGeekStuff.com Guides</A>'
+Unix_Menu[8]='<a class="whitelink" href="https://www.rootusers.com/">RootUsers.com</A>'
 Unix_Menu[9]='<a class="whitelink" href="http://www.binarytides.com/">BinaryTides</A>'
 Unix_Menu[10]='<a class="whitelink" href="http://www.linuxquestions.org/">LinuxQuestions.org</A>'
 Unix_Menu[11]='<a class="whitelink" href="https://www.howtoforge.com/">HowtoForge</A>'
