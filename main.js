@@ -303,7 +303,10 @@ Unix_Menu[31]='<a class="whitelink" href="https://tails.boum.org/">TAILS - Priva
 Unix_Menu[32]='<a class="whitelink" href="https://www.qubes-os.org/">QubesOS - Privacy distribution</A>'
 Unix_Menu[33]='<a class="whitelink" href="https://www.privacy-cd.org/en">UPR - Ubuntu Privacy Remix</A>'
 
-
+Unix_Menu[34]='<span class="yellowsans">RPM Searches</span>'
+Unix_Menu[35]='<a class="whitelink" href="https://www.rpmfind.net">RPMFind.net</A>'
+Unix_Menu[36]='<a class="whitelink" href="http://rpm.pbone.net">RPM PBone</A>'
+Unix_Menu[37]='<a class="whitelink" href="http://www.rpmseek.com">RPMSeek</A>'
 
 var HW_Menu=new Array()
 
