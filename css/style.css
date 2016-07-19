@@ -433,10 +433,10 @@ body {
 }
 
 .address li i.fa-pdf{
-	background: url('../images/pdf.png') no-repeat 10px 4px;
+	background: url('../images/pdf.png') no-repeat 10px 2px;
 }
 .address li i.fa-linked{
-	background: url('../images/linkedin.png') no-repeat 8px 4px;
+	background: url('../images/linkedin2.png') no-repeat 13px 4px;
 }
 .address li i.fa-map-marker{
 	background: url('../images/map_marker.png') no-repeat 10px 4px;
