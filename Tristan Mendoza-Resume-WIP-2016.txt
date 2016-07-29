@@ -1,0 +1,94 @@
+Tristan Mendoza
+tristanm.tx@gmail.com
+Austin, Texas 78703
+(512) 706-5318
+http://tristanmtx.github.io/
+https://www.linkedin.com/in/tristanmendozatx
+
+
+Network Engineer, Systems Administrator, Security Analyst
+ • Over 20 years experience in various DevOps roles
+
+-------------------------- Certifications:
+ • Cisco CCNA Routing and Switching (CCNA)
+ • Linux Professional Institute's LPIC-1
+ • Novell Certified Enterprise Linux Administrator (CLA/SCA)
+ • CompTIA Security+, Network+, Linux+, and Advanced Security Practitioner	
+ • EC-Council Ethical Hacker (CEH) and Computer Hacking Forensic Investigator (CHFI)
+
+-------------------------- Overview: 
+ • Apple and Microsoft clients and servers (since 1994), Linux and BSD families (since 1999). 
+ • Comfortable with C/C++, Python, Bash, others.
+ • Designing network physical and logical topology; configuring Cisco routers and switches.  
+ • Troubleshooting the OSI stack; VLSM, IPv6; routing (RIPv2, OSPF, EIGRP, BGP), WAN (PPP, Frame Relay, and VPN); port security and extended ACLs; VLANs, VTP, STP, EtherChannel; Load Balancing; DHCP, NAT; Syslog, SMTP, and NetFlow, etc.
+ • Implementation of data center virtualization with VMware vSphere (ESXi, NSX, vCenter, vMotion)  
+ • Drafting security policy for enterprise systems and networks, users.
+ • Firewall configuration; IPTables, ACLs.  Implementing IPSec, SSH, and SSL/TLS
+ • Monitoring traffic with Wireshark, Solarwinds, Nagios, Zabbix, NTOP, etc.  
+ • Vulnerability assessment and penetration testing using the Kali Linux toolset, Nessus, Nmap/Zenmap, MSF, etc. 
+ • Web application vulnerability scanners for testing online services (Nikto, Burp Suite, etc) 
+ • Post-incident forensic analysis using Encase, FTK, Autopsy/ Sleuth Kit, SIFT, DEFT
+
+-------------------------- Goals:
+To simultaneously obtain two CCNPs (Routing and Design), then capstone with a third: CCNP Security. RHCSA/RHCE and OSCP/OSCE also planned.  To firmly establish more durable professional credentials before 2020.
+
+-------------------------- Priorities/ Mission Statement:
+Believes it is important to consistently strive to:
+ • Assess, assimilate new technologies; adapt to challenges presented by innovations or threats.
+ • Present a proactive, agile, and robust organizational posture, prepared for incident response.  
+ • Maintain, implement policies for improved regulatory compliance and performance baselines.
+ • Achieve standards of quality in service provisioning and cost management.
+
+-------------------------- Education/ Professional Development
+09/2010 - Present  
+Independent Study - Enterprise Linux, Network Systems and Security
+ • Mission undertaken to update skillset to better suit the modern enterprise with cloud provisioning and infosec 
+ • Expanded upon Red Hat certification topics to also cover Debian and FreeBSD.
+ • Refreshed network concepts (TCP/IP, subnetting, infrastructure with Cisco), updated on security tools, Kali Linux
+ • Got to know latest tools (Puppet, Chef, Git) and technologies (OpenStack, Docker, VMware ESXi, AWS)
+ • In 2015, tried to self-fund exams, and later obtained grant to continue certification.
+ • Finished as a student in New Horizon's Security IT Professional program with a 4.0 GPA
+
+06/1985 - 1989
+LBJ Science Academy - AP Science and Honors Secondary School
+College-level BIOL II/CHEM/PHYS credits.  Honors Math, History, English, etc.
+
+-------------------------- Employment History
+08/2006 - 09/2014
+Austin Community College - Psychology,  Sociology - Departmental Assistant
+ • Facilitated and coordinated operations with approx. 150 faculty members.
+ • Introduced tracking system for curriculum adoption (no previous accounting existed)
+ • Set deadline dates preceding College deadline dates to ensure expedited preparedness  
+ • Performed some technical support and troubleshooting for Win XP/7 and Mac OS X.  
+
+02/1999 - 05/ 2006
+Texas Radiation Online - Project Director/ Information Architect/ Legislative Advisor
+ • UI/UX designer/developer, website administrator.
+ • Policy advisor to Texas House and Senate on radioactive waste policy.
+ • Writer, researcher and policy analyst.  
+
+05/1999 - 02/2001
+HumanCode [acquired by Sapient] - Programmer/ Engineer
+ • Software developer for Mac and Windows
+ • Object-oriented programming in Lingo (Director) and ActionScript (Flash)
+ • Intermediate-level Java, C++, SQL, PERL.   Began using Linux professionally rather than as a hobbyist.
+
+06/1994 - 05/1999
+University of Texas at Austin - Computer Programmer/ Network Services Asst
+ • Primarily supported the doctorate program in Instructional Technology
+ • Provided consulting and workshops in UI/UX design, project management
+ • Support the supervision of all labs provided by College including: 
+ • Network infrastructure and planning.  Server optimization and user administration. 
+	 • Maintenance of several hundred workstations.  
+	 • Programmed software distribution templates (rdist) 
+	 • Oversaw and trained lab assistants.
+
+
+
+Keywords: Network Engineer, Systems Administrator, Network Security Engineer, Security Engineer, Linux Systems Administrator, Linux Network Administrator, Linux Systems Engineer, Cisco, Linux, CCNA, CEH, CHFI, CompTIA, EC-Council, Red Hat, Debian, FreeBSD, ISO, TCP/IP, TCP, OSI, Layer 2, L2, L3, Layer 3, Routing, Switching, Load Balancing, Firewall, OS X, Openstack, Kubernetes, DDOS, NMap, Nessus, pfSense, Nagios, Perl, Python, C++, Java, Go, OOP, Agile, Waterfall, Hybrid, NIDS, HIDS, MTA, SQL, Git, Github, Juniper, Alcatel, VMware, vSphere, Citrix, ESXi, ESX, NSX, XenServer, OpenDaylight, OpenBaton, OPNFV
+
+
+
+
+
+ 
