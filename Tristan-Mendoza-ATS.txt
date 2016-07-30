@@ -71,14 +71,16 @@ Texas Radiation Online - Project Director/ Information Architect/ Legislative Ad
 HumanCode [acquired by Sapient] - Programmer/ Engineer
  • Software developer for Mac and Windows
  • Object-oriented programming in Lingo (Director) and ActionScript (Flash)
- • Intermediate-level Java, C++, SQL, PERL.   Began using Linux professionally rather than as a hobbyist.
+ • Intermediate-level Java, C++, SQL, PERL.   
+ • Began using Linux professionally rather than as a hobbyist.
 
 06/1994 - 05/1999
 University of Texas at Austin - Computer Programmer/ Network Services Asst
  • Primarily supported the doctorate program in Instructional Technology
  • Provided consulting and workshops in UI/UX design, project management
  • Support the supervision of all labs provided by College including: 
- • Network infrastructure and planning.  Server optimization and user administration. 
+	 • Network infrastructure and planning.  
+	 • Server optimization and user administration. 
 	 • Maintenance of several hundred workstations.  
 	 • Programmed software distribution templates (rdist) 
 	 • Oversaw and trained lab assistants.
