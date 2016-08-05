@@ -59,7 +59,7 @@ Austin Community College - Psychology,  Sociology - Departmental Assistant
  • Facilitated and coordinated operations with approx. 150 faculty members.
  • Introduced tracking system for curriculum adoption (no previous accounting existed)
  • Set deadline dates preceding College deadline dates to ensure expedited preparedness  
- • Performed some technical support and troubleshooting for Win XP/7 and Mac OS X.  
+ • Added first tier technical support and troubleshooting for Win XP/7 and Mac OS X.  
 
 02/1999 - 05/ 2006
 Texas Radiation Online - Project Director/ Information Architect/ Legislative Advisor
@@ -87,7 +87,7 @@ University of Texas at Austin - Computer Programmer/ Network Services Asst
 
 
 
-Keywords: Network Engineer, Systems Administrator, Network Security Engineer, Security Engineer, Linux Systems Administrator, Linux Network Administrator, Linux Systems Engineer, Cisco, Linux, Unix, CCNA, CEH, CHFI, CompTIA, EC-Council, Red Hat, Debian, FreeBSD, ISO, TCP/IP, TCP, IP, OSI, Layer 2, L2, L3, Layer 3, route, Routing, Switch, Load Balancing, Firewall, OS X, Openstack, Kubernetes, Nessus, pfSense, Nagios, Perl, Python, C++, Agile, Scrum, NIDS, HIDS, SQL, Git, Github, Juniper, Alcatel, VMware, vSphere, Citrix, ESX, NSX, XenServer, vCenter, KVM, Hypervisor, Virtualization, Container, DNS, DHCP, IOS, IOS-XE, NX-OS, ASR, ISR, API, SOA, REST, high-availability, NAS, SAN, metrics, automation, performance, monitoring, authentication, authorization, confidentiality, integrity, enterprise, deployment, troubleshooting, supervision, analysis, LDAP, LAN, WAN, OSPF, BGP, EIGRP, STP, analytics, attack, cyber, vulnerabilities, vulnerability assessment, incident response, vlan, OWASP, DAST, SAST, penetration testing, disaster recovery, red team, Metasploit, MSF, social engineering, PAP, CHAP, PKI, Docker, LXD, LXC, trunk, traffic, policy, regulatory compliance, optimization, SLA, VOIP, RPM, APT, telephony, QoS, 802, topology, topologies, cabling, policies
+Keywords: Network Engineer, Systems Administrator, Network Security Engineer, Security Engineer, Linux Systems Administrator, Linux Network Administrator, Linux Systems Engineer, Cisco, Linux, Unix, CCNA, CEH, CHFI, CompTIA, EC-Council, Red Hat, Debian, FreeBSD, ISO, TCP/IP, TCP, IP, OSI, Layer 2, L2, L3, Layer 3, route, Routing, Switch, Load Balancing, Firewall, OS X, Openstack, Kubernetes, Nessus, pfSense, Nagios, Perl, Python, C++, Agile, Scrum, NIDS, HIDS, SQL, Git, Github, Juniper, Alcatel, VMware, vSphere, Citrix, ESX, NSX, XenServer, vCenter, KVM, Hypervisor, Virtualization, Container, DNS, DHCP, IOS, IOS-XE, NX-OS, ASR, ISR, API, SOA, REST, high-availability, NAS, SAN, metrics, automation, performance, monitoring, authentication, authorization, confidentiality, integrity, enterprise, deployment, troubleshooting, supervision, analysis, LDAP, LAN, WAN, OSPF, BGP, EIGRP, STP, analytics, attack, cyber, vulnerability assessment, incident response, vlan, OWASP, DAST, SAST, penetration testing, disaster recovery, red team, Metasploit, MSF, social engineering, PAP, CHAP, PKI, Docker, LXD, LXC, trunk, traffic, policy, regulatory compliance, optimization, SLA, VOIP, RPM, APT, telephony, QoS, 802, topology, topologies, cabling, policies
 
 
 
