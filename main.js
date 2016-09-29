@@ -109,7 +109,7 @@ WebS_Menu[15]='<span class="yellowsans">File Searches</span>'
 WebS_Menu[16]='<a class="whitelink" href="http://www.filesearching.com/advanced/">FileSearching</a>'
 WebS_Menu[17]='<a class="whitelink" href="http://www.filewatcher.org">FileWatcher</a>'
 WebS_Menu[18]='<a class="whitelink" href="http://www.driverguide.com/">DriverGuide.com</A>'
-
+WebS_Menu[19]='<a class="whitelink" href="http://driveragent.com/c/scanorsearch">DriverAgent.com</A>'
 
 var USGov_Menu=new Array()
 USGov_Menu[0]='<span class="yellowsans">US Govt Resources</span>'
@@ -312,45 +312,47 @@ var HW_Menu=new Array()
 
 HW_Menu[0]='<span class="yellowsans">Hardware Reference Sources</span>'
 HW_Menu[1]='<a class="whitelink" href="https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm">Search Equipment FCCIDs</a>'
-HW_Menu[2]='<a class="whitelink" href="http://www.bradreese.com/blog/8-11-2015.htm">Cisco Product Quick Ref Guides</a>'
-HW_Menu[3]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco (replacement for UniverCD)</A>'
-HW_Menu[4]='<a class="whitelink" href="http://www.intel.com/pressroom/kits/quickreffam.htm">Intel Quick Ref Guide (1971-2008)</A>'
-HW_Menu[5]='<a class="whitelink" href="http://ark.intel.com/">Intel ARK (Specs Post-2008)</A>'
-HW_Menu[6]='<a class="whitelink" href="http://www.amdcompare.com/">AMD Compare - product specs</A>'
-HW_Menu[7]='<a class="whitelink" href="http://www.everymac.com/systems/">EveryMac Macintosh Ref</a>'
-HW_Menu[8]='<a class="whitelink" href="http://infocenter.arm.com">ARM Information Center</a>'
+HW_Menu[2]='<a class="whitelink" href="http://pcidatabase.com/">PCI Database</a>'
+HW_Menu[3]='<a class="whitelink" href="http://www.bradreese.com/blog/8-11-2015.htm">Cisco Product Quick Ref Guides</a>'
+HW_Menu[4]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco (replacement for UniverCD)</A>'
+HW_Menu[5]='<a class="whitelink" href="http://www.intel.com/pressroom/kits/quickreffam.htm">Intel Quick Ref Guide (1971-2008)</A>'
+HW_Menu[6]='<a class="whitelink" href="http://ark.intel.com/">Intel ARK (Specs Post-2008)</A>'
+HW_Menu[7]='<a class="whitelink" href="http://www.amdcompare.com/">AMD Compare - product specs</A>'
+HW_Menu[8]='<a class="whitelink" href="http://www.everymac.com/systems/">EveryMac Macintosh Ref</a>'
+HW_Menu[9]='<a class="whitelink" href="http://infocenter.arm.com">ARM Information Center</a>'
 
-HW_Menu[9]='<a class="whitelink" href="http://www.ibm.com/support/us/">IBM Support</A>'
-HW_Menu[10]='<a class="whitelink" href="http://support.dell.com">Dell Support</A>'
-HW_Menu[11]='<a class="whitelink" href="http://www.asus.com/us/support/">ASUS Support</A>'
-HW_Menu[12]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/index.html">Cisco Support</A>'
-HW_Menu[13]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
-HW_Menu[14]='<a class="whitelink" href="http://www.alliedtelesis.com/support">Allied Telesys</A>'
-HW_Menu[15]='<a class="whitelink" href="https://support.avaya.com/">Avaya Support</A>'
-HW_Menu[16]='<a class="whitelink" href="http://toshiba.semicon-storage.com/ap-en/design-support/search.html">Toshiba Support</A>'
-HW_Menu[17]='<a class="whitelink" href="http://www.gigabyte.us/support-downloads/support-downloads.aspx">Gigabyte Support</A>'
-HW_Menu[18]='<a class="whitelink" href="http://www.seagate.com/support-home/">Seagate (Maxtor, LaCie, Samsung)</A>'
-HW_Menu[19]='<a class="whitelink" href="http://support.wdc.com">Western Digital (HGST, SanDisk)</A>'
-HW_Menu[20]='<a class="whitelink" href="http://www.manualslib.com/">ManualsLib collection</A>'
+HW_Menu[10]='<a class="whitelink" href="http://www.ibm.com/support/us/">IBM Support</A>'
+HW_Menu[11]='<a class="whitelink" href="http://support.dell.com">Dell Support</A>'
+HW_Menu[12]='<a class="whitelink" href="http://www.asus.com/us/support/">ASUS Support</A>'
+HW_Menu[13]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/index.html">Cisco Support</A>'
+HW_Menu[14]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
+HW_Menu[15]='<a class="whitelink" href="http://www.alliedtelesis.com/support">Allied Telesys</A>'
+HW_Menu[16]='<a class="whitelink" href="https://support.avaya.com/">Avaya Support</A>'
+// https://support.ruckuswireless.com/
+HW_Menu[17]='<a class="whitelink" href="http://toshiba.semicon-storage.com/ap-en/design-support/search.html">Toshiba Support</A>'
+HW_Menu[18]='<a class="whitelink" href="http://www.gigabyte.us/support-downloads/support-downloads.aspx">Gigabyte Support</A>'
+HW_Menu[19]='<a class="whitelink" href="http://www.seagate.com/support-home/">Seagate (Maxtor, LaCie, Samsung)</A>'
+HW_Menu[20]='<a class="whitelink" href="http://support.wdc.com">Western Digital (HGST, SanDisk)</A>'
+HW_Menu[21]='<a class="whitelink" href="http://www.manualslib.com/">ManualsLib collection</A>'
 
-HW_Menu[21]='<span class="yellowsans">Reviews/ News (no particular order)</span>'
-HW_Menu[22]='<a class="whitelink" href="http://arstechnica.com/gadgets/">ArsTechnica - Gear and Gadgets</A>'
-HW_Menu[23]='<a class="whitelink" href="http://arstechnica.com/discipline/hardware-it/">ArsTechnica - IT Hardware</A>'
-HW_Menu[24]='<a class="whitelink" href="http://tomshardware.com/">Toms Hardware</a>'
-HW_Menu[25]='<a class="whitelink" href="http://www.anandtech.com/">AnandTech</a>'
-HW_Menu[26]='<a class="whitelink" href="http://benchmarkreviews.com/">Benchmark Reviews</a>'
-HW_Menu[27]='<a class="whitelink" href="http://www.overclockersclub.com/">Overclockers Club</A>'
-HW_Menu[28]='<a class="whitelink" href="http://www.pureoverclock.com/">Pure Overclock</A>'
-HW_Menu[29]='<a class="whitelink" href="http://www.pcper.com/">PC Perspective</A>'
-HW_Menu[30]='<a class="whitelink" href="http://hothardware.com">HotHardware</a>'
-HW_Menu[31]='<a class="whitelink" href="http://www.hardocp.com/">HardOCP</A>'
-HW_Menu[32]='<a class="whitelink" href="http://www.guru3d.com">Guru3D</A>'
-HW_Menu[33]='<a class="whitelink" href="http://www.xbitlabs.com/">X-bit labs</A>'
-HW_Menu[34]='<a class="whitelink" href="http://www.overclockers.com/">Overclockers.com</a>'
-HW_Menu[35]='<a class="whitelink" href="http://techreport.com/">TechReport.com</A>'
-HW_Menu[36]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardware Canucks</a>'
-HW_Menu[37]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
-HW_Menu[38]='<a class="whitelink" href="http://www.hardwaresecrets.com/">HardwareSecrets.com</A>'
+HW_Menu[22]='<span class="yellowsans">Reviews/ News (no particular order)</span>'
+HW_Menu[23]='<a class="whitelink" href="http://arstechnica.com/gadgets/">ArsTechnica - Gear and Gadgets</A>'
+HW_Menu[24]='<a class="whitelink" href="http://arstechnica.com/discipline/hardware-it/">ArsTechnica - IT Hardware</A>'
+HW_Menu[25]='<a class="whitelink" href="http://tomshardware.com/">Toms Hardware</a>'
+HW_Menu[26]='<a class="whitelink" href="http://www.anandtech.com/">AnandTech</a>'
+HW_Menu[27]='<a class="whitelink" href="http://benchmarkreviews.com/">Benchmark Reviews</a>'
+HW_Menu[28]='<a class="whitelink" href="http://www.overclockersclub.com/">Overclockers Club</A>'
+HW_Menu[29]='<a class="whitelink" href="http://www.pureoverclock.com/">Pure Overclock</A>'
+HW_Menu[30]='<a class="whitelink" href="http://www.pcper.com/">PC Perspective</A>'
+HW_Menu[31]='<a class="whitelink" href="http://hothardware.com">HotHardware</a>'
+HW_Menu[32]='<a class="whitelink" href="http://www.hardocp.com/">HardOCP</A>'
+HW_Menu[33]='<a class="whitelink" href="http://www.guru3d.com">Guru3D</A>'
+HW_Menu[34]='<a class="whitelink" href="http://www.xbitlabs.com/">X-bit labs</A>'
+HW_Menu[35]='<a class="whitelink" href="http://www.overclockers.com/">Overclockers.com</a>'
+HW_Menu[36]='<a class="whitelink" href="http://techreport.com/">TechReport.com</A>'
+HW_Menu[37]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardware Canucks</a>'
+HW_Menu[38]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
+HW_Menu[39]='<a class="whitelink" href="http://www.hardwaresecrets.com/">HardwareSecrets.com</A>'
 
 var Cluster_Menu=new Array()
 Cluster_Menu[0]='<span class="yellowsans">Kubernetes - Ubernetes</span>'
@@ -398,19 +400,53 @@ Cluster_Menu[36]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCent
 //Cluster_Menu[39]='<a class="whitelink" href="https://hub.docker.com/explore/">Docker Hub</A>'
 //Cluster_Menu[40]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
 //Cluster_Menu[41]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
-
+//Cluster_Menu[42]='<a class="whitelink" href="https://www.docker.com/docker-security">Docker Security</A>'
 
 Cluster_Menu[42]='<span class="yellowsans">The OpenStack Foundation</span>'
 Cluster_Menu[43]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
-Cluster_Menu[44]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
-Cluster_Menu[45]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
-Cluster_Menu[46]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
+Cluster_Menu[44]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>
+Cluster_Menu[45]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
+Cluster_Menu[46]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
+Cluster_Menu[47]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
 
 
+//WORKFLOW
+//Openshift
+//Deis?
+
+//ORCHESTRATION  - To automate deployment, scaling and ops of apps 
+//K8s and Marathon (Mesos project?)
+
+// SCHEDULING Mesos and Omega (K8s)
+// Mesos
+
+// CONTAINER ENGINE - Docker Rocket OSv
+
+//OS
+
+// 
+//VIRTUALIZATION Virt Infrastructure + vSphere EC2 GCE Azure
+//https://kb.vmware.com
+// http://blogs.vmware.com
+// Citrix, XenServer, etc
+
+// COMMERCIALIZED PACKAGES
+// Mesosphere
+
+// https://tectonic.com - Enterprise Kubernetes Solution - Tectonic Starter | Lab| Enterprise
+// https://quay.io  Quay Container Registry/Storage [builds, analyzes, distributes] your container images 
+//put with Docker Swarm?
+//https://coreos.com/  -  Premium Managed Linux - Operating System + Support
+
+//configuration management  entry: puppet, chef, ansible resources
 
 
-
-
+//https://www.pfsense.org
+//https://doc.pfsense.org/
+//https://forum.pfsense.org/
+//pfSense Setup HQ - The ultimate resource for pfSense setup information, tips and techniques
+//ComSec_Menu[2]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
+//https://www.sparklabs.com/support/kb/article/setting-up-an-openvpn-server-with-pfsense-and-viscosity/
 
 
 var ComSec_Menu=new Array()
