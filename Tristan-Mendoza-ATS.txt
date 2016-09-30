@@ -5,124 +5,128 @@ Austin, Texas 78703
 http://tristanmtx.github.io/
 https://www.linkedin.com/in/tristanmendozatx
 
-
 Network Engineer, Systems Administrator, Security Analyst
 Over 20 years experience in various DevOps roles
 Certified:
- • Cisco CCNA Routing and Switching (CCNA)
- • Linux Professional Institute's LPIC-1
- • Novell Certified Enterprise Linux Administrator (CLA/SCA)
- • CompTIA Security+, Network+, Linux+, and Advanced Security Practitioner	
- • EC-Council Ethical Hacker (CEH) and Computer Hacking Forensic Investigator (CHFI)
+  --  Cisco CCNA Routing and Switching (CCNA)
+  --  Linux Professional Institute's LPIC-1
+  --  Novell Certified Enterprise Linux Administrator (CLA/SCA)
+  --  CompTIA Security+, Network+, Linux+, and Advanced Security Practitioner	
+  --  EC-Council Ethical Hacker (CEH) and Computer Hacking Forensic Investigator (CHFI)
 
 -------------------------- Overview: 
- • Apple and Microsoft clients and servers (since 1994), Linux and BSD families (since 1999). 
- • Comfortable with basic C/C++, Python, PERL, Bash, others.
- • Designing network physical and logical topology; configuring Cisco routers and switches.  
- • Troubleshooting the OSI stack; VLSM, IPv6; routing (RIPv2, OSPF, EIGRP, BGP), WAN (PPP, Frame Relay, and VPN); port security and extended ACLs; VLANs, VTP, STP, EtherChannel; Load Balancing; DHCP, NAT; Syslog, SMTP, and NetFlow, etc.
- • Familiar with data center virtualization with VMware vSphere (ESXi, NSX, vCenter, vMotion)  
- • Drafting security policy for enterprise systems and networks, users.
- • Firewall configuration; IPTables, ACLs.  Implementing IPSec, SSH, and SSL/TLS
- • Monitoring traffic with Wireshark, Solarwinds, Nagios, Zabbix, NTOP, etc.  
- • Vulnerability assessment and penetration testing using the Kali Linux toolset, Nessus, Nmap/Zenmap, MSF, etc. 
- • Web application vulnerability scanners for testing online services (Nikto, Burp Suite, etc) 
- • Post-incident forensic analysis using Encase, FTK, Autopsy/ Sleuth Kit, SIFT, DEFT
+  --  Apple and Microsoft clients and servers (since 1994), Linux and BSD families (since 1999). 
+  --  Comfortable with basic C/C++, Python, PERL, Bash, others.
+  --  Designing network physical and logical topology; configuring Cisco routers and switches.  
+  --  Troubleshooting the OSI stack; VLSM, IPv6; routing (RIPv2, OSPF, EIGRP, BGP), WAN (PPP, Frame Relay, and VPN); port security and extended ACLs; VLANs, VTP, STP, EtherChannel; Load Balancing; DHCP, NAT; Syslog, SMTP, and NetFlow, etc.
+  --  Familiar with data center virtualization with VMware vSphere (ESXi, NSX, vCenter, vMotion)  
+  --  Drafting security policy for enterprise systems and networks, users.
+  --  Firewall configuration; IPTables, ACLs.  Implementing IPSec, SSH, and SSL/TLS
+  --  Monitoring traffic with Wireshark, Solarwinds, Nagios, Zabbix, NTOP, etc.  
+  --  Vulnerability assessment and penetration testing using the Kali Linux toolset, Nessus, Nmap/Zenmap, MSF, etc. 
+  --  Web application vulnerability scanners for testing online services (Nikto, Burp Suite, etc) 
+  --  Post-incident forensic analysis using Encase, FTK, Autopsy/ Sleuth Kit, SIFT, DEFT
+
 
 -------------------------- Goals:
 To simultaneously obtain two CCNPs (Routing and Design), then capstone with a third: CCNP Security. RHCSA/RHCE and OSCP/OSCE also planned.  To firmly establish more durable professional credentials before 2020.
 
 -------------------------- Priorities/ Mission Statement:
 Believes it is important to consistently strive to:
- • Assess, assimilate new technologies; adapt to challenges presented by innovations or threats.
- • Present a proactive, agile, and robust organizational posture, prepared for incident response.  
- • Maintain, implement policies for improved regulatory compliance and performance baselines.
- • Achieve standards of quality in service provisioning and cost management.
+  --  Assess, assimilate new technologies; adapt to challenges presented by innovations or threats.
+  --  Present a proactive, agile, and robust organizational posture, prepared for incident response.  
+  --  Maintain, implement policies for improved regulatory compliance and performance baselines.
+  --  Achieve standards of quality in service provisioning and cost management.
+
 
 -------------------------- Education/ Professional Development
-
 10/2015 - 06/2016
 New Horizons - Security IT Professional program -  4.0 GPA
-  • After obtaining CompTIA Network+, Security+ and CCNA exams alone, ran out of money
-  ⚐  Obtained grant to continue certifications
-     •  Added: CASP, CEH, CHFI, LPIC1/Linux+
-     •  Unfortunately the funding would not cover costs for Red Hat exams.
+   --  After obtaining CompTIA Network+, Security+ and CCNA exams alone, ran out of money
+   --   Obtained grant to continue certifications
+	  --   Added: CASP, CEH, CHFI, LPIC1/Linux+
+	  --   Unfortunately the funding would not cover costs for Red Hat exams.
 
 09/2010 - Present  
 Independent Study - Enterprise Linux, Network Systems and Security
- • In 2010 mission undertaken to tailor skillset to better suit the modern enterprise with cloud provisioning and infosec 
- • Expanded upon Red Hat RHCSA/RHCE topics to also cover Debian and FreeBSD. (RHEL 6 and 7 materials)
- • Refreshed network concepts (TCP/IP, subnetting, infrastructure with Cisco), updated on security tools, Kali Linux
- • Early 2015, began collecting certifications to prove skill in hiring process, obtained NH grant.
- ⚐ Recently (Summer 2016) refreshed materials on:
-            • OpenStack (8hr class - Administering OpenStack on the Command Line)
-            • RHCE (Sander Vugt's 8hr RHCE class)
-            • pfSense firewall (complete in-depth overview)
-            • Amazon Web Services (AWS)
-            • VMware ESXi, NSX (VCA-DCV material- too easy!)
-            • Docker, Puppet, Git
+  --  In 2010 mission undertaken to tailor skillset to better suit the modern enterprise with cloud provisioning and infosec 
+  --  Expanded upon Red Hat RHCSA/RHCE topics to also cover Debian and FreeBSD. (RHEL 6 and 7 materials)
+  --  Refreshed network concepts (TCP/IP, subnetting, infrastructure with Cisco), updated on security tools, Kali Linux
+  --  Early 2015, began collecting certifications to prove skill in hiring process, obtained NH grant.
+  --  Recently (Summer 2016) refreshed materials on:
+	  --  OpenStack (8hr class - Administering OpenStack on the Command Line)
+	  --  RHCE (Sander Vugt's 8hr RHCE class)
+	  --  pfSense firewall (complete in-depth overview)
+	  --  Amazon Web Services (AWS)
+	  --  VMware ESXi, NSX (VCA-DCV material- too easy!)
+	  --  Docker, Puppet, Git
 
 06/1985 - 1989
 LBJ Science Academy - AP Science and Honors Secondary School
 College-level BIOL II/CHEM/PHYS credits.  Honors Math, History, English, etc.
 
-
 -------------------------- Employment History
 08/2006 - 09/2014
 Austin Community College - Psychology,  Sociology - Departmental Assistant
- • Facilitated and coordinated operations with approx. 150 faculty members.
- • Introduced tracking system for curriculum adoption (no previous accounting existed)
- • Set deadline dates preceding College deadline dates to ensure expedited preparedness  
- • Added first tier technical support and troubleshooting for Win XP/7 and Mac OS X.  
- 
- • Since simple clerical work was consistently done ahead of schedule,
-   ◊ Encouraged by supervisors to devote surplus time to studying:
-       • Modified RHCSA/RHCE curriculum to include Debian and BSD equivalents.
-       • Used Cisco materials for network technologies (CCNA, CompTIA)
-       • Prioritized Python and C++ as languages of choice
-       • Continued security work on Kali Linux
-       • Introduced to Ruby and turned onto OpenStack
+  --  Facilitated and coordinated operations with approx. 150 faculty members.
+  --  Introduced tracking system for curriculum adoption (no previous accounting existed)
+  --  Set deadline dates preceding College deadline dates to ensure expedited preparedness  
+  --  Added first tier technical support and troubleshooting for Win XP/7 and Mac OS X.  
+  --  Since simple clerical work was consistently done ahead of schedule,
+   -> Encouraged by supervisors to devote surplus time to studying:
+	  --  Modified RHCSA/RHCE curriculum to include Debian and BSD equivalents.
+	  --  Used Cisco materials for network technologies (CCNA, CompTIA)
+	  --  Prioritized Python and C++ as languages of choice
+	  --  Continued security work on Kali Linux
+	  --  Introduced to Ruby and turned onto OpenStack
 
 02/1999 - 05/ 2006
 Texas Radiation Online - Project Director/ Information Architect/ Legislative Advisor
- • UI/UX designer/developer, website administrator.
- • Policy advisor to Texas House and Senate on radioactive waste policy.
- • Writer, researcher and policy analyst.  
-   ◊ During this project, the "dot-com bubble" burst. It was nice to work on science, but passion 
-     was in technology and it never stopped working:
-       • Used initial versions of Backtrack* for penetration testing of wireless security
-       • Decided to drop web design/programming to focus on systems/ network administration.
-       • Evaluated the rise of Ubuntu, emergence of Gentoo, and evolution of Red Hat.
-       • Kept up-to-date on changes to Windows Server and Mac OS X
-       • Open source package management solutions for OSX like DarwinPorts, Homebrew
-             [ * 7 years later, Backtrack became what is now known as Kali Linux]
+  --  UI/UX designer/developer, website administrator.
+  --  Policy advisor to Texas House and Senate on radioactive waste policy.
+  --  Writer, researcher and policy analyst.  
+   -> During this project, the "dot-com bubble" burst. It was nice to work on science, but passion was in technology and it never stopped working:
+	  --  Used initial versions of Backtrack* for penetration testing of wireless security
+	  --  Decided to drop web design/programming to focus on systems/ network administration.
+	  --  Evaluated the rise of Ubuntu, emergence of Gentoo, and evolution of Red Hat.
+	  --  Kept up-to-date on changes to Windows Server and Mac OS X
+	  --  Open source package management solutions for OSX like DarwinPorts, Homebrew
+	 [ * 7 years later, Backtrack became what is now known as Kali Linux]
 
 05/1999 - 02/2001
 HumanCode [acquired by Sapient] - Programmer/ Engineer
- • Software developer for Mac and Windows applications
- • Object-oriented programming in Lingo (Director) and ActionScript (Flash)
- • Introduced to Java and C++ and reached an intermediate-level in both.
- • Began using Linux more in early 1999, became active in local Linux User Group
- • Early adopter of Windows 2000 Server and Active Directory
+  --  Software developer for Mac and Windows applications
+  --  Object-oriented programming in Lingo (Director) and ActionScript (Flash)
+  --  Introduced to Java and C++ and reached an intermediate-level in both.
+  --  Began using Linux more in early 1999, became active in local Linux User Group
+  --  Early adopter of Windows 2000 Server and Active Directory
 
 06/1994 - 05/1999
 University of Texas at Austin - Computer Programmer/ Network Services Asst
- • Primarily supported the doctorate program in Instructional Technology
- • Provided consulting and workshops in UI/UX design, project management
- • Support the supervision of all labs provided by College including: 
-	 • Network infrastructure and planning.  
-	 • Server optimization and user administration. 
-	 • Maintenance of several hundred workstations.  
-	 • Programmed configuration management templates (rdist) 
-	 • Oversaw and trained lab assistants.
- Additionally, was:
-	 • Introduced to TCP/IP, network design and mapping, troubleshooting, cabling
-	 • Introduced to classic standard UNIX tools (grep, awk, sed, vi, telnet, emacs, pine, lynx), and
-	 • Picked up the basics of PERL and C programming (K&R)
+  --  Primarily supported the doctorate program in Instructional Technology
+  --  Provided consulting and workshops in UI/UX design, project management
+  --  Support the supervision of all labs provided by College including: 
+	  --  Network infrastructure and planning.  
+	  --  Server optimization and user administration. 
+	  --  Maintenance of several hundred workstations.  
+	  --  Programmed configuration management templates (rdist) 
+	  --  Oversaw and trained lab assistants.
 
+ Additionally, was:
+	  --  Introduced to TCP/IP, network design and mapping, troubleshooting, cabling
+	  --  Introduced to classic standard UNIX tools (grep, awk, sed, vi, telnet, emacs, pine, lynx), and
+	  --  Picked up the basics of PERL and C programming (K&R)
 
 Keywords: Network Engineer, Systems Administrator, Network Security Engineer, Security Engineer, Linux Systems Administrator, Linux Network Administrator, Linux Systems Engineer, Cisco, Linux, Unix, CCNA, CEH, CHFI, CompTIA, EC-Council, Red Hat, Debian, FreeBSD, ISO, TCP/IP, TCP, IP, OSI, Layer 2, L2, L3, Layer 3, route, Routing, Switch, Load Balancing, Firewall, OS X, Openstack, Kubernetes, Nessus, pfSense, Nagios, Perl, Python, C++, Agile, Scrum, NIDS, HIDS, SQL, Git, Github, Juniper, Alcatel, VMware, vSphere, Citrix, ESX, NSX, XenServer, vCenter, KVM, Hypervisor, Virtualization, Container, DNS, DHCP, IOS, IOS-XE, NX-OS, ASR, ISR, API, SOA, REST, high-availability, NAS, SAN, metrics, automation, performance, monitoring, authentication, authorization, confidentiality, integrity, enterprise, deployment, troubleshooting, supervision, analysis, LDAP, LAN, WAN, OSPF, BGP, EIGRP, STP, analytics, attack, cyber, vulnerability assessment, incident response, vlan, OWASP, DAST, SAST, penetration testing, disaster recovery, red team, Metasploit, MSF, social engineering, PAP, CHAP, PKI, Docker, LXD, LXC, trunk, traffic, policy, regulatory compliance, optimization, SLA, VOIP, RPM, APT, telephony, QoS, 802, topology, topologies, cabling, policies
 
 
 
 
+
+
+
+
+
  
+
+
