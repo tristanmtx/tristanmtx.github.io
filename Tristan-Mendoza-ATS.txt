@@ -12,7 +12,7 @@ Certified:
   --  Linux Professional Institute's LPIC-1
   --  Novell Certified Enterprise Linux Administrator (CLA/SCA)
   --  CompTIA Security+, Network+, Linux+, and Advanced Security Practitioner	
-  --  EC-Council Ethical Hacker (CEH) and Computer Hacking Forensic Investigator (CHFI)
+  --  EC-Council Certified Ethical Hacker (CEH) and Computer Hacking Forensic Investigator (CHFI)
 
 -------------------------- Overview: 
   --  Apple and Microsoft clients and servers (since 1994), Linux and BSD families (since 1999). 
@@ -27,7 +27,6 @@ Certified:
   --  Web application vulnerability scanners for testing online services (Nikto, Burp Suite, etc) 
   --  Post-incident forensic analysis using Encase, FTK, Autopsy/ Sleuth Kit, SIFT, DEFT
 
-
 -------------------------- Goals:
 To simultaneously obtain two CCNPs (Routing and Design), then capstone with a third: CCNP Security. RHCSA/RHCE and OSCP/OSCE also planned.  To firmly establish more durable professional credentials before 2020.
 
@@ -37,7 +36,6 @@ Believes it is important to consistently strive to:
   --  Present a proactive, agile, and robust organizational posture, prepared for incident response.  
   --  Maintain, implement policies for improved regulatory compliance and performance baselines.
   --  Achieve standards of quality in service provisioning and cost management.
-
 
 -------------------------- Education/ Professional Development
 10/2015 - 06/2016

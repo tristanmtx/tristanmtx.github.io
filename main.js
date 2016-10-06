@@ -404,7 +404,7 @@ Cluster_Menu[36]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCent
 
 Cluster_Menu[42]='<span class="yellowsans">The OpenStack Foundation</span>'
 Cluster_Menu[43]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
-Cluster_Menu[44]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>
+Cluster_Menu[44]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>'
 Cluster_Menu[45]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
 Cluster_Menu[46]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
 Cluster_Menu[47]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
