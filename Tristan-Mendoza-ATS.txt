@@ -21,10 +21,10 @@ Certified:
   --  Troubleshooting the OSI stack; VLSM, IPv6; routing (RIPv2, OSPF, EIGRP, BGP), WAN (PPP, Frame Relay, and VPN); port security and extended ACLs; VLANs, VTP, STP, EtherChannel; Load Balancing; DHCP, NAT; Syslog, SMTP, and NetFlow, etc.
   --  Familiar with data center virtualization with VMware vSphere (ESXi, NSX, vCenter, vMotion)  
   --  Drafting security policy for enterprise systems and networks, users.
-  --  Firewall configuration; IPTables, ACLs.  Implementing IPSec, SSH, and SSL/TLS
-  --  Monitoring traffic with Wireshark, Solarwinds, Nagios, Zabbix, NTOP, etc.  
+  --  Firewall configuration; IPTables, ACLs; pfSense; IPSec, SSH, and SSL/TLS
+  --  Monitoring traffic with Wireshark, Solarwinds, Nagios, Zabbix, etc.  
   --  Vulnerability assessment and penetration testing using the Kali Linux toolset, Nessus, Nmap/Zenmap, MSF, etc. 
-  --  Web application vulnerability scanners for testing online services (Nikto, Burp Suite, etc) 
+  --  Web application vulnerability scanners for testing online services (OWASP tools, Burp Suite, etc) 
   --  Post-incident forensic analysis using Encase, FTK, Autopsy/ Sleuth Kit, SIFT, DEFT
 
 -------------------------- Goals:
@@ -109,7 +109,6 @@ University of Texas at Austin - Computer Programmer/ Network Services Asst
 	  --  Maintenance of several hundred workstations.  
 	  --  Programmed configuration management templates (rdist) 
 	  --  Oversaw and trained lab assistants.
-
  Additionally, was:
 	  --  Introduced to TCP/IP, network design and mapping, troubleshooting, cabling
 	  --  Introduced to classic standard UNIX tools (grep, awk, sed, vi, telnet, emacs, pine, lynx), and
