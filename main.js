@@ -524,7 +524,7 @@ ComSec_Menu[22]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln 
 ComSec_Menu[23]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
 ComSec_Menu[24]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
 
-ComSec_Menu[25]='<span class="yellowsans">Resources and Conferences</span>'
+ComSec_Menu[25]='<span class="yellowsans">Resource Sites, Conferences</span>'
 ComSec_Menu[26]='<a class="whitelink" href="http://www.cert.org/">CMU - CERT</a>'
 ComSec_Menu[27]='<a class="whitelink" href="http://www.sans.org/">SANS Institute</a>'
 ComSec_Menu[28]='<a class="whitelink" href="https://www.offensive-security.com/">Offensive Security</A>'
