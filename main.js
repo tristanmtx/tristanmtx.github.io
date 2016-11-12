@@ -368,7 +368,7 @@ Cluster_Menu[8]='<a class="whitelink" href="https://mesos.apache.org/">Mesos</A>
 Cluster_Menu[9]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Docs</A>'
 Cluster_Menu[10]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
 Cluster_Menu[11]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
-Cluster_Menu[12]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
+Cluster_Menu[12]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A>'
 
 Cluster_Menu[13]='<span class="yellowsans">CoreOS Ecosystem</span>'
 Cluster_Menu[14]='<span class="yellowsans">[Tectonic/Quay/etcd/rkt/fleet]</span>'
@@ -390,10 +390,10 @@ Cluster_Menu[27]='<a class="whitelink" href="https://docs.docker.com/">Docker Do
 Cluster_Menu[28]='<a class="whitelink" href="https://hub.docker.com/explore/">Docker Hub</A>'
 Cluster_Menu[29]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
 Cluster_Menu[30]='<a class="whitelink" href="https://www.docker.com/docker-security">Docker Security</A>'
-Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit">InfraKit Orchestration</A>
+Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit">InfraKit Orchestration</A>'
 
 //Cluster_Menu[32]='<span class="yellowsans">Other Orchestration</span>'
-//Cluster_Menu[33]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>
+//Cluster_Menu[33]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>'
 //Cluster_Menu[34]='<a class="whitelink" href="http://osv.io/">OSv Platform</a>'
 //Cluster_Menu[35]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
 
