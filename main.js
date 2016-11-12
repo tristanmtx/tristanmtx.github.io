@@ -363,80 +363,42 @@ Cluster_Menu[4]='<a class="whitelink" href="http://k8s.info/">K8s Community Pgs<
 Cluster_Menu[5]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/proposals/federation.md">K8s Federation</a>'
 Cluster_Menu[6]='<a class="whitelink" href="http://blog.kubernetes.io/">Kubernetes Blog</A>'
 
-Cluster_Menu[7]='<span class="yellowsans">OpenShift Ecosystem</span>'
-Cluster_Menu[8]='<a class="whitelink" href="https://docs.openshift.com/">OpenShift Docs</A>'
-Cluster_Menu[9]='<a class="whitelink" href="https://docs.openshift.org/">OpenShift Origin Docs</A>'
-Cluster_Menu[10]='<a class="whitelink" href="http://commons.openshift.org/">OpenShift Commons</A>'
-Cluster_Menu[11]='<a class="whitelink" href="https://www.openshift.com/enterprise/resources.html">OpenShift Resources</A>'
-Cluster_Menu[12]='<a class="whitelink" href="https://github.com/openshift/origin">OpenShift Origin at GitHub</A>'
-Cluster_Menu[13]='<a class="whitelink" href="https://hub.openshift.com/">OpenShift Hub</A>'
-Cluster_Menu[14]='<a class="whitelink" href="https://developers.openshift.com">OpenShift Developer</a>'
+Cluster_Menu[7]='<span class="yellowsans">Apache Mesos Ecosystem</span>'
+Cluster_Menu[8]='<a class="whitelink" href="https://mesos.apache.org/">Mesos</A>'
+Cluster_Menu[9]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Docs</A>'
+Cluster_Menu[10]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
+Cluster_Menu[11]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
+Cluster_Menu[12]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
 
-Cluster_Menu[16]='<span class="yellowsans">Apache Mesos Ecosystem</span>'
-Cluster_Menu[17]='<a class="whitelink" href="https://mesos.apache.org/">Mesos</A>'
-Cluster_Menu[18]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Docs</A>'
-//Cluster_Menu[19]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
-Cluster_Menu[20]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
-Cluster_Menu[21]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A> '
+Cluster_Menu[13]='<span class="yellowsans">CoreOS Ecosystem</span>'
+Cluster_Menu[14]='<span class="yellowsans">[Tectonic/Quay/etcd/rkt/fleet]</span>'
+Cluster_Menu[15]='<a class="whitelink" href="https://coreos.com/">CoreOS Main</A>'
+Cluster_Menu[16]='<a class="whitelink" href="https://coreos.com/docs/">CoreOS Project Docs</A>'
+Cluster_Menu[17]='<a class="whitelink" href="https://github.com/coreos/">CoreOS GitHub</A>'
 
-Cluster_Menu[22]='<span class="yellowsans">SDN-NFV - Open Networking</span>'
-Cluster_Menu[23]='<a class="whitelink" href="https://www.opennetworking.org/">The Open Networking Foundation</A>'
-Cluster_Menu[24]='<a class="whitelink" href="http://onrc.stanford.edu/">Open Networking Research Ctr</A>'
-Cluster_Menu[25]='<a class="whitelink" href="http://onlab.us/">Open Networking Lab (ONOS, etc)</A>'
-Cluster_Menu[26]='<a class="whitelink" href="http://openo.org">Open-O @ The Linux Foundation</A>'
-Cluster_Menu[27]='<a class="whitelink" href="https://www.ovirt.org/">oVirt Project</A>'
-Cluster_Menu[28]='<a class="whitelink" href="https://wiki.opnfv.org/">OPNVF wiki</A>'
-Cluster_Menu[29]='<a class="whitelink" href="https://www.opendaylight.org">OpenDaylight - ODL Beryllium</A>'
-Cluster_Menu[30]='<a class="whitelink" href="http://openbaton.github.io/">OpenBaton</A>'
-Cluster_Menu[31]='<a class="whitelink" href="http://opennaas.org">OpenNaaS</A>'
-Cluster_Menu[32]='<a class="whitelink" href="http://openvswitch.org/">Open vSwitch</A>'
-//Cluster_Menu[33]='<a class="whitelink" href="http://openvswitch.org/support/">Open vSwitch Docs</A>'
-Cluster_Menu[34]='<a class="whitelink" href="http://openswitch.net/">OpenSwitch</A>'
-//Cluster_Menu[35]='<a class="whitelink" href="http://openswitch.net/use/usehome#userguides">OpenSwitch Docs</A>'
-Cluster_Menu[36]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCentral</A>'
-//Cluster_Menu[37]='<a class="whitelink" href="https://www.sdxcentral.com/resources/">SDxCentral Resources</A>'
+Cluster_Menu[18]='<span class="yellowsans">OpenShift Stuff</span>'
+Cluster_Menu[19]='<a class="whitelink" href="https://docs.openshift.com/">OpenShift Docs</A>'
+Cluster_Menu[20]='<a class="whitelink" href="https://docs.openshift.org/">OpenShift Origin Docs</A>'
+Cluster_Menu[21]='<a class="whitelink" href="http://commons.openshift.org/">OpenShift Commons</A>'
+Cluster_Menu[22]='<a class="whitelink" href="https://www.openshift.com/enterprise/resources.html">OpenShift Resources</A>'
+Cluster_Menu[23]='<a class="whitelink" href="https://github.com/openshift/origin">OpenShift Origin at GitHub</A>'
+Cluster_Menu[24]='<a class="whitelink" href="https://hub.openshift.com/">OpenShift Hub</A>'
+Cluster_Menu[25]='<a class="whitelink" href="https://developers.openshift.com">OpenShift Developer</a>'
 
-//Cluster_Menu[38]='<span class="yellowsans">Docker Provisioning</span>'
-//Cluster_Menu[39]='<a class="whitelink" href="https://hub.docker.com/explore/">Docker Hub</A>'
-//Cluster_Menu[40]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
-//Cluster_Menu[41]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
-//Cluster_Menu[42]='<a class="whitelink" href="https://www.docker.com/docker-security">Docker Security</A>'
+Cluster_Menu[26]='<span class="yellowsans">Docker Provisioning</span>'
+Cluster_Menu[27]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
+Cluster_Menu[28]='<a class="whitelink" href="https://hub.docker.com/explore/">Docker Hub</A>'
+Cluster_Menu[29]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
+Cluster_Menu[30]='<a class="whitelink" href="https://www.docker.com/docker-security">Docker Security</A>'
+Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit">InfraKit Orchestration</A>
 
-Cluster_Menu[42]='<span class="yellowsans">The OpenStack Foundation</span>'
-Cluster_Menu[43]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
-Cluster_Menu[44]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>'
-Cluster_Menu[45]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
-Cluster_Menu[46]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
-Cluster_Menu[47]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
+//Cluster_Menu[32]='<span class="yellowsans">Other Orchestration</span>'
+//Cluster_Menu[33]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>
+//Cluster_Menu[34]='<a class="whitelink" href="http://osv.io/">OSv Platform</a>'
+//Cluster_Menu[35]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
 
 
-//WORKFLOW
-//Openshift
-//Deis?
 
-//ORCHESTRATION  - To automate deployment, scaling and ops of apps 
-//K8s and Marathon (Mesos project?)
-
-// SCHEDULING Mesos and Omega (K8s)
-// Mesos
-
-// CONTAINER ENGINE - Docker Rocket OSv
-
-//OS
-
-// 
-//VIRTUALIZATION Virt Infrastructure + vSphere EC2 GCE Azure
-//https://kb.vmware.com
-// http://blogs.vmware.com
-// Citrix, XenServer, etc
-
-// COMMERCIALIZED PACKAGES
-// Mesosphere
-
-// https://tectonic.com - Enterprise Kubernetes Solution - Tectonic Starter | Lab| Enterprise
-// https://quay.io  Quay Container Registry/Storage [builds, analyzes, distributes] your container images 
-//put with Docker Swarm?
-//https://coreos.com/  -  Premium Managed Linux - Operating System + Support
 
 //configuration management  entry: puppet, chef, ansible resources
 
