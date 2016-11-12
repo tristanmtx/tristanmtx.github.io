@@ -364,14 +364,14 @@ Cluster_Menu[5]='<a class="whitelink" href="https://github.com/kubernetes/kubern
 Cluster_Menu[6]='<a class="whitelink" href="http://blog.kubernetes.io/">Kubernetes Blog</A>'
 
 Cluster_Menu[7]='<span class="yellowsans">Apache Mesos Ecosystem</span>'
-Cluster_Menu[8]='<a class="whitelink" href="https://mesos.apache.org/">Mesos</A>'
-Cluster_Menu[9]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Docs</A>'
+Cluster_Menu[8]='<a class="whitelink" href="https://mesos.apache.org/">Apache Mesos</A>'
+Cluster_Menu[9]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Documentation</A>'
 Cluster_Menu[10]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
 Cluster_Menu[11]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
 Cluster_Menu[12]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A>'
 
-Cluster_Menu[13]='<span class="yellowsans">CoreOS Ecosystem</span>'
-Cluster_Menu[14]='<span class="yellowsans">[Tectonic/Quay/etcd/rkt/fleet]</span>'
+Cluster_Menu[13]='<span class="yellowsans">CoreOS [Tectonic-Quay-rkt-fleet]</span>'
+//Cluster_Menu[14]='<span class="yellowsans">(Tectonic-Quay-etcd-rkt-fleet)</span>'
 Cluster_Menu[15]='<a class="whitelink" href="https://coreos.com/">CoreOS Main</A>'
 Cluster_Menu[16]='<a class="whitelink" href="https://coreos.com/docs/">CoreOS Project Docs</A>'
 Cluster_Menu[17]='<a class="whitelink" href="https://github.com/coreos/">CoreOS GitHub</A>'
@@ -397,7 +397,93 @@ Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit"
 //Cluster_Menu[34]='<a class="whitelink" href="http://osv.io/">OSv Platform</a>'
 //Cluster_Menu[35]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
 
+var Cluster2_Menu=new Array()
+Cluster2_Menu[0]='<span class="yellowsans">OpenStack Ecosystem</span>'
+Cluster2_Menu[1]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
+Cluster2_Menu[2]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>'
+Cluster2_Menu[3]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
+Cluster2_Menu[4]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
+Cluster2_Menu[5]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
+Cluster2_Menu[6]='<a class="whitelink" href="http://docs.openstack.org/mitaka/">OpenStack Mitaka (04-2016)</a>'
+Cluster2_Menu[7]='<a class="whitelink" href="http://docs.openstack.org/training_labs/">Training Labs</A>'
 
+Cluster2_Menu[9]='<span class="yellowsans">Amazon Web Services</span>'
+Cluster2_Menu[10]='<a class="whitelink" href="https://console.aws.amazon.com">AWS Console Login</A>'
+Cluster2_Menu[11]='<a class="whitelink" href="https://aws.amazon.com/documentation/">AWS Documentation</A>'
+Cluster2_Menu[12]='<a class="whitelink" href="https://forums.aws.amazon.com">AWS Discussion Forums</A>'
+Cluster2_Menu[13]='<a class="whitelink" href="http://aws.amazon.com/blogs/aws/">AWS Blogs main</A>'
+Cluster2_Menu[14]='<a class="whitelink" href="https://www.awsarchitectureblog.com/">AWS Architecture Blog</A>'
+Cluster2_Menu[15]='<a class="whitelink" href="https://aws.amazon.com/tools/">AWS Developer Tools</A>'
+Cluster2_Menu[16]='<a class="whitelink" href="https://github.com/aws/">AWS at GitHub</A>'
+Cluster2_Menu[17]='<a class="whitelink" href="http://aws.amazon.com/products/">AWS Service Listing</A>'
+Cluster2_Menu[18]='<a class="whitelink" href="https://aws.amazon.com/marketplace/">AWS Marketplace</a>'
+
+Cluster2_Menu[19]='<span class="yellowsans">VMWare Resources</span>'
+Cluster2_Menu[21]='<a class="whitelink" href="https://www.vmware.com/support/pubs/">VMWare Docs</A>'
+Cluster2_Menu[22]='<a class="whitelink" href="https://kb.vmware.com">VMWare Knowledgebase</A>'
+Cluster2_Menu[23]='<a class="whitelink" href="http://blogs.vmware.com">VMWare Support blogs</A>'
+Cluster2_Menu[24]='<a class="whitelink" href="https://communities.vmware.com">VMWare Technology Network</A>'
+Cluster2_Menu[25]='<a class="whitelink" href="https://my.vmware.com/">MyVMware Login</a>'
+
+Cluster2_Menu[26]='<span class="yellowsans">Xen Project - XenServer</span>'
+Cluster2_Menu[27]='<a class="whitelink" href="http://xenserver.org/">XenServer</A>'
+Cluster2_Menu[28]='<a class="whitelink" href="https://xenproject.org/">Xen Project</a>'
+Cluster2_Menu[29]='<a class="whitelink" href="https://wiki.xenproject.org/wiki/Main_Page">Xen Project Wiki</A>'
+
+Cluster2_Menu[30]='<span class="yellowsans">General Virtualization</span>'
+Cluster2_Menu[31]='<a class="whitelink" href="https://wiki.libvirt.org/page/Main_Page">Libvirt wiki</A>'
+Cluster2_Menu[32]='<a class="whitelink" href="http://www.virt-tools.org/">Community Virt Tools (KVM, QEMU)</a>'
+Cluster2_Menu[33]='<a class="whitelink" href="https://www.virtualbox.org/">Oracle VirtualBox</A>'
+
+Cluster2_Menu[34]='<span class="yellowsans">Other IaaS Resources</span>'
+Cluster2_Menu[35]='<a class="whitelink" href="https://cloud.google.com/docs/">Google Cloud docs</a>'
+Cluster2_Menu[36]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
+Cluster2_Menu[37]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
+
+
+var SDNNFV_Menu=new Array()
+SDNNFV_Menu[1]='<span class="yellowsans">SDN-NFV - Open Networking</span>'
+SDNNFV_Menu[2]='<a class="whitelink" href="https://www.opennetworking.org/">The Open Networking Foundation</A>'
+SDNNFV_Menu[3]='<a class="whitelink" href="https://www.opennetworking.org/sdn-resources/technical-library">ONF Technical Library</A>'
+SDNNFV_Menu[4]='<a class="whitelink" href="http://onrc.stanford.edu/projects.html">Open Networking Research Ctr</A>'
+SDNNFV_Menu[5]='<a class="whitelink" href="http://onlab.us/">Open Networking Lab (ONOS, etc)</A>'
+SDNNFV_Menu[6]='<a class="whitelink" href="http://archive.openflow.org/wk/index.php/Main_Page">OpenFlow Wiki</a>'
+SDNNFV_Menu[7]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCentral</A>'
+SDNNFV_Menu[8]='<a class="whitelink" href="https://www.sdxcentral.com/resources/">SDxCentral Resources</A>'
+
+SDNNFV_Menu[9]='<span class="yellowsans">ONLAB and ONRC projects</span>'
+SDNNFV_Menu[10]='<a class="whitelink" href="http://opencord.org/">OpenCORD</A>'
+SDNNFV_Menu[11]='<a class="whitelink" href="http://mininet.org/">Mininet portable netwk virt</A>'
+SDNNFV_Menu[12]='<a class="whitelink" href="http://onosproject.org/">Open Network OS</A>'
+SDNNFV_Menu[13]='<a class="whitelink" href="http://ovx.onlab.us/">OVX - OpenVirteX hypervisor</A>'
+SDNNFV_Menu[14]='<a class="whitelink" href="http://xosproject.org/">XOS (incl. OpenCORD)</A>'
+
+SDNNFV_Menu[15]='<span class="yellowsans">Linux Foundation projects</span>'
+SDNNFV_Menu[16]='<a class="whitelink" href="http://openo.org">Open-O @ Linux Foundation</A>'
+SDNNFV_Menu[17]='<a class="whitelink" href="https://wiki.opnfv.org/">OPNVF (Linux Foundation)</A>'
+SDNNFV_Menu[18]='<a class="whitelink" href="https://www.opendaylight.org">OpenDaylight - ODL Beryllium</A>'
+SDNNFV_Menu[19]='<a class="whitelink" href="http://openvswitch.org/">Open vSwitch</A>'
+SDNNFV_Menu[20]='<a class="whitelink" href="http://openswitch.net/">OpenSwitch</A>'
+SDNNFV_Menu[20]='<a class="whitelink" href="https://wiki.fd.io/view/Main_Page">FD.io & VPP (used by Cisco)</A>'
+
+SDNNFV_Menu[21]='<span class="yellowsans">Other Open projects</span>'
+SDNNFV_Menu[22]='<a class="whitelink" href="https://www.ovirt.org/">oVirt (Red Hat project)</A>'
+SDNNFV_Menu[23]='<a class="whitelink" href="http://openbaton.github.io/">OpenBaton NFV MANO</A>'
+SDNNFV_Menu[24]='<a class="whitelink" href="http://opennaas.org">OpenNaaS (i2CAT)</A>'
+
+SDNNFV_Menu[25]='<span class="yellowsans">Container Networking</span>'
+SDNNFV_Menu[26]='<a class="whitelink" href="https://github.com/tigera/canal">Canal project (Calico+Flannel)</a>'
+SDNNFV_Menu[27]='<a class="whitelink" href="https://github.com/containernetworking/cni">Container Network Interface (CNI)</a>'
+SDNNFV_Menu[28]='<a class="whitelink" href="https://github.com/docker/libnetwork/blob/master/docs/design.md">Container Netwk Model- libnetwork</a>' 
+
+SDNNFV_Menu[29]='<span class="yellowsans">More Proprietary</span>'
+SDNNFV_Menu[30]='<a class="whitelink" href="http://www.vmware.com/products/nsx.html#resources">VMWare NSX resources</A>'
+SDNNFV_Menu[31]='<a class="whitelink" href="http://docs.openstack.org/developer/neutron/">OpenStack Neutron dev docs</A>'
+SDNNFV_Menu[32]='<a class="whitelink" href="http://docs.openstack.org/security-guide/networking.html">OpenStack Networking docs</A>'
+SDNNFV_Menu[33]='<a class="whitelink" href="https://github.com/openstack/neutron">OpenStack Neutron @ GitHub</A>'
+SDNNFV_Menu[34]='<a class="whitelink" href="https://wiki.fd.io/view/Main_Page">FD.io & VPP (used by Cisco)</A>'
+SDNNFV_Menu[35]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/virtualization-automation.html">Cisco - NFV and Automation</A>'
+SDNNFV_Menu[36]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/network-infrastructure/index.html">Cisco - Evolved Programmable</A>'
 
 
 //configuration management  entry: puppet, chef, ansible resources
