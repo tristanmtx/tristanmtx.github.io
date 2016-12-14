@@ -531,15 +531,26 @@ Firewall_Menu[7]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense
 Firewall_Menu[8]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
 
 Firewall_Menu[9]='<span class="yellowsans">Linux Security</span>'
-Firewall_Menu[10]='<a class="whitelink" href="http://www.netfilter.org">NETFILTER.ORG --iptables --ipset</A>'
+Firewall_Menu[10]='<a class="whitelink" href="http://www.netfilter.org">netfilter.org --iptables --ipset</A>'
 Firewall_Menu[11]='<a class="whitelink" href="https://selinuxproject.org/page/Main_Page">SELinux Project Wiki</A>'
 Firewall_Menu[12]='<a class="whitelink" href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/SELinux_Users_and_Administrators_Guide/index.html">RH SELinux Guide</a>'
 Firewall_Menu[13]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
 
-Firewall_Menu[14]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Live</A>'
-Firewall_Menu[15]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Knowledgebase</A>'
-//http://www.clamav.net/">ClamAV</A>'
-//http://freenas.org/
+Firewall_Menu[14]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
+Firewall_Menu[15]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
+Firewall_Menu[16]='<a class="whitelink" href="http://docs.fortinet.com/fortigate/admin-guides">Fortinet Document Library</a>'
+Firewall_Menu[17]='<a class="whitelink" href="https://community.qualys.com">Qualys Community</a>'
+Firewall_Menu[18]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
+Firewall_Menu[19]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
+Firewall_Menu[20]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
+Firewall_Menu[21]='<a class="whitelink" href="https://logrhythm.com/tags/blog/">LogRhythm blog</A>'
+Firewall_Menu[22]='<a class="whitelink" href="https://www.splunk.com/en_us/support-and-services.html">Splunk Support and Services</A>'
+
+// OSSIM 
+// http://www.clamav.net/">ClamAV</A>'
+// http://freenas.org/
+
+// https://github.com/napalm-automation/napalm">Net Automation and Programmability Abstraction Layer, Multivendor</a>'
 
 // http://www.cisco.com/cisco/web/psa/default.html">Cisco Systems - Product/Technology Support</A>'
 // http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
@@ -552,6 +563,15 @@ Firewall_Menu[15]='<a class="whitelink" href="https://community.fireeye.com/">Fi
 // http://www.dd-wrt.com/">DD-WRT</a>'
 // https://wiki.openwrt.org
 // http://www.wardriving.com/
+
+// http://aircrack-ng.org/
+// http://www.kismetwireless.net/
+// https://code.google.com/archive/p/reaver-wps/
+// https://github.com/savio-code/fern-wifi-cracker
+// http://www.willhackforsushi.com/?page_id=50">coWPAtty</A>'
+// http://w1.fi/hostapd/">
+// https://code.google.com/archive/p/wifite/
+
 
 var ComSec_Menu=new Array()
 ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
@@ -619,20 +639,21 @@ ComSec2_Menu[24]='<span class="yellowsans">Stds and Regulatory Compliance</span>
 ComSec2_Menu[25]='<a class="whitelink" href="http://csrc.nist.gov/groups/SMA/fisma/library.html">NIST FISMA Library (FIPS, SP) </a>'
 ComSec2_Menu[26]='<a class="whitelink" href="http://www.iso.org/iso/home/standards/management-standards/iso27001.htm">ISO/IEC 27001 ISMS</A>'
 ComSec2_Menu[27]='<a class="whitelink" href="http://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx">NERC - CIP Standards</A>'
-ComSec2_Menu[28]='<a class="whitelink" href="http://www.commoncriteriaportal.org/">Common Criteria Project</a>'
-ComSec2_Menu[29]='<a class="whitelink" href="https://www.niap-ccevs.org/Documents_and_Guidance/cc_docs.cfm?&CFID=234674743&CFTOKEN=a1286abbecbc80e1-FAF43419-F1CE-967E-90A6181F2B97C7C6">Common Criteria v3.1 Docs</A>'
-ComSec2_Menu[30]='<a class="whitelink" href="http://www.isaca.org/cobit/pages/default.aspx">ISACA COBIT5 Framework</A>'
-ComSec2_Menu[31]='<a class="whitelink" href="https://www.pcisecuritystandards.org/document_library">PCI Security Standards Council</a>'
-ComSec2_Menu[32]='<a class="whitelink" href="https://pcicompliance.stanford.edu/">PCI DSS at Stanford</a>'
-ComSec2_Menu[33]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
-ComSec2_Menu[34]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
-ComSec2_Menu[35]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
+ComSec2_Menu[28]='<a class="whitelink" href="https://www.cisecurity.org/critical-controls/Library.cfm">CIS Critical Security Controls</A>'
+ComSec2_Menu[29]='<a class="whitelink" href="http://www.commoncriteriaportal.org/">Common Criteria Project</a>'
+ComSec2_Menu[30]='<a class="whitelink" href="https://www.niap-ccevs.org/Documents_and_Guidance/cc_docs.cfm?&CFID=234674743&CFTOKEN=a1286abbecbc80e1-FAF43419-F1CE-967E-90A6181F2B97C7C6">Common Criteria v3.1 Docs</A>'
+ComSec2_Menu[31]='<a class="whitelink" href="http://www.isaca.org/cobit/pages/default.aspx">ISACA COBIT5 Framework</A>'
+ComSec2_Menu[32]='<a class="whitelink" href="https://www.pcisecuritystandards.org/document_library">PCI Security Standards Council</a>'
+ComSec2_Menu[33]='<a class="whitelink" href="https://pcicompliance.stanford.edu/">PCI DSS at Stanford</a>'
+ComSec2_Menu[34]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
+ComSec2_Menu[35]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
+ComSec2_Menu[36]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
 //ComSec2_Menu[34]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
 //ComSec2_Menu[35]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
-ComSec2_Menu[36]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
-ComSec2_Menu[37]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
+ComSec2_Menu[37]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
+ComSec2_Menu[38]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
 
-ComSec2_Menu[38]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
+ComSec2_Menu[39]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
 //ComSec2_Menu[39]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
 ComSec2_Menu[40]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
