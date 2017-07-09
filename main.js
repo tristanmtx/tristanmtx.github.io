@@ -730,10 +730,12 @@ Firewall_Menu[26]='<a class="whitelink" href="https://barncat.fidelissecurity.co
 Firewall_Menu[27]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
 
 Firewall_Menu[28]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
-Firewall_Menu[29]='<a class="whitelink" href="http://docs.fortinet.com/fortigate/admin-guides">Fortinet Document Library</a>'
+Firewall_Menu[29]='<a class="whitelink" href="http://docs.net.com/fortigate/admin-guides">Fortinet Document Library</a>'
 Firewall_Menu[30]='<a class="whitelink" href="http://help.fortinet.com/cli/fos50hlp/56/index.htm">FortiOS 5.6 CLI Reference</A>'
  // https://www.youtube.com/user/SecureNetworks/playlists
  // https://www.youtube.com/user/SecureNetworks/videos
+ // https://www.fortinet.com/fortidemo.htmlui.html
+ 
 Firewall_Menu[31]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
 Firewall_Menu[32]='<a class="whitelink" href="https://community.qualys.com">Qualys Community</a>'
 Firewall_Menu[33]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
