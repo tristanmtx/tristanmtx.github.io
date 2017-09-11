@@ -370,12 +370,14 @@ SW_Menu[24]='<a class="whitelink" href="http://brew.sh/">Homebrew Pkg Mgr</A>'
 SW_Menu[25]='<a class="whitelink" href="http://www.sourceforge.net/">SourceForge</A>'
 SW_Menu[26]='<a class="whitelink" href="https://www.macports.org/">MacPorts</A>'
 SW_Menu[27]='<a class="whitelink" href="http://www.oldversion.com/">OldVersion.com - old SW </A>'
-
-SW_Menu[28]='<span class="yellowsans">File/Driver Searches</span>'
-SW_Menu[29]='<a class="whitelink" href="http://www.filesearching.com/advanced/">FileSearching</a>'
-SW_Menu[30]='<a class="whitelink" href="http://www.filewatcher.org">FileWatcher</a>'
-SW_Menu[31]='<a class="whitelink" href="http://www.driverguide.com/">DriverGuide.com</A>'
-SW_Menu[32]='<a class="whitelink" href="http://driveragent.com/c/scanorsearch">DriverAgent.com</A>'
+SW_Menu[28]='<a class="whitelink" href="http://www.1337s.com">DaRT - ERD Cmdr + More</A>'
+SW_Menu[29]='<a class="whitelink" href="http://www.oldergeeks.com/downloads/category.php?id=35">Ancient Microsoft Boot Disks</a>'
+SW_Menu[30]='<a class="whitelink" href="https://archive.org/details/softwarelibrary">Internet Archive Old PC Software</a>'
+SW_Menu[31]='<span class="yellowsans">File/Driver Searches</span>'
+SW_Menu[32]='<a class="whitelink" href="http://www.filesearching.com/advanced/">FileSearching</a>'
+SW_Menu[33]='<a class="whitelink" href="http://www.filewatcher.org">FileWatcher</a>'
+SW_Menu[34]='<a class="whitelink" href="http://www.driverguide.com/">DriverGuide.com</A>'
+SW_Menu[35]='<a class="whitelink" href="http://driveragent.com/c/scanorsearch">DriverAgent.com</A>'
 
 
 var Unix_Menu=new Array()
@@ -414,7 +416,7 @@ Unix_Menu[32]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegE
 Unix_Menu[33]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
 Unix_Menu[34]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
 Unix_Menu[35]='<span class="yellowsans">Distro Wikis and Manpages</span>'
-Unix_Menu[36]='<a class="whitelink" href="http://linuxmanpages.net/">Fedora Manpages</A>'
+// Unix_Menu[36]='<a class="whitelink" href="http://linuxmanpages.net/">Fedora Manpages page disappeared!!</A>'
 Unix_Menu[37]='<a class="whitelink" href="http://manpages.debian.org/cgi-bin/man.cgi">Debian Manpages</A>'
 Unix_Menu[38]='<a class="whitelink" href="http://manpages.ubuntu.com/">Ubuntu Manpages</A>'
 Unix_Menu[39]='<a class="whitelink" href="http://www.unix.com/man-page/linux/1/man/">Unix.com manpages - 20 Versions</A>'
@@ -1041,7 +1043,7 @@ Game_Menu[11]='<a class="whitelink" href="http://www.arcade-museum.com">Intl Arc
 Game_Menu[12]='<a class="whitelink" href="https://www.arcade-history.com/">Arcade-History.com</A>'
 Game_Menu[13]='<a class="whitelink" href="https://en.wikipedia.org/wiki/List_of_arcade_video_games">Wikipedia Arcade list</A>'
 Game_Menu[14]='<a class="whitelink" href="https://archive.org/details/messmame">Internet Archive ROMSets</a>'
-
+Game_Menu[15]='<a class="whitelink" href="https://archive.org/details/softwarelibrary">Internet Archive Old PC Software</a>'
 // ---------------------------------------------------------------------------
 
 var NewsMain_Menu=new Array()
