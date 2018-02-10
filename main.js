@@ -434,7 +434,7 @@ var HW_Menu=new Array()
 HW_Menu[0]='<span class="yellowsans">Hardware Reference Sources</span>'
 HW_Menu[1]='<a class="whitelink" href="https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm">Search Equipment FCCIDs</a>'
 HW_Menu[2]='<a class="whitelink" href="http://pcidatabase.com/">PCI Database</a>'
-HW_Menu[3]='<a class="whitelink" href="https://wikidevi.com">WikiDevi - Open Hardware Database</a>'
+HW_Menu[3]='<a class="whitelink" href="https://wikidevi.com">WikiDevi - Open HW DB</a>'
 HW_Menu[4]='<a class="whitelink" href="http://www.bradreese.com/blog/8-11-2015.htm">Cisco Product Quick Ref Guides</a>'
 HW_Menu[5]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco (replacement for UniverCD)</A>'
 HW_Menu[6]='<a class="whitelink" href="http://www.intel.com/pressroom/kits/quickreffam.htm">Intel Quick Ref Guide (1971-2008)</A>'
@@ -651,10 +651,11 @@ ComSec2_Menu[26]='<a class="whitelink" href="https://isc.sans.edu/">SANS Interne
 ComSec2_Menu[27]='<a class="whitelink" href="http://www.cvedetails.com/">CVE Details</A>'
 ComSec2_Menu[28]='<a class="whitelink" href="https://cve.mitre.org/">Mitre.org CVE</a>' 
 ComSec2_Menu[29]='<a class="whitelink" href="http://cwe.mitre.org/">Mitre.org CWE</A>'
-ComSec2_Menu[30]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
-ComSec2_Menu[31]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
-ComSec2_Menu[32]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
-
+ComSec2_Menu[30]='<a class="whitelink" href="https://attack.mitre.org/wiki/Main_Page">Mitre.org ATT&amp;CK wiki</A>'
+ComSec2_Menu[31]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
+ComSec2_Menu[32]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
+ComSec2_Menu[33]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
+ComSec2_Menu[34]='<a class="whitelink" href="https://www.virustotal.com"/>VirusTotal</A>'
 
 var ComSec_Menu=new Array()
 ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
@@ -686,13 +687,15 @@ ComSec_Menu[24]='<a class="whitelink" href="https://pcicompliance.stanford.edu/"
 ComSec_Menu[25]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
 ComSec_Menu[26]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
 ComSec_Menu[27]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
-ComSec_Menu[28]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
-ComSec_Menu[29]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
-ComSec_Menu[30]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
-ComSec_Menu[31]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
-ComSec_Menu[32]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
-ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
-ComSec_Menu[34]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
+ComSec_Menu[28]='<a class="whitelink" href="https://gdpr-info.eu/">GDPR- EU Gen Data Protection</A>'
+
+ComSec_Menu[29]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
+ComSec_Menu[30]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
+ComSec_Menu[31]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
+ComSec_Menu[32]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
+ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
+ComSec_Menu[34]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
+ComSec_Menu[35]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
 
 
@@ -868,7 +871,7 @@ CMCICD_Menu[13]='<a class="whitelink" HREF="https://www.ansible.com/resources">A
 CMCICD_Menu[14]='<a class="whitelink" HREF="http://docs.ansible.com/">Ansible Documentation</A>'
 CMCICD_Menu[15]='<a class="whitelink" HREF="http://docs.ansible.com/ansible/list_of_all_modules.html">List of all modules</A>'
 CMCICD_Menu[16]='<a class="whitelink" HREF="https://github.com/ansible/">Ansible at Github</A>'
-CMCICD_Menu[17]='<a class="whitelink" HREF="https://github.com/jdauphant/awesome-ansible">JDauphants resource list</A>'
+CMCICD_Menu[17]='<a class="whitelink" HREF="https://github.com/jdauphant/awesome-ansible">JDauphants Ansible list</A>'
 
 CMCICD_Menu[18]='<span class="yellowsans">SaltStack</span>'
 CMCICD_Menu[19]='<a class="whitelink" HREF="https://docs.saltstack.com">Salt documentation</A>'
@@ -876,7 +879,7 @@ CMCICD_Menu[20]='<a class="whitelink" HREF="https://docs.saltstack.com/en/latest
 CMCICD_Menu[21]='<a class="whitelink" HREF="https://docs.saltstack.com/en/latest/salt-modindex.html">Salt Modules</A>'
 CMCICD_Menu[22]='<a class="whitelink" HREF="https://github.com/saltstack">Salt at GitHub</A>'
 CMCICD_Menu[23]='<a class="whitelink" HREF="https://github.com/Lothiraldan/saltpad">SaltPad</A>'
-CMCICD_Menu[24]='<a class="whitelink" HREF="https://github.com/hbokh/awesome-saltstack">Awesome SaltStack list</A>'
+CMCICD_Menu[24]='<a class="whitelink" HREF="https://github.com/hbokh/awesome-saltstack">Awesome SaltStack list</A>' 
 CMCICD_Menu[25]='<span class="yellowsans">Jenkins</span>'
 CMCICD_Menu[26]='<a class="whitelink" HREF="https://jenkins.io/">Jenkins (main)</A>'
 CMCICD_Menu[27]='<a class="whitelink" HREF="https://plugins.jenkins.io/">Jenkins Plugins</A>'
