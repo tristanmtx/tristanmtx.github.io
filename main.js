@@ -998,6 +998,14 @@ Prog_Menu[10]='<a class="whitelink" href="https://www.javacodegeeks.com/">JavaCo
 
 // https://www.tiobe.com/tiobe-index/
 
+
+// https://golang.org/
+// https://go.googlesource.com/go
+// https://groups.google.com/group/golang-nuts 
+// https://github.com/golang/go/wiki
+
+
+
 Prog_Menu[11]='<span class="yellowsans">Python Specific</span>'
 Prog_Menu[12]='<a class="whitelink" href="https://www.python.org/">Python.org</A>'
 Prog_Menu[13]='<a class="whitelink" href="https://docs.python.org/">Docs.Python.org</A>'
