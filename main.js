@@ -133,6 +133,11 @@ NetTool_Menu[5]='<a class="whitelink" HREF="www.subnetonline.com/pages/network-t
 NetTool_Menu[6]='<a class="whitelink" HREF="http://network-tools.com/">Network-Tools.com</A>'
 NetTool_Menu[7]='<a class="whitelink" HREF="http://www.kloth.net/services/">Kloth.net Services</A>'
 NetTool_Menu[8]='<a class="whitelink" HREF="https://centralops.net/co/">CentralOps.net</A>'
+// https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
+// FROM SECOPS ADD - http://www.ipvoid.com/">IPVoid tools</A>'
+// https://www.whatismyip.com/
+// FROM SECOPS ADD - https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
+// https://www.ipaddressguide.com/">IPAddressGuide.com (IPv4 and v6)</A>'
 
 NetTool_Menu[9]='<span class="yellowsans">Regional Internet Registry Whois</span>'
 NetTool_Menu[10]='<a class="whitelink" HREF="https://wq.apnic.net/whois-search/static/search.html">APNIC Whois</A>'
@@ -168,6 +173,7 @@ NetTool_Menu[37]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP 
 NetTool_Menu[38]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
 NetTool_Menu[39]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
 NetTool_Menu[40]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
+NetTool_Menu[41]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
 NetTool_Menu[42]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
 NetTool_Menu[43]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
 NetTool_Menu[44]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
@@ -179,7 +185,7 @@ NetTool_Menu[45]='<a class="whitelink" href="http://www.traceroute.org/">Tracero
 //NetTool_Menu[47]='<a class="whitelink" HREF="http://www.ipaddresslocation.org/">IPAddressLocation.org</A>'
 //NetTool_Menu[48]='<a class="whitelink" HREF="http://www.hostip.info/">Hostip.info IP Geolocation</A>'
 //NetTool_Menu[49]='<a class="whitelink" HREF="http://www.ip2location.com">IP2Location.com</A>'
-//NetTool_Menu[50]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">PCAP Map (upload PCAPs)</A>' 
+//NetTool_Menu[50]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">PCAP Map Visualizer</A>' 
 
 
 
@@ -199,7 +205,8 @@ Net2_Menu[9]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeC
 Net2_Menu[10]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
 Net2_Menu[11]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
 Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
-
+// https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
+ 
 Net2_Menu[13]='<span class="yellowsans">Cisco Related</span>'
 Net2_Menu[14]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
 Net2_Menu[15]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
@@ -550,7 +557,7 @@ Cluster2_Menu[12]='<a class="whitelink" href="https://aws.amazon.com/tools/">AWS
 Cluster2_Menu[13]='<a class="whitelink" href="https://github.com/aws/">AWS at GitHub</A>'
 Cluster2_Menu[14]='<a class="whitelink" href="http://aws.amazon.com/products/">AWS Service Listing</A>'
 Cluster2_Menu[15]='<a class="whitelink" href="https://aws.amazon.com/marketplace/">AWS Marketplace</a>'
-Cluster2_Menu[16]='<a class="whitelink" href="http://EC2Instances.info">EC2Instance.info (specs and pricing)</A>'
+Cluster2_Menu[16]='<a class="whitelink" href="http://EC2Instances.info">EC2Instance.info (specs/pricing)</A>'
 Cluster2_Menu[17]='<a class="whitelink" href="https://aws.amazon.com/cli/">AWS CLI resources</A>'
 Cluster2_Menu[18]='<a class="whitelink" href="http://docs.aws.amazon.com/powershell/latest/reference/Index.html">AWS Tools for PowerShell</A>'
 
@@ -642,20 +649,26 @@ ComSec2_Menu[18]='<a class="whitelink" href="http://www.h2k2.net">H2K2 Security 
 ComSec2_Menu[19]='<a class="whitelink" href="http://www.cansecwest.com">CanSecWest Security Conf</a>'
 ComSec2_Menu[20]='<a class="whitelink" href="http://pacsec.jp/">PacSec Security Conf</a>'
 ComSec2_Menu[21]='<a class="whitelink" href="https://github.com/nixawk/pentest-wiki">nixawk PenTest Wiki</A>'
+ComSec2_Menu[22]='<a class="whitelink" href="http://forensicswiki.org/">ForensicsWiki</A>'
+ComSec2_Menu[24]='<a class="whitelink" href="https://www.owasp.org">OWASP Wiki</A>'
 
-ComSec2_Menu[22]='<span class="yellowsans">CVE - Vulnerability Advisories</span>'
-ComSec2_Menu[23]='<a class="whitelink" href="http://www.securiteam.com">SecuriTeam</A>'
-ComSec2_Menu[24]='<a class="whitelink" href="http://www.securitytracker.com/">SecurityTracker</a>'
-ComSec2_Menu[25]='<a class="whitelink" href="http://www.securityfocus.com/">SecurityFocus</a>'
-ComSec2_Menu[26]='<a class="whitelink" href="https://isc.sans.edu/">SANS Internet Storm Ctr</A>'
-ComSec2_Menu[27]='<a class="whitelink" href="http://www.cvedetails.com/">CVE Details</A>'
-ComSec2_Menu[28]='<a class="whitelink" href="https://cve.mitre.org/">Mitre.org CVE</a>' 
-ComSec2_Menu[29]='<a class="whitelink" href="http://cwe.mitre.org/">Mitre.org CWE</A>'
-ComSec2_Menu[30]='<a class="whitelink" href="https://attack.mitre.org/wiki/Main_Page">Mitre.org ATT&amp;CK wiki</A>'
-ComSec2_Menu[31]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
-ComSec2_Menu[32]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
-ComSec2_Menu[33]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
-ComSec2_Menu[34]='<a class="whitelink" href="https://www.virustotal.com"/>VirusTotal</A>'
+ComSec2_Menu[25]='<span class="yellowsans">Online PCAP resources</span>'
+ComSec2_Menu[26]='<a class="whitelink" href="https://packettotal.com/">PacketTotal - PCAP analysis</A>'
+ComSec2_Menu[27]='<a class="whitelink" href="http://pcapng.com/">Convert PcapNG to PCAP</A>'
+ComSec2_Menu[28]='<a class="whitelink" href="https://www.networktotal.com/">NetworkTotal- malware scan PCAP</A>'
+ComSec2_Menu[29]='<a class="whitelink" href="https://malware-traffic-analysis.net">malware-traffic-analysis.net PCAPs</A>'
+ComSec2_Menu[30]='<a class="whitelink" href="http://www.netresec.com/?page=PcapFiles">NETRESECs Huge PCAP Repo List</A>'
+ComSec2_Menu[31]='<a class="whitelink" href="http://www.secrepo.com/">SecRepo.com PCAPs/Logs</A>'
+ComSec2_Menu[32]='<a class="whitelink" href="https://wiki.wireshark.org/SampleCaptures">WS Wiki sample PCAPs</A>'
+ComSec2_Menu[33]='<a class="whitelink" href="https://www.bro.org/community/traces.html">Bro Project - Packet Traces</A>'
+
+
+
+
+
+
+
+
 
 var ComSec_Menu=new Array()
 ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
@@ -670,32 +683,105 @@ ComSec_Menu[9]='<a class="whitelink" href="http://www.networkworld.com/category/
 ComSec_Menu[10]='<a class="whitelink" href="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
 ComSec_Menu[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
 ComSec_Menu[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
-ComSec_Menu[13]='<a class="whitelink" href="http://www.talosintelligence.com">Cisco Talos</A>'
+
+
+ComSec_Menu[13]='<a class="whitelink" href="http://blogs.cisco.com/security/">Cisco Security blog</A>'
+ComSec_Menu[14]='<a class="whitelink" href="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
+ComSec_Menu[15]='<a class="whitelink" href="http://blog.trendmicro.com/trendlabs-security-intelligence/">TrendMicro TrendLabs blog</A>'
+ComSec_Menu[16]='<a class="whitelink" href="https://www.virustotal.com/en/community/">VirusTotal Community blog</A>'
+ComSec_Menu[17]='<a class="whitelink" href="http://www.darknet.org.uk/">darknet.org.uk</A>'
+ComSec_Menu[18]='<a class="whitelink" href="http://sanesecurity.blogspot.co.uk/">Sanesecurity</A>'
+ComSec_Menu[19]='<a class="whitelink" href="http://blog.didierstevens.com/">Didier Stevens blog</A>'
+
+
+ComSec_Menu[20]='<span class="yellowsans">Stds and Regulatory Compliance</span>'
+ComSec_Menu[21]='<a class="whitelink" href="http://csrc.nist.gov/groups/SMA/fisma/library.html">NIST FISMA Library (FIPS, SP) </a>'
+ComSec_Menu[22]='<a class="whitelink" href="http://www.iso.org/iso/home/standards/management-standards/iso27001.htm">ISO/IEC 27001 ISMS</A>'
+ComSec_Menu[23]='<a class="whitelink" href="http://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx">NERC - CIP Standards</A>'
+ComSec_Menu[24]='<a class="whitelink" href="https://www.cisecurity.org/critical-controls/Library.cfm">CIS Critical Security Controls</A>'
+ComSec_Menu[25]='<a class="whitelink" href="http://www.commoncriteriaportal.org/">Common Criteria Project</a>'
+ComSec_Menu[25]='<a class="whitelink" href="https://www.niap-ccevs.org/Documents_and_Guidance/cc_docs.cfm?&CFID=234674743&CFTOKEN=a1286abbecbc80e1-FAF43419-F1CE-967E-90A6181F2B97C7C6">Common Criteria v3.1 Docs</A>'
+ComSec_Menu[26]='<a class="whitelink" href="http://www.isaca.org/cobit/pages/default.aspx">ISACA COBIT5 Framework</A>'
+ComSec_Menu[27]='<a class="whitelink" href="https://www.pcisecuritystandards.org/document_library">PCI Security Standards Council</a>'
+ComSec_Menu[28]='<a class="whitelink" href="https://pcicompliance.stanford.edu/">PCI DSS at Stanford</a>'
+ComSec_Menu[29]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
+ComSec_Menu[30]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
+ComSec_Menu[31]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
+ComSec_Menu[32]='<a class="whitelink" href="https://gdpr-info.eu/">GDPR- EU Gen Data Protection</A>'
+
+ComSec_Menu[33]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
+ComSec_Menu[34]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
+ComSec_Menu[35]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
+ComSec_Menu[36]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
+ComSec_Menu[37]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
+ComSec_Menu[38]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
+ComSec_Menu[39]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
 
 
-ComSec_Menu[14]='<span class="yellowsans">Stds and Regulatory Compliance</span>'
-ComSec_Menu[15]='<a class="whitelink" href="http://csrc.nist.gov/groups/SMA/fisma/library.html">NIST FISMA Library (FIPS, SP) </a>'
-ComSec_Menu[17]='<a class="whitelink" href="http://www.iso.org/iso/home/standards/management-standards/iso27001.htm">ISO/IEC 27001 ISMS</A>'
-ComSec_Menu[18]='<a class="whitelink" href="http://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx">NERC - CIP Standards</A>'
-ComSec_Menu[19]='<a class="whitelink" href="https://www.cisecurity.org/critical-controls/Library.cfm">CIS Critical Security Controls</A>'
-ComSec_Menu[20]='<a class="whitelink" href="http://www.commoncriteriaportal.org/">Common Criteria Project</a>'
-ComSec_Menu[21]='<a class="whitelink" href="https://www.niap-ccevs.org/Documents_and_Guidance/cc_docs.cfm?&CFID=234674743&CFTOKEN=a1286abbecbc80e1-FAF43419-F1CE-967E-90A6181F2B97C7C6">Common Criteria v3.1 Docs</A>'
-ComSec_Menu[22]='<a class="whitelink" href="http://www.isaca.org/cobit/pages/default.aspx">ISACA COBIT5 Framework</A>'
-ComSec_Menu[23]='<a class="whitelink" href="https://www.pcisecuritystandards.org/document_library">PCI Security Standards Council</a>'
-ComSec_Menu[24]='<a class="whitelink" href="https://pcicompliance.stanford.edu/">PCI DSS at Stanford</a>'
-ComSec_Menu[25]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
-ComSec_Menu[26]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
-ComSec_Menu[27]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
-ComSec_Menu[28]='<a class="whitelink" href="https://gdpr-info.eu/">GDPR- EU Gen Data Protection</A>'
 
-ComSec_Menu[29]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
-ComSec_Menu[30]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
-ComSec_Menu[31]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
-ComSec_Menu[32]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
-ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
-ComSec_Menu[34]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
-ComSec_Menu[35]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
+
+var Malware_Menu=new Array()
+Malware_Menu[0]='<span class="yellowsans">Online Malware Analysis (upload)</span>'
+Malware_Menu[1]='<a class="whitelink" href="https://www.virustotal.com/">VirusTotal</A>'
+Malware_Menu[2]='<a class="whitelink" href="https://totalhash.cymru.com">TotalHash (Team Cymru)</A>'
+Malware_Menu[3]='<a class="whitelink" href="https://www.hybrid-analysis.com/">Hybrid Analysis</A>'
+Malware_Menu[4]='<a class="whitelink" href="https://malwr.com/analysis/search/">Malwr.com</A>'
+Malware_Menu[5]='<a class="whitelink" href="https://www.malwareviz.com/">MalwareViz (use w/ Malwr)</a>'
+Malware_Menu[6]='<a class="whitelink" href="http://sandbox.pikker.ee/">Cuckoo Sandbox</a>'
+Malware_Menu[7]='<a class="whitelink" href="http://detux.org/">Detux Sandbox (Linux-specific)</a>' 
+Malware_Menu[8]='<a class="whitelink" href="https://www.joesandbox.com/">Joe Sandbox Cloud</a>'
+Malware_Menu[9]='<a class="whitelink" href="https://www.vicheck.ca/">ViCheck (Office files and PDFs)</a>' 
+// http://www.systemlookup.com/">SystemLookup filename DB</A>'
+Malware_Menu[10]='<a class="whitelink" href="https://zeltser.com/malware-analysis-tool-frameworks/">LZeltsers REMnux</A>'
+
+Malware_Menu[11]='<span class="yellowsans">Scan URLs for Web-based Malware</span>'
+Malware_Menu[12]='<a class="whitelink" href="https://www.threatminer.org/">ThreatMiner Aggregator</A>'
+Malware_Menu[13]='<a class="whitelink" href="https://threatcrowd.org">AlienVault ThreatCrowd</A>'
+Malware_Menu[14]='<a class="whitelink" href="http://threatglass.com/">Threatglass URL scan</A>'
+Malware_Menu[15]='<a class="whitelink" href="http://urlquery.net/">URLQuery malware scan</A>'
+Malware_Menu[16]='<a class="whitelink" href="https://sitecheck.sucuri.net/">Securi SiteCheck</A>'
+Malware_Menu[17]='<a class="whitelink" href="http://www.internetofficer.com/seo-tool/redirect-check/">URL Redirect Checker</A>'
+
+Malware_Menu[18]='<span class="yellowsans">URL blocklists</span>'
+Malware_Menu[19]='<a class="whitelink" href="https://www.spamhaus.org">Spamhaus Project (blocklists)</A>'
+Malware_Menu[20]='<a class="whitelink" href="http://www.phishtank.com/">PhishTank tracker</A>'
+Malware_Menu[21]='<a class="whitelink" href="http://multirbl.valli.org/">MultiRBL</A>'
+Malware_Menu[22]='<a class="whitelink" href="https://zeltser.com/malicious-ip-blocklists/">LZeltsers List of BL sites</A>'
+
+Malware_Menu[23]='<span class="yellowsans">CVE - Vulnerability Advisories</span>'
+Malware_Menu[24]='<a class="whitelink" href="http://www.securiteam.com">SecuriTeam</A>'
+Malware_Menu[25]='<a class="whitelink" href="http://www.securitytracker.com/">SecurityTracker</a>'
+Malware_Menu[26]='<a class="whitelink" href="http://www.securityfocus.com/">SecurityFocus</a>'
+Malware_Menu[27]='<a class="whitelink" href="http://www.talosintelligence.com">Cisco Talos</A>'
+Malware_Menu[28]='<a class="whitelink" href="https://isc.sans.edu/">SANS Internet Storm Ctr</A>'
+Malware_Menu[29]='<a class="whitelink" href="http://www.cvedetails.com/">CVE Details</A>'
+Malware_Menu[30]='<a class="whitelink" href="https://cve.mitre.org/">Mitre.org CVE</a>' 
+Malware_Menu[31]='<a class="whitelink" href="http://cwe.mitre.org/">Mitre.org CWE</A>'
+Malware_Menu[32]='<a class="whitelink" href="https://attack.mitre.org/wiki/Main_Page">Mitre.org ATT&amp;CK wiki</A>'
+Malware_Menu[33]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
+Malware_Menu[34]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
+Malware_Menu[35]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -748,7 +834,7 @@ Firewall_Menu[33]='<a class="whitelink" href="https://www-947.ibm.com/support/en
 Firewall_Menu[34]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
 Firewall_Menu[35]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
 
-Firewall_Menu[36]='<span class="yellowsans">Log Processing</span>'
+Firewall_Menu[36]='<span class="yellowsans">(More-entire menu needs sorting)</span>'
 Firewall_Menu[37]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
 Firewall_Menu[38]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
 Firewall_Menu[39]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
@@ -760,6 +846,7 @@ Firewall_Menu[44]='<a class="whitelink" href="http://blog.eagerelk.com/">EagerEl
 Firewall_Menu[45]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
 Firewall_Menu[46]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
 Firewall_Menu[47]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
+Firewall_Menu[48]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
 
 
 var MSStuff_Menu=new Array()
@@ -918,65 +1005,28 @@ Distro_DL_Menu[22]='<a class="whitelink" href="https://www.parrotsec.org/">Parro
 Distro_DL_Menu[23]='<a class="whitelink" href="http://www.weaknetlabs.com/">Weakerth4n - Pentesting</a>'
 Distro_DL_Menu[24]='<a class="whitelink" href="http://blackarch.org/downloads.html">BlackArch - Pentesting</A>'
 Distro_DL_Menu[25]='<a class="whitelink" href="http://sourceforge.net/projects/matriux/">Matriux - Multipurpose</A>'
-Distro_DL_Menu[26]='<a class="whitelink" href="http://sourceforge.net/projects/nst/files/">Network Security Toolkit (NST)</A>'
-Distro_DL_Menu[27]='<a class="whitelink" href="http://digital-forensics.sans.org/community/downloads">SANS SIFT - Forensics</a>'
-Distro_DL_Menu[28]='<a class="whitelink" href="http://www.deftlinux.net/">DEFT Forensics Toolkit</a>'
-Distro_DL_Menu[29]='<a class="whitelink" href="http://www.caine-live.net/">CAINE Investigative Environment</A>'
-Distro_DL_Menu[30]='<a class="whitelink" href="https://www.owasp.org/index.php/OWASP_OWTF">OWASP Offensive Web Testing</A>'
-Distro_DL_Menu[31]='<a class="whitelink" href="https://sourceforge.net/projects/samurai/files/">Samurai Web Testing Framework</A>'
+Distro_DL_Menu[26]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
+Distro_DL_Menu[27]='<a class="whitelink" href="http://sourceforge.net/projects/nst/files/">Network Security Toolkit (NST)</A>'
+Distro_DL_Menu[28]='<a class="whitelink" href="http://digital-forensics.sans.org/community/downloads">SANS SIFT - Forensics</a>'
+Distro_DL_Menu[29]='<a class="whitelink" href="http://www.deftlinux.net/">DEFT Forensics Toolkit</a>'
+Distro_DL_Menu[30]='<a class="whitelink" href="http://www.caine-live.net/">CAINE Investigative Environment</A>'
+Distro_DL_Menu[31]='<a class="whitelink" href="https://www.owasp.org/index.php/OWASP_OWTF">OWASP Offensive Web Testing</A>'
+Distro_DL_Menu[32]='<a class="whitelink" href="https://sourceforge.net/projects/samurai/files/">Samurai Web Testing Framework</A>'
 
-Distro_DL_Menu[32]='<span class="yellowsans">Utility Boot Images</span>'
-Distro_DL_Menu[33]='<a class="whitelink" href="http://clonezilla.org/">Clonezilla</A>'
-Distro_DL_Menu[34]='<a class="whitelink" href="http://www.hirensbootcd.org/">HirensBootCD.org</A>'
-Distro_DL_Menu[35]='<a class="whitelink" href="http://www.ultimatebootcd.com/">UltimateBootCD.com</A>'
-Distro_DL_Menu[36]='<a class="whitelink" href="http://falconfour.com/falconfours-ultimate-boot-cd-usb-v4-6-f4ubcd/">Falcon4s UBCD</A>'
-Distro_DL_Menu[37]='<a class="whitelink" href="http://www.system-rescue-cd.org/">SystemRescueCD.org</A>'
-Distro_DL_Menu[38]='<a class="whitelink" href="http://trinityhome.org">Trinity Rescue Kit</A>'
-Distro_DL_Menu[39]='<a class="whitelink" href="https://sourceforge.net/projects/dban/">Dariks Boot and Nuke</A>'
-Distro_DL_Menu[40]='<a class="whitelink" href="http://www.supergrubdisk.org/">SuperGrub2 + Rescatux</A>'
-Distro_DL_Menu[41]='<a class="whitelink" href="http://www.remastersys.org/">Linux Respin (Remastersys)</a>'
-Distro_DL_Menu[42]='<a class="whitelink" href="http://www.linux-live.org/">Linux Live Kit</a>'
+Distro_DL_Menu[33]='<span class="yellowsans">Utility Boot Images</span>'
+Distro_DL_Menu[34]='<a class="whitelink" href="http://clonezilla.org/">Clonezilla</A>'
+Distro_DL_Menu[35]='<a class="whitelink" href="http://www.hirensbootcd.org/">HirensBootCD.org</A>'
+Distro_DL_Menu[36]='<a class="whitelink" href="http://www.ultimatebootcd.com/">UltimateBootCD.com</A>'
+Distro_DL_Menu[37]='<a class="whitelink" href="http://falconfour.com/falconfours-ultimate-boot-cd-usb-v4-6-f4ubcd/">Falcon4s UBCD</A>'
+Distro_DL_Menu[38]='<a class="whitelink" href="http://www.system-rescue-cd.org/">SystemRescueCD.org</A>'
+Distro_DL_Menu[39]='<a class="whitelink" href="http://trinityhome.org">Trinity Rescue Kit</A>'
+Distro_DL_Menu[40]='<a class="whitelink" href="https://sourceforge.net/projects/dban/">Dariks Boot and Nuke</A>'
+Distro_DL_Menu[41]='<a class="whitelink" href="http://www.supergrubdisk.org/">SuperGrub2 + Rescatux</A>'
+Distro_DL_Menu[42]='<a class="whitelink" href="http://www.remastersys.org/">Linux Respin (Remastersys)</a>'
+Distro_DL_Menu[43]='<a class="whitelink" href="http://www.linux-live.org/">Linux Live Kit</a>'
 
 
 
-
-var Quickref_Menu=new Array()
-Quickref_Menu[0]='<a class="whitelink" href="http://forensicswiki.org/">ForensicsWiki</A>'
-Quickref_Menu[1]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
-Quickref_Menu[2]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
-Quickref_Menu[3]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
-Quickref_Menu[4]='<a class="whitelink" href="http://www.tcpipguide.com/">TCPIPGuide.com Wiki</A>'
-Quickref_Menu[5]='<a class="whitelink" href="https://wiki.wireshark.org/FrontPage">The Wireshark Wiki</A>'
-Quickref_Menu[6]='<a class="whitelink" href="http://www.thenetworkencyclopedia.com/">NetworkEncyclopedia.com Wiki</A>'
-Quickref_Menu[7]='<a class="whitelink" href="https://support.rackspace.com/how-to/">Rackspace HowTo(replaces Kbase)</A>'
-Quickref_Menu[8]='<a class="whitelink" href="http://man.cx/">man.cx ManPages</A>'
-Quickref_Menu[9]='<a class="whitelink" href="http://linuxmanpages.net/">Fedora Manpages</A>'
-Quickref_Menu[10]='<a class="whitelink" href="http://manpages.debian.org/cgi-bin/man.cgi">Debian Manpages</A>'
-Quickref_Menu[11]='<a class="whitelink" href="http://manpages.ubuntu.com/">Ubuntu Manpages</A>'
-Quickref_Menu[12]='<a class="whitelink" href="https://access.redhat.com/documentation/en-US/">Red Hat Docs</A>'
-Quickref_Menu[13]='<a class="whitelink" href="http://archive.oreilly.com/linux/cmd/">OReillys Linux CLI Ref</A>'
-Quickref_Menu[14]='<a class="whitelink" href="http://mywiki.wooledge.org/BashGuide">BashGuide Wiki</A>'
-Quickref_Menu[15]='<a class="whitelink" href="http://www.unix.com/man-page/linux/1/man/">Unix.com manpages - 20 Versions</A>'
-Quickref_Menu[16]='<a class="whitelink" href="http://www.shellcheck.net/">ShellCheck.net Script Analyzer</A>'
-Quickref_Menu[17]='<a class="whitelink" href="http://explainshell.com/">ExplainShell.com- help text for CLI</A>'
-Quickref_Menu[18]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
-Quickref_Menu[19]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
-Quickref_Menu[20]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
-// https://regex101.com/">RegEx101 - RegEx webtool</a>'
-// http://www.regexe.com/">RegExe - RegEx webtool</a>'
-// http://regex.inginf.units.it/">Regex Generator++</A>'
-Quickref_Menu[21]='<a class="whitelink" href="http://www.subnetonline.com/">SubnetOnline.com Calculator</A>'
-Quickref_Menu[22]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
-Quickref_Menu[23]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
-Quickref_Menu[24]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
-Quickref_Menu[25]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
-Quickref_Menu[26]='-----------'
-Quickref_Menu[27]='<a class="whitelink" href="https://www.owasp.org">OWASP Wiki</A>'
-Quickref_Menu[28]='<a class="whitelink" href="https://www.readthedocs.org/">ReadTheDocs.org</A>'
-Quickref_Menu[29]='<a class="whitelink" href="http://cromwell-intl.com/linux/">Cromwell- Linux/Unix</A>'
-Quickref_Menu[30]='<a class="whitelink" href="http://cromwell-intl.com/tcpip/">Cromwell- TCP/IP Networking</A>'
-Quickref_Menu[31]='<a class="whitelink" href="http://cromwell-intl.com/cybersecurity/">Cromwell- Sys and Net Security</A>'
-Quickref_Menu[32]='<a class="whitelink" href="https://www.stigviewer.com/stigs">DISA Strategic Tech Info Guides</A>'
 
 
 var Prog_Menu=new Array()
