@@ -411,30 +411,27 @@ Unix_Menu[19]='<a class="whitelink" href="http://cromwell-intl.com/linux/">Bob C
 Unix_Menu[20]='<a class="whitelink" href="http://cromwell-intl.com/tcpip/">Bob Cromwell- TCP/IP Networking</A>'
 Unix_Menu[21]='<a class="whitelink" href="http://cromwell-intl.com/cybersecurity/">Bob Cromwell- Sys/Net Security</A>'
 Unix_Menu[22]='<a class="whitelink" href="http://www.policyrouting.org/">Linux Policy Routing</A>'
-	Unix_Menu[23]='<span class="yellowsans">CLI Helpers</span>'
-Unix_Menu[24]='<a class="whitelink" href="http://www.bhami.com/rosetta.html">Sysadmins Unixersal Translator</A>'
-Unix_Menu[25]='<a class="whitelink" href="http://mywiki.wooledge.org/BashGuide">BashGuide Wiki</A>'
-Unix_Menu[26]='<a class="whitelink" href="http://www.shellcheck.net/">ShellCheck.net Script Analyzer</A>'
-Unix_Menu[27]='<a class="whitelink" href="http://explainshell.com/">ExplainShell.com- help text for CLI</A>'
-Unix_Menu[28]='<a class="whitelink" href="https://github.com/jordansissel/pleaserun">PleaseRun- Auto-gen init/systemd</A>'
-Unix_Menu[29]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
-Unix_Menu[30]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
-Unix_Menu[31]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
-Unix_Menu[32]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
-Unix_Menu[33]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
-Unix_Menu[34]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
-Unix_Menu[35]='<span class="yellowsans">Distro Wikis and Manpages</span>'
-// Unix_Menu[36]='<a class="whitelink" href="http://linuxmanpages.net/">Fedora Manpages page disappeared!!</A>'
-Unix_Menu[37]='<a class="whitelink" href="http://manpages.debian.org/cgi-bin/man.cgi">Debian Manpages</A>'
-Unix_Menu[38]='<a class="whitelink" href="http://manpages.ubuntu.com/">Ubuntu Manpages</A>'
-Unix_Menu[39]='<a class="whitelink" href="http://www.unix.com/man-page/linux/1/man/">Unix.com manpages - 20 Versions</A>'
+Unix_Menu[23]='<a class="whitelink" href="https://selinuxproject.org/page/Main_Page">SELinux Project Wiki</A>'
+Unix_Menu[24]='<a class="whitelink" href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/SELinux_Users_and_Administrators_Guide/index.html">RH SELinux Guide</a>'
 
-Unix_Menu[40]='<a class="whitelink" href="https://wiki.archlinux.org/">Arch Linux Wiki</A>'
-Unix_Menu[41]='<a class="whitelink" href="https://wiki.debian.org/">Debian Wiki</A>'
-Unix_Menu[42]='<a class="whitelink" href="http://docs.slackware.com/">Slackware Wiki</A>'
-Unix_Menu[43]='<a class="whitelink" href="https://access.redhat.com/documentation/en/">Red Hat Documentation</A>'
-Unix_Menu[44]='<a class="whitelink" href="https://fedoraproject.org/wiki/Fedora_Project_Wiki">Fedora Project Wiki</A>'
-Unix_Menu[45]='<a class="whitelink" href="http://www.freebsd.net/">The FreeBSD Project</A>'
+	Unix_Menu[25]='<span class="yellowsans">CLI Helpers</span>'
+Unix_Menu[26]='<a class="whitelink" href="http://www.bhami.com/rosetta.html">Sysadmins Unixersal Translator</A>'
+Unix_Menu[27]='<a class="whitelink" href="http://mywiki.wooledge.org/BashGuide">BashGuide Wiki</A>'
+Unix_Menu[28]='<a class="whitelink" href="http://www.shellcheck.net/">ShellCheck.net Script Analyzer</A>'
+Unix_Menu[29]='<a class="whitelink" href="http://explainshell.com/">ExplainShell.com- help text for CLI</A>'
+Unix_Menu[30]='<a class="whitelink" href="https://github.com/jordansissel/pleaserun">PleaseRun- Auto-gen init/systemd</A>'
+
+Unix_Menu[31]='<span class="yellowsans">Distro Wikis and Manpages</span>'
+Unix_Menu[32]='<a class="whitelink" href="http://manpages.debian.org/cgi-bin/man.cgi">Debian Manpages</A>'
+Unix_Menu[33]='<a class="whitelink" href="http://manpages.ubuntu.com/">Ubuntu Manpages</A>'
+Unix_Menu[34]='<a class="whitelink" href="http://www.unix.com/man-page/linux/1/man/">Unix.com manpages - 20 Versions</A>'
+
+Unix_Menu[35]='<a class="whitelink" href="https://wiki.archlinux.org/">Arch Linux Wiki</A>'
+Unix_Menu[36]='<a class="whitelink" href="https://wiki.debian.org/">Debian Wiki</A>'
+Unix_Menu[37]='<a class="whitelink" href="http://docs.slackware.com/">Slackware Wiki</A>'
+Unix_Menu[38]='<a class="whitelink" href="https://access.redhat.com/documentation/en/">Red Hat Documentation</A>'
+Unix_Menu[39]='<a class="whitelink" href="https://fedoraproject.org/wiki/Fedora_Project_Wiki">Fedora Project Wiki</A>'
+Unix_Menu[40]='<a class="whitelink" href="http://www.freebsd.net/">The FreeBSD Project</A>'
 
 var HW_Menu=new Array()
 
@@ -458,6 +455,7 @@ HW_Menu[15]='<a class="whitelink" href="https://www.juniper.net/customers/suppor
 HW_Menu[16]='<a class="whitelink" href="http://www.alliedtelesis.com/support">Allied Telesys</A>'
 HW_Menu[17]='<a class="whitelink" href="https://support.avaya.com/">Avaya Support</A>'
 HW_Menu[18]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
+// https://www.infoblox.com
 HW_Menu[19]='<a class="whitelink" href="http://toshiba.semicon-storage.com/ap-en/design-support/search.html">Toshiba Support</A>'
 HW_Menu[20]='<a class="whitelink" href="http://www.gigabyte.us/support-downloads/support-downloads.aspx">Gigabyte Support</A>'
 HW_Menu[21]='<a class="whitelink" href="http://www.seagate.com/support-home/">Seagate (Maxtor, LaCie, Samsung)</A>'
@@ -785,56 +783,58 @@ Malware_Menu[35]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-
 
 
 
-
 var Firewall_Menu=new Array()
-Firewall_Menu[0]='<span class="yellowsans">Cisco Firewalls</span>'
-Firewall_Menu[1]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html">Cisco ASA Support main</A>'
-Firewall_Menu[2]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-command-reference-list.html">Cisco ASA Command Refs</A>'
-Firewall_Menu[3]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html">ASA/ASDM Configuration Guides</A>'
+Firewall_Menu[0]='<span class="yellowsans">Firewall</span>'
+Firewall_Menu[1]='<a class="whitelink" href="http://www.netfilter.org">netfilter.org --iptables --ipset</A>'
+Firewall_Menu[2]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html">Cisco ASA Support main</A>'
+Firewall_Menu[3]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-command-reference-list.html">Cisco ASA Command Refs</A>'
+Firewall_Menu[4]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html">ASA/ASDM Configuration Guides</A>'
 
-Firewall_Menu[4]='<span class="yellowsans">pfSense Resources</span>'
-Firewall_Menu[5]='<a class="whitelink" href="https://www.pfsense.org">pfSense Main</A>'
-Firewall_Menu[6]='<a class="whitelink" href="https://doc.pfsense.org/">pfSense docs</A>'
-Firewall_Menu[7]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense Forum</A>'
-Firewall_Menu[8]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
-
-Firewall_Menu[9]='<span class="yellowsans">Linux FW/ NIDS/ HIDS</span>'
-Firewall_Menu[10]='<a class="whitelink" href="http://www.netfilter.org">netfilter.org --iptables --ipset</A>'
-Firewall_Menu[11]='<a class="whitelink" href="https://selinuxproject.org/page/Main_Page">SELinux Project Wiki</A>'
-Firewall_Menu[12]='<a class="whitelink" href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/SELinux_Users_and_Administrators_Guide/index.html">RH SELinux Guide</a>'
-Firewall_Menu[13]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
-Firewall_Menu[14]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
-
-Firewall_Menu[15]='<span class="yellowsans">Monitoring - Logging - SIEM</span>'
-
-Firewall_Menu[16]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
-Firewall_Menu[17]='<a class="whitelink" href="https://support.nagios.com/forum/">Nagios forums</a>'
-Firewall_Menu[18]='<a class="whitelink" href="https://library.nagios.com/">Nagios Library</a>'
-Firewall_Menu[19]='<a class="whitelink" href="https://exchange.nagios.org/">Nagios Exchange</A>'
-Firewall_Menu[20]='<a class="whitelink" href="https://www.monitoring-plugins.org/">Monitoring-Plugins.org</A>'
-Firewall_Menu[21]='<a class="whitelink" href="https://forum.centreon.com/">Centreon forums</a>'
-
-Firewall_Menu[22]='<a class="whitelink" href="https://docs.tenable.com/">Tenable docs</a>'
-Firewall_Menu[23]='<a class="whitelink" href="https://community.rapid7.com/">Rapid7 Community</a>'
-Firewall_Menu[24]='<a class="whitelink" href="https://www.alienvault.com/forums/">AlienVault forums</A>'
-Firewall_Menu[25]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
-Firewall_Menu[26]='<a class="whitelink" href="https://barncat.fidelissecurity.com/">Fidelis Barncat</A>'
-Firewall_Menu[27]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
-
-Firewall_Menu[28]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
-Firewall_Menu[29]='<a class="whitelink" href="http://docs.net.com/fortigate/admin-guides">Fortinet Document Library</a>'
-Firewall_Menu[30]='<a class="whitelink" href="http://help.fortinet.com/cli/fos50hlp/56/index.htm">FortiOS 5.6 CLI Reference</A>'
+Firewall_Menu[5]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
+Firewall_Menu[6]='<a class="whitelink" href="http://docs.net.com/fortigate/admin-guides">Fortinet Document Library</a>'
+Firewall_Menu[7]='<a class="whitelink" href="http://help.fortinet.com/cli/fos50hlp/56/index.htm">FortiOS 5.6 CLI Reference</A>'
+Firewall_Menu[8]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
  // https://www.youtube.com/user/SecureNetworks/playlists
  // https://www.youtube.com/user/SecureNetworks/videos
  // https://www.fortinet.com/fortidemo.htmlui.html
  
-Firewall_Menu[31]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
-Firewall_Menu[32]='<a class="whitelink" href="https://community.qualys.com">Qualys Community</a>'
+Firewall_Menu[9]='<a class="whitelink" href="https://www.pfsense.org">pfSense Main</A>'
+Firewall_Menu[10]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense Forum</A>'
+Firewall_Menu[11]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
+
+
+
+Firewall_Menu[12]='<span class="yellowsans">Vulnerability Scanning/ Monitoring</span>'
+
+Firewall_Menu[13]='<a class="whitelink" href="http://www.openvas.org/">OpenVAS</a>'
+Firewall_Menu[14]='<a class="whitelink" href="https://docs.tenable.com/">Tenable - Nessus</a>'
+Firewall_Menu[15]='<a class="whitelink" href="https://community.qualys.com">Qualys Community</a>'
+Firewall_Menu[16]='<a class="whitelink" href="https://support.nagios.com/forum/">Nagios forums</a>'
+Firewall_Menu[17]='<a class="whitelink" href="https://library.nagios.com/">Nagios Library</a>'
+Firewall_Menu[18]='<a class="whitelink" href="https://exchange.nagios.org/">Nagios Exchange</A>'
+Firewall_Menu[19]='<a class="whitelink" href="https://www.monitoring-plugins.org/">Monitoring-Plugins.org</A>'
+Firewall_Menu[20]='<a class="whitelink" href="https://forum.centreon.com/">Centreon forums</a>'
+Firewall_Menu[21]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
+Firewall_Menu[22]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
+Firewall_Menu[23]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
+
+
+Firewall_Menu[24]='<a class="whitelink" href="https://community.rapid7.com/">Rapid7 Community</a>'
+Firewall_Menu[25]='<a class="whitelink" href="https://www.alienvault.com/forums/">AlienVault forums</A>'
+Firewall_Menu[26]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
+Firewall_Menu[27]='<a class="whitelink" href="https://barncat.fidelissecurity.com/">Fidelis Barncat</A>'
+Firewall_Menu[28]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
+
+Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
+Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
+Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
+Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
+
 Firewall_Menu[33]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
 Firewall_Menu[34]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
 Firewall_Menu[35]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
 
-Firewall_Menu[36]='<span class="yellowsans">(More-entire menu needs sorting)</span>'
+Firewall_Menu[36]='<span class="yellowsans">More SIEM/ Log Stuff</span>'
 Firewall_Menu[37]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
 Firewall_Menu[38]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
 Firewall_Menu[39]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
@@ -846,8 +846,6 @@ Firewall_Menu[44]='<a class="whitelink" href="http://blog.eagerelk.com/">EagerEl
 Firewall_Menu[45]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
 Firewall_Menu[46]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
 Firewall_Menu[47]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
-Firewall_Menu[48]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
-
 
 var MSStuff_Menu=new Array()
 MSStuff_Menu[0]='<span class="yellowsans">Official MS Sites</span>'
@@ -974,6 +972,10 @@ CMCICD_Menu[28]='<a class="whitelink" HREF="https://wiki.jenkins-ci.org/display/
 CMCICD_Menu[29]='<a class="whitelink" HREF="https://jenkins.io/doc/">Jenkins documentation</A>'
 CMCICD_Menu[30]='<a class="whitelink" HREF="https://jenkins.io/doc/book/managing/cli/">Jenkins CLI</A>'
 CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/jenkins/about">Cloudbees Jenkins Stuff</A>'
+
+CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, etc</span>'
+CMCICD_Menu[33]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
+CMCICD_Menu[34]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
 
 
 var Distro_DL_Menu=new Array()
