@@ -122,6 +122,52 @@ WebS_Menu[25]='<a class="whitelink" href="https://github.com/jnv/lists">JNVs lis
 WebS_Menu[26]='<a class="whitelink" href="https://github.com/sindresorhus/awesome">Sindres List of Awesome Lists</a>'
 WebS_Menu[27]='<a class="whitelink" href="https://github.com/t3chnoboy/awesome-awesome-awesome">t3chnoboys List of Awesome Lists</a>'
 
+WebS_Menu[28]='<span class="yellowsans">Online Converters &amp; Tools</span>'
+WebS_Menu[29]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'
+WebS_Menu[30]='<A class="whitelink" HREF="http://www.onlineconversion.com/">OnlineConversion</A>'
+WebS_Menu[31]='<a class="whitelink" href="http://www.webelements.com">WebElements</a>'
+WebS_Menu[32]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
+WebS_Menu[34]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
+WebS_Menu[35]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+WebS_Menu[36]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
+WebS_Menu[37]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
+WebS_Menu[38]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
+WebS_Menu[39]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
+WebS_Menu[40]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
+
+WebS_Menu[41]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
+WebS_Menu[42]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
+WebS_Menu[43]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
+WebS_Menu[44]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
+WebS_Menu[45]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
+WebS_Menu[46]='<a class="whitelink" href="http://md5hashing.net/">MD5Hashing.net</A>'
+WebS_Menu[47]='<a class="whitelink" href="http://www.asciitable.com/">ASCIITable.com</A>'
+WebS_Menu[48]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
+WebS_Menu[49]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
+
+WebS_Menu[50]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
+WebS_Menu[51]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
+WebS_Menu[52]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
+WebS_Menu[53]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
+WebS_Menu[54]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
+WebS_Menu[55]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var NetTool_Menu=new Array()
 NetTool_Menu[0]='<span class="yellowsans">General Net and DNS Tools</span>'
@@ -1292,14 +1338,6 @@ Nuke_Menu[26]='<a class="whitelink" href="http://www.lm.doe.gov">DOE Office of L
 //Nuke_Menu[31]='<A class="whitelink" href="http://www.miltoxproj.org/">Military Toxics Project</A>'
 
 
-
-var Widget_Menu=new Array()
-Widget_Menu[0]='<span class="yellowsans">Converters and Tools</span>'
-Widget_Menu[1]='<a class="whitelink" href="http://www.google.com/about/products/">Google Tools</a>'
-Widget_Menu[2]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
-Widget_Menu[5]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'
-Widget_Menu[6]='<A class="whitelink" HREF="http://www.onlineconversion.com/">OnlineConversion</A>'
-Widget_Menu[7]='<a class="whitelink" href="http://www.webelements.com">WebElements</a>'
 
 
 var menuwidth='200px' 
