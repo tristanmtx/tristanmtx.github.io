@@ -128,20 +128,21 @@ WebS_Menu[30]='<A class="whitelink" HREF="http://www.onlineconversion.com/">Onli
 WebS_Menu[31]='<a class="whitelink" href="http://www.webelements.com">WebElements</a>'
 WebS_Menu[32]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
 WebS_Menu[34]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
-WebS_Menu[35]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
-WebS_Menu[36]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
-WebS_Menu[37]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
-WebS_Menu[38]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
-WebS_Menu[39]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
-WebS_Menu[40]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
+WebS_Menu[35]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert files &amp; hashing</A>'
+WebS_Menu[36]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+WebS_Menu[37]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
+WebS_Menu[38]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
+WebS_Menu[39]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
+WebS_Menu[40]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
+WebS_Menu[41]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
 
-WebS_Menu[41]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
-WebS_Menu[42]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
-WebS_Menu[43]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
-WebS_Menu[44]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
-WebS_Menu[45]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
-WebS_Menu[46]='<a class="whitelink" href="http://md5hashing.net/">MD5Hashing.net</A>'
-WebS_Menu[47]='<a class="whitelink" href="http://www.asciitable.com/">ASCIITable.com</A>'
+WebS_Menu[42]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
+WebS_Menu[43]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
+WebS_Menu[44]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
+WebS_Menu[45]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
+WebS_Menu[46]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
+
+WebS_Menu[47]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
 WebS_Menu[48]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
 WebS_Menu[49]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
 
@@ -151,22 +152,6 @@ WebS_Menu[52]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx
 WebS_Menu[53]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
 WebS_Menu[54]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
 WebS_Menu[55]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 var NetTool_Menu=new Array()
@@ -180,9 +165,9 @@ NetTool_Menu[6]='<a class="whitelink" HREF="http://network-tools.com/">Network-T
 NetTool_Menu[7]='<a class="whitelink" HREF="http://www.kloth.net/services/">Kloth.net Services</A>'
 NetTool_Menu[8]='<a class="whitelink" HREF="https://centralops.net/co/">CentralOps.net</A>'
 // https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
-// FROM SECOPS ADD - http://www.ipvoid.com/">IPVoid tools</A>'
+// http://www.ipvoid.com/">IPVoid tools</A>'
 // https://www.whatismyip.com/
-// FROM SECOPS ADD - https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
+// https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
 // https://www.ipaddressguide.com/">IPAddressGuide.com (IPv4 and v6)</A>'
 
 NetTool_Menu[9]='<span class="yellowsans">Regional Internet Registry Whois</span>'
