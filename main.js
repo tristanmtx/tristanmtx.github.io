@@ -678,7 +678,8 @@ ComSec2_Menu[18]='<a class="whitelink" href="http://www.h2k2.net">H2K2 Security 
 ComSec2_Menu[19]='<a class="whitelink" href="http://www.cansecwest.com">CanSecWest Security Conf</a>'
 ComSec2_Menu[20]='<a class="whitelink" href="http://pacsec.jp/">PacSec Security Conf</a>'
 ComSec2_Menu[21]='<a class="whitelink" href="https://github.com/nixawk/pentest-wiki">nixawk PenTest Wiki</A>'
-ComSec2_Menu[22]='<a class="whitelink" href="http://forensicswiki.org/">ForensicsWiki</A>'
+ComSec2_Menu[22]='<a class="whitelink" href="https://attack.mitre.org/wiki/Main_Page">Mitre.org ATT&amp;CK wiki</A>'
+ComSec2_Menu[23]='<a class="whitelink" href="http://forensicswiki.org/">ForensicsWiki</A>'
 ComSec2_Menu[24]='<a class="whitelink" href="https://www.owasp.org">OWASP Wiki</A>'
 
 ComSec2_Menu[25]='<span class="yellowsans">Online PCAP resources</span>'
@@ -787,7 +788,7 @@ Malware_Menu[28]='<a class="whitelink" href="https://isc.sans.edu/">SANS Interne
 Malware_Menu[29]='<a class="whitelink" href="http://www.cvedetails.com/">CVE Details</A>'
 Malware_Menu[30]='<a class="whitelink" href="https://cve.mitre.org/">Mitre.org CVE</a>' 
 Malware_Menu[31]='<a class="whitelink" href="http://cwe.mitre.org/">Mitre.org CWE</A>'
-Malware_Menu[32]='<a class="whitelink" href="https://attack.mitre.org/wiki/Main_Page">Mitre.org ATT&amp;CK wiki</A>'
+
 Malware_Menu[33]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
 Malware_Menu[34]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
 Malware_Menu[35]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
