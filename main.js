@@ -105,6 +105,7 @@ WebS_Menu[10]='<a class="whitelink" href="http://www.archive.org/">The Internet 
 WebS_Menu[11]='<a class="whitelink" href="http://dmoz.org">The DMOZ Open Directory Project</a>'
 WebS_Menu[12]='<a class="whitelink" href="http://vlib.org/">The WWW Virtual Library</a>'
 
+
 WebS_Menu[13]='<span class="yellowsans">OSINT Resources</span>'
 WebS_Menu[14]='<a class="whitelink" href="http://osintframework.com/">OSINT Framework interface</A>'
 WebS_Menu[15]='<a class="whitelink" href="http://www.i-intelligence.eu/open-source-intelligence-tools-and-resources-handbook/">iIntelligence OSINT listing</A>'
@@ -261,7 +262,44 @@ Net2_Menu[29]='<a class="whitelink" href="https://www.juniper.net/techpubs/">Jun
 Net2_Menu[30]='<a class="whitelink" href="https://forums.juniper.net/">Juniper Forums</A>'
 Net2_Menu[31]='<a class="whitelink" href="http://kb.juniper.net/">Juniper KBase</A>'
 
+var Gov_Menu2=new Array()
+Gov_Menu2[0]='<span class="yellowsans">US Govt Resources</span>'
+Gov_Menu2[1]='<a class="whitelink" href="http://www.firstgov.gov/">FirstGov - US Govt Central</A>'
+Gov_Menu2[2]='<a class="whitelink" href="http://thomas.loc.gov/">THOMAS - US Legislative Gateway</a> '
+Gov_Menu2[3]='<a class="whitelink" href="http://www.gpoaccess.gov/index.html">GPO Access- Govt Printing Ofc</a>'
+Gov_Menu2[4]='<a class="whitelink" href="http://uscode.house.gov/usc.htm">US Code - US House of Reps</a>'
+Gov_Menu2[5]='<a class="whitelink" href="http://www4.law.cornell.edu/uscode/topn/">US Code - Index by Popular Names</A>'
+Gov_Menu2[6]='<a class="whitelink" href="http://www.access.gpo.gov/nara/cfr/">Code of Federal Regulations</a>'
+Gov_Menu2[7]='<a class="whitelink" href="http://gsulaw.gsu.edu/metaindex/">US Legal Research MetaIndex</A>'
+Gov_Menu2[8]='<a class="whitelink" href="http://www.ncsl.org/">Natl Conf of State Legislatures</A>'
+Gov_Menu2[9]='<a class="whitelink" href="http://www.nara.gov/">NARA - The US National Archives</A>'
+Gov_Menu2[10]='<a class="whitelink" href="http://www.census.gov/">US Census Bureau</a>'
 
+Gov_Menu2[11]='<span class="yellowsans">Texas Govt Resources</span>'
+Gov_Menu2[12]='<a class="whitelink" href="http://www.state.tx.us/">TexasOnline - The State of Texas</a>'
+Gov_Menu2[13]='<a class="whitelink" href="http://www.capitol.state.tx.us/">The Texas Legislature Online</a>'
+Gov_Menu2[14]='<a class="whitelink" href="http://www.lrl.state.tx.us/">Tx Legislative Reference Library</A>'
+Gov_Menu2[15]='<a class="whitelink" href="http://www.capitol.state.tx.us/hrofr/hrofr.htm">Tx House Research Organization</A>'
+Gov_Menu2[16]='<a class="whitelink" href="http://www.tdh.state.tx.us/">Texas Department of Health</a>'
+Gov_Menu2[17]='<a class="whitelink" href="http://www.tceq.state.tx.us">Tx Commission on Enviro Quality</a>'
+Gov_Menu2[18]='<a class="whitelink" href="http://www.tsl.state.tx.us/trail/index.html">TRAIL: Texas State Library</a>'
+Gov_Menu2[19]='<a class="whitelink" href="http://204.65.105.13/tac/index.html">Texas Administrative Code</a>'
+Gov_Menu2[20]='<a class="whitelink" href="http://www.capitol.state.tx.us/statutes/statutes.html">Texas Statutes Listing</a>'
+Gov_Menu2[21]='<a class="whitelink" href="http://www.courts.state.tx.us/">Texas Judiciary Online</A>'
+Gov_Menu2[22]='<a class="whitelink" href="http://204.65.105.13/texreg/issues.html">The Texas Register</a>'
+
+Gov_Menu2[23]='<span class="yellowsans">Business News and Data</span>'
+Gov_Menu2[24]='<a class="whitelink" href="http://www.ceoexpress.com/">CEOExpress</A>'
+Gov_Menu2[25]='<a class="whitelink" href="http://www.businesswire.com/">BusinessWire</A>'
+Gov_Menu2[26]='<a class="whitelink" href="http://www.redherring.com/">Red Herring</A>'
+Gov_Menu2[27]='<a class="whitelink" href="http://www.bloomberg.com/">Bloomberg Business</A>'
+Gov_Menu2[28]='<a class="whitelink" href="http://www.bbb.com/">BBB Company Search</A>'
+Gov_Menu2[29]='<a class="whitelink" href="http://hoovweb.hoovers.com/">Hoovers Handbook Online</A>'
+Gov_Menu2[30]='<a class="whitelink" href="http://finance.yahoo.com/">Yahoo Finance</A>'
+Gov_Menu2[31]='<a class="whitelink" href="http://www.morningstar.com/">MorningStar</a>'
+Gov_Menu2[32]='<a class="whitelink" href="https://www.crunchbase.com">CrunchBase</A>'
+Gov_Menu2[33]='<a class="whitelink" href="http://www.inc.com">Inc.com</A>'
+Gov_Menu2[34]='<a class="whitelink" href="https://www.vbprofiles.com/">VentureBeat Profiles</a>'
 
 
 
