@@ -157,6 +157,36 @@ WebTools_Menu[26]='<a class="whitelink" href="http://www.regexe.com/">RegExe - R
 WebTools_Menu[27]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
 WebTools_Menu[28]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
 
+
+var Radio_Menu=new Array()
+Radio_Menu[0]='<a class="whitelink" href="http://www.ieee802.org/11/">IEEE 802.11 Working Group</a>'
+Radio_Menu[1]='<a class="whitelink" href="http://www.wi-fi.org/">Wi-Fi Alliance</a>'
+Radio_Menu[2]='<a class="whitelink" href="https://www.radioreference.com/">RadioReference.com/</A>'
+Radio_Menu[3]='<a class="whitelink" href="http://www.dd-wrt.com/">DD-WRT</a>'
+Radio_Menu[4]='<a class="whitelink" href="https://wiki.openwrt.org/">OpenWRT wiki</a>'
+Radio_Menu[5]='<a class="whitelink" href="https://w1.fi/">Hostapd and WPA_supplicant</A>'
+
+Radio_Menu[6]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
+// Aruba?
+
+Radio_Menu[7]='<a class="whitelink" href="http://www.kismetwireless.net/">KismetWireless</a>'
+Radio_Menu[8]='<a class="whitelink" href="https://www.aircrack-ng.org/">Aircrack-ng suite</A>'
+Radio_Menu[9]='<a class="whitelink" href="https://github.com/derv82">Wifite</A>'
+Radio_Menu[10]='<a class="whitelink" href="https://github.com/GDSSecurity/wifitap">Wifitap</A>'
+
+Radio_Menu[11]='<a class="whitelink" href="https://github.com/judocol/bully">Bully (WPS attack)</a>'
+Radio_Menu[12]='<a class="whitelink" href="http://www.willhackforsushi.com/?page_id=50">coWPAtty</A>'
+Radio_Menu[13]='<a class="whitelink" href="https://github.com/savio-code/fern-wifi-cracker">Fern-Wifi-Cracker</A>'
+
+Radio_Menu[14]='<a class="whitelink" href="https://github.com/savio-code/ghost-phisher">Ghost Phisher</A>'
+Radio_Menu[15]='<a class="whitelink" href="https://wifiphisher.org/">WifiPhisher</A>'
+
+Radio_Menu[16]='<a class="whitelink" href="https://pyrit.wordpress.com/">Pyrit</a>'
+
+
+
+
+
 var NetTool_Menu=new Array()
 NetTool_Menu[0]='<span class="yellowsans">General Net and DNS Tools</span>'
 NetTool_Menu[1]='<a class="whitelink" HREF="http://www.dnsstuff.com/tools">DNSstuff Toolbox</A>'
