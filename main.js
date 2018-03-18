@@ -274,6 +274,7 @@ Net2_Menu[17]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/i
 Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
 Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
 
+
 Net2_Menu[20]='<span class="yellowsans">AS/ BGP Lookups</span>'
 Net2_Menu[21]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
 Net2_Menu[22]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
@@ -304,6 +305,9 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 //Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
 // https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
 
+// Where????
+//Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
+//Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
 
 
 var Gov_Menu2=new Array()
@@ -729,6 +733,10 @@ ComSec2_Menu[36]='<a class="whitelink" href="http://nvd.nist.gov">NIST Natl Vuln
 ComSec2_Menu[37]='<a class="whitelink" href="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
 ComSec2_Menu[38]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
 
+ComSec2_Menu[39]='<span class="yellowsans">Rule/ Pattern Matching Resources</span>'
+ComSec2_Menu[40]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
+ComSec2_Menu[41]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
+ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
 // 
 // Removed- can be in a new infosec menu
 // ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
@@ -893,20 +901,15 @@ Firewall_Menu[18]='<a class="whitelink" href="https://exchange.nagios.org/">Nagi
 Firewall_Menu[19]='<a class="whitelink" href="https://www.monitoring-plugins.org/">Monitoring-Plugins.org</A>'
 Firewall_Menu[20]='<a class="whitelink" href="https://forum.centreon.com/">Centreon forums</a>'
 Firewall_Menu[21]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
-//Firewall_Menu[22]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
-//Firewall_Menu[23]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
 
 
 Firewall_Menu[24]='<a class="whitelink" href="https://community.rapid7.com/">Rapid7 Community</a>'
 Firewall_Menu[25]='<a class="whitelink" href="https://www.alienvault.com/forums/">AlienVault forums</A>'
 Firewall_Menu[26]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
-Firewall_Menu[27]='<a class="whitelink" href="https://barncat.fidelissecurity.com/">Fidelis Barncat</A>'
+//Firewall_Menu[27]='<a class="whitelink" href="https://barncat.fidelissecurity.com/">Fidelis Barncat</A>'
 Firewall_Menu[28]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
-
 Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
-Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
-//Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
-//Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
+// Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
 
 Firewall_Menu[33]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
 Firewall_Menu[34]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
@@ -951,14 +954,21 @@ MSStuff_Menu[20]='<a class="whitelink" href="https://geekviews.tech/a-z-windows-
 MSStuff_Menu[21]='<a class="whitelink" href="https://commandwindows.com/">Vic Laurie - Windows CLI site</A>'
 MSStuff_Menu[22]='<a class="whitelink" href="https://docs.microsoft.com/en-us/cli/azure/">Azure CLI 2.0 Ref Feb. 2017</a>'
 
-MSStuff_Menu[23]='<span class="yellowsans">Unofficial MS Sites</span>'
-MSStuff_Menu[24]='<a class="whitelink" href="http://www.activewin.com">ActiveWin</a>'
-MSStuff_Menu[25]='<a class="whitelink" href="http://www.wininsider.com/">WinInsider</A>'
-MSStuff_Menu[26]='<a class="whitelink" href="http://www.annoyances.org/">Windows Annoyances</a>'
-MSStuff_Menu[27]='<a class="whitelink" href="http://www.petri.com">Petri IT Kbase</A>'
+MSStuff_Menu[23]='<span class="yellowsans">Azure Resources</span>'
+MSStuff_Menu[24]='<a class="whitelink" href="https://azure.microsoft.com/en-us/resources/">Azure Resource Center</A>'
+MSStuff_Menu[25]='<a class="whitelink" href="https://github.com/Azure">Azure at GittHub</A>'
+MSStuff_Menu[26]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
+MSStuff_Menu[27]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
+MSStuff_Menu[28]='<a class="whitelink" href="https://https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
 
-MSStuff_Menu[28]='<a class="whitelink" href="http://computerperformance.co.uk/">Guy Thomas - Computer Perf LTD</a>'
-MSStuff_Menu[29]='<a class="whitelink" href="http://itproguru.com/">Dan Stolts - ITProGuru.com</A>'
+MSStuff_Menu[29]='<span class="yellowsans">Unofficial MS Sites</span>'
+MSStuff_Menu[30]='<a class="whitelink" href="http://www.activewin.com">ActiveWin</a>'
+MSStuff_Menu[31]='<a class="whitelink" href="http://www.wininsider.com/">WinInsider</A>'
+MSStuff_Menu[32]='<a class="whitelink" href="http://www.annoyances.org/">Windows Annoyances</a>'
+MSStuff_Menu[33]='<a class="whitelink" href="http://www.petri.com">Petri IT Kbase</A>'
+
+MSStuff_Menu[34]='<a class="whitelink" href="http://computerperformance.co.uk/">Guy Thomas - Computer Perf LTD</a>'
+MSStuff_Menu[35]='<a class="whitelink" href="http://itproguru.com/">Dan Stolts - ITProGuru.com</A>'
 
 
 
@@ -1006,12 +1016,7 @@ MSStuff_Menu2[33]='<a class="whitelink" href="https://adsecurity.org/?page_id=39
 
 MSStuff_Menu2[34]='<a class="whitelink" href="https://aws.amazon.com/documentation/directory-service/">AWS DS docs</a>'
 MSStuff_Menu2[35]='<a class="whitelink" href="https://aws.amazon.com/blogs/security/tag/active-directory/">AWS Sec blog - AD Fed login</A>'
-MSStuff_Menu2[36]='<a class="whitelink" href="https://azure.microsoft.com/en-us/resources/">Azure Resource Center</A>'
-MSStuff_Menu2[37]='<a class="whitelink" href="https://github.com/Azure">Azure at GittHub</A>'
 
-MSStuff_Menu2[38]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
-MSStuff_Menu2[39]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
-MSStuff_Menu2[40]='<a class="whitelink" href="https://https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
 
 
 
