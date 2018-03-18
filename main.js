@@ -279,7 +279,7 @@ Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/i
 Net2_Menu[20]='<span class="yellowsans">AS/ BGP Lookups</span>'
 Net2_Menu[21]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
 Net2_Menu[22]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
-Net2_Menu[23]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BPG Tools</A>'
+Net2_Menu[23]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BGP Tools</A>'
 Net2_Menu[24]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
 Net2_Menu[25]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
 Net2_Menu[26]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
@@ -295,9 +295,6 @@ Net2_Menu[35]='<a class="whitelink" href="telnet://route-server.rogers.com">teln
 Net2_Menu[36]='<a class="whitelink" href="telnet://route-server.cerf.net">telnet://route-server.cerf.net</A>'
 Net2_Menu[37]='<a class="whitelink" href="telnet://route-server.videotron.net">telnet://route-server.videotron.net</A>'
 Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
-
-
-
 
 
 //Net2_Menu[6]='<span class="yellowsans">Tools and Practice</span>'
