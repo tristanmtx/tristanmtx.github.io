@@ -238,19 +238,7 @@ NetTool_Menu[30]='<a class="whitelink" HREF="http://dnssec-debugger.verisignlabs
 NetTool_Menu[31]='<a class="whitelink" HREF="http://dnssectest.sidn.nl/">SIDN DNSSEC Test</a>'
 NetTool_Menu[32]='<a class="whitelink" HREF="https://cryptoreport.websecurity.symantec.com/checker/">Symantec SSL/TLS CryptoReport</a>'
 
-NetTool_Menu[33]='<span class="yellowsans">AS/ BGP Lookups</span>'
-NetTool_Menu[34]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
-NetTool_Menu[35]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
-NetTool_Menu[36]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BPG Tools</A>'
-NetTool_Menu[37]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
-NetTool_Menu[38]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
-NetTool_Menu[39]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
-NetTool_Menu[40]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
-NetTool_Menu[41]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
-NetTool_Menu[42]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
-NetTool_Menu[43]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
-NetTool_Menu[44]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
-NetTool_Menu[45]='<a class="whitelink" href="http://www.traceroute.org/">Traceroute.org Jumppoints</a>' 
+
 
 //NetTool_Menu[45]='<a class="whitelink" href="http://www.potaroo.net/cgi-bin/ipv6addr">IPv6 Address Report</a>'
 
@@ -270,36 +258,58 @@ Net2_Menu[2]='<a class="whitelink" href="https://datatracker.ietf.org/">IETF Dat
 Net2_Menu[3]='<a class="whitelink" href="https://wiki.wireshark.org/FrontPage">The Wireshark Wiki</A>'
 Net2_Menu[4]='<a class="whitelink" href="http://www.tcpipguide.com/">TCPIPGuide.com Wiki</A>'
 Net2_Menu[5]='<a class="whitelink" href="https://wiki.mef.net">MEF (Metro Ethernet Forum) Wiki</A>'
+Net2_Menu[6]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
+Net2_Menu[7]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
 
-Net2_Menu[6]='<span class="yellowsans">Tools and Practice</span>'
-Net2_Menu[7]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
-Net2_Menu[8]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
-Net2_Menu[9]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
-Net2_Menu[10]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
-Net2_Menu[11]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
-Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
+Net2_Menu[8]='<span class="yellowsans">Cisco Related</span>'
+Net2_Menu[9]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
+Net2_Menu[10]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
+Net2_Menu[11]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
+Net2_Menu[12]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco- Product/Tech Support Tool</A>'
+Net2_Menu[13]='<a class="whitelink" href="http://upgrad.cloudapps.cisco.com/upgrad/">Cisco Product Upgrade tool</A>'
+// Net2_Menu[12]='<a class="whitelink" href="http://www.bradreese.com/blog/8-11-2015.htm">Cisco Product Quick Ref Guides</a>'
+// link dead? site broken?
+Net2_Menu[14]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
+Net2_Menu[15]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
+Net2_Menu[16]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
+Net2_Menu[17]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
+Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
+Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
+
+Net2_Menu[20]='<span class="yellowsans">AS/ BGP Lookups</span>'
+Net2_Menu[21]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
+Net2_Menu[22]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
+Net2_Menu[23]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BPG Tools</A>'
+Net2_Menu[24]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
+Net2_Menu[25]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
+Net2_Menu[26]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
+Net2_Menu[27]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
+Net2_Menu[28]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
+Net2_Menu[29]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
+Net2_Menu[30]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
+Net2_Menu[31]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
+Net2_Menu[32]='<a class="whitelink" href="http://www.traceroute.org/">Traceroute.org Jumppoints</a>' 
+Net2_Menu[33]='<span class="yellowsans">Route Servers</span>'
+Net2_Menu[34]='<a class="whitelink" href="telnet://route-server.ip.att.net">telnet://route-server.ip.att.net</A>'
+Net2_Menu[35]='<a class="whitelink" href="telnet://route-server.rogers.com">telnet://route-server.rogers.com</A>'
+Net2_Menu[36]='<a class="whitelink" href="telnet://route-server.cerf.net">telnet://route-server.cerf.net</A>'
+Net2_Menu[37]='<a class="whitelink" href="telnet://route-server.videotron.net">telnet://route-server.videotron.net</A>'
+Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
+
+
+
+
+
+//Net2_Menu[6]='<span class="yellowsans">Tools and Practice</span>'
+//Net2_Menu[7]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
+//Net2_Menu[8]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
+//Net2_Menu[9]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
+//Net2_Menu[10]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
+//Net2_Menu[11]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
+//Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
 // https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
- 
-Net2_Menu[13]='<span class="yellowsans">Cisco Related</span>'
-Net2_Menu[14]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
-Net2_Menu[15]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
-Net2_Menu[16]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
-Net2_Menu[17]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco- Product/Tech Support Tool</A>'
-Net2_Menu[18]='<a class="whitelink" href="http://upgrad.cloudapps.cisco.com/upgrad/">Cisco Product Upgrade tool</A>'
-Net2_Menu[19]='<a class="whitelink" href="http://www.bradreese.com/blog/8-11-2015.htm">Cisco Product Quick Ref Guides</a>'
-Net2_Menu[20]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco (replacement for UniverCD)</A>'
-Net2_Menu[21]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
-Net2_Menu[22]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
-Net2_Menu[23]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
-Net2_Menu[24]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
-Net2_Menu[25]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
-Net2_Menu[26]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
 
-Net2_Menu[27]='<span class="yellowsans">Juniper - JunOS Related</span>'
-Net2_Menu[28]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
-Net2_Menu[29]='<a class="whitelink" href="https://www.juniper.net/techpubs/">Juniper Docs</A>'
-Net2_Menu[30]='<a class="whitelink" href="https://forums.juniper.net/">Juniper Forums</A>'
-Net2_Menu[31]='<a class="whitelink" href="http://kb.juniper.net/">Juniper KBase</A>'
+
 
 var Gov_Menu2=new Array()
 Gov_Menu2[0]='<span class="yellowsans">US Govt Resources</span>'
@@ -448,23 +458,6 @@ Business_Menu[31]='<a class="whitelink" href="http://www.inc.com">Inc.com</A>'
 Business_Menu[32]='<a class="whitelink" href="https://www.vbprofiles.com/">VentureBeat Profiles</a>'
  
 
-
-// ---------------------------------------------------------------------------
-
-
-var Austin_Menu=new Array()
-Austin_Menu[0]='<span class="yellowsans">Austin, Texas</span>'
-Austin_Menu[1]='<a class="whitelink" href="http://www.ci.austin.tx.us/">The City of Austin</a>'
-Austin_Menu[2]='<a class="whitelink" href="http://www.co.travis.tx.us/">Travis County, Texas</a>'
-Austin_Menu[3]='<a class="whitelink" href="http://www.capmetro.org/">Capital Metro</a>'
-Austin_Menu[4]='<a class="whitelink" href="http://www.statesman.com">Austin American Statesman</a>'
-Austin_Menu[5]='<a class="whitelink" href="http://www.auschron.com/">The Austin Chronicle</a>'
-Austin_Menu[6]='-------------------------'
-Austin_Menu[7]='<a class="whitelink" href="http://www.ProgressiveAustin.org">ProgressiveAustin.org</A>'
-
-
-
-// ---------------------------------------------------------------------------
 
 var SW_Menu=new Array()
 
