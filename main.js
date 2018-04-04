@@ -160,7 +160,18 @@ WebTools_Menu[30]='<a class="whitelink" href="https://regex101.com/">RegEx101 - 
 WebTools_Menu[31]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
 WebTools_Menu[32]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
 WebTools_Menu[33]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
-
+// http://www.satview.org">SatView</A>'
+// http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
+// http://www.keepvid.com">KeepVid Downloader</A>' 
+// http://99downloader.com/">99Downloader</A>'   
+// http://getfbstuff.com">Facebook Video Downloader</A>'
+// http://twittervideodownloader.com/">Twitter Video Downloader</A>'
+// http://99downloader.com/instagram-video-downloader">Instagram Video Downloader</A>'
+// 
+// http://www.visiocafe.com/">VisioCafe</A>'
+// http://www.conceptdraw.com/solution-park/">ConceptDraw</A>'
+// https://www.edrawsoft.com/share-flowchart.php">Edraw flowchart templates</A>'
+// https://stenciltown.omnigroup.com/">Stenciltown for OmniGraffle</A>'
 
 var Radio_Menu=new Array()
 Radio_Menu[0]='<span class="yellowsans">General Tools and Reference</span>'
@@ -175,7 +186,7 @@ Radio_Menu[7]='<a class="whitelink" href="https://support.ruckuswireless.com/">R
 
 Radio_Menu[9]='<span class="yellowsans">Scanning and Pentestings</span>'
 Radio_Menu[10]='<a class="whitelink" href="http://www.kismetwireless.net/">KismetWireless</a>'
-Radio_Menu[11]='<a class="whitelink" href="http://www.kismetwireless.net/">KismetWireless</a>'
+Radio_Menu[11]='<a class="whitelink" href="https://www.metageek.com/">MetaGeek - inSSIDer</a>'
 
 Radio_Menu[12]='<a class="whitelink" href="https://www.aircrack-ng.org/">Aircrack-ng suite</A>'
 Radio_Menu[13]='<a class="whitelink" href="https://github.com/derv82">Wifite</A>'
@@ -264,7 +275,7 @@ Net2_Menu[8]='<a class="whitelink" href="https://www.iana.org/assignments/ieee-8
 Net2_Menu[9]='<a class="whitelink" href="https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml">IANA ICMP Types &amp; Codes</A>'
 Net2_Menu[10]='<a class="whitelink" href="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml">IANA Internet Protocol #s</A>'
 Net2_Menu[11]='<a class="whitelink" href="https://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xhtml">IANA IPv6 Address Space</A>'
-Net2_Menu[12]='<a class="whitelink" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml">IANA Transport Protocol #s</A>'
+Net2_Menu[12]='<a class="whitelink" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt">IANA Transport Protocol #s</A>'
 
 Net2_Menu[13]='<span class="yellowsans">Cisco Related</span>'
 Net2_Menu[14]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
@@ -305,7 +316,8 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 //Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
 // https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
 
-// Where????
+//Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
+// Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
 //Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
 //Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
 
@@ -790,16 +802,17 @@ ComSec_Menu[21]='<a class="whitelink" href="https://www.pcisecuritystandards.org
 ComSec_Menu[22]='<a class="whitelink" href="https://pcicompliance.stanford.edu/">PCI DSS at Stanford</a>'
 ComSec_Menu[23]='<a class="whitelink" href="http://www.hhs.gov/hipaa/for-professionals/index.html">HIPAA at HHS.gov</A>'
 ComSec_Menu[24]='<a class="whitelink" href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/index.html">HIPAA at CMS.gov</A>'
-ComSec_Menu[25]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
-ComSec_Menu[26]='<a class="whitelink" href="https://gdpr-info.eu/">GDPR- EU Gen Data Protection</A>'
+ComSec_Menu[25]='<a class="whitelink" href="http://www.hl7.org/">HL7- Health Level Seven</A>'
+ComSec_Menu[26]='<a class="whitelink" href="http://www.coso.org/guidance.htm">COSO for SOX Compliance, ERM</A>'
+ComSec_Menu[27]='<a class="whitelink" href="https://gdpr-info.eu/">GDPR- EU Gen Data Protection</A>'
 
-ComSec_Menu[27]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
-ComSec_Menu[28]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
-ComSec_Menu[29]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
-ComSec_Menu[30]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
-ComSec_Menu[31]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
-ComSec_Menu[32]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
-ComSec_Menu[33]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
+ComSec_Menu[28]='<a class="whitelink" href="http://www.experian.com/corporate/vendors.html">EI3PA - Experian Assessment</A>'
+ComSec_Menu[29]='<a class="whitelink" href="https://www.redspin.com/it-security-blog/2011/01/understanding-the-experian-independent-third-party-assessment-ei3pa-requirements-2/">(More about EI3PA)</A>'
+ComSec_Menu[30]='<a class="whitelink" href="https://cloudsecurityalliance.org/group/consensus-assessments/">CAI/CCM Assessment</A>'
+ComSec_Menu[31]='<a class="whitelink" href="https://www.ssae-16.com/">SSAE-16, SSAE-18 (SOC1-3)</A>'
+ComSec_Menu[32]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fre">Fed Rules of Evidence (Cornell U)</A>' 
+ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
+ComSec_Menu[34]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
 
 
@@ -908,8 +921,7 @@ Firewall_Menu[25]='<a class="whitelink" href="https://www.alienvault.com/forums/
 Firewall_Menu[26]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
 //Firewall_Menu[27]='<a class="whitelink" href="https://barncat.fidelissecurity.com/">Fidelis Barncat</A>'
 Firewall_Menu[28]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
-Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
-// Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
+
 
 Firewall_Menu[33]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
 Firewall_Menu[34]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
