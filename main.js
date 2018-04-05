@@ -901,7 +901,7 @@ Firewall_Menu[9]='<a class="whitelink" href="https://www.pfsense.org">pfSense Ma
 Firewall_Menu[10]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense Forum</A>'
 Firewall_Menu[11]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
 
-
+// https://support.f5.com/">f5 Support - KBase/DevCentral</A>'
 
 Firewall_Menu[12]='<span class="yellowsans">Vulnerability Scanning/ Monitoring</span>'
 
@@ -971,7 +971,7 @@ MSStuff_Menu[24]='<a class="whitelink" href="https://azure.microsoft.com/en-us/r
 MSStuff_Menu[25]='<a class="whitelink" href="https://github.com/Azure">Azure at GittHub</A>'
 MSStuff_Menu[26]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
 MSStuff_Menu[27]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
-MSStuff_Menu[28]='<a class="whitelink" href="https://https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
+MSStuff_Menu[28]='<a class="whitelink" href="https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
 
 MSStuff_Menu[29]='<span class="yellowsans">Unofficial MS Sites</span>'
 MSStuff_Menu[30]='<a class="whitelink" href="http://www.activewin.com">ActiveWin</a>'
