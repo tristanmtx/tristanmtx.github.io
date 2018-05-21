@@ -127,6 +127,7 @@ var WebTools_Menu=new Array()
 WebTools_Menu[0]='<span class="yellowsans">Online Converters &amp; Tools</span>'
 WebTools_Menu[1]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'
 WebTools_Menu[2]='<A class="whitelink" HREF="http://www.onlineconversion.com/">OnlineConversion</A>'
+// https://www.rapidtables.com/
 WebTools_Menu[3]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
 WebTools_Menu[4]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
 WebTools_Menu[5]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
@@ -219,9 +220,11 @@ NetTool_Menu[7]='<a class="whitelink" HREF="http://www.kloth.net/services/">Klot
 NetTool_Menu[8]='<a class="whitelink" HREF="https://centralops.net/co/">CentralOps.net</A>'
 // https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
 // http://www.ipvoid.com/">IPVoid tools</A>'
+// http://www.toolsvoid.com/
 // https://www.whatismyip.com/
 // https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
 // https://www.ipaddressguide.com/">IPAddressGuide.com (IPv4 and v6)</A>'
+
 
 NetTool_Menu[9]='<span class="yellowsans">Regional Internet Registry Whois</span>'
 NetTool_Menu[10]='<a class="whitelink" HREF="https://wq.apnic.net/whois-search/static/search.html">APNIC Whois</A>'
@@ -316,11 +319,12 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 //Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
 // https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
 
+// http://pcp.io">Performance Co-Pilot system metrics</A>'
 //Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
 // Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
 //Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
 //Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
-
+// http://www.qosient.com/argus/">QoSient Argus</A>'
 
 var Gov_Menu2=new Array()
 Gov_Menu2[0]='<span class="yellowsans">US Govt Resources</span>'
@@ -477,6 +481,9 @@ Unix_Menu[8]='<a class="whitelink" href="https://www.rootusers.com/">RootUsers.c
 Unix_Menu[9]='<a class="whitelink" href="http://www.binarytides.com/">BinaryTides</A>'
 Unix_Menu[10]='<a class="whitelink" href="http://www.tecmint.com">Tecmint How-tos and Guides</A>'
 Unix_Menu[11]='<a class="whitelink" href="http://www.thegeekstuff.com">TheGeekStuff.com Guides</A>'
+// https://www.slashroot.in/">SlashRoot</A>'
+// http://www.linuxnix.com/">Linux Juggernaut</A>'
+// https://www.commandlinefu.com/commands/browse/sort-by-votes">Commandlinefu top voted tips</A>'
 Unix_Menu[12]='<a class="whitelink" href="http://xmodulo.com/">Xmodulo How-tos and Guides</A>'
 Unix_Menu[13]='<a class="whitelink" href="http://linux-training.be/">linux-training.be - Cobbaut</A>'
 Unix_Menu[14]='<a class="whitelink" href="http://www.linuxfromscratch.org">Linux From Scratch</A>'
@@ -707,14 +714,15 @@ ComSec2_Menu[5]='<a class="whitelink" href="http://packetlife.net/armory/">Packe
 ComSec2_Menu[6]='<a class="whitelink" href="http://www.toolswatch.org/">ToolsWatch.org Listing</A>'
 ComSec2_Menu[7]='<a class="whitelink" href="http://seclist.us/">SecList.us Tools</A>'
 ComSec2_Menu[8]='<a class="whitelink" href="http://www.kitploit.com/">KitPloit.com Tools</A>'
-ComSec2_Menu[9]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
+// ComSec2_Menu[9]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
 ComSec2_Menu[10]='<a class="whitelink" href="https://www.concise-courses.com/hacking-tools/">Concise-Courses.com List</A>'
 ComSec2_Menu[11]='<a class="whitelink" href="https://www.defcon.org/html/links/dc-tools.html">DefCon Archive</a>'
-ComSec2_Menu[12]='<a class="whitelink" href="https://forensics.cert.org/">CERT Forensics Linux Repo</A>'
+ComSec2_Menu[12]='<a class="whitelink" href="https://forensics.cert.org/">CERT Forensics Repo (LiFTeR)</A>'
 ComSec2_Menu[13]='<a class="whitelink" href="https://tools.kali.org/">Tools in Kali Linux</A>'
 ComSec2_Menu[14]='<a class="whitelink" href="http://cyborg.ztrela.com/tools/">Tools in Cyborg Linux</A>'
 ComSec2_Menu[15]='<a class="whitelink" href="https://blackarch.org/tools.html">Tools in BlackArch Linux</A>'
 // CANT FIND TOOLS LIST OR RELEASE NOTES FOR BUGTRAQ-II!!!
+
 ComSec2_Menu[16]='<a class="whitelink" href="https://sift.readthedocs.io/en/latest/user/packages.html">SANS SIFT package list</A>'
 ComSec2_Menu[17]='<a class="whitelink" href="http://www.deftlinux.net/package-list/">DEFT package list</A>'
 
@@ -723,13 +731,12 @@ ComSec2_Menu[17]='<a class="whitelink" href="http://www.deftlinux.net/package-li
 ComSec2_Menu[18]='<span class="yellowsans">Online PCAP resources</span>'
 ComSec2_Menu[19]='<a class="whitelink" href="https://packettotal.com/">PacketTotal - PCAP analysis</A>'
 ComSec2_Menu[20]='<a class="whitelink" href="http://pcapng.com/">Convert PcapNG to PCAP</A>'
-ComSec2_Menu[21]='<a class="whitelink" href="https://www.networktotal.com/">NetworkTotal- malware scan PCAP</A>'
-ComSec2_Menu[22]='<a class="whitelink" href="https://malware-traffic-analysis.net">malware-traffic-analysis.net PCAPs</A>'
-ComSec2_Menu[23]='<a class="whitelink" href="http://www.netresec.com/?page=PcapFiles">NETRESECs Huge PCAP Repo List</A>'
+ComSec2_Menu[21]='<a class="whitelink" href="https://www.networktotal.com/">NetworkTotal-malware scans</A>'
+ComSec2_Menu[22]='<a class="whitelink" href="https://malware-traffic-analysis.net">malware-traffic-analysis.net</A>'
+ComSec2_Menu[23]='<a class="whitelink" href="http://www.netresec.com/?page=PcapFiles">NETRESECs PCAP Repo List</A>'
 ComSec2_Menu[24]='<a class="whitelink" href="http://www.secrepo.com/">SecRepo.com PCAPs/Logs</A>'
 ComSec2_Menu[25]='<a class="whitelink" href="https://wiki.wireshark.org/SampleCaptures">WS Wiki sample PCAPs</A>'
 ComSec2_Menu[26]='<a class="whitelink" href="https://www.bro.org/community/traces.html">Bro Project - Packet Traces</A>'
-
 
 ComSec2_Menu[27]='<span class="yellowsans">CVE - Vulnerability Advisories</span>'
 ComSec2_Menu[28]='<a class="whitelink" href="http://www.securiteam.com">SecuriTeam</A>'
@@ -750,7 +757,6 @@ ComSec2_Menu[40]='<a class="whitelink" href="https://www.snort.org/downloads/#ru
 ComSec2_Menu[41]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
 ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
 // 
-// Removed- can be in a new infosec menu
 // ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
 // ComSec_Menu[2]='<a class="whitelink" href="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
 // ComSec_Menu[3]='<a class="whitelink" href="http://thehackernews.com/">The Hacker News</A>'
@@ -763,7 +769,6 @@ ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span
 // ComSec_Menu[10]='<a class="whitelink" href="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
 // ComSec_Menu[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
 // ComSec_Menu[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
-// 
 // 
 // ComSec_Menu[13]='<a class="whitelink" href="http://blogs.cisco.com/security/">Cisco Security blog</A>'
 // ComSec_Menu[14]='<a class="whitelink" href="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
@@ -832,6 +837,7 @@ Malware_Menu[9]='<a class="whitelink" href="https://www.joesandbox.com/">Joe San
 Malware_Menu[10]='<a class="whitelink" href="https://www.vicheck.ca/">ViCheck (Office files and PDFs)</a>' 
 Malware_Menu[11]='<a class="whitelink" href="http://www.systemlookup.com/">SystemLookup filename DB</A>'
 Malware_Menu[12]='<a class="whitelink" href="https://zeltser.com/malware-analysis-tool-frameworks/">LZeltsers REMnux</A>'
+// http://www.threatexpert.com
 
 Malware_Menu[13]='<span class="yellowsans">Scan URLs</span>'
 Malware_Menu[14]='<a class="whitelink" href="https://www.threatminer.org/">ThreatMiner Aggregator</A>'
@@ -841,6 +847,10 @@ Malware_Menu[17]='<a class="whitelink" href="http://urlquery.net/">URLQuery malw
 Malware_Menu[18]='<a class="whitelink" href="https://sitecheck.sucuri.net/">Securi SiteCheck</A>'
 Malware_Menu[19]='<a class="whitelink" href="https://cymon.io/">Cymon.io scan</A>'
 Malware_Menu[20]='<a class="whitelink" href="https://www.censys.io">Censys.io scan</A>'
+// http://fortiguard.com/webfilter
+// http://www.urlvoid.com/
+
+
 
 Malware_Menu[21]='<a class="whitelink" href="https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
 Malware_Menu[22]='<a class="whitelink" href="https://www.scanmyserver.com/">ScanMyServer</A>'
@@ -861,7 +871,7 @@ Malware_Menu[35]='<a class="whitelink" href="https://www.spamhaus.org">Spamhaus 
 Malware_Menu[36]='<a class="whitelink" href="http://www.phishtank.com/">PhishTank tracker</A>'
 Malware_Menu[37]='<a class="whitelink" href="http://multirbl.valli.org/">MultiRBL</A>'
 Malware_Menu[38]='<a class="whitelink" href="https://zeltser.com/malicious-ip-blocklists/">LZeltsers List of BL sites</A>'
-
+// http://vxvault.net/
 
 
 
@@ -1070,8 +1080,9 @@ CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/jenkins/ab
 
 CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, etc</span>'
 CMCICD_Menu[33]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
-CMCICD_Menu[34]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
-
+CMCICD_Menu[34]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
+CMCICD_Menu[35]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
+CMCICD_Menu[36]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
 
 var Distro_DL_Menu=new Array()
 Distro_DL_Menu[0]='<a class="yellowsans" href="http://distrowatch.com/">General Distros (also DistroWatch)</a>'
@@ -1225,6 +1236,122 @@ Medical_Menu[11]='<A class="whitelink" HREF="http://www.parasolemt.com.au/">Para
 Medical_Menu[12]='<A class="whitelink" HREF="http://www.thehealthencyclopedia.com/">Concise Health Encyclopedia</a>'
 // Medical_Menu[13]='<a class="whitelink" href="http://www.rxlist.com">RxList</A>'
 // Medical_Menu[15]='<a class="whitelink" href="http://www.mayoclinic.org/">MayoClinic</A>'
+
+
+
+var KaliNetRecon_Menu=new Array()
+KaliNetRecon_Menu[0]='<span class="yellowsans">Information Gathering</span>'
+KaliNetRecon_Menu[1]='<A class="whitelink" HREF="http://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/">DMitry [DeepMagic Info Gathering Tool]</A>'
+KaliNetRecon_Menu[2]='<A class="whitelink" HREF="https://github.com/laramies/theHarvester">theHarvester [multi-source recon tool]</A>'
+KaliNetRecon_Menu[3]='<A class="whitelink" HREF="http://www.tekdefense.com/automater/">Automater [URL/IP addr multi-lookup]</A>'
+KaliNetRecon_Menu[4]='<A class="whitelink" HREF="https://bitbucket.org/LaNMaSteR53/recon-ng">Recon-ng recon framework</A>'
+KaliNetRecon_Menu[5]='<A class="whitelink" HREF="https://sparta.secforce.com/">Sparta recon frontend</A>'
+// <BR><A class="whitelink12" HREF="https://github.com/golismero/golismero">GoLismero - The Web Knife</A>'
+
+KaliNetRecon_Menu[6]='<span class="yellowsans">DNS Analysis</span>'
+KaliNetRecon_Menu[7]='<A class="whitelink" HREF="https://github.com/fwaeytens/dnsenum">DNSEnum</A>'
+KaliNetRecon_Menu[8]='<A class="whitelink" HREF="http://code.google.com/p/dnsmap/">DNSMap</A>'
+KaliNetRecon_Menu[9]='<A class="whitelink" HREF="https://github.com/darkoperator/dnsrecon">DNSRecon</A>'
+KaliNetRecon_Menu[10]='<A class="whitelink" HREF="http://freshmeat.net/projects/dnstracer">DNSTracer</A>'
+KaliNetRecon_Menu[11]='<A class="whitelink" HREF="https://sourceforge.net/projects/dnswalk/">DNSWalk</A>'
+KaliNetRecon_Menu[12]='<A class="whitelink" HREF="https://github.com/mschwager/fierce">Fierce [find non-contig IP space]</A>'
+
+KaliNetRecon_Menu[13]='<span class="yellowsans">IDS/IPS Identification</span>'
+KaliNetRecon_Menu[14]='<A class="whitelink" HREF="http://www.monkey.org/~dugsong/fragroute/">Fragroute - Fragtest</A>'
+KaliNetRecon_Menu[15]='<A class="whitelink" HREF="http://www.anzen.com/research/nidsbench/fragrouter.html">Fragrouter [IDS evasion toolkit]</A>'
+KaliNetRecon_Menu[16]='<A class="whitelink" HREF="http://inversepath.com/ftester.html">FTest [Firewall Tester]</A>'
+KaliNetRecon_Menu[17]='<A class="whitelink" HREF="https://github.com/EnableSecurity/wafw00f">WAFw00f - [WAF detection tool]</A>'
+KaliNetRecon_Menu[18]='<A class="whitelink" HREF="https://github.com/craig/ge.mine.nu/tree/master/lbd">LBD [load balancer detection]</A>'
+
+KaliNetRecon_Menu[19]='<span class="yellowsans">Host ID/ Network/ Port Scanners</span>'
+KaliNetRecon_Menu[20]='<A class="whitelink" HREF="https://nmap.org/download.html">Nmap-Zenmap-Ncat-Nping</A>'
+KaliNetRecon_Menu[21]='<A class="whitelink" HREF="https://sourceforge.net/p/dnmap/wiki/Home/">DNmap [Distributed NMap]</A>'
+KaliNetRecon_Menu[22]='<A class="whitelink" HREF="http://www.hping.org/">Hping [packet assembler/analyzer]</A>'
+KaliNetRecon_Menu[23]='<A class="whitelink" HREF="https://github.com/dneufeld/unicornscan">UnicornScan [asynchronous scans]</A>'
+KaliNetRecon_Menu[24]='<A class="whitelink" HREF="https://github.com/robertdavidgraham/masscan">Masscan [mass IP port scanner]</A>'
+KaliNetRecon_Menu[25]='<A class="whitelink" HREF="https://github.com/offensive-security/masscan-web-ui">Masscan GUI</A>'
+KaliNetRecon_Menu[26]='<A class="whitelink" HREF="https://sourceforge.net/p/netdiscover/wiki/Home/">NetDiscover [ARP scanner]</A>'
+KaliNetRecon_Menu[27]='<A class="whitelink" HREF="https://www.joedog.org/dick-manual/">Dick [port scanner]</A>'
+KaliNetRecon_Menu[28]='<A class="whitelink" HREF="http://fping.org/">Fping [pinging multiple hosts]</A>'
+KaliNetRecon_Menu[29]='<A class="whitelink" HREF="https://sourceforge.net/projects/xprobe/">Xprobe2 [fingerprint remote TCP/IP]</A>'
+KaliNetRecon_Menu[30]='<A class="whitelink" HREF="http://lcamtuf.coredump.cx/p0f3/">pOf [passive OS fingerprint]</A>'
+KaliNetRecon_Menu[31]='<A class="whitelink" HREF="https://github.com/ThomasHabets/arping">Arping [alt query tool]</A>'
+KaliNetRecon_Menu[32]='<A class="whitelink" HREF="http://github.com/Zapotek/cdpsnarf">CDPSnarf [get CDP info]</A>'
+KaliNetRecon_Menu[33]='<A class="whitelink" HREF="http://code.google.com/p/mirandaupnptool/">Miranda [for UPnP]</A>'
+KaliNetRecon_Menu[34]='<A class="whitelink" HREF="https://code.google.com/p/wol-e/">WOL-E [wake-on-LAN tools]</A>'
+KaliNetRecon_Menu[35]='<A class="whitelink" HREF="https://github.com/vanhauser-thc/thc-ipv6">THC IPv6 attack toolkit</A>'
+
+KaliNetRecon_Menu[36]='<span class="yellowsans">Route Analysis</span>'
+KaliNetRecon_Menu[37]='<A class="whitelink" HREF="http://www.yersinia.net/">Yersinia [L2/L3 protocol analyser]</A>'
+KaliNetRecon_Menu[38]='<A class="whitelink" HREF="http://www.phenoelit.org/irpas/docu.html">IRPA Suite</A>'
+KaliNetRecon_Menu[39]='<A class="whitelink" HREF="http://lcamtuf.coredump.cx/">0trace [an enhanced traceroute]</A>'
+KaliNetRecon_Menu[40]='<A class="whitelink" HREF="https://code.google.com/p/intrace/wiki/intrace">intrace [TCP-based traceroute]</A>'
+KaliNetRecon_Menu[41]='<A class="whitelink" HREF="https://github.com/mct/tcptraceroute">tcptraceroute [the original]</A>'
+KaliNetRecon_Menu[42]='<A class="whitelink" HREF="https://github.com/tlby/netmask">netmask [formatting tool]</A>'
+KaliNetRecon_Menu[43]='<A class="whitelink" HREF="http://www.hackingciscoexposed.com/?link=tools">Cisco Torch</A>'
+
+
+
+var KaliWebAppSec_Menu=new Array()
+KaliWebAppSec_Menu[0]='<span class="yellowsans">Web App Vulnerability Scan/Analysis</span>'
+KaliWebAppSec_Menu[1]='<A class="whitelink" HREF="https://portswigger.net/">PortSwigger - Burp Suite</A>'
+KaliWebAppSec_Menu[2]='<A class="whitelink" HREF="https://portswigger.net/bappstore">PortSwigger - BApp Store</A>'
+KaliWebAppSec_Menu[3]='<A class="whitelink" HREF="https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project">OWASP ZAProxy</A>'
+KaliWebAppSec_Menu[4]='<A class="whitelink" HREF="https://www.owasp.org/index.php/OWASP_OWTF">OWASP OWTF</A>'
+KaliWebAppSec_Menu[5]='<A class="whitelink" HREF="https://www.owasp.org/index.php/OWASP_Web_Testing_Environment_Project">OWASP WTE</A>'
+KaliWebAppSec_Menu[6]='<A class="whitelink" HREF="http://w3af.sourceforge.net/">w3af Web App Attack/Audit Framework</A>'
+KaliWebAppSec_Menu[7]='<A class="whitelink" HREF="https://cirt.net/nikto2">Nikto</A>'
+KaliWebAppSec_Menu[8]='<A class="whitelink" HREF="https://github.com/stasinopoulos/commix">CommIX (COMM)and (I)njection e(X)ploiter</A>'
+KaliWebAppSec_Menu[9]='<A class="whitelink" HREF="http://www.parosproxy.org">Paros proxy</A>'
+KaliWebAppSec_Menu[10]='<A class="whitelink" HREF="https://code.google.com/archive/p/proxystrike/">ProxyStrike</A>'
+KaliWebAppSec_Menu[11]='<A class="whitelink" HREF="http://wapiti.sourceforge.net/">Wapiti [web app vuln scanner]</A>'
+KaliWebAppSec_Menu[12]='<A class="whitelink" HREF="http://code.google.com/p/skipfish/">skipfish [web app auditor]</A>'
+KaliWebAppSec_Menu[13]='<A class="whitelink" HREF="https://github.com/hatRiot/clusterd">clusterd [app server attack toolkit]</A>'
+KaliWebAppSec_Menu[14]='<A class="whitelink" HREF="https://xsser.03c8.net/">Cross Site Scripter (XSSer)</A>'
+KaliWebAppSec_Menu[15]='<A class="whitelink" HREF="http://sourceforge.net/projects/uniscan/">UniScan - RFI, LFI, RCE scanner</A>'
+KaliWebAppSec_Menu[16]='<A class="whitelink" HREF="http://blindelephant.sourceforge.net/">BlindElephant [web app fingerprinter]</A>'
+KaliWebAppSec_Menu[17]='<A class="whitelink" HREF="https://github.com/rezasp/joomscan">OWASP JoomScan</A>'
+KaliWebAppSec_Menu[18]='<A class="whitelink" HREF="https://github.com/SpiderLabs/jboss-autopwn">JBoss Autopwn</A>'
+KaliWebAppSec_Menu[19]='<A class="whitelink" HREF="http://wpscan.org/">WPscan</A>'
+KaliWebAppSec_Menu[20]='<A class="whitelink" HREF="https://code.google.com/archive/p/plecost/">Plecost [Wordpress fingerprinting]</A>'
+KaliWebAppSec_Menu[21]='<A class="whitelink" HREF="https://code.google.com/p/ua-tester/">UAtester [User Agent]</A>'
+KaliWebAppSec_Menu[22]='<A class="whitelink" HREF="https://github.com/xmendez/wfuzz">Wfuzz [web app fuzzer]</A>'
+KaliWebAppSec_Menu[23]='<A class="whitelink" HREF="https://web.archive.org/web/20170918105926/http://www.webdav.org/cadaver/">caDAVer [WebDAV client]</A>'
+KaliWebAppSec_Menu[24]='<A class="whitelink" HREF="https://code.google.com/p/davtest/">DAVTest [WebDAV exploit tester]</A>'
+KaliWebAppSec_Menu[25]='<A class="whitelink" HREF="https://github.com/SpiderLabs/deblaze">Deblaze [exploit ActionScript remoting]</A>'
+KaliWebAppSec_Menu[26]='<A class="whitelink" HREF="https://tha-imax.de/git/root/fimap">fimap [LFI/RFI vulnerabilities]</A>'
+KaliWebAppSec_Menu[27]='<A class="whitelink" HREF="https://www.joedog.org/siege-manual/">Siege [http load testing/benchmk]</A>'
+KaliWebAppSec_Menu[28]='<A class="whitelink" HREF="http://www.powerfuzzer.com/">Powerfuzzer [http fuzzing]</A>'
+KaliWebAppSec_Menu[29]='<A class="whitelink" HREF="https://sourceforge.net/projects/dirb/">dirb [URL bruteforcer/scanner]</A>'
+KaliWebAppSec_Menu[30]='<A class="whitelink" HREF="https://sourceforge.net/projects/dirbuster/">DirBuster [URL bruteforcer/scanner]</A>'
+KaliWebAppSec_Menu[31]='<A class="whitelink" HREF="https://github.com/urbanadventurer/whatweb">WhatWeb [website enumeration/inventory]</A>'
+KaliWebAppSec_Menu[32]='<A class="whitelink" HREF="https://www.httrack.com">HTtrack [website downloader]</A>'
+
+KaliWebAppSec_Menu[33]='<span class="yellowsans">DB Assessment</span>'
+KaliWebAppSec_Menu[34]='<A class="whitelink" HREF="http://sqlmap.org/">SQLmap</A>'
+KaliWebAppSec_Menu[35]='<A class="whitelink" HREF="http://sqlninja.sourceforge.net/">SQL_Ninja</A>'
+KaliWebAppSec_Menu[36]='<A class="whitelink" HREF="http://sqlsus.sourceforge.net/">SQLsus</A>'
+KaliWebAppSec_Menu[37]='<A class="whitelink" HREF="https://github.com/Neohapsis/bbqsql/">BBQSQL</A>'
+KaliWebAppSec_Menu[38]='<A class="whitelink" HREF="https://code.google.com/p/hexorbase/">HexorBase</A>'
+KaliWebAppSec_Menu[39]='<A class="whitelink" HREF="https://code.google.com/p/jsql-injection/">jSQL</A>'
+KaliWebAppSec_Menu[40]='<A class="whitelink" HREF="http://mdbtools.sourceforge.net/">MDB Tools</A>'
+KaliWebAppSec_Menu[41]='<A class="whitelink" HREF="http://www.cqure.net/wp/tools/database/oscanner/">OScanner [for Oracle]</A>'
+KaliWebAppSec_Menu[42]='<A class="whitelink" HREF="http://www.cqure.net/wp/tools/database/sidguesser/">SID Guesser [for Oracle]</A>'
+KaliWebAppSec_Menu[43]='<A class="whitelink" HREF="https://github.com/GDSSecurity/PadBuster">PadBuster [padding Oracle attacks]</A>'
+KaliWebAppSec_Menu[44]='<A class="whitelink" HREF="http://ntsecurity.nu/toolbox/sqldict/">SQLDict</A>'
+KaliWebAppSec_Menu[45]='<A class="whitelink" HREF="http://www.red-database-security.com/scripts/oracle_security_scripts.html">tnscmd10g</A>'
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

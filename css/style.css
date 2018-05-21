@@ -118,6 +118,16 @@ body {
 .whitelink:visited {color: #DDDDDD; text-decoration : none !important}
 .whitelink:hover {color: #FFFFFF; text-decoration : none !important}
 
+.whitelink10 {font-family: Helvetica,  Arial, sans-serif; font-size: 10px; color: #DDDDDD}
+.whitelink10:link {color: #DDDDDD; text-decoration : none !important}
+.whitelink10:visited {color: #DDDDDD; text-decoration : none !important}
+.whitelink10:hover {color: #FFFFFF; text-decoration : none !important}
+
+.whitelink12 {font-family: Helvetica,  Arial, sans-serif; font-size: 12px; color: #DDDDDD}
+.whitelink12:link {color: #DDDDDD; text-decoration : none !important}
+.whitelink12:visited {color: #DDDDDD; text-decoration : none !important}
+.whitelink12:hover {color: #FFFFFF; text-decoration : none !important}
+
 .whitesans {font-family: Helvetica,  Arial, sans-serif; font-size: 9px; color: #FFFFFF}
 .whitesans:link {color: #FFFFFF; text-decoration : none !important}
 .whitesans:visited {color: #FFFFFF; text-decoration : none !important}
