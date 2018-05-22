@@ -1343,7 +1343,93 @@ KaliWebAppSec_Menu[45]='<A class="whitelink" HREF="http://www.red-database-secur
 
 
 
+var KaliForensics_Menu=new Array()
+KaliForensics_Menu[0]='<span class="yellowsans">Forensics</span>'
+KaliForensics_Menu[1]='<A class="whitelink" HREF="http://www.sleuthkit.org/index.php">Autopsy - The Sleuth Kit</A>'
+KaliForensics_Menu[2]='<A class="whitelink" HREF="https://github.com/sleuthkit">Autopsy - The Sleuth Kit [GitHub]</A>'
+KaliForensics_Menu[3]='<A class="whitelink" HREF="https://github.com/ReFirmLabs/binwalk">Binwalk - firmware analysis</A>'
+KaliForensics_Menu[4]='<A class="whitelink" HREF="https://github.com/simsong/bulk_extractor/">bulk_extractor</A>'
+KaliForensics_Menu[5]='<A class="whitelink" HREF="http://www.chkrootkit.org/">chkrootkit</A>'
+KaliForensics_Menu[6]='<A class="whitelink" HREF="https://github.com/arxsys">DFF (Digital Forensics Framework) </A>'
+KaliForensics_Menu[7]='<A class="whitelink" HREF="http://foremost.sourceforge.net/">Foremost</A>'
+KaliForensics_Menu[8]='<A class="whitelink" HREF="https://sourceforge.net/projects/odessa/files/">ODESSA</a>'
+KaliForensics_Menu[8.5]='<A class="whitelink" HREF="https://sourceforge.net/projects/odessa/files/">[Open Digital Evidence Search/Seizure Arch]</A>'
+//ÊGalleta, rifiuti2, pasco (ODESSA)
+KaliForensics_Menu[9]='<A class="whitelink" HREF="http://md5deep.sourceforge.net/">md5deep/hashdeep</A>'
+KaliForensics_Menu[10]='<A class="whitelink" HREF="https://github.com/n0fate/volafox">volafox - MacOSX Memory Analysis Toolkit</A>'
+KaliForensics_Menu[11]='<A class="whitelink" HREF="http://www.volatilityfoundation.org/">Volatility Framework</A>'
 
+
+KaliForensics_Menu[12]='<span class="yellowsans">Digital Forensics</span>'
+KaliForensics_Menu[13]='<A class="whitelink" HREF="http://extundelete.sourceforge.net/">EXTundelete</A>'
+KaliForensics_Menu[14]='<A class="whitelink" HREF="http://missidentify.sourceforge.net/">Miss Identify</A>'
+KaliForensics_Menu[15]='<A class="whitelink" HREF="http://www.jeffbryner.com/code/pdgmail">pd-gmail</A>'
+KaliForensics_Menu[16]='<A class="whitelink" HREF="http://jeffbryner.com/pdfbook">pd-fbook</A>'
+KaliForensics_Menu[17]='<A class="whitelink" HREF="http://www.five-ten-sg.com/libpst/">libpst Utilities - readpst</A>'
+KaliForensics_Menu[18]='<A class="whitelink" HREF="http://projects.sentinelchicken.org/reglookup/">RegLookup</A>'
+KaliForensics_Menu[19]='<A class="whitelink" HREF="https://github.com/keydet89/RegRipper2.8">RegRipper</A>'
+KaliForensics_Menu[20]='<A class="whitelink" HREF="http://vinetto.sourceforge.net/">Vinetto</A>'
+
+KaliForensics_Menu[21]='<span class="yellowsans">Forensics Imaging Tools</span>'
+KaliForensics_Menu[22]='<A class="whitelink" HREF="https://github.com/sshock/AFFLIBv3">AFFLib Tools - affcat, etc.</A>'
+KaliForensics_Menu[23]='<A class="whitelink" HREF="https://sourceforge.net/projects/dc3dd/">dc3dd - enhanced dd - more updated</A>'
+KaliForensics_Menu[24]='<A class="whitelink" HREF="http://dcfldd.sourceforge.net/">dcfldd - enhanced dd - based on old dd</A>'
+KaliForensics_Menu[25]='<A class="whitelink" HREF="https://www.gnu.org/software/ddrescue/ddrescue.html">ddrescue</A>'
+KaliForensics_Menu[26]='<A class="whitelink" HREF="https://github.com/libyal/libewf/">Libewf tools [Expert Witness Format]</A>'
+KaliForensics_Menu[27]='<A class="whitelink" HREF="http://guymager.sourceforge.net/">Guymanger</A>'
+
+KaliForensics_Menu[28]='<span class="yellowsans">Forensic Carving Tools</span>'
+KaliForensics_Menu[29]='<A class="whitelink" HREF="http://foremost.sourceforge.net/">Foremost</A>'
+KaliForensics_Menu[30]='<A class="whitelink" HREF="http://pev.sourceforge.net/">pev - PE file analysis</A>'
+KaliForensics_Menu[31]='<A class="whitelink" HREF="https://rfc1149.net/devel/recoverjpeg.html">recoverjpeg</A>'
+KaliForensics_Menu[32]='<A class="whitelink" HREF="http://safecopy.sourceforge.net/">safecopy</A>'
+KaliForensics_Menu[33]='<A class="whitelink" HREF="https://github.com/sleuthkit/scalpel">Scalpel</A>'
+KaliForensics_Menu[34]='<A class="whitelink" HREF="http://thewalter.net/stef/software/scrounge/">Scrounge-NTFS</A>'
+
+KaliForensics_Menu[35]='<span class="yellowsans">PDF Forensics Tools</span>'
+KaliForensics_Menu[36]='<A class="whitelink" HREF="https://blog.didierstevens.com/programs/pdf-tools/">pdf-parser and pdfid</A>'
+KaliForensics_Menu[37]='<A class="whitelink" HREF="http://eternal-todo.com/tools/peepdf-pdf-analysis-tool">peepdf</A>'
+
+
+var KaliPassword_Menu=new Array()
+KaliPassword_Menu[0]='<span class="yellowsans">Offline Attacks</span>'
+KaliPassword_Menu[1]='<A class="whitelink" HREF="https://github.com/moyix/creddump">creddump</A>'
+KaliPassword_Menu[2]='<A class="whitelink" HREF="http://git.kali.org/gitweb/?p=packages/chntpw.git;a=summary">chntpw</A>'
+KaliPassword_Menu[3]='<A class="whitelink" HREF="https://tools.kali.org/password-attacks/cmospwd">cmospwd </A>'
+KaliPassword_Menu[4]='<A class="whitelink" HREF="http://oldhome.schmorp.de/marc/fcrackzip.html">fcrackzip</A>'
+KaliPassword_Menu[5]='<A class="whitelink" HREF="https://code.google.com/archive/p/hash-identifier/">Hash Identifier</A>'
+KaliPassword_Menu[6]='<A class="whitelink" HREF="https://hashcat.net/hashcat/">Hashcat</A>'
+KaliPassword_Menu[7]='<A class="whitelink" HREF="https://github.com/psypanda/hashID">hashID [hash-identifier]</A>'
+KaliPassword_Menu[8]='<A class="whitelink" HREF="http://www.openwall.com/john/">John the Ripper</A>'
+KaliPassword_Menu[9]='<A class="whitelink" HREF="http://openwall.info/wiki/john/johnny">Johnny GUI</A>'
+KaliPassword_Menu[10]='<A class="whitelink" HREF="http://www.cryptohaze.com/multiforcer.php.html">Cryptohaze Multiforcer</A>'
+KaliPassword_Menu[11]='<A class="whitelink" HREF="http://ophcrack.sourceforge.net/">Ophcrack</A>'
+KaliPassword_Menu[12]='<A class="whitelink" HREF="http://project-rainbowcrack.com/index.htm">RainbowCrack</A>'
+KaliPassword_Menu[13]='<A class="whitelink" HREF="http://git.kali.org/gitweb/?p=packages/rcracki-mt.git;a=summary">rcrack_mt</A>'
+KaliPassword_Menu[14]='<A class="whitelink" HREF="https://sourceforge.net/projects/ophcrack/files/samdump2/">samdump2</A>'
+KaliPassword_Menu[15]='<A class="whitelink" HREF="http://www.leidecker.info/projects/sucrack.shtml">sucrack</A>'
+KaliPassword_Menu[16]='<A class="whitelink" HREF="https://github.com/lvaccaro/truecrack">TrueCrack</A>'
+
+KaliPassword_Menu[17]='<span class="yellowsans">Online Attacks</span>'
+KaliPassword_Menu[18]='<A class="whitelink" HREF="https://github.com/vanhauser-thc/thc-hydra/tree/master/web">THC Hydra</A>'
+KaliPassword_Menu[19]='<A class="whitelink" HREF="https://nmap.org/ncrack/">NCrack</A>'
+KaliPassword_Menu[20]='<A class="whitelink" HREF="http://foofus.net/goons/jmk/medusa/medusa.html">Medusa</A>'
+KaliPassword_Menu[21]='<A class="whitelink" HREF="https://github.com/lanjelot/patator">Patator</A>'
+KaliPassword_Menu[22]='<A class="whitelink" HREF="https://labs.portcullis.co.uk/tools/acccheck/">acccheck</A>'
+KaliPassword_Menu[23]='<A class="whitelink" HREF="https://code.google.com/archive/p/findmyhash/">FindMyHash</A>'
+KaliPassword_Menu[24]='<A class="whitelink" HREF="https://github.com/inquisb/keimpx">keimpx</A>'
+KaliPassword_Menu[25]='<A class="whitelink" HREF="https://github.com/BlackArch/thc-pptp-bruter">thc-pptp-bruter</A>'
+
+KaliPassword_Menu[26]='<span class="yellowsans">PW Profiling and Wordlists</span>'
+KaliPassword_Menu[27]='<A class="whitelink" HREF="http://www.digininja.org/projects/cewl.php">CeWL [wordlist generator]</A>'
+KaliPassword_Menu[28]='<A class="whitelink" HREF="http://sourceforge.net/projects/crunch-wordlist/">Crunch [wordlist generator]</A>'
+KaliPassword_Menu[29]='<A class="whitelink" HREF="https://thesprawl.org/projects/pack/">PACK [Password Analysis and Cracking Kit]</A>'
+KaliPassword_Menu[30]='<A class="whitelink" HREF="https://digi.ninja/projects/rsmangler.php">rsmangler</A>'
+
+KaliPassword_Menu[31]='<span class="yellowsans">Pass the Hash</span>'
+KaliPassword_Menu[32]='<A class="whitelink" HREF="https://code.google.com/archive/p/passing-the-hash/downloads">Pass The Hash Toolkit</A>'
+KaliPassword_Menu[33]='<A class="whitelink" HREF="https://github.com/gentilkiwi/mimikatz">Mimikatz</A>'
+KaliPassword_Menu[34]='<A class="whitelink" HREF="https://github.com/ShawnDEvans/smbmap">smbmap</A>'
 
 
 
