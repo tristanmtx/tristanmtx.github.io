@@ -1219,26 +1219,6 @@ Game_Menu[15]='<a class="whitelink" href="https://archive.org/details/softwareli
 // ---------------------------------------------------------------------------
 
 
-
-var Medical_Menu=new Array()
-Medical_Menu[0]='<span class="yellowsans">Medical News and Resources</span>'
-Medical_Menu[1]='<A class="whitelink" HREF="http://www.nlm.nih.gov/">U.S. Natl Library of Medicine</a>'
-Medical_Menu[2]='<A class="whitelink" HREF="http://wonder.cdc.gov/">CDC: Epidemiologic Research</A>'
-Medical_Menu[3]='<A class="whitelink" HREF="http://www.gdb.org/">The Human Genome Database</A>'
-Medical_Menu[4]='<A class="whitelink" HREF="http://www.innerbody.com/">InnerBody.com</a>' 
-Medical_Menu[5]='<A class="whitelink" HREF="http://www.med.harvard.edu/AANLIB/home.html">Harvard Whole Brain Atlas</A>'
-Medical_Menu[6]='<A class="whitelink" HREF="http://www.up.univ-mrs.fr/~wabim/english/biology.html">ABIM Biological Index</A>'
-Medical_Menu[7]='<A class="whitelink" HREF="http://www.healthcentral.com/library/library.cfm">HealthCentral</a>'
-Medical_Menu[8]='<A class="whitelink" HREF="http://www.coloradohealthnet.org/">Colorado HealthNet</a>'
-Medical_Menu[9]='<A class="whitelink" HREF="http://www.ama-assn.org/">American Medical Association</a>'
-Medical_Menu[10]='<A class="whitelink" HREF="http://www.who.ch/">World Health Organization</a>'
-Medical_Menu[11]='<A class="whitelink" HREF="http://www.parasolemt.com.au/">Parasol EMT Australia</a>'
-Medical_Menu[12]='<A class="whitelink" HREF="http://www.thehealthencyclopedia.com/">Concise Health Encyclopedia</a>'
-// Medical_Menu[13]='<a class="whitelink" href="http://www.rxlist.com">RxList</A>'
-// Medical_Menu[15]='<a class="whitelink" href="http://www.mayoclinic.org/">MayoClinic</A>'
-
-
-
 var KaliNetRecon_Menu=new Array()
 KaliNetRecon_Menu[0]='<span class="yellowsans">Information Gathering</span>'
 KaliNetRecon_Menu[1]='<A class="whitelink" HREF="http://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/">DMitry [DeepMagic Info Gathering Tool]</A>'
@@ -1462,6 +1442,64 @@ KaliForensics_Menu[44]='<A class="whitelink" HREF="https://github.com/libyal/lib
 KaliForensics_Menu[45]='<A class="whitelink" HREF="https://sourceforge.net/projects/undbx/">undbx [extract Outlook mgs from .dbx]</A>'
 KaliForensics_Menu[46]='<A class="whitelink" HREF="http://www.five-ten-sg.com/libpst/">libpst Utilities [readpst, etc]</A>'
 // https://abelcheung.github.io/rifiuti2/">rifiuti2 [read Win Recycle Bin files] IS IN ODESSA    
+
+
+
+var KaliForens2_Menu=new Array()
+KaliForens2_Menu[0]='<span class="yellowsans">HEX/ASCII Binary Editors/Viewers</span>'
+KaliForens2_Menu[1]='<A class="whitelink" HREF="https://sourceforge.net/projects/hexedit/">Hexedit</A>'	 
+KaliForens2_Menu[2]='<A class="whitelink" HREF="https://directory.fsf.org/wiki/Ghex">ghex [hex/ascii binary editor]</A>' 
+KaliForens2_Menu[3]='<A class="whitelink" HREF="https://github.com/bwrsandman/Bless">Bless [hex edit]</A>' 
+KaliForens2_Menu[4]='<A class="whitelink" HREF="https://github.com/madsen/vbindiff">VBinDiff [diff ascii and hex bin data]</A>' 		 
+KaliForens2_Menu[5]='<A class="whitelink" HREF="https://github.com/google/binplist">binplist [binary property list]</A>'
+KaliForens2_Menu[6]='<A class="whitelink" HREF="https://github.com/ReFirmLabs/binwalk">Binwalk - firmware analysis</A>'
+
+KaliForens2_Menu[7]='<span class="yellowsans">Malware Analysis/ Reverse Engineering</span>'
+KaliForens2_Menu[8]='<A class="whitelink" HREF="http://rkhunter.sourceforge.net">rkhunter/Rootkit Hunter</A>'  
+KaliForens2_Menu[9]='<A class="whitelink" HREF="http://www.security-projects.com/?Unhide">unhide.rb [find hidden rootkit processes]</A>'
+KaliForens2_Menu[10]='<A class="whitelink" HREF="http://www.chkrootkit.org/">chkrootkit</A>'
+KaliForens2_Menu[11]='<A class="whitelink" HREF="https://github.com/joxeankoret/pyew">pyew [analyse malware] </A>'
+KaliForens2_Menu[12]='<A class="whitelink" HREF="https://github.com/VirusTotal/yara">YARA malware toolkit</A>'
+KaliForens2_Menu[13]='<A class="whitelink" HREF="https://github.com/VirusTotal/yara-python">python-yara [YARA Python libs]</A>'	
+KaliForens2_Menu[14]='<A class="whitelink" HREF="https://ibotpeaches.github.io/Apktool/">ApkTool [Android]</A>'
+KaliForens2_Menu[15]='<A class="whitelink" HREF="https://clang.llvm.org/">Clang [C/C++]</A>'
+KaliForens2_Menu[16]='<A class="whitelink" HREF="https://github.com/pxb1988/dex2jar">dex2jar [android .dex and java .class]</A>'
+KaliForens2_Menu[17]='<A class="whitelink" HREF="http://codef00.com/projects">edb-debugger [AArch32/x86/x86-64 debugger]</A>'
+KaliForens2_Menu[18]='<A class="whitelink" HREF="http://www.nowrap.de/flare.html">Flare [Flash/Actionscript]</A>'
+KaliForens2_Menu[19]='<A class="whitelink" HREF="http://flasm.sourceforge.net/">Flasm  [Flash/Actionscript]</A>'
+KaliForens2_Menu[20]='<A class="whitelink" HREF="https://varaneckas.com/jad/">jad [java decompiler]</A>'
+KaliForens2_Menu[21]='<A class="whitelink" HREF="https://code.google.com/archive/p/javasnoop/">JavaSnoop [tamper with applets]</A>'
+KaliForens2_Menu[22]='<A class="whitelink" HREF="https://github.com/java-decompiler/jd-gui">jdgui [Java .class decompiler] </A>'
+KaliForens2_Menu[23]='<A class="whitelink" HREF="https://github.com/fishstiqz/nasmshell">NASM shell [Netwide Assembler]</A>'
+KaliForens2_Menu[24]='<A class="whitelink" HREF="http://www.ollydbg.de/">OllyDbg</A>'
+KaliForens2_Menu[25]='<A class="whitelink" HREF="https://rada.re/">Radare2</A>'	   
+
+KaliForens2_Menu[26]='<span class="yellowsans">Unsorted forensic tool leftovers</span>'    
+KaliForens2_Menu[27]='<A class="whitelink" HREF="http://md5deep.sourceforge.net/">md5deep/hashdeep</A>'
+KaliForens2_Menu[28]='<A class="whitelink" HREF="https://github.com/log2timeline">plaso/log2timeline [timeline tool]</A>'
+KaliForens2_Menu[29]='<A class="whitelink" HREF="https://github.com/strozfriedberg/liblightgrep">liblightgrep [grep for forensics]</A>'
+KaliForens2_Menu[30]='<A class="whitelink" HREF="https://sourceforge.net/projects/ssdeep/">ssdeep [compute/match fuzzy hashes]</A>' 
+KaliForens2_Menu[31]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/aeskeyfind-1.0.tar.gz">AESKeyFinder</A>'
+KaliForens2_Menu[32]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/rsakeyfind-1.0.tar.gz">RSAKeyFinder</A>'
+KaliForens2_Menu[33]='<A class="whitelink" HREF="https://blog.didierstevens.com/programs/pdf-tools/">pdf-parser and pdfid</A>'
+KaliForens2_Menu[34]='<A class="whitelink" HREF="http://eternal-todo.com/tools/peepdf-pdf-analysis-tool">peepdf [check PDFs for malicious payload]</A>'
+KaliForens2_Menu[35]='<A class="whitelink" HREF="https://github.com/abeluck/stegdetect">stegdetect [does it have stego?]</A>'
+KaliForens2_Menu[36]='<A class="whitelink" HREF="https://rfc1149.net/devel/recoverjpeg.html">recoverjpeg [file carver]</A>'
+KaliForens2_Menu[37]='<A class="whitelink" HREF="http://vinetto.sourceforge.net/">Vinetto [examine thumbs.db files]</A>'
+KaliForens2_Menu[38]='<A class="whitelink" HREF="https://github.com/erocarrera/pefile">pefile [for Portable Executables (PE)]</A>'
+KaliForens2_Menu[39]='<A class="whitelink" HREF="http://pev.sourceforge.net/">pev - PE file analysis</A>'
+KaliForens2_Menu[40]='<A class="whitelink" HREF="https://code.google.com/archive/p/dumbpig/">dumbpig [syntax checking for Snort rules]</A>' 
+KaliForens2_Menu[41]='<A class="whitelink" HREF="https://www.fourmilab.ch/random/">ent [pseudorandom number sequence test]</A>' 		  
+KaliForens2_Menu[42]='<A class="whitelink" HREF="http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html">gzrt [gzrecover - fix corrupted gzip]</A>' 
+KaliForens2_Menu[43]='<A class="whitelink" HREF="https://github.com/libyal/libolecf">libolecf [OLE2 Compound File (OLECF) format]</A>'
+KaliForens2_Menu[44]='<A class="whitelink" HREF="https://github.com/libimobiledevice/libplist">libplist-dev [Apple Property List format]</A>' 
+KaliForens2_Menu[45]='<A class="whitelink" HREF="https://sourceforge.net/projects/libexif/">exif [EXIF info in JPEG]</A>' 
+
+
+
+
+
+
 
 
 // OLD!!!!!!!!!!!!!!!!!!!!!
