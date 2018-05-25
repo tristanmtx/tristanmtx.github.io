@@ -1275,7 +1275,7 @@ KaliNetRecon_Menu[27]='<A class="whitelink" HREF="https://www.joedog.org/dick-ma
 KaliNetRecon_Menu[28]='<A class="whitelink" HREF="http://fping.org/">Fping [pinging multiple hosts]</A>'
 KaliNetRecon_Menu[29]='<A class="whitelink" HREF="https://sourceforge.net/projects/xprobe/">Xprobe2 [fingerprint remote TCP/IP]</A>'
 KaliNetRecon_Menu[30]='<A class="whitelink" HREF="http://lcamtuf.coredump.cx/p0f3/">pOf [passive OS fingerprint]</A>'
-KaliNetRecon_Menu[31]='<A class="whitelink" HREF="https://github.com/ThomasHabets/arping">Arping [alt query tool]</A>'
+KaliNetRecon_Menu[31]='<A class="whitelink" HREF="https://github.com/ThomasHabets/arping">Arping [Habets version]</A>'
 KaliNetRecon_Menu[32]='<A class="whitelink" HREF="http://github.com/Zapotek/cdpsnarf">CDPSnarf [get CDP info]</A>'
 KaliNetRecon_Menu[33]='<A class="whitelink" HREF="http://code.google.com/p/mirandaupnptool/">Miranda [for UPnP]</A>'
 KaliNetRecon_Menu[34]='<A class="whitelink" HREF="https://code.google.com/p/wol-e/">WOL-E [wake-on-LAN tools]</A>'
@@ -1289,6 +1289,65 @@ KaliNetRecon_Menu[40]='<A class="whitelink" HREF="https://code.google.com/p/intr
 KaliNetRecon_Menu[41]='<A class="whitelink" HREF="https://github.com/mct/tcptraceroute">tcptraceroute [the original]</A>'
 KaliNetRecon_Menu[42]='<A class="whitelink" HREF="https://github.com/tlby/netmask">netmask [formatting tool]</A>'
 KaliNetRecon_Menu[43]='<A class="whitelink" HREF="http://www.hackingciscoexposed.com/?link=tools">Cisco Torch</A>'
+
+
+
+var KaliNetSniff_Menu=new Array()
+KaliNetSniff_Menu[0]='<span class="yellowsans">Network Sniffers</span>'
+KaliNetSniff_Menu[1]='<A class="whitelink" HREF="https://www.wireshark.org/">Wireshark</A>'
+KaliNetSniff_Menu[2]='<A class="whitelink" HREF="https://www.ettercap-project.org/">Ettercap</A>'
+KaliNetSniff_Menu[3]='<A class="whitelink" HREF="https://unix4lyfe.org/darkstat/">darkstat [graphical network stats]</A>'
+KaliNetSniff_Menu[4]='<A class="whitelink" HREF="http://www.ntop.org/">ntop-ng [graphic-enhanced ntop]</A>'
+KaliNetSniff_Menu[5]='<A class="whitelink" HREF="http://etherape.sourceforge.net/">EtherApe [graphical network monitor]</A>'
+KaliNetSniff_Menu[6]='<A class="whitelink" HREF="https://github.com/bchretien/tcptrack">tcptrack [some stats on live streams]</A>'
+// KaliNetSniff_Menu[7]='<A class="whitelink" HREF="https://www.frenchfries.net/paul/tcpstat/">tcpstat [live stats or from tcpdump]</A>'
+KaliNetSniff_Menu[8]='<A class="whitelink" HREF="http://www.tcptrace.org/">tcptrace [graphical tcpdump analysis]</A>'
+
+KaliNetSniff_Menu[9]='<A class="whitelink" HREF="https://www.monkey.org/~dugsong/dsniff/">dsniff suite</A>'
+KaliNetSniff_Menu[10]='<A class="whitelink" HREF="http://netsniff-ng.org/">netsniff-ng suite</A>'
+KaliNetSniff_Menu[11]='<A class="whitelink" HREF="http://hexinject.sourceforge.net/">HexInject [packet injector and sniffer]</A>'
+KaliNetSniff_Menu[12]='<A class="whitelink" HREF="https://pypi.org/project/netgrep/">netgrep [scan frames for IP, ASN, county code]</A>'
+KaliNetSniff_Menu[13]='<A class="whitelink" HREF="https://github.com/jpr5/ngrep/">ngrep [more grep-like/versatile than netgrep]</A>'
+KaliNetSniff_Menu[14]='<A class="whitelink" HREF="https://monkey.org/~jose/software/flowgrep/">flowgrep [sniff traffic flow]</A>'
+KaliNetSniff_Menu[15]='<A class="whitelink" HREF="https://jon.oberheide.org/pynids/">pynids [NIDS, sniff traffic flow]</A>'
+KaliNetSniff_Menu[16]='<A class="whitelink" HREF="http://tcpxtract.sourceforge.net/">tcpxtract [extract files from live traffic]</A>'
+KaliNetSniff_Menu[17]='<A class="whitelink" HREF="http://silicone.homelinux.org/git/netsed.git/">netsed [realtime packet read/alter]</A>'
+KaliNetSniff_Menu[18]='<A class="whitelink" HREF="https://github.com/phaag/nfdump">nfdump [collect and process netflow]</A>'
+KaliNetSniff_Menu[19]='<A class="whitelink" HREF="https://github.com/simsong/tcpflow">TCPFlow [grab/store PCAPs by flow]</A>'
+// KaliNetSniff_Menu[20]='<A class="whitelink" HREF="https://github.com/deiv/driftnet">Driftnet [browse gif/jpgs in traffic]</A>'
+// KaliNetSniff_Menu[21]='<A class="whitelink" HREF="https://github.com/sam-github/libnet">libnet tools API [low-level packet construction]</A>'
+
+KaliNetSniff_Menu[22]='<span class="yellowsans">Spoofing and MITM</span>'
+KaliNetSniff_Menu[23]='<A class="whitelink" HREF="https://sourceforge.net/projects/ntwox/">netwox/netwag toolbox [network multitool]</A>'
+KaliNetSniff_Menu[24]='<A class="whitelink" HREF="http://thesprawl.org/projects/dnschef/">DNSChef [DNS proxy/MitM]</A>'
+KaliNetSniff_Menu[25]='<A class="whitelink" HREF="https://www.roe.ch/FakeIKEd">fiked (FakeIKEd)</A>'
+KaliNetSniff_Menu[26]='<A class="whitelink" HREF="https://code.google.com/archive/p/rebind/">Rebind [DNS proxy/MitM]</A>'
+KaliNetSniff_Menu[27]='<A class="whitelink" HREF="https://github.com/SpiderLabs/Responder">Responder [LLMNR/NBT-NS/mDNS Poisoner]</A>'
+KaliNetSniff_Menu[28]='<A class="whitelink" HREF="https://github.com/vecna/sniffjoke">Sniffjoke [transparent TCP scrambler]</A>'
+KaliNetSniff_Menu[29]='<A class="whitelink" HREF="https://mitmproxy.org/">mitmproxy [HTTPS proxy]</A>'
+KaliNetSniff_Menu[30]='<A class="whitelink" HREF="https://www.roe.ch/SSLsplit">SSLSplit [transparent SSL/TLS intercept]</A>'
+KaliNetSniff_Menu[31]='<A class="whitelink" HREF="https://moxie.org/software/sslstrip/">sslstrip [HTTP hijack]</A>'
+KaliNetSniff_Menu[32]='<A class="whitelink" HREF="http://tcpreplay.appneta.com/">TCPReplay [PCAP editing/replaying]</A>'
+KaliNetSniff_Menu[33]='<A class="whitelink" HREF="https://github.com/alobbs/macchanger">MACChanger</A>'
+KaliNetSniff_Menu[34]='<A class="whitelink" HREF="https://github.com/robertdavidgraham/hamster">Hamster [cookie sidejacking]</A>'
+KaliNetSniff_Menu[35]='<A class="whitelink" HREF="https://github.com/bonsaiviking/NfSpy">NFSpy [spoof NFS client IDs]</A>'
+
+KaliNetSniff_Menu[36]='<span class="yellowsans">Tunneling</span>'
+// KaliNetSniff_Menu[37]='<A class="whitelink" HREF="http://nc110.sourceforge.net/">netcat</A>'
+KaliNetSniff_Menu[38]='<A class="whitelink" HREF="http://cryptcat.sourceforge.net/">Cryptcat [netcat + twofish]</A>'
+KaliNetSniff_Menu[39]='<A class="whitelink" HREF="http://www.dest-unreach.org/socat/index.html">socat [aka netcat++]</A>'
+KaliNetSniff_Menu[40]='<A class="whitelink" HREF="http://dns2tcp.sourcearchive.com/">dns2tcpc</A>'
+KaliNetSniff_Menu[41]='<A class="whitelink" HREF="https://code.kryo.se/iodine/">Iodine [IPv4 over DNS]</A>'
+KaliNetSniff_Menu[42]='<A class="whitelink" HREF="http://proxychains.sourceforge.net/">ProxyChains [versiatile proxy/tunneling]</A>'
+KaliNetSniff_Menu[43]='<A class="whitelink" HREF="http://proxytunnel.sourceforge.net/">ProxyTunnel [HTTPS and SSH]</A>'
+KaliNetSniff_Menu[44]='<A class="whitelink" HREF="http://www.cs.uit.no/%7Edaniels/PingTunnel/">ptunnel (PingTunnel)</A>'
+KaliNetSniff_Menu[45]='<A class="whitelink" HREF="https://samy.pl/pwnat/">pwnat [NAT traversal/ UDP tunnel]</A>'
+KaliNetSniff_Menu[46]='<A class="whitelink" HREF="https://github.com/yrutschle/sslh">sslh  [HTTPS and SSH]</A>'
+KaliNetSniff_Menu[47]='<A class="whitelink" HREF="https://www.stunnel.org/">Stunnel [TLS/SSL]</A>'
+KaliNetSniff_Menu[48]='<A class="whitelink" HREF="https://github.com/epinna/Stegosip">StegoSIP TCP tunnel over RTP/SIP</A>'
+KaliNetSniff_Menu[49]='<A class="whitelink" HREF="https://code.google.com/archive/p/udptunnel/">udptunnel</A>'
+KaliNetSniff_Menu[50]='<A class="whitelink" HREF="https://github.com/wangyu-/udp2raw-tunnel">Udp2raw-tunnel</A>'
+
 
 
 
@@ -1314,6 +1373,8 @@ KaliWebAppSec_Menu[17]='<A class="whitelink" HREF="https://github.com/rezasp/joo
 KaliWebAppSec_Menu[18]='<A class="whitelink" HREF="https://github.com/SpiderLabs/jboss-autopwn">JBoss Autopwn</A>'
 KaliWebAppSec_Menu[19]='<A class="whitelink" HREF="http://wpscan.org/">WPscan</A>'
 KaliWebAppSec_Menu[20]='<A class="whitelink" HREF="https://code.google.com/archive/p/plecost/">Plecost [Wordpress fingerprinting]</A>'
+//KaliWebAppSec_Menu[20]='<A class="whitelink" HREF="http://git.kali.org/gitweb/?p=packages/apache-users.git">apache-users [enumerate httpd users]</A>'
+
 KaliWebAppSec_Menu[21]='<A class="whitelink" HREF="https://code.google.com/p/ua-tester/">UAtester [User Agent]</A>'
 KaliWebAppSec_Menu[22]='<A class="whitelink" HREF="https://github.com/xmendez/wfuzz">Wfuzz [web app fuzzer]</A>'
 KaliWebAppSec_Menu[23]='<A class="whitelink" HREF="https://web.archive.org/web/20170918105926/http://www.webdav.org/cadaver/">caDAVer [WebDAV client]</A>'
@@ -1435,12 +1496,13 @@ KaliPassword_Menu[35]='<A class="whitelink" HREF="https://github.com/gentilkiwi/
 KaliPassword_Menu[36]='<A class="whitelink" HREF="https://github.com/ShawnDEvans/smbmap">SMBmap [PtH, remote cmd exec, enumeration]</A>'
 
 KaliPassword_Menu[37]='<span class="yellowsans">Precompiled Wordlists Sources</span>'
-KaliPassword_Menu[38]='<A class="whitelink" HREF="https://wiki.skullsecurity.org/Passwords">Wordlists @ skullsecurity.org wiki</A>'
-KaliPassword_Menu[39]='<A class="whitelink" HREF="https://packetstormsecurity.com/Crackers/wordlists/">Wordlists @ PacketStorm</A>'
-KaliPassword_Menu[40]='<A class="whitelink" HREF="http://www.openwall.com/wordlists/">Openwall wordlists</A>'
-KaliPassword_Menu[41]='<A class="whitelink" HREF="https://github.com/danielmiessler/SecLists">OWASP SecList Github repo</A>'
-KaliPassword_Menu[42]='<A class="whitelink" HREF="https://github.com/berzerk0/Probable-Wordlists">berzerk0s Probable Wordlists v2</A>'
-
+KaliPassword_Menu[38]='<A class="whitelink" HREF="https://crackstation.net/buy-crackstation-wordlist-password-cracking-dictionary.htm">CrackStation wordlist</A>'
+KaliPassword_Menu[39]='<A class="whitelink" HREF="https://wiki.skullsecurity.org/Passwords">Wordlists @ skullsecurity.org wiki</A>'
+KaliPassword_Menu[40]='<A class="whitelink" HREF="https://packetstormsecurity.com/Crackers/wordlists/">Wordlists @ PacketStorm</A>'
+KaliPassword_Menu[41]='<A class="whitelink" HREF="http://www.openwall.com/wordlists/">Openwall wordlists</A>'
+KaliPassword_Menu[42]='<A class="whitelink" HREF="https://github.com/danielmiessler/SecLists">OWASP SecList Github repo</A>'
+KaliPassword_Menu[43]='<A class="whitelink" HREF="https://github.com/berzerk0/Probable-Wordlists">berzerk0s Probable Wordlists v2</A>'
+// http://www.wirelesshack.org/wpa-wpa2-word-list-dictionaries.html
 
 
 
