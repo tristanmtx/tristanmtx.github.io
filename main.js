@@ -1414,8 +1414,8 @@ KaliForensics_Menu[0]='<span class="yellowsans">Forensics I - DEFT and SIFT</spa
 KaliForensics_Menu[1]='<A class="whitelink" HREF="http://www.sleuthkit.org/index.php">Autopsy - The Sleuth Kit</A>'
 KaliForensics_Menu[2]='<A class="whitelink" HREF="https://github.com/py4n6/pytsk">pytsk3 [Python bindings for The Sleuth Kit] </A>'
 KaliForensics_Menu[3]='<A class="whitelink" HREF="https://github.com/arxsys">DFF [Digital Forensics Framework] </A>'
-KaliForensics_Menu[4]='<A class="whitelink" HREF="https://sourceforge.net/projects/odessa/files/">ODESSA Suite</A>'
-//ÊGalleta, rifiuti2, pasco (ODESSA)
+KaliForensics_Menu[4]='<A class="whitelink" HREF="https://sourceforge.net/projects/odessa/files/">ODESSA Suite (Galleta, rifiuti2, pasco)</A>'
+//Ê
 KaliForensics_Menu[5]='<A class="whitelink" HREF="https://github.com/simsong/bulk_extractor/">bulk_extractor [scan image, extract info]</A>'
 
 KaliForensics_Menu[6]='<span class="yellowsans">Volatile Memory Analysis</span>'
