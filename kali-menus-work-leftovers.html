@@ -1,0 +1,530 @@
+
+
+
+
+
+<BR><A class="whitelink12" HREF="https://github.com/dneufeld/snorby">Snorby</A>'
+
+<BR><A class="whitelink12" HREF="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</A>'
+
+Kali_Menu[]='<A class="whitelink" HREF="https://www.giuspen.com/cherrytree/">Cherrytree [notetaking]</A>'
+Kali_Menu[]='<A class="whitelink" HREF="http://keepnote.org/">KeepNote</A>'
+Kali_Menu[]='<A class="whitelink" HREF="http://recordmydesktop.sourceforge.net/about.php">recordMyDesktop</A>'
+Kali_Menu[]='<A class="whitelink" HREF="https://github.com/citronneur/rdpy">RDPY [python MS RDP]</A>'
+Kali_Menu[]='<A class="whitelink" HREF="http://smxi.org/docs/inxi.htm">INXI [CLI system information tool]
+
+Maltego Teeth
+
+
+
+
+
+https://github.com/smxi/inxi
+
+----------------------------------------------------
+
+There are several websites and OSINT tools available online that can be used to find public information about a particular person. 
+The PeekYou and Lullar websites enable gathering of information about a person that is available on various social networking sites. 
+The Wayback Machine is a website that can be used to find previous versions of webpages, enabling one to see websites in their 
+earlier avatars. These reconnaissance tools come in handy for cyberstalking or executing social engineering attacks. 
+EDGAR, the electronic data gathering, analysis and retrieval system, is another website providing access to company 
+information that might otherwise be difficult to obtain. Then there is YouGetSignal, providing OSINT tools to check for 
+phone numbers, IP addresses, whois data, geo location, tracing, and so on.
+Passive Recon FF plugin
+
+11 Firefox Add-ons a Hacker Must Have
+
+
+1. Tamper Data
+Tamper data is a great tool to view and modify HTTP/HTTPS headers and post parameters. We can alter each request going from our machine to the destination host with this. It helps in security testing web applications by modifying POST parameters. It can be used in performing XSS and SQL Injection attacks by modifying header data.
+Add Tamper data to Firefox:
+https://addons.mozilla.org/en-us/firefox/addon/tamper-data/
+
+2. Firebug
+Firebug is a nice add-on that integrates a web development tool inside the browser. With this tool, you can edit and debug HTML, CSS, and JavaScript live on any webpage to see the effect of changes. It helps while analyzing JS files to find XSS vulnerabilities. It’s a very helpful add-on for finding DOM based XSS for security testing professionals.
+Add Firebug to your browser:
+https://addons.mozilla.org/en-US/firefox/addon/firebug/
+ 
+3. Hackbar
+Hackbar is a simple penetration tool for Firefox. It helps in testing simple SQL injection and XSS holes. You cannot execute standard exploits but you can easily use it to test whether or not vulnerability exists. You can also manually submit form data with GET or POST requests. It also has encryption and encoding tools. Most of the time, this tool helps while testing XSS vulnerability with encoded XSS payloads. It also supports keyboard shortcuts to perform various tasks. I am sure most people in the security field already know about this tool. Hackbar is mostly used in finding POST XSS vulnerabilities because it can send POST data manually to any page you like. With the ability to manually send POST form data, you can easily bypass client side validations. If your payload is being encoded at client side, you can use an encoding tool to encode your payload and then perform the attack. If the application is vulnerable to XSS, I am sure you will find the vulnerability with the help of the Hackbar add-on to Firefox browser.
+Add Hackbar to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/hackbar/
+
+4. Cookies Manager 
+Cookie Manager is one of the greatest tools ever created. Using this tool you can actually play with cookies. You can alter almost every cookie using this tool. You can use Cookies Manager to view, edit, and create new cookies. It also displays extra information about cookies, allowing you to edit multiple cookies at once and backup/restore them.
+Add Cookies Manager to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/
+
+5. NoScript
+No Script add-on is greatness beyond imagination. With this tool, you can monitor each and every script running on a website; you can block any of the scripts and see what each script actually does. But this add-on is for experts, newbies will face problems using this. Note: If you are testing XSS, HTTPS header modifications, or Injection attacks on any website, you need to disable this plugin first because it will block your efforts.
+Add NoScript to Firefox:
+https://addons.mozilla.org/en-us/firefox/addon/noscript/
+
+6. Grease Monkey
+Grease Monkey is the counter part to NoScript, its function is the exact opposite of Noscript. We use Noscript to block scripts and GreaseMonkey to run them. It allows you to customize the way a web page displays or behaves by using small bits of JavaScript. 
+Add Grease Monkey to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+
+7. User Agent Switcher
+User Agent Switcher adds a one-click user agent switch to the browser, along with a menu and tool bar button. Whenever you want to switch the user agent, use the browser button. User Agent add-on helps in spoofing the browser while performing an attack.
+Add User Agent Switcher to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/
+
+8. CryptoFox
+CryptoFox is an encryption or decryption tool for Mozilla Firefox. It supports most of the available encryption algorithms so you can easily encrypt or decrypt data with supported encryption algorithms. This add-on comes with dictionary attack support to crack MD5 cracking passwords. Although it hasn’t always had great reviews, it works satisfactorily.
+Add CryptoFox to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/cryptofox/
+
+9. SQL Inject Me
+SQL Inject Me is another nice Firefox add-on used to find SQL injection vulnerabilities in web applications. This tool does not exploit vulnerabilities but displays their existence. SQL injection is one of the most harmful web application vulnerabilities, it can allow attackers to view, modify, edit, add, or delete records in a database. This tool sends escape strings through form fields and searches database error messages. If it finds a database error message, it marks the page as vulnerable. Hackers can use this tool for SQL injection testing.
+Add SQL Inject Me to Firefox:
+https://addons.mozilla.org/en-us/firefox/addon/sql-inject-me/ 
+
+10.  XSS ME
+Cross Site Scripting is the most common web application vulnerability. This add-on is incredibly useful for detecting XSS vulnerabilities in web applications. XSS-Me is used to find reflected XSS vulnerabilities from a browser. It scans all forms of the page, and then performs an attack on selected pages with pre-defined XSS payloads. After the scan is complete, it lists all the pages that rendered a payload, and may be vulnerable to XSS attack. Then, you can manually test the web page to determine whether or not the vulnerability exists.
+Add XSS ME to Firefox:
+https://addons.mozilla.org/en-us/firefox/addon/xss-me/
+
+11.  Passive Recon
+Last but not the least, Passive Recon is an information gathering tool.
+Passive Recon provides information security professionals the ability to perform “packetless” discoveries of target resources utilizing publicly available information. It gathers information in the same manner as DnsStuff tool, available on backtrack.
+Add PassiveRecon to Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/passiverecon/
+
+ #4 
+WAPPALYZER
+
+https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+
+Developer
+Elbert Alias
+	
+Wapplazyer allows for the detection of web application components including  CMS software, CDN, operating systems, and web server revisions.
+
+
+ #8 
+FOXYPROXY
+
+https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
+
+Developer
+Eric H. Jung
+	
+FoxyProxy is a Firefox extension which automatically switches an internet connection across one or more proxy servers based on URL patterns.  (Handy for toggling between  interception proxies like  ZAP, Burpesuite, etc).
+
+
+
+SEVERAL
+https://github.com/googleinurl
+http://blog.inurl.com.br/p/git.html
+
+
+
+----------------------------
+http://lcamtuf.coredump.cx/
+    American Fuzzy Lop, a fuzzer with an impressive track record of finding bugs.
+    P0f, a popular tool for passively detecting operating systems on remote machines.
+    Skipfish, a web security testing tool is now a cog in the Google Cloud Security Scanner.
+    Ratproxy, a neat but non-maintained passive web vulnerability detection tool.
+    Memfetch, a simple utility to take non-destructive snapshots of process address space.
+    Stompy, a fairly sophisticated token randomness evaluation tool.
+    Assorted purpose-built fuzzers: too many to list, but some of the most successful 
+    examples are cross_fuzz, ref_fuzz, mangleme, DOM checker, canvas fuzzer, jsfuzz, or 
+    transition fuzz.
+    Tools of historical interest: tmin, fl0p, 0trace, Fenris, unlocker, fakebust, snowdrop, 
+    bugger, the revisionist, poink, bunny, unicorns.
+
+    World's best exploit: ld-expl. It still works - amaze your friends!
+
+
+PDF Forensics "PDF Package"?  pdf parser is the only one in the cyborg repo!
+
+        pdf-parser
+        pdf2dsc
+        pdf2ps
+        pdf2txt
+        pdfcrack
+        pdfdetach
+        pdffonts
+        pdfid
+        pdfimages
+        pdfinfo
+        pdfseparate
+        pdftocairo
+        pdftohtml
+        pdftoppm
+        pdftops
+        pdftotext
+        pdfunite
+        peepdf
+
+
+
+https://github.com/JohnTroony
+
+https://www.cqure.net/wp/tools/database/dbpwaudit/
+- see tools menu
+
+https://github.com/wireghoul
+
+
+
+https://github.com/epsylon?tab=repositories
+https://github.com/wireghoul
+
+https://www.aldeid.com/wiki/Main_Page
+
+http://www.enderunix.org/?lng=tr&page=projects
+lots of tools listed but isn't in english - chrome later for translate
+
+https://github.com/nowsecure
+ NowSecure - We secure Mobile Devices, Enterprises, & Mobile Apps
+
+http://vipervast.sourceforge.net/
+VIPER Assessment Security Tools Linux security distribution
+VAST is a Linux-based security distribution specifically designed for pentesting 
+VoIP and UC networks. It enables security professionals and UC administrators to 
+rapidly perform VoIP security assessments and enumerate vulnerabilities in IP Phones or 
+IP PBX servers in a lab environment. 
+
+https://santoku-linux.com/
+Santoku is dedicated to mobile forensics, analysis, and security, and packaged in an easy to use, Open Source platform
+
+https://www.pentestgeek.com/hacking-tools
+http://booleanblackbelt.com/2009/08/how-to-search-spoke-zoominfo-and-jigsaw-for-free/
+http://nullsecurity.net/tools/backdoor.html
+
+
+
+https://github.com/xelerance/openswan/
+Openswan is an IPsec implementation for Linux. It has support for most 
+of the extensions (RFC + IETF drafts) related to IPsec, including 
+IKEv2, X.509 Digital Certificates, NAT Traversal, and many others.
+
+
+
+
+
+https://www.gremwell.com/what_is_magictree
+MagicTree is a penetration tester productivity tool. It is designed to allow easy and straightforward data consolidation, querying, external command execution and (yeah!) report generation. In case you wonder, "Tree" is because all the data is stored in a tree structure, and "Magic" is because it is designed to magically do the most cumbersome and boring part of penetration testing - data management and reporting.
+
+
+
+<BR><BR>
+
+
+
+
+
+
+
+
+<BR>
+///// https://www.youtube.com/channel/UCDGWRxpHo6d8y6qIeMAXnxQ</A>'<BR>
+
+
+
+<BR><A class="whitelink12" HREF="http://rootkit.nl/projects/lynis.html">Lynis - audit/harden *nix</A>'
+<BR><A class="whitelink12" HREF="http://pentestmonkey.net/tools/audit/unix-privesc-check">unix-privesc-check</A> </A>'
+
+<BR><BR>
+
+
+https://github.com/EnableSecurity/tftptheft
+TFTP Theft is a tool which allows one to quickly scan/bruteforce a tftp server for files and download them instantly 
+
+https://github.com/EnableSecurity
+- has some other good stuff like Burp extensions
+
+
+University of Oulu PROTOS Project - Security Testing of Protocol Implementations
+https://www.ee.oulu.fi/roles/ouspg/Protos
+PROTOS Test-Suite: c04-wap-wsp-request
+PROTOS Test-Suite: c05-wap-wmlc
+PROTOS Test-Suite: c05-http-reply
+PROTOS Test-Suite: c06-ldapv3
+PROTOS Test-Suite: c06-snmpv1
+PROTOS Test-Suite: c07-sip
+PROTOS Test-Suite: c07-h2250v4
+PROTOS Test-Suite: c09-isakmp
+PROTOS Test-Suite: c09-dns
+PROTOS Test-Suite: c10-archive
+
+https://github.com/zmap
+ The ZMap Project
+
+The ZMap Project is a collection of open source tools for performing large-scale studies of the hosts and services that compose the public Internet.
+
+
+https://www.mh-sec.de/downloads.html.en
+
+https://www.joedog.org/siege-manual/
+
+https://github.com/offensive-security?tab=repositories
+This has a listing of things not in Kali, including a script to make a AWS instance that is a Kali node
+
+
+https://digi.ninja/projects/
+http://lcamtuf.coredump.cx/
+https://labs.portcullis.co.uk/tools/
+http://www.edge-security.com/portfolio.php
+https://github.com/SpiderLabs
+https://github.com/rezasp
+https://github.com/GDSSecurity
+https://github.com/EnableSecurity/
+http://www.iniqua.com/labs/
+http://www.hackingciscoexposed.com/?link=tools
+http://oldhome.schmorp.de/marc/fcrackzip.html
+https://www.cgsecurity.org/
+http://www.cryptohaze.com/
+https://github.com/iphelix?tab=repositories
+https://thesprawl.org/projects/
+https://github.com/robertdavidgraham?tab=repositories
+https://github.com/bonsaiviking
+https://www.roe.ch/
+!!!!!!!!!  http://nullsecurity.net/tools.html
+https://github.com/wangyu-?tab=repositories
+http://www.enderunix.org/?lng=tr&page=projects
+http://www.hackingvoip.com/sec_tools.html
+
+https://github.com/samratashok   ---- check out  "ContinuousIntrusion"
+Material related to my talks at various conferences on using Continuous Integration tools 
+(Jenkins, Teamcity, Go, Hudson, CruiseControl) for penetration testing
+
+https://github.com/epinna/tplmap
+https://github.com/epinna?tab=repositories
+
+https://github.com/PowerShellMafia
+
+
+
+https://dradisframework.com/ce/">Dradis Framework<A>'
+
+https://github.com/azet/sslyze
+SSL (info) Scanner
+
+http://sqlmap.org/">SQLMap</A>'
+
+http://www.openvas.org/">OpenVAS</a>'
+
+
+http://www.sleuthkit.org">Autopsy - TSK</A>'
+
+airtun-ng 
+a virtual tunnel interface creator for aircrack-ng
+10% Popularity
+
+airodump-ng 
+a wireless packet capture tool for aircrack-ng
+30% Popularity
+
+xnmap 
+Another graphic user interface to nmap
+80% Popularity
+
+nmapfe 
+Graphical user interface to nmap
+80% Popularity
+
+https://chousensha.github.io/blog/categories/kali/
+
+
+https://github.com/mit-ll/SPARTA
+ SPAR (Security and Privacy Assurance Research) program, SPARTA 
+ (SPAR Testing and Assessment) framework is a set of
+software applications used to evaluate the functionality and performance
+of relational database systems (e.g., MySQL/MariaDB) and messaging
+systems (e.g., ActiveMQ). These utilities were used to evaluate research
+prototypes for secure and private information retrieval systems as
+compared to state-of-the-art open source implementations.
+
+------------------------------------------
+
+
+
+<!--  These commented lines are currently in Infosec II
+ComSec3_Menu[0]='<span class="yellowsans">CVE - Vulnerability Advisories</span>'
+ComSec3_Menu[1]='<A class="whitelink12" HREF="http://www.securiteam.com">SecuriTeam</A>'
+ComSec3_Menu[2]='<A class="whitelink12" HREF="http://www.securitytracker.com/">SecurityTracker</a>'
+ComSec3_Menu[3]='<A class="whitelink12" HREF="http://www.securityfocus.com/">SecurityFocus</a>'
+ComSec3_Menu[4]='<A class="whitelink12" HREF="http://www.talosintelligence.com">Cisco Talos</A>'
+ComSec3_Menu[5]='<A class="whitelink12" HREF="https://isc.sans.edu/">SANS Internet Storm Ctr</A>'
+ComSec3_Menu[6]='<A class="whitelink12" HREF="http://www.cvedetails.com/">CVE Details</A>'
+ComSec3_Menu[7]='<A class="whitelink12" HREF="https://cve.mitre.org/">Mitre.org CVE</a>' 
+ComSec3_Menu[8]='<A class="whitelink12" HREF="http://cwe.mitre.org/">Mitre.org CWE</A>'
+
+ComSec3_Menu[9]='<A class="whitelink12" HREF="http://nvd.nist.gov">NIST Natl Vuln DB</A>'
+ComSec3_Menu[10]='<A class="whitelink12" HREF="https://www.exploit-db.com"/>OffSecs ExploitDB</A>'
+ComSec3_Menu[11]='<A class="whitelink12" HREF="http://www.kb.cert.org/vuls/"/>CMU-CERT Vuln Notes DB</A>'
+
+ComSec3_Menu[12]='<span class="yellowsans">Online PCAP resources</span>'
+ComSec3_Menu[13]='<A class="whitelink12" HREF="https://packettotal.com/">PacketTotal - PCAP analysis</A>'
+ComSec3_Menu[14]='<A class="whitelink12" HREF="http://pcapng.com/">Convert PcapNG to PCAP</A>'
+ComSec3_Menu[15]='<A class="whitelink12" HREF="https://www.networktotal.com/">NetworkTotal-malware scans</A>'
+ComSec3_Menu[16]='<A class="whitelink12" HREF="https://malware-traffic-analysis.net">malware-traffic-analysis.net</A>'
+ComSec3_Menu[17]='<A class="whitelink12" HREF="http://www.netresec.com/?page=PcapFiles">NETRESECs PCAP Repo List</A>'
+ComSec3_Menu[18]='<A class="whitelink12" HREF="http://www.secrepo.com/">SecRepo.com PCAPs/Logs</A>'
+ComSec3_Menu[19]='<A class="whitelink12" HREF="https://wiki.wireshark.org/SampleCaptures">WS Wiki sample PCAPs</A>'
+ComSec3_Menu[20]='<A class="whitelink12" HREF="https://www.bro.org/community/traces.html">Bro Project - Packet Traces</A>'
+
+//ComSec3_Menu[21]='<span class="yellowsans">Rule/ Pattern Matching Resources</span>'
+ComSec3_Menu[22]='<A class="whitelink12" HREF="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
+//ComSec3_Menu[23]='<A class="whitelink12" HREF="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
+//ComSec3_Menu[24]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
+ -->
+
+
+ComSec3_Menu[25]='<span class="yellowsans">Security News</span>'
+// ComSec3_Menu[26]='<A class="whitelink12" HREF="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
+// ComSec3_Menu[27]='<A class="whitelink12" HREF="http://thehackernews.com/">The Hacker News</A>'
+// ComSec3_Menu[28]='<A class="whitelink12" HREF="http://krebsonsecurity.com">Krebs on Security</A>'
+// ComSec3_Menu[29]='<A class="whitelink12" HREF="http://www.csoonline.com">IDGs CSO Online</A>' 
+// ComSec3_Menu[30]='<A class="whitelink12" HREF="http://www.darkreading.com">UBMs Dark Reading</A>'
+// ComSec3_Menu[31]='<A class="whitelink12" HREF="https://threatpost.com/">Kaspersky ThreatPost</A>'
+// ComSec3_Menu[32]='<A class="whitelink12" HREF="http://www.theregister.co.uk/security/">The Register- Security</A>'
+// ComSec3_Menu[33]='<A class="whitelink12" HREF="http://www.networkworld.com/category/security">Network World- Security</A>'
+// ComSec3_Menu[34]='<A class="whitelink12" HREF="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
+// ComSec3_Menu[35]='<A class="whitelink12" HREF="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
+// ComSec3_Menu[36]='<A class="whitelink12" HREF="http://www.net-security.org/">Help Net Security</a>'
+// 
+// ComSec3_Menu[37]='<A class="whitelink12" HREF="http://blogs.cisco.com/security/">Cisco Security blog</A>'
+// ComSec3_Menu[38]='<A class="whitelink12" HREF="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
+// ComSec3_Menu[39]='<A class="whitelink12" HREF="http://blog.trendmicro.com/trendlabs-security-intelligence/">TrendMicro TrendLabs blog</A>'
+// ComSec3_Menu[40]='<A class="whitelink12" HREF="https://www.virustotal.com/en/community/">VirusTotal Community blog</A>'
+// ComSec3_Menu[41]='<A class="whitelink12" HREF="http://www.darknet.org.uk/">darknet.org.uk</A>'
+// ComSec3_Menu[42]='<A class="whitelink12" HREF="http://sanesecurity.blogspot.co.uk/">Sanesecurity</A>'
+// ComSec3_Menu[43]='<A class="whitelink12" HREF="http://blog.didierstevens.com/">Didier Stevens blog</A>'
+// 
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+
+<ul>
+<li><b>Chapter 2: Scanning</b>
+<ul>
+	<li><a href = "http://www.nessus.org"><font color="#FFCCCC">Nessus</font></a>
+  <li><a href = "http://www.foundstone.com/resources/proddesc/snscan.htm"><font color="#FFCCCC">SNSscan</font></a>
+  <li><a href = "http://www.foundstone.com/resources/proddesc/superscan.htm"><font color="#FFCCCC">SuperScan</font></a>
+FOUNDSTONE WAS BOUGHT BY MCAFFE AND THE LINKS GOOGLE FINDS DONT work
+
+
+	  
+	  </ul><br>
+<li><b>Chapter 3: Enumeration</b>
+<ul>
+		<li><a href = "http://www.vopsecurity.org/html/tools.html"><font color="#FFCCCC">SiVuS</font></a>
+		VOPSECURITY.ORG SEEMS DARK EXCEPT FOR A FRONT PAGE!!!
+  	<li><a href = "http://sipsak.org/"><font color="#FFCCCC">sipsak</font></a>
+
+	  <li><a href = "http://www.wormulon.net/index.php?/archives/1125-smap-released.html"><font color="#FFCCCC">smap</font></a>
+GONE
+
+<li><a href = "http://www.hackingexposedcisco.com/tools/TFTP-bruteforce.tar.gz">TFTP Brute Forcer</a>	with <a href = "http://www.hackingvoip.com/tools/tftp_bruteforce.txt">TFTP Bruteforce File</a>
+THIS SHOULD WORK - ok for VoIP
+
+</ul><br>
+<li><b>Chapter 4: Infrastructure Denial of Service</b>
+<ul>
+
+ 	<li><a href = "http://www.packetfactory.net/projects/dnsa"><font color="#FFCCCC">DNS Auditing tool</font></a>
+ 	GONE
+ 	
+
+</ul><br>
+
+<li><b>Chapter 5: Eavesdropping</b>
+<ul>
+  	<li><a href = "http://freshmeat.net/projects/angst/"><font color="#FFCCCC">Angst</font></a>
+  	Angst is an active sniffer, based on libpcap and libnet. It dumps into a file the payload of all the TCP packets received on the specified ports. It implements two methods for active sniffing. Angst is able to monitor ARP requests, and after enabling IP forwarding on the local host, it sends ARP replies mapping all IPs to the local MAC address. Also, it can flood the local network with random MAC addresses (like macof), causing switches to send packets to all ports.
+  	
+  	
+  	<li><a href = "http://www.polar-electric.com/DTMF/Index.html"><font color="#FFCCCC">DTMF Decoder</font></a> 
+  	DTMF Decoder is a very easy to use program to decode DTMF dial tones found on telephone lines with touch tone phones.
+DTMF Decoder is also used for receiving data transmissions over the air in amateur radio frequency bands.
+  	
+  	
+  	
+https://sourceforge.net/projects/oreka/
+Oreka
+Enterprise telephony recording and retrieval system
+
+
+</font></a>  
+  	<li><a href = "http://www.enderunix.org/voipong/index.php"><font color="#FFCCCC">VoIPong</font></a>
+ VoIPong is a utility which detects all Voice Over IP calls on a pipeline, and for those which are G711 encoded, dumps actual conversation to seperate wave files. It supports SIP, H323, Cisco's Skinny Client Protocol, RTP and RTCP.
+It's been written in C language for performance reasons, proved to be running on Solaris, Linux and FreeBSD; though it's thought to compile and run on other platforms as well.
+On a 45 Mbit/sec network traffic, it's been verified that VoIPong successfully detected all VoIP gateways and the VoIP calls. CPU utilization during the run has been found ranging between 66% - 80% on a 256MB RAM, Celeron 1700 Mhz Toshiba notebook. 
+
+  	
+  	
+  	
+  	
+  	<li><a href = "http://vomit.xtdnet.nl"><font color="#FFCCCC">vomit</font></a>  		 	
+vomit - voice over misconfigured[1] internet telephones
+The vomit utility converts a Cisco IP phone conversation into a wave file that can be played with ordinary sound players. Vomit requires a tcpdump output file. Vomit is not a VoIP sniffer also it could be but the naming is probably related to H.323.
+
+SCANSSH
+https://www.monkey.org/~provos/scanssh/
+ScanSSH supports scanning a list of addresses and networks for open proxies, SSH protocol servers, Web and SMTP servers. Where possible ScanSSH, displays the version number of the running services. ScanSSH protocol scanner supports random selection of IP addresses from large network ranges and is useful for gathering statistics on the deployment of SSH protocol servers in a company or the Internet as whole.
+
+
+<li><b>Chapter 6: Network and Application Interception</b>
+<ul>
+  	<li><a href = "ftp://ftp.ee.lbl.gov/arpwatch.tar.gz"><font color="#FFCCCC">arpwatch</font></a>  
+  	GONE
+
+  	<li><a href = "http://www.xarp.net/"><font color="#FFCCCC">XArp</font></a>  
+XArp is a security application that uses advanced techniques to detect ARP based attacks. Using active and passive modules XArp detects hackers inside your network. ARP attacks allow an attacker to silently eavesdrop or manipulate all your data that is sent over the network. This include documents, emails, or VoiceIP conversations. ARP spoofing attacks go undetected by firewalls and operating system security: Firewalls do not protect you against ARP based attack.
+
+
+<li><b>Chapter 9: Asterisk</b>
+
+	<li><a href = "http://www.tippingpoint.com/security/materials/enumiax-0.4a.tar.gz"><font color="#FFCCCC">IAX Enumerator</font></a>
+TREND MICRO- NO DOWNLOADS!
+
+<li><b>Chapter 11: Fuzzing</b>
+<ul>
+  	<li><a href = "http://www.ee.oulu.fi/research/ouspg/protos/testing/c07/sip/c07-sip-r2.jar"><font color="#FFCCCC">PROTOS SIP fuzzing suite</font></a>
+WORKS- SEE OTHER PROTOS Test-Suite links I have
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1799,7 +1799,7 @@ KaliMisc_Menu[9]='<A class="whitelink" HREF="https://github.com/humble-desser/ji
 //  Jigsaw is now "Data.com Connect "
 KaliMisc_Menu[10]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/pyfoca">pyFOCA [Google for docs, extract metadata]</A>'
 
-KaliMisc_Menu[11]='<span class="yellowsans">Unsorted or helpful tools</span>'
+KaliMisc_Menu[11]='<span class="yellowsans">Unsorted stuff</span>'
 KaliMisc_Menu[12]='<A class="whitelink" HREF="https://dradisframework.com/ce/">Dradis Framework</A>'
 KaliMisc_Menu[13]='<A class="whitelink" HREF="https://www.faradaysec.com">Faraday IDE</A>'
 KaliMisc_Menu[14]='<A class="whitelink" HREF="https://github.com/Snorby/snorby">Snorby [net monitoring frontend]</A>'
