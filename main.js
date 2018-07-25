@@ -97,9 +97,8 @@ WebS_Menu[3]='<a class="whitelink" href="http://www.dogpile.com/">Dogpile Metase
 WebS_Menu[4]='<a class="whitelink" href="http://www.ixquick.com/">Ixquick (aka StartPage)</A>'
 WebS_Menu[5]='<a class="whitelink" href="http://web.archive.org/">The Way Back Machine</A>'
 WebS_Menu[6]='<a class="whitelink" href="http://www.wolframalpha.com/">Wolfram Alpha</A>'
-
-WebS_Menu[7]='<a class="whitelink" href="http://searchenginewatch.com/">Search Engine Watch (SEO)</a>'
-WebS_Menu[8]='<a class="whitelink" href="http://www.internetmarketingninjas.com">InternetMarketingNinjas.com</a>'
+WebS_Menu[7]='<a class="whitelink" href="https://www.lexisnexis.com/en-us/home.page">LexisNexis</A>'
+//8
 WebS_Menu[9]='<span class="yellowsans">Web Indicies</span>'
 WebS_Menu[10]='<a class="whitelink" href="http://www.archive.org/">The Internet Archive</a>'
 WebS_Menu[11]='<a class="whitelink" href="http://dmoz.org">The DMOZ Open Directory Project</a>'
@@ -122,6 +121,24 @@ WebS_Menu[24]='<span class="yellowsans">Lists of &quot;Awesome Lists&quot;</span
 WebS_Menu[25]='<a class="whitelink" href="https://github.com/jnv/lists">JNVs list of lists (of lists)</a>'
 WebS_Menu[26]='<a class="whitelink" href="https://github.com/sindresorhus/awesome">Sindres List of Awesome Lists</a>'
 WebS_Menu[27]='<a class="whitelink" href="https://github.com/t3chnoboy/awesome-awesome-awesome">t3chnoboys List of Awesome Lists</a>'
+
+WebS_Menu[28]='<span class="yellowsans">OSINT Tools</span>'
+WebS_Menu[29]='<A class="whitelink" HREF="https://www.shodan.io/">Shodan</A>'
+WebS_Menu[30]='<A class="whitelink" HREF="https://www.paterva.com/web7/downloads.php">Paterva Maltego, CaseFile</A>'
+WebS_Menu[31]='<A class="whitelink" HREF="https://github.com/i3visio/osrframework">OSRFramework [find email/social media]</A>'
+WebS_Menu[32]='<A class="whitelink" HREF="https://github.com/gojhonny/InSpy">InSpy [LinkedIn -employee lists, tech used]</A>'
+WebS_Menu[33]='<A class="whitelink" HREF="https://github.com/aboul3la/Sublist3r">Sublist3r [find subdomains]</A>'
+WebS_Menu[34]='<A class="whitelink" HREF="https://www.exploit-db.com/google-hacking-database/">Google Hacking Database (GHDB)</A>'
+WebS_Menu[35]='<A class="whitelink" HREF="https://code.google.com/archive/p/goofile/">goofile [Google -d domain -f filetype]</A>'
+WebS_Menu[36]='<A class="whitelink" HREF="https://code.google.com/archive/p/metagoofil/">MetaGoofil [Google search tool]</A>'
+WebS_Menu[37]='<A class="whitelink" HREF="https://github.com/humble-desser/jigsaw">Jigsaw [search companys/employees]</A>'
+//  Jigsaw is now "Data.com Connect "
+WebS_Menu[38]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/pyfoca">pyFOCA [Google for docs, extract metadata]</A>'
+
+
+
+
+
 
 var WebTools_Menu=new Array()
 WebTools_Menu[0]='<span class="yellowsans">Online Converters &amp; Tools</span>'
@@ -173,6 +190,10 @@ WebTools_Menu[33]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal
 // http://www.conceptdraw.com/solution-park/">ConceptDraw</A>'
 // https://www.edrawsoft.com/share-flowchart.php">Edraw flowchart templates</A>'
 // https://stenciltown.omnigroup.com/">Stenciltown for OmniGraffle</A>'
+
+// https://convertio.co/   --convert files to other files
+// http://www.convertfiles.com/
+
 
 var Radio_Menu=new Array()
 Radio_Menu[0]='<span class="yellowsans">General Tools and Reference</span>'
@@ -272,6 +293,7 @@ Net2_Menu[2]='<a class="whitelink" href="https://datatracker.ietf.org/">IETF Dat
 Net2_Menu[3]='<a class="whitelink" href="https://wiki.wireshark.org/FrontPage">The Wireshark Wiki</A>'
 Net2_Menu[4]='<a class="whitelink" href="http://www.tcpipguide.com/">TCPIPGuide.com Wiki</A>'
 Net2_Menu[5]='<a class="whitelink" href="https://wiki.mef.net">MEF (Metro Ethernet Forum) Wiki</A>'
+// https://kb.pert.geant.net/PERTKB/Network">Geant PERT KB</A>
 Net2_Menu[6]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
 Net2_Menu[7]='<a class="whitelink" href="http://www.ascii-code.com/">ASCII-BIN-HEX-OCT Convert</a>'
 Net2_Menu[8]='<a class="whitelink" href="https://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml">IANA EtherType &amp; OUI #s</A>'
@@ -287,7 +309,11 @@ Net2_Menu[16]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/i
 Net2_Menu[17]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
 Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
 Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
+//https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mpls/command/mp-cr-book.html">Cisco IOS MPLS Cmd Ref</A>'
 
+// https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
+//https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
+//https://www.extremenetworks.com/support/">Extreme Networks - support and docs</A>
 
 Net2_Menu[20]='<span class="yellowsans">AS/ BGP Lookups</span>'
 Net2_Menu[21]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
@@ -522,9 +548,12 @@ Unix_Menu[40]='<a class="whitelink" href="http://www.freebsd.net/">The FreeBSD P
 var HW_Menu=new Array()
 HW_Menu[0]='<span class="yellowsans">Hardware Reference Sources</span>'
 HW_Menu[1]='<a class="whitelink" href="https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm">Search Equipment FCCIDs</a>'
+// https://fccid.io/
 HW_Menu[2]='<a class="whitelink" href="http://www.pcilookup.com//">PCILookup (old PCI-DB site died)</a>'
 HW_Menu[3]='<a class="whitelink" href="https://wikidevi.com">WikiDevi - Open HW DB</a>'
 HW_Menu[4]='<a class="whitelink" href="http://www.manualslib.com/">ManualsLib collection</A>'
+// https://all-guides.com/
+// https://usermanual.wiki/
 HW_Menu[5]='<a class="whitelink" href="http://www.intel.com/pressroom/kits/quickreffam.htm">Intel Quick Ref Guide (1971-2008)</A>'
 HW_Menu[6]='<a class="whitelink" href="http://ark.intel.com/">Intel ARK (Specs Post-2008)</A>'
 HW_Menu[7]='<a class="whitelink" href="http://www.amdcompare.com/">AMD Compare - product specs</A>'
@@ -703,6 +732,7 @@ SDNNFV_Menu[33]='<a class="whitelink" href="https://github.com/openstack/neutron
 SDNNFV_Menu[34]='<a class="whitelink" href="https://wiki.fd.io/view/Main_Page">FD.io & VPP (used by Cisco)</A>'
 SDNNFV_Menu[35]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/virtualization-automation.html">Cisco - NFV and Automation</A>'
 SDNNFV_Menu[36]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/network-infrastructure/index.html">Cisco - Evolved Programmable</A>'
+SDNNFV_Menu[37]='<a class="whitelink" href="https://www.juniper.net/us/en/products-services/sdn/contrail/">Juniper Contrail</a>'
 
 var ComSec2_Menu=new Array()
 ComSec2_Menu[0]='<span class="yellowsans">Security Tools</span>'
@@ -1219,7 +1249,8 @@ Game_Menu[14]='<a class="whitelink" href="https://archive.org/details/messmame">
 Game_Menu[15]='<a class="whitelink" href="https://archive.org/details/softwarelibrary">Internet Archive Old PC Software</a>'
 // ---------------------------------------------------------------------------
 
-
+// CONSIDER THE KALI MENUS TO BE GPL'D MORE OR LESS- 
+// IF YOU GRAB AND POST JUST GIVE ME CREDIT FOR THROWING IT TOGETHER- IT TOOK OVER A WEEK!
 
 var KaliNet1_Menu=new Array()
 KaliNet1_Menu[0]='<span class="yellowsans">Information Gathering</span>'
@@ -1236,6 +1267,7 @@ KaliNet1_Menu[9]='<A class="whitelink" HREF="http://code.google.com/p/dnsmap/">D
 KaliNet1_Menu[10]='<A class="whitelink" HREF="https://github.com/darkoperator/dnsrecon">DNSRecon</A>'
 KaliNet1_Menu[11]='<A class="whitelink" HREF="http://freshmeat.net/projects/dnstracer">DNSTracer</A>'
 KaliNet1_Menu[12]='<A class="whitelink" HREF="https://sourceforge.net/projects/dnswalk/">DNSWalk</A>'
+/// <a href = "http://packetfactory.openwall.net/projects/dnsa/index.html">dnsa [DNS Auditing tool]</a>
 KaliNet1_Menu[13]='<A class="whitelink" HREF="https://github.com/behindthefirewalls/dns-snoop">dns-snoop [check DNS vuln bad req]</A>'
 KaliNet1_Menu[14]='<A class="whitelink" HREF="https://github.com/guelfoweb/knock">Knock-Scan [scan DNS, get zones]</A>'
 KaliNet1_Menu[15]='<A class="whitelink" HREF="https://github.com/mschwager/fierce">Fierce [find non-contig IP space]</A>'
@@ -1260,6 +1292,7 @@ KaliNet1_Menu[32]='<A class="whitelink" HREF="https://github.com/iputils/iputils
 KaliNet1_Menu[33]='<A class="whitelink" HREF="https://github.com/ThomasHabets/arping">Arping [Habets version]</A>'
 KaliNet1_Menu[34]='<A class="whitelink" HREF="https://sourceforge.net/projects/autoscan/">Autoscan-Network</A>'
 KaliNet1_Menu[35]='<A class="whitelink" HREF="http://angryip.org/">Angry IP Scanner</A>'
+// <a href = "https://www.monkey.org/~provos/scanssh/">ScanSSH [scan for SSH/SSL/SOCKS versions]</a>
 KaliNet1_Menu[36]='<A class="whitelink" HREF="http://www.unixwiz.net/tools/nbtscan.html">nbtscan [NETBIOS scanner]</A>'
 KaliNet1_Menu[37]='<A class="whitelink" HREF="http://github.com/Zapotek/cdpsnarf">CDPSnarf [get CDP info]</A>'
 KaliNet1_Menu[38]='<A class="whitelink" HREF="http://code.google.com/p/mirandaupnptool/">Miranda [for UPnP]</A>'
@@ -1561,6 +1594,10 @@ KaliVOIP_Menu[38]='<A class="whitelink" HREF="http://www.hackingvoip.com/tools/r
 KaliVOIP_Menu[39]='<A class="whitelink" HREF="http://www.hackingvoip.com/tools/rtpmixsound_v3.0.tar.gz">RTP MixSound v3.0</a>'
 KaliVOIP_Menu[40]='<A class="whitelink" HREF="http://www.hackingvoip.com/tools/spitter.tar.gz">Spitter</a>'
 
+KaliVOIP_Menu[41]='<span class="yellowsans">VoIP Call Recording</span>'
+KaliVOIP_Menu[42]='<A class="whitelink" HREF="https://sourceforge.net/projects/oreka/">Oreka [telephony recording/retrieval]</a>'
+KaliVOIP_Menu[43]='<A class="whitelink" HREF="http://www.enderunix.org/voipong/index.php">VoIPong [dump G711 calls to .wav]</a>'
+KaliVOIP_Menu[44]='<A class="whitelink" HREF="http://vomit.xtdnet.nl">vomit [dump Cisco IP phone to .wav]</a>'
 
 var KaliForensics_Menu=new Array()
 KaliForensics_Menu[0]='<span class="yellowsans">Forensics I - DEFT and SIFT</span>'
@@ -1787,60 +1824,45 @@ KaliExploits_Menu[44]='<A class="whitelink" HREF="https://github.com/volatilityf
 
 
 var KaliMisc_Menu=new Array()
-KaliMisc_Menu[0]='<span class="yellowsans">OSINT Tools</span>'
-KaliMisc_Menu[1]='<A class="whitelink" HREF="https://www.shodan.io/">Shodan</A>'
-KaliMisc_Menu[2]='<A class="whitelink" HREF="https://www.paterva.com/web7/downloads.php">Paterva Maltego, CaseFile</A>'
-KaliMisc_Menu[3]='<A class="whitelink" HREF="https://github.com/i3visio/osrframework">OSRFramework [find email/social media]</A>'
-KaliMisc_Menu[4]='<A class="whitelink" HREF="https://github.com/gojhonny/InSpy">InSpy [LinkedIn -employee lists, tech used]</A>'
-KaliMisc_Menu[5]='<A class="whitelink" HREF="https://github.com/aboul3la/Sublist3r">Sublist3r [find subdomains]</A>'
-KaliMisc_Menu[6]='<A class="whitelink" HREF="https://www.exploit-db.com/google-hacking-database/">Google Hacking Database (GHDB)</A>'
-KaliMisc_Menu[7]='<A class="whitelink" HREF="https://code.google.com/archive/p/goofile/">goofile [Google -d domain -f filetype]</A>'
-KaliMisc_Menu[8]='<A class="whitelink" HREF="https://code.google.com/archive/p/metagoofil/">MetaGoofil [Google search tool]</A>'
-KaliMisc_Menu[9]='<A class="whitelink" HREF="https://github.com/humble-desser/jigsaw">Jigsaw [search companys/employees]</A>'
-//  Jigsaw is now "Data.com Connect "
-KaliMisc_Menu[10]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/pyfoca">pyFOCA [Google for docs, extract metadata]</A>'
+KaliMisc_Menu[0]='<span class="yellowsans">Unsorted stuff</span>'
+KaliMisc_Menu[1]='<A class="whitelink" HREF="https://dradisframework.com/ce/">Dradis Framework</A>'
+KaliMisc_Menu[2]='<A class="whitelink" HREF="https://www.faradaysec.com">Faraday IDE</A>'
+KaliMisc_Menu[3]='<A class="whitelink" HREF="https://github.com/Snorby/snorby">Snorby [net monitoring frontend]</A>'
+KaliMisc_Menu[4]='<A class="whitelink" HREF="https://www.gremwell.com/what_is_magictree">MagicTree</A>'
+KaliMisc_Menu[5]='<A class="whitelink" HREF="http://cutycapt.sourceforge.net/">CutyCapt</A>'
+KaliMisc_Menu[6]='<A class="whitelink" HREF="https://digi.ninja/projects/pipal.php">Pipal [password stats]</A>'
+KaliMisc_Menu[7]='<A class="whitelink" HREF="https://github.com/log2timeline">plaso/log2timeline [timeline tool]</A>'
+KaliMisc_Menu[8]='<A class="whitelink" HREF="http://md5deep.sourceforge.net/">md5deep/hashdeep</A>'
+KaliMisc_Menu[9]='<A class="whitelink" HREF="https://sourceforge.net/projects/ssdeep/">ssdeep [compute/match fuzzy hashes]</A>' 
+KaliMisc_Menu[10]='<A class="whitelink" HREF="https://github.com/gordonrs/thc-secure-delete">THC Secure-delete [sdmem,sfill,srm,sswap]</A>'
+KaliMisc_Menu[11]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/aeskeyfind-1.0.tar.gz">AESKeyFinder</A>'
+KaliMisc_Menu[12]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/rsakeyfind-1.0.tar.gz">RSAKeyFinder</A>'
+KaliMisc_Menu[13]='<A class="whitelink" HREF="https://blog.didierstevens.com/programs/pdf-tools/">pdf-parser and pdfid</A>'
+KaliMisc_Menu[14]='<A class="whitelink" HREF="http://eternal-todo.com/tools/peepdf-pdf-analysis-tool">peepdf [check PDFs for malicious payload]</A>'
+KaliMisc_Menu[15]='<A class="whitelink" HREF="https://github.com/abeluck/stegdetect">stegdetect [does it have stego?]</A>'
+KaliMisc_Menu[16]='<A class="whitelink" HREF="http://lcamtuf.coredump.cx/">Snowdrop [stego implementation]</A>'
+KaliMisc_Menu[17]='<A class="whitelink" HREF="https://github.com/Busindre/dumpzilla">Dumpzilla [dump all info, Mozilla browsers]</A>'
+KaliMisc_Menu[18]='<A class="whitelink" HREF="https://rfc1149.net/devel/recoverjpeg.html">recoverjpeg [file carver]</A>'
+KaliMisc_Menu[19]='<A class="whitelink" HREF="http://vinetto.sourceforge.net/">Vinetto [examine thumbs.db files]</A>'
+KaliMisc_Menu[20]='<A class="whitelink" HREF="https://github.com/erocarrera/pefile">pefile [for Portable Executables (PE)]</A>'
+KaliMisc_Menu[21]='<A class="whitelink" HREF="http://pev.sourceforge.net/">pev - PE file analysis</A>'
+KaliMisc_Menu[22]='<A class="whitelink" HREF="https://github.com/strozfriedberg/liblightgrep">liblightgrep [grep for forensics]</A>'
+KaliMisc_Menu[23]='<A class="whitelink" HREF="https://code.google.com/archive/p/dumbpig/">dumbpig [syntax checking for Snort rules]</A>' 
+KaliMisc_Menu[24]='<A class="whitelink" HREF="https://www.fourmilab.ch/random/">ent [pseudorandom number sequence test]</A>' 		  
+KaliMisc_Menu[25]='<A class="whitelink" HREF="http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html">gzrt [gzrecover - fix corrupted gzip]</A>' 
+KaliMisc_Menu[26]='<A class="whitelink" HREF="https://github.com/libyal/libolecf">libolecf [OLE2 Compound File (OLECF) format]</A>'
+KaliMisc_Menu[27]='<A class="whitelink" HREF="https://github.com/libimobiledevice/libplist">libplist-dev [Apple Property List format]</A>' 
+KaliMisc_Menu[28]='<A class="whitelink" HREF="https://sourceforge.net/projects/libexif/">exif [EXIF info in JPEG]</A>' 
 
-KaliMisc_Menu[11]='<span class="yellowsans">Unsorted stuff</span>'
-KaliMisc_Menu[12]='<A class="whitelink" HREF="https://dradisframework.com/ce/">Dradis Framework</A>'
-KaliMisc_Menu[13]='<A class="whitelink" HREF="https://www.faradaysec.com">Faraday IDE</A>'
-KaliMisc_Menu[14]='<A class="whitelink" HREF="https://github.com/Snorby/snorby">Snorby [net monitoring frontend]</A>'
-KaliMisc_Menu[15]='<A class="whitelink" HREF="https://www.gremwell.com/what_is_magictree">MagicTree</A>'
-KaliMisc_Menu[16]='<A class="whitelink" HREF="http://cutycapt.sourceforge.net/">CutyCapt</A>'
-KaliMisc_Menu[17]='<A class="whitelink" HREF="https://digi.ninja/projects/pipal.php">Pipal [password stats]</A>'
-KaliMisc_Menu[18]='<A class="whitelink" HREF="https://github.com/log2timeline">plaso/log2timeline [timeline tool]</A>'
-KaliMisc_Menu[19]='<A class="whitelink" HREF="http://md5deep.sourceforge.net/">md5deep/hashdeep</A>'
-KaliMisc_Menu[20]='<A class="whitelink" HREF="https://sourceforge.net/projects/ssdeep/">ssdeep [compute/match fuzzy hashes]</A>' 
-KaliMisc_Menu[21]='<A class="whitelink" HREF="https://github.com/gordonrs/thc-secure-delete">THC Secure-delete [sdmem,sfill,srm,sswap]</A>'
-
-//KaliMisc_Menu[22]='<span class="yellowsans">Unsorted tool leftovers</span>'
-KaliMisc_Menu[23]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/aeskeyfind-1.0.tar.gz">AESKeyFinder</A>'
-KaliMisc_Menu[24]='<A class="whitelink" HREF="https://citp.princeton.edu/memory-content/src/rsakeyfind-1.0.tar.gz">RSAKeyFinder</A>'
-KaliMisc_Menu[25]='<A class="whitelink" HREF="https://blog.didierstevens.com/programs/pdf-tools/">pdf-parser and pdfid</A>'
-KaliMisc_Menu[26]='<A class="whitelink" HREF="http://eternal-todo.com/tools/peepdf-pdf-analysis-tool">peepdf [check PDFs for malicious payload]</A>'
-KaliMisc_Menu[27]='<A class="whitelink" HREF="https://github.com/abeluck/stegdetect">stegdetect [does it have stego?]</A>'
-KaliMisc_Menu[28]='<A class="whitelink" HREF="http://lcamtuf.coredump.cx/">Snowdrop [stego implementation]</A>'
-KaliMisc_Menu[29]='<A class="whitelink" HREF="https://github.com/Busindre/dumpzilla">Dumpzilla [dump all info, Mozilla browsers]</A>'
-KaliMisc_Menu[30]='<A class="whitelink" HREF="https://rfc1149.net/devel/recoverjpeg.html">recoverjpeg [file carver]</A>'
-KaliMisc_Menu[31]='<A class="whitelink" HREF="http://vinetto.sourceforge.net/">Vinetto [examine thumbs.db files]</A>'
-KaliMisc_Menu[32]='<A class="whitelink" HREF="https://github.com/erocarrera/pefile">pefile [for Portable Executables (PE)]</A>'
-KaliMisc_Menu[33]='<A class="whitelink" HREF="http://pev.sourceforge.net/">pev - PE file analysis</A>'
-KaliMisc_Menu[34]='<A class="whitelink" HREF="https://github.com/strozfriedberg/liblightgrep">liblightgrep [grep for forensics]</A>'
-KaliMisc_Menu[35]='<A class="whitelink" HREF="https://code.google.com/archive/p/dumbpig/">dumbpig [syntax checking for Snort rules]</A>' 
-KaliMisc_Menu[36]='<A class="whitelink" HREF="https://www.fourmilab.ch/random/">ent [pseudorandom number sequence test]</A>' 		  
-KaliMisc_Menu[37]='<A class="whitelink" HREF="http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html">gzrt [gzrecover - fix corrupted gzip]</A>' 
-KaliMisc_Menu[38]='<A class="whitelink" HREF="https://github.com/libyal/libolecf">libolecf [OLE2 Compound File (OLECF) format]</A>'
-KaliMisc_Menu[39]='<A class="whitelink" HREF="https://github.com/libimobiledevice/libplist">libplist-dev [Apple Property List format]</A>' 
-KaliMisc_Menu[40]='<A class="whitelink" HREF="https://sourceforge.net/projects/libexif/">exif [EXIF info in JPEG]</A>' 
-
-KaliMisc_Menu[41]='<A class="whitelink" HREF="https://digi.ninja/projects/twofi.php">twofi [Twitter Words of Interest]</A>'
-KaliMisc_Menu[42]='<A class="whitelink" HREF="https://www.morningstarsecurity.com/research/urlcrazy">URLCrazy [output variants of domain name]</A>'
-KaliMisc_Menu[43]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/smsspam">SMSSpam [needs gmail, spray SMS at victim]</A>'
-KaliMisc_Menu[44]='<A class="whitelink" HREF="https://github.com/pentestgeek">Phishing Frenzy framework [web interface]</A>'
-KaliMisc_Menu[45]='<A class="whitelink" HREF="https://www.pjrc.com/teensy/td_download.html">Teensy/Arduino SW [pjrc.org]</A>'
-KaliMisc_Menu[46]='<A class="whitelink" HREF="https://www.shellterproject.com/">shellter [shellcode injection/PE infector]</A>'
-KaliMisc_Menu[47]='<A class="whitelink" HREF="https://github.com/nixawk/pattern">pattern_create / pattern_offset</A>'
-KaliMisc_Menu[48]='<A class="whitelink" HREF="https://github.com/Gallopsled/pwntools">Pwntools [exploit development library]</A>'
-KaliMisc_Menu[49]='<A class="whitelink" HREF="https://github.com/reyammer/shellnoob">ShellNoob [shellcode writing toolkit]</A>'
+KaliMisc_Menu[29]='<A class="whitelink" HREF="https://digi.ninja/projects/twofi.php">twofi [Twitter Words of Interest]</A>'
+KaliMisc_Menu[30]='<A class="whitelink" HREF="https://www.morningstarsecurity.com/research/urlcrazy">URLCrazy [output variants of domain name]</A>'
+KaliMisc_Menu[31]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/smsspam">SMSSpam [needs gmail, spray SMS at victim]</A>'
+KaliMisc_Menu[32]='<A class="whitelink" HREF="https://github.com/pentestgeek">Phishing Frenzy framework [web interface]</A>'
+KaliMisc_Menu[33]='<A class="whitelink" HREF="https://www.pjrc.com/teensy/td_download.html">Teensy/Arduino SW [pjrc.org]</A>'
+KaliMisc_Menu[34]='<A class="whitelink" HREF="https://www.shellterproject.com/">shellter [shellcode injection/PE infector]</A>'
+KaliMisc_Menu[35]='<A class="whitelink" HREF="https://github.com/nixawk/pattern">pattern_create / pattern_offset</A>'
+KaliMisc_Menu[36]='<A class="whitelink" HREF="https://github.com/Gallopsled/pwntools">Pwntools [exploit development library]</A>'
+KaliMisc_Menu[37]='<A class="whitelink" HREF="https://github.com/reyammer/shellnoob">ShellNoob [shellcode writing toolkit]</A>'
 
 
 
