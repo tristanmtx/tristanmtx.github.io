@@ -144,40 +144,40 @@ var WebTools_Menu=new Array()
 WebTools_Menu[0]='<span class="yellowsans">Online Converters &amp; Tools</span>'
 WebTools_Menu[1]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'
 WebTools_Menu[2]='<A class="whitelink" HREF="http://www.onlineconversion.com/">OnlineConversion</A>'
-// https://www.rapidtables.com/
-WebTools_Menu[3]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
-WebTools_Menu[4]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
-WebTools_Menu[5]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
-WebTools_Menu[6]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert files &amp; hashing</A>'
-WebTools_Menu[7]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
-WebTools_Menu[8]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
-WebTools_Menu[9]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
-WebTools_Menu[10]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
-WebTools_Menu[11]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
-WebTools_Menu[12]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
-WebTools_Menu[13]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
-WebTools_Menu[14]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
-WebTools_Menu[15]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
-WebTools_Menu[16]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
-WebTools_Menu[17]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
-WebTools_Menu[18]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
-WebTools_Menu[19]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
-WebTools_Menu[20]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
-WebTools_Menu[21]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
-WebTools_Menu[22]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
-WebTools_Menu[23]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
-WebTools_Menu[24]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
-WebTools_Menu[25]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
-WebTools_Menu[26]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
+WebTools_Menu[3]='<A class="whitelink" HREF="https://www.rapidtables.com/">RapidTables</A>'
+WebTools_Menu[4]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
+WebTools_Menu[5]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
+WebTools_Menu[6]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
+WebTools_Menu[7]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert files &amp; hashing</A>'
+WebTools_Menu[8]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+WebTools_Menu[9]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
+WebTools_Menu[10]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
+WebTools_Menu[11]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
+WebTools_Menu[12]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
+WebTools_Menu[13]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
+WebTools_Menu[14]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
+WebTools_Menu[15]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
+WebTools_Menu[16]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
+WebTools_Menu[17]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
+WebTools_Menu[18]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
+WebTools_Menu[19]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
+WebTools_Menu[20]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
+WebTools_Menu[21]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
+WebTools_Menu[22]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
+WebTools_Menu[23]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
+WebTools_Menu[24]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
+WebTools_Menu[25]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
+WebTools_Menu[26]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
+WebTools_Menu[27]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
 // https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
 
-WebTools_Menu[27]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
-WebTools_Menu[28]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
-WebTools_Menu[29]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
-WebTools_Menu[30]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
-WebTools_Menu[31]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
-WebTools_Menu[32]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
-WebTools_Menu[33]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
+WebTools_Menu[28]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
+WebTools_Menu[29]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
+WebTools_Menu[30]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
+WebTools_Menu[31]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
+WebTools_Menu[32]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
+WebTools_Menu[33]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
+WebTools_Menu[34]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
 // http://www.satview.org">SatView</A>'
 // http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
 // http://www.keepvid.com">KeepVid Downloader</A>' 
@@ -311,6 +311,8 @@ Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/i
 Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
 //https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mpls/command/mp-cr-book.html">Cisco IOS MPLS Cmd Ref</A>'
 
+//sites.google.com/site/amitsciscozone/home
+//infocenter.alcatel-lucent.com
 // https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
 //https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
 //https://www.extremenetworks.com/support/">Extreme Networks - support and docs</A>
@@ -676,7 +678,7 @@ Cluster2_Menu[21]='<a class="whitelink" href="https://kb.vmware.com">VMWare Know
 Cluster2_Menu[22]='<a class="whitelink" href="http://blogs.vmware.com">VMWare Support blogs</A>'
 Cluster2_Menu[23]='<a class="whitelink" href="https://communities.vmware.com">VMWare Technology Network</A>'
 Cluster2_Menu[24]='<a class="whitelink" href="https://my.vmware.com/">MyVMware Login</a>'
-
+// https://www.vladan.fr/">ESX Virtualization | VMware ESXi, vSphere, VMware Backup, Hyper-V... how-to, videos
 Cluster2_Menu[25]='<span class="yellowsans">Xen Project - XenServer</span>'
 Cluster2_Menu[26]='<a class="whitelink" href="http://xenserver.org/">XenServer</A>'
 Cluster2_Menu[27]='<a class="whitelink" href="https://xenproject.org/">Xen Project</a>'
@@ -849,7 +851,7 @@ ComSec_Menu[32]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fr
 ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
 ComSec_Menu[34]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
-
+// https://nvd.nist.gov/ncp/repository">NIST NVD Natl Checklist Program</a>'
 
 
 
@@ -930,8 +932,8 @@ Firewall_Menu[3]='<a class="whitelink" href="http://www.cisco.com/c/en/us/suppor
 Firewall_Menu[4]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html">ASA/ASDM Configuration Guides</A>'
 
 Firewall_Menu[5]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
-Firewall_Menu[6]='<a class="whitelink" href="http://docs.net.com/fortigate/admin-guides">Fortinet Document Library</a>'
-Firewall_Menu[7]='<a class="whitelink" href="http://help.fortinet.com/cli/fos50hlp/56/index.htm">FortiOS 5.6 CLI Reference</A>'
+Firewall_Menu[6]='<a class="whitelink" href="https://docs.fortinet.com">Fortinet docs and cookbook</A>'
+
 Firewall_Menu[8]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
  // https://www.youtube.com/user/SecureNetworks/playlists
  // https://www.youtube.com/user/SecureNetworks/videos
