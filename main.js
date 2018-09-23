@@ -150,66 +150,70 @@ WebTools_Menu[5]='<a class="whitelink" href="http://www.endmemo.com/">Endmemo co
 WebTools_Menu[6]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
 WebTools_Menu[7]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
 WebTools_Menu[8]='<a class="whitelink" href="http://www.kylesconverter.com/">Kyles converters/calculators</A>'
-
 WebTools_Menu[9]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
 WebTools_Menu[10]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
-
 WebTools_Menu[11]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
 WebTools_Menu[12]='<a class="whitelink" href="http://cantwellengineering.com/calculator">Cantwell Engineering - RF calcs</A>'
 WebTools_Menu[13]='<a class="whitelink" HREF="https://questtel.com/wiki/">QuestTels Wiki (QAM, etc ref)</A>'
 // HREF="https://questtel.com/wiki/catv-qam-channel-center-frequency">CATV QAM Channel Center Frequency Table</A>'
 // HREF="http://www.cantwellengineering.com/calculator/convert/dBmV">Convert from dBmV Cantwell Engineering</A>'
 
-WebTools_Menu[14]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert file formats</A>'
-WebTools_Menu[15]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+WebTools_Menu[14]='<span class="yellowsans">File convert and download</span>'
+WebTools_Menu[15]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert file formats</A>'
+WebTools_Menu[16]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+WebTools_Menu[17]='<a class="whitelink" href="https://convertio.co/">convertio.co</A>'
+WebTools_Menu[18]='<a class="whitelink" href="http://www.convertfiles.com/">convertfiles.com</A>'
+WebTools_Menu[19]='<a class="whitelink" href="http://www.keepvid.com">KeepVid Downloader</A>' 
+WebTools_Menu[20]='<a class="whitelink" href="http://99downloader.com/">99Downloader (FB/Twitter/etc)</A>'  
 
-WebTools_Menu[16]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
-WebTools_Menu[17]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
-WebTools_Menu[18]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
-
-WebTools_Menu[19]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
-WebTools_Menu[20]='<a class="whitelink" href="http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
-WebTools_Menu[21]='<a class="whitelink" href="http://www.timebie.com/std/utc.php">Timebie- UTC to local time</a>'
-WebTools_Menu[22]='<a class="whitelink" href="http://www.thetimezoneconverter.com/"The Time Zone Converter</A>'
-WebTools_Menu[23]='<a class="whitelink" href="http://www.satview.org">SatView satellite tracker</A>'
-
-WebTools_Menu[24]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
-WebTools_Menu[25]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
-WebTools_Menu[26]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
-WebTools_Menu[27]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
-WebTools_Menu[28]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
-WebTools_Menu[29]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
-WebTools_Menu[30]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
-WebTools_Menu[31]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
-WebTools_Menu[32]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
-WebTools_Menu[33]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
-WebTools_Menu[34]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
-WebTools_Menu[35]='<a class="whitelink" href="http://www.keepvid.com">KeepVid Downloader</A>' 
-WebTools_Menu[36]='<a class="whitelink" href="http://99downloader.com/">99Downloader (FB/Twitter/etc)</A>'  
-WebTools_Menu[37]='<a class="whitelink" href="https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
+WebTools_Menu[21]='<span class="yellowsans">Time tools</span>'
+WebTools_Menu[22]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
+WebTools_Menu[23]='<a class="whitelink" href="http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
+WebTools_Menu[24]='<a class="whitelink" href="http://www.timebie.com/std/utc.php">Timebie- UTC to local time</a>'
+WebTools_Menu[25]='<a class="whitelink" href="http://www.thetimezoneconverter.com/"The Time Zone Converter</A>'
 
 
-WebTools_Menu[38]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
-WebTools_Menu[39]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
-WebTools_Menu[40]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
-WebTools_Menu[41]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
-WebTools_Menu[42]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
-WebTools_Menu[43]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
-WebTools_Menu[44]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
+WebTools_Menu[26]='<span class="yellowsans">Developer</span>'
+WebTools_Menu[27]='<a class="whitelink" href="http://scraping.pro/">scraping.pro web scraping</A>'
+WebTools_Menu[28]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
+WebTools_Menu[29]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
+WebTools_Menu[30]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
+WebTools_Menu[31]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
+WebTools_Menu[32]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
+WebTools_Menu[33]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
+WebTools_Menu[34]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
+
+WebTools_Menu[35]='<span class="yellowsans">Hashes and passwords</span>'
+WebTools_Menu[36]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
+WebTools_Menu[37]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
+WebTools_Menu[38]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
+WebTools_Menu[39]='<a class="whitelink" href="https://www.adminsub.net/password-generator-decryptor">adminsub.net password gen</A>'
+WebTools_Menu[40]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
+WebTools_Menu[41]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
+
+WebTools_Menu[42]='<span class="yellowsans">RegEx tools</span>'
+WebTools_Menu[43]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
+WebTools_Menu[44]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
+WebTools_Menu[45]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
+WebTools_Menu[46]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
+WebTools_Menu[47]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
+WebTools_Menu[48]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
+WebTools_Menu[49]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
+
+// WebTools_Menu[50]='<span class="yellowsans">Misc tools</span>'
+// WebTools_Menu[51]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
+// WebTools_Menu[52]='<a class="whitelink" href="https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
+// WebTools_Menu[53]='<a class="whitelink" href="http://www.satview.org">SatView satellite tracker</A>'
+// WebTools_Menu[54]='<a class="whitelink" href="http://www.visiocafe.com/">VisioCafe</A>'
+// WebTools_Menu[55]='<a class="whitelink" href="http://www.conceptdraw.com/solution-park/">ConceptDraw</A>'
+// WebTools_Menu[56]='<a class="whitelink" href="https://www.edrawsoft.com/share-flowchart.php">Edraw flowchart templates</A>'
+// WebTools_Menu[57]='<a class="whitelink" href="https://stenciltown.omnigroup.com/">Stenciltown for OmniGraffle</A>'
 
 
 
 
- 
 
-// 
-// http://www.visiocafe.com/">VisioCafe</A>'
-// http://www.conceptdraw.com/solution-park/">ConceptDraw</A>'
-// https://www.edrawsoft.com/share-flowchart.php">Edraw flowchart templates</A>'
-// https://stenciltown.omnigroup.com/">Stenciltown for OmniGraffle</A>'
 
-// https://convertio.co/   --convert files to other files
-// http://www.convertfiles.com/
 
 
 var Radio_Menu=new Array()
