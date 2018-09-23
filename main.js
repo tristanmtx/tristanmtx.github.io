@@ -145,46 +145,63 @@ WebTools_Menu[0]='<span class="yellowsans">Online Converters &amp; Tools</span>'
 WebTools_Menu[1]='<a class="whitelink" href="http://www.convertit.com">ConvertIt</a>'
 WebTools_Menu[2]='<A class="whitelink" HREF="http://www.onlineconversion.com/">OnlineConversion</A>'
 WebTools_Menu[3]='<A class="whitelink" HREF="https://www.rapidtables.com/">RapidTables</A>'
-WebTools_Menu[4]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
-WebTools_Menu[5]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
+WebTools_Menu[4]='<a class="whitelink" href="http://www.itools.com/">iTools</A>'
+WebTools_Menu[5]='<a class="whitelink" href="http://www.endmemo.com/">Endmemo converters</A>'
 WebTools_Menu[6]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
-WebTools_Menu[7]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert files &amp; hashing</A>'
-WebTools_Menu[8]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
-WebTools_Menu[9]='<a class="whitelink" href="https://onlinestringtools.com/">OnlineStringTools.com</A>'
-WebTools_Menu[10]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
-WebTools_Menu[11]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
-WebTools_Menu[12]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
-WebTools_Menu[13]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
-WebTools_Menu[14]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
-WebTools_Menu[15]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
-WebTools_Menu[16]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
-WebTools_Menu[17]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
-WebTools_Menu[18]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
-WebTools_Menu[19]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
-WebTools_Menu[20]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
-WebTools_Menu[21]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
-WebTools_Menu[22]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
-WebTools_Menu[23]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
-WebTools_Menu[24]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
-WebTools_Menu[25]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
-WebTools_Menu[26]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
-WebTools_Menu[27]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
-// https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
+WebTools_Menu[7]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
+WebTools_Menu[8]='<a class="whitelink" href="http://www.kylesconverter.com/">Kyles converters/calculators</A>'
 
-WebTools_Menu[28]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
-WebTools_Menu[29]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
-WebTools_Menu[30]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
-WebTools_Menu[31]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
-WebTools_Menu[32]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
-WebTools_Menu[33]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
-WebTools_Menu[34]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
-// http://www.satview.org">SatView</A>'
-// http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
-// http://www.keepvid.com">KeepVid Downloader</A>' 
-// http://99downloader.com/">99Downloader</A>'   
-// http://getfbstuff.com">Facebook Video Downloader</A>'
-// http://twittervideodownloader.com/">Twitter Video Downloader</A>'
-// http://99downloader.com/instagram-video-downloader">Instagram Video Downloader</A>'
+WebTools_Menu[9]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
+WebTools_Menu[10]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
+
+WebTools_Menu[11]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
+WebTools_Menu[12]='<a class="whitelink" href="http://cantwellengineering.com/calculator">Cantwell Engineering - RF calcs</A>'
+WebTools_Menu[13]='<a class="whitelink" HREF="https://questtel.com/wiki/">QuestTels Wiki (QAM, etc ref)</A>'
+// HREF="https://questtel.com/wiki/catv-qam-channel-center-frequency">CATV QAM Channel Center Frequency Table</A>'
+// HREF="http://www.cantwellengineering.com/calculator/convert/dBmV">Convert from dBmV Cantwell Engineering</A>'
+
+WebTools_Menu[14]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert file formats</A>'
+WebTools_Menu[15]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
+
+WebTools_Menu[16]='<a class="whitelink" href="http://scraping.pro/">Web Scraping resources</A>'
+WebTools_Menu[17]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
+WebTools_Menu[18]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
+
+WebTools_Menu[19]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
+WebTools_Menu[20]='<a class="whitelink" href="http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
+WebTools_Menu[21]='<a class="whitelink" href="http://www.timebie.com/std/utc.php">Timebie- UTC to local time</a>'
+WebTools_Menu[22]='<a class="whitelink" href="http://www.thetimezoneconverter.com/"The Time Zone Converter</A>'
+WebTools_Menu[23]='<a class="whitelink" href="http://www.satview.org">SatView satellite tracker</A>'
+
+WebTools_Menu[24]='<a class="whitelink" href="https://hackvertor.co.uk/">Hackvertor</A>'   
+WebTools_Menu[25]='<a class="whitelink" href="http://ddecode.com/phpdecoder/">DDecode PHP Decoder</A>'
+WebTools_Menu[26]='<a class="whitelink" href="http://deobfuscatejavascript.com/">DeobfuscateJavascript</A>'
+WebTools_Menu[27]='<a class="whitelink" href="http://utf-8.jp/public/jjencode.html">Simple JS Obfuscator</A>'
+WebTools_Menu[28]='<a class="whitelink" href="http://packetor.com/">Packetor hex-dump packet decoder</A>'
+WebTools_Menu[29]='<a class="whitelink" href="http://www.binaryconvert.com/">BinaryConvert.com</A>'
+WebTools_Menu[30]='<a class="whitelink" href="https://passwordsgenerator.net/">PasswordsGenerator.net</A>'
+WebTools_Menu[31]='<a class="whitelink" href="https://quickhash.com/">QuickHash.com</A>'
+WebTools_Menu[32]='<a class="whitelink" href="https://hashkiller.co.uk/">HashKiller</a>'
+WebTools_Menu[33]='<a class="whitelink" href="http://pgl.yoyo.org/urlex/">URL Extractor</A>'
+WebTools_Menu[34]='<a class="whitelink" href="http://snarkles.net/scripts/sneak/sneak.php">snarkles.net &quot;sneak&quot; script</A>'
+WebTools_Menu[35]='<a class="whitelink" href="http://www.keepvid.com">KeepVid Downloader</A>' 
+WebTools_Menu[36]='<a class="whitelink" href="http://99downloader.com/">99Downloader (FB/Twitter/etc)</A>'  
+WebTools_Menu[37]='<a class="whitelink" href="https://scanme.iotdef.com/">IoTDefense Botnet Scanner</A>'
+
+
+WebTools_Menu[38]='<a class="whitelink" href="http://www.regexr.com/">RegExr - RegEx webtool</A>'
+WebTools_Menu[39]='<a class="whitelink" href="http://www.regular-expressions.info">Regular-Expressions.info</a>'
+WebTools_Menu[40]='<a class="whitelink" href="https://txt2re.com">Txt2RE.com - RegEx webtool</a>'
+WebTools_Menu[41]='<a class="whitelink" href="https://regex101.com/">RegEx101 - RegEx webtool</a>'
+WebTools_Menu[42]='<a class="whitelink" href="http://www.regexe.com/">RegExe - RegEx webtool</a>'
+WebTools_Menu[43]='<a class="whitelink" href="http://regex.inginf.units.it/">Regex Generator++</A>'
+WebTools_Menu[44]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal</A>'
+
+
+
+
+ 
+
 // 
 // http://www.visiocafe.com/">VisioCafe</A>'
 // http://www.conceptdraw.com/solution-park/">ConceptDraw</A>'
@@ -206,24 +223,8 @@ Radio_Menu[6]='<a class="whitelink" href="https://w1.fi/">Hostapd and WPA_suppli
 Radio_Menu[7]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
 // Aruba? www.arubanetworks.com
 
-Radio_Menu[9]='<span class="yellowsans">Scanning and Pentestings</span>'
-Radio_Menu[10]='<a class="whitelink" href="http://www.kismetwireless.net/">KismetWireless</a>'
-Radio_Menu[11]='<a class="whitelink" href="https://www.metageek.com/">MetaGeek - inSSIDer</a>'
+Radio_Menu[9]='<span class="yellowsans">(see Kali menus for scan/pentest)</span>'
 
-Radio_Menu[12]='<a class="whitelink" href="https://www.aircrack-ng.org/">Aircrack-ng suite</A>'
-Radio_Menu[13]='<a class="whitelink" href="https://github.com/derv82">Wifite</A>'
-Radio_Menu[14]='<a class="whitelink" href="https://github.com/GDSSecurity/wifitap">Wifitap</A>'
-
-Radio_Menu[15]='<span class="yellowsans">WPS Vulnerability?</span>'
-Radio_Menu[16]='<a class="whitelink" href="https://github.com/judocol/bully">Bully (WPS attack)</a>'
-Radio_Menu[17]='<a class="whitelink" href="http://www.willhackforsushi.com/?page_id=50">coWPAtty</A>'
-Radio_Menu[18]='<a class="whitelink" href="https://github.com/savio-code/fern-wifi-cracker">Fern-Wifi-Cracker</A>'
-
-
-Radio_Menu[19]='<a class="whitelink" href="https://github.com/savio-code/ghost-phisher">Ghost Phisher</A>'
-Radio_Menu[20]='<a class="whitelink" href="https://wifiphisher.org/">WifiPhisher</A>'
-
-Radio_Menu[21]='<a class="whitelink" href="https://pyrit.wordpress.com/">Pyrit</a>'
 
 
 
@@ -239,49 +240,51 @@ NetTool_Menu[5]='<a class="whitelink" HREF="www.subnetonline.com/pages/network-t
 NetTool_Menu[6]='<a class="whitelink" HREF="http://network-tools.com/">Network-Tools.com</A>'
 NetTool_Menu[7]='<a class="whitelink" HREF="http://www.kloth.net/services/">Kloth.net Services</A>'
 NetTool_Menu[8]='<a class="whitelink" HREF="https://centralops.net/co/">CentralOps.net</A>'
-// https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
-// http://www.ipvoid.com/">IPVoid tools</A>'
-// http://www.toolsvoid.com/
-// https://www.whatismyip.com/
-// https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
-// https://www.ipaddressguide.com/">IPAddressGuide.com (IPv4 and v6)</A>'
+
+NetTool_Menu[9]='<a class="whitelink" HREF="https://www.ultratools.com">ultratools.com</A>'
+NetTool_Menu[10]='<a class="whitelink" HREF="https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
+NetTool_Menu[11]='<a class="whitelink" HREF="http://www.ipvoid.com/">IPVoid tools</A>'
+NetTool_Menu[12]='<a class="whitelink" HREF="http://www.toolsvoid.com/">Toolsvoid tools</A>'
+NetTool_Menu[13]='<a class="whitelink" HREF="https://www.websitepulse.com/tools/tcp-traceroute-test">WebSitePulse TCP Traceroute</A>'
+NetTool_Menu[14]='<a class="whitelink" HREF="https://www.ipaddressguide.com/">IPAddressGuide tools</A>'
 
 
-NetTool_Menu[9]='<span class="yellowsans">Regional Internet Registry Whois</span>'
-NetTool_Menu[10]='<a class="whitelink" HREF="https://wq.apnic.net/whois-search/static/search.html">APNIC Whois</A>'
-NetTool_Menu[11]='<a class="whitelink" href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN">LACNIC Whois</A>'
-NetTool_Menu[12]='<a class="whitelink" HREF="http://www.afrinic.net/en/services/whois-query">AfriNIC Whois</A>'
-NetTool_Menu[13]='<a class="whitelink" HREF="http://whois.arin.net/ui/advanced.jsp">ARIN Adv Whois</A>'
-NetTool_Menu[14]='<a class="whitelink" HREF="https://stat.ripe.net/">RIPEstat Lookup</A>'
+NetTool_Menu[15]='<span class="yellowsans">Regional Internet Registry Whois</span>'
+NetTool_Menu[16]='<a class="whitelink" HREF="https://wq.apnic.net/whois-search/static/search.html">APNIC Whois</A>'
+NetTool_Menu[17]='<a class="whitelink" href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN">LACNIC Whois</A>'
+NetTool_Menu[18]='<a class="whitelink" HREF="http://www.afrinic.net/en/services/whois-query">AfriNIC Whois</A>'
+NetTool_Menu[19]='<a class="whitelink" HREF="http://whois.arin.net/ui/advanced.jsp">ARIN Adv Whois</A>'
+NetTool_Menu[20]='<a class="whitelink" HREF="https://stat.ripe.net/">RIPEstat Lookup</A>'
 
-NetTool_Menu[15]='<span class="yellowsans">Other DNS-Specific Tools</span>'
-NetTool_Menu[16]='<a class="whitelink" HREF="https://dnsdumpster.com/">DNS Dumpster</A>'
-NetTool_Menu[17]='<a class="whitelink" HREF="https://stat.ripe.net/widget/list">RIPEstat Widget List</A>'
-NetTool_Menu[18]='<a class="whitelink" HREF="http://www.intodns.com/">intoDNS: DNS/MX Health</A>'
-NetTool_Menu[19]='<a class="whitelink" HREF="http://mxtoolbox.com/">MxToolbox</A>'
-NetTool_Menu[20]='<a class="whitelink" HREF="http://www.fixyourip.com/">FixYourIP.com</A>'
-NetTool_Menu[21]='<a class="whitelink" HREF="http://www.dnssy.com/">Z-Hosts DNSsy</A>'
-NetTool_Menu[22]='<a class="whitelink" HREF="https://who.is/">Who.is DNS check</A>'
-NetTool_Menu[23]='<a class="whitelink" href="http://nswalk.com">NSWalk DNS Tracing</A>'
-NetTool_Menu[24]='<a class="whitelink" HREF="https://www.robtex.net/">Robtex Graphical DNS</A>'
-NetTool_Menu[25]='<a class="whitelink" HREF="http://dnsdigger.com/">DNS-Digger (hosts in subnet)</A>'
-NetTool_Menu[26]='<a class="whitelink" HREF="http://searchdns.netcraft.com/">Netcraft SearchDNS</A>'
-NetTool_Menu[27]='<a class="whitelink" HREF="http://toolbar.netcraft.com/site_report?url=undefined">Netcraft Site Report</A>'
-NetTool_Menu[28]='<a class="whitelink" HREF="http://dnsviz.net/">DNSViz DNSSEC Visualization</a>'
-NetTool_Menu[29]='<a class="whitelink" HREF="http://dnscheck.iis.se/">DNS Check (incl DNSSEC)</a>'
-NetTool_Menu[30]='<a class="whitelink" HREF="http://dnssec-debugger.verisignlabs.com/">DNSSEC Analyzer</a>'
-NetTool_Menu[31]='<a class="whitelink" HREF="http://dnssectest.sidn.nl/">SIDN DNSSEC Test</a>'
-NetTool_Menu[32]='<a class="whitelink" HREF="https://cryptoreport.websecurity.symantec.com/checker/">Symantec SSL/TLS CryptoReport</a>'
+NetTool_Menu[21]='<span class="yellowsans">Other DNS-Specific Tools</span>'
+NetTool_Menu[22]='<a class="whitelink" HREF="https://dnsdumpster.com/">DNS Dumpster</A>'
+NetTool_Menu[23]='<a class="whitelink" HREF="https://stat.ripe.net/widget/list">RIPEstat Widget List</A>'
+NetTool_Menu[24]='<a class="whitelink" HREF="http://www.intodns.com/">intoDNS: DNS/MX Health</A>'
+NetTool_Menu[25]='<a class="whitelink" HREF="http://mxtoolbox.com/">MxToolbox</A>'
+NetTool_Menu[26]='<a class="whitelink" HREF="http://www.fixyourip.com/">FixYourIP.com</A>'
+NetTool_Menu[27]='<a class="whitelink" HREF="http://www.dnssy.com/">Z-Hosts DNSsy</A>'
+NetTool_Menu[28]='<a class="whitelink" HREF="https://who.is/">Who.is DNS check</A>'
+NetTool_Menu[29]='<a class="whitelink" href="http://nswalk.com">NSWalk DNS Tracing</A>'
+NetTool_Menu[30]='<a class="whitelink" HREF="https://www.robtex.net/">Robtex Graphical DNS</A>'
+NetTool_Menu[31]='<a class="whitelink" HREF="http://dnsdigger.com/">DNS-Digger (hosts in subnet)</A>'
+NetTool_Menu[32]='<a class="whitelink" HREF="http://searchdns.netcraft.com/">Netcraft SearchDNS</A>'
+NetTool_Menu[33]='<a class="whitelink" HREF="http://toolbar.netcraft.com/site_report?url=undefined">Netcraft Site Report</A>'
+NetTool_Menu[34]='<a class="whitelink" HREF="http://dnsviz.net/">DNSViz DNSSEC Visualization</a>'
+NetTool_Menu[35]='<a class="whitelink" HREF="http://dnscheck.iis.se/">DNS Check (incl DNSSEC)</a>'
+NetTool_Menu[36]='<a class="whitelink" HREF="http://dnssec-debugger.verisignlabs.com/">DNSSEC Analyzer</a>'
+NetTool_Menu[37]='<a class="whitelink" HREF="http://dnssectest.sidn.nl/">SIDN DNSSEC Test</a>'
+NetTool_Menu[38]='<a class="whitelink" HREF="https://cryptoreport.websecurity.symantec.com/checker/">Symantec SSL/TLS CryptoReport</a>'
+
+NetTool_Menu[39]='<span class="yellowsans">IP Geolocation</span>'
+NetTool_Menu[40]='<a class="whitelink" HREF="http://www.ipaddresslocation.org/">IPAddressLocation.org</A>'
+NetTool_Menu[41]='<a class="whitelink" HREF="http://www.hostip.info/">Hostip.info IP Geolocation</A>'
+NetTool_Menu[42]='<a class="whitelink" HREF="http://www.ip2location.com">IP2Location.com</A>'
+NetTool_Menu[43]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">PCAP Map Visualizer</A>' 
 
 
+//NetTool_Menu[45]='<a class="whitelink" href="http://www.potaroo.net/cgi-bin/ipv6addr">IPv6 Addr Rpt (Geoff Huston)</a>'
 
-//NetTool_Menu[45]='<a class="whitelink" href="http://www.potaroo.net/cgi-bin/ipv6addr">IPv6 Address Report</a>'
 
-//NetTool_Menu[46]='<span class="yellowsans">IP Geolocation</span>'
-//NetTool_Menu[47]='<a class="whitelink" HREF="http://www.ipaddresslocation.org/">IPAddressLocation.org</A>'
-//NetTool_Menu[48]='<a class="whitelink" HREF="http://www.hostip.info/">Hostip.info IP Geolocation</A>'
-//NetTool_Menu[49]='<a class="whitelink" HREF="http://www.ip2location.com">IP2Location.com</A>'
-//NetTool_Menu[50]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">PCAP Map Visualizer</A>' 
 
 
 
@@ -316,6 +319,8 @@ Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/i
 // https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
 //https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
 //https://www.extremenetworks.com/support/">Extreme Networks - support and docs</A>
+// supportforums.adtran.com">ADTRAN support</A>
+
 
 Net2_Menu[20]='<span class="yellowsans">AS/ BGP Lookups</span>'
 Net2_Menu[21]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
@@ -788,6 +793,9 @@ ComSec2_Menu[39]='<span class="yellowsans">Rule/ Pattern Matching Resources</spa
 ComSec2_Menu[40]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
 ComSec2_Menu[41]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
 ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
+
+// https://html5sec.org/">Cure53s HTML5 Security Cheatsheet</A>'
+
 // 
 // ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
 // ComSec_Menu[2]='<a class="whitelink" href="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
@@ -801,7 +809,6 @@ ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span
 // ComSec_Menu[10]='<a class="whitelink" href="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
 // ComSec_Menu[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
 // ComSec_Menu[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
-// 
 // ComSec_Menu[13]='<a class="whitelink" href="http://blogs.cisco.com/security/">Cisco Security blog</A>'
 // ComSec_Menu[14]='<a class="whitelink" href="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
 // ComSec_Menu[15]='<a class="whitelink" href="http://blog.trendmicro.com/trendlabs-security-intelligence/">TrendMicro TrendLabs blog</A>'
@@ -851,7 +858,20 @@ ComSec_Menu[32]='<a class="whitelink" href="https://www.law.cornell.edu/rules/fr
 ComSec_Menu[33]='<a class="whitelink" href="https://www.law.cornell.edu/rules/frcp">Fed Rules of Civil Procedure</a>'
 ComSec_Menu[34]='<a class="whitelink" href="https://www.swgde.org/documents">Sci Working Group Digit Evid</a>'
 
-// https://nvd.nist.gov/ncp/repository">NIST NVD Natl Checklist Program</a>'
+ComSec_Menu[35]='<span class="yellowsans">Compliance As Code</span>'
+ComSec_Menu[36]='<a class="whitelink" href="https://iase.disa.mil/">DISA IASE resources</A>'
+ComSec_Menu[37]='<a class="whitelink" href="http://makingsecuritymeasurable.mitre.org/index.html">MITRE- Making Sec Measurable</A>'
+ComSec_Menu[38]='<a class="whitelink" href="https://csrc.nist.gov/projects/security-content-automation-protocol">NIST CSRC SCAP home</A>'
+ComSec_Menu[39]='<a class="whitelink" href="https://nvd.nist.gov/ncp/repository">NIST NVD Natl Checklist Repo</a>'
+ComSec_Menu[40]='<a class="whitelink" href="https://github.com/ComplianceAsCode">ComplianceAsCode (GitHub)</A>'
+ComSec_Menu[41]='<a class="whitelink" href="https://www.open-scap.org/">Open SCAP</A>'
+
+
+
+
+
+
+
 
 
 
