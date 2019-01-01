@@ -347,6 +347,18 @@ Net2_Menu[37]='<a class="whitelink" href="telnet://route-server.videotron.net">t
 Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
 
 
+
+// ITU-T Y.1564
+//sourceforge.net/projects/ethperf
+//github.com/jwbensley/Etherate
+
+
+//www.irr.net 
+//irrexplorer.nlnog.net 
+//nlnog.net/tools/
+
+
+
 //Net2_Menu[6]='<span class="yellowsans">Tools and Practice</span>'
 //Net2_Menu[7]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
 //Net2_Menu[8]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
@@ -701,49 +713,62 @@ Cluster2_Menu[33]='<a class="whitelink" href="https://www.vagrantup.com/">Hashic
 Cluster2_Menu[34]='<a class="whitelink" href="https://app.vagrantup.com/boxes/search">Vagrant Boxes</A>'
 
 var SDNNFV_Menu=new Array()
-SDNNFV_Menu[1]='<span class="yellowsans">SDN-NFV - Open Networking</span>'
-SDNNFV_Menu[2]='<a class="whitelink" href="https://www.opennetworking.org/">The Open Networking Foundation</A>'
-SDNNFV_Menu[3]='<a class="whitelink" href="https://www.opennetworking.org/sdn-resources/technical-library">ONF Technical Library</A>'
-SDNNFV_Menu[4]='<a class="whitelink" href="http://onrc.stanford.edu/projects.html">Open Networking Research Ctr</A>'
-SDNNFV_Menu[5]='<a class="whitelink" href="http://onlab.us/">Open Networking Lab (ONOS, etc)</A>'
-SDNNFV_Menu[6]='<a class="whitelink" href="http://archive.openflow.org/wk/index.php/Main_Page">OpenFlow Wiki</a>'
-SDNNFV_Menu[7]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCentral</A>'
-SDNNFV_Menu[8]='<a class="whitelink" href="https://www.sdxcentral.com/resources/">SDxCentral Resources</A>'
+SDNNFV_Menu[0]='<span class="yellowsans">NFV Orchestration</span>'
+SDNNFV_Menu[1]='<a class="whitelink" href="https://wiki.opnfv.org/">OPNVF</A>'
+SDNNFV_Menu[2]='<a class="whitelink" href="https://osm.etsi.org/">Open Source MANO (OSM)</A>'
+SDNNFV_Menu[3]='<a class="whitelink" href="https://wiki.onap.org/">ONAP</A>'
+SDNNFV_Menu[4]='<a class="whitelink" href="http://opencord.org/">OpenCORD</A>'  
+SDNNFV_Menu[5]='<a class="whitelink" href="http://openbaton.github.io/">OpenBaton NFV MANO</A>' 
+ 
+SDNNFV_Menu[6]='<span class="yellowsans">SDN/OpenFlow controllers</span>'
+SDNNFV_Menu[7]='<a class="whitelink" href="http://onosproject.org/">ONOS</A>'
+SDNNFV_Menu[8]='<a class="whitelink" href="https://wiki.opendaylight.org">ODL - OpenDaylight</A>'
+SDNNFV_Menu[9]='<a class="whitelink" href="https://osrg.github.io/ryu/">Ryu</A>'
+SDNNFV_Menu[10]='<a class="whitelink" href="http://www.projectfloodlight.org/floodlight/">Floodlight</A>'
+SDNNFV_Menu[11]='<a class="whitelink" href="https://community.arubanetworks.com/t5/SDN-Apps/ct-p/SDN-Apps">Aruba HPE VAN</A>'
+SDNNFV_Menu[12]='<a class="whitelink" href="https://www.necam.com/sdn/">NEC ProgrammableFlow</A>'
+SDNNFV_Menu[13]='<a class="whitelink" href="https://www.pica8.com/product/#sdn-edition">Pica8</A>'
 
-SDNNFV_Menu[9]='<span class="yellowsans">ONLAB and ONRC projects</span>'
-SDNNFV_Menu[10]='<a class="whitelink" href="http://opencord.org/">OpenCORD</A>'
-SDNNFV_Menu[11]='<a class="whitelink" href="http://mininet.org/">Mininet portable netwk virt</A>'
-SDNNFV_Menu[12]='<a class="whitelink" href="http://onosproject.org/">Open Network OS</A>'
-SDNNFV_Menu[13]='<a class="whitelink" href="http://ovx.onlab.us/">OVX - OpenVirteX hypervisor</A>'
-SDNNFV_Menu[14]='<a class="whitelink" href="http://xosproject.org/">XOS (incl. OpenCORD)</A>'
+SDNNFV_Menu[14]='<span class="yellowsans">vSwitch stuff</span>'
+SDNNFV_Menu[15]='<a class="whitelink" href="http://docs.openvswitch.org">OVS - Open vSwitch</A>'
+SDNNFV_Menu[16]='<a class="whitelink" href="https://www.openswitch.net/community/">OpenSwitch</A>'
+SDNNFV_Menu[17]='<a class="whitelink" href="http://therandomsecurityguy.com/openvswitch-cheat-sheet/">Open vSwitch Cheat Sheet</A>'
+SDNNFV_Menu[18]='<a class="whitelink" href="http://pleiades.ucsc.edu/doc/pica8/ovs-commands-reference.pdf">OVS CMD Reference</A>'
+SDNNFV_Menu[19]='<a class="whitelink" href="http://pleiades.ucsc.edu/doc/pica8/ovs-configuration-guide.pdf">OVS Config Guide</A>'
 
-SDNNFV_Menu[15]='<span class="yellowsans">Linux Foundation projects</span>'
-SDNNFV_Menu[16]='<a class="whitelink" href="http://openo.org">Open-O @ Linux Foundation</A>'
-SDNNFV_Menu[17]='<a class="whitelink" href="https://wiki.opnfv.org/">OPNVF (Linux Foundation)</A>'
-SDNNFV_Menu[18]='<a class="whitelink" href="https://www.opendaylight.org">OpenDaylight - ODL Beryllium</A>'
-SDNNFV_Menu[19]='<a class="whitelink" href="http://openvswitch.org/">Open vSwitch</A>'
-SDNNFV_Menu[20]='<a class="whitelink" href="http://openswitch.net/">OpenSwitch</A>'
-SDNNFV_Menu[20]='<a class="whitelink" href="https://wiki.fd.io/view/Main_Page">FD.io & VPP (used by Cisco)</A>'
+SDNNFV_Menu[20]='<span class="yellowsans">Other Items &amp; Components</span>'
+SDNNFV_Menu[21]='<a class="whitelink" href="http://mininet.org/">Mininet</A>'
+SDNNFV_Menu[22]='<a class="whitelink" href="http://ovx.onlab.us/">OVX - OpenVirteX hypervisor</A>'
+SDNNFV_Menu[23]='<a class="whitelink" href="https://wiki.fd.io/">Fast Data Project (FD.io)</A>'
+SDNNFV_Menu[24]='<a class="whitelink" href="https://www.ovirt.org/">oVirt</A>'
+SDNNFV_Menu[25]='<a class="whitelink" href="http://xosproject.org/">XOS Project (CORD + OpenCloud)</A>'
+SDNNFV_Menu[26]='<a class="whitelink" href="http://docs.getcloudify.org/">Cloudify</A>'
 
-SDNNFV_Menu[21]='<span class="yellowsans">Other Open projects</span>'
-SDNNFV_Menu[22]='<a class="whitelink" href="https://www.ovirt.org/">oVirt (Red Hat project)</A>'
-SDNNFV_Menu[23]='<a class="whitelink" href="http://openbaton.github.io/">OpenBaton NFV MANO</A>'
-SDNNFV_Menu[24]='<a class="whitelink" href="http://opennaas.org">OpenNaaS (i2CAT)</A>'
+SDNNFV_Menu[27]='<a class="whitelink" href="https://docs.openstack.org/neutron/latest/">OpenStack Neutron</A>'
+SDNNFV_Menu[28]='<a class="whitelink" href="http://docs.openstack.org/developer/neutron/">OpenStack Neutron dev docs</A>'
+SDNNFV_Menu[29]='<a class="whitelink" href="http://docs.openstack.org/security-guide/networking.html">OpenStack Networking docs</A>'
+SDNNFV_Menu[30]='<a class="whitelink" href="https://github.com/openstack/neutron">OpenStack Neutron @ GitHub</A>'
 
-SDNNFV_Menu[25]='<span class="yellowsans">Container Networking</span>'
-SDNNFV_Menu[26]='<a class="whitelink" href="https://github.com/tigera/canal">Canal project (Calico+Flannel)</a>'
-SDNNFV_Menu[27]='<a class="whitelink" href="https://github.com/containernetworking/cni">Container Network Interface (CNI)</a>'
-SDNNFV_Menu[28]='<a class="whitelink" href="https://github.com/docker/libnetwork/blob/master/docs/design.md">Container Netwk Model- libnetwork</a>' 
+SDNNFV_Menu[31]='<span class="yellowsans">Container Networking</span>'
+SDNNFV_Menu[32]='<a class="whitelink" href="https://github.com/tigera/canal">Canal project (Calico+Flannel)</a>'
+SDNNFV_Menu[33]='<a class="whitelink" href="https://github.com/containernetworking/cni">Container Network Interface (CNI)</a>'
+SDNNFV_Menu[34]='<a class="whitelink" href="https://github.com/docker/libnetwork/blob/master/docs/design.md">Container Netwk Model- libnetwork</a>' 
 
-SDNNFV_Menu[29]='<span class="yellowsans">More Proprietary</span>'
-SDNNFV_Menu[30]='<a class="whitelink" href="http://www.vmware.com/products/nsx.html#resources">VMWare NSX resources</A>'
-SDNNFV_Menu[31]='<a class="whitelink" href="http://docs.openstack.org/developer/neutron/">OpenStack Neutron dev docs</A>'
-SDNNFV_Menu[32]='<a class="whitelink" href="http://docs.openstack.org/security-guide/networking.html">OpenStack Networking docs</A>'
-SDNNFV_Menu[33]='<a class="whitelink" href="https://github.com/openstack/neutron">OpenStack Neutron @ GitHub</A>'
-SDNNFV_Menu[34]='<a class="whitelink" href="https://wiki.fd.io/view/Main_Page">FD.io & VPP (used by Cisco)</A>'
-SDNNFV_Menu[35]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/virtualization-automation.html">Cisco - NFV and Automation</A>'
-SDNNFV_Menu[36]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/network-infrastructure/index.html">Cisco - Evolved Programmable</A>'
-SDNNFV_Menu[37]='<a class="whitelink" href="https://www.juniper.net/us/en/products-services/sdn/contrail/">Juniper Contrail</a>'
+SDNNFV_Menu[35]='<span class="yellowsans">Orgs and Sites</span>'
+SDNNFV_Menu[36]='<a class="whitelink" href="https://www.opennetworking.org/">Open Networking Foundation (ONL/ONF)</A>'
+SDNNFV_Menu[37]='<a class="whitelink" href="https://wiki.opennetworking.org">ONFs wiki</A>'
+SDNNFV_Menu[38]='<a class="whitelink" href="https://github.com/opennetworkinglab/">ONF/ONL GitHub</A>'
+SDNNFV_Menu[39]='<a class="whitelink" href="https://www.sdxcentral.com">SDxCentral</A>'
+SDNNFV_Menu[40]='<a class="whitelink" href="https://www.sdxcentral.com/resources/">SDxCentral Resources</A>'
+
+SDNNFV_Menu[41]='<span class="yellowsans">More Proprietary</span>'
+SDNNFV_Menu[42]='<a class="whitelink" href="http://www.vmware.com/products/nsx.html#resources">VMWare NSX resources</A>'
+SDNNFV_Menu[43]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/virtualization-automation.html">Cisco - NFV and Automation</A>'
+SDNNFV_Menu[44]='<a class="whitelink" href="http://www.cisco.com/c/en/us/solutions/service-provider/network-infrastructure/index.html">Cisco - Evolved Programmable</A>'
+SDNNFV_Menu[45]='<a class="whitelink" href="https://www.juniper.net/us/en/products-services/sdn/">Juniper Contrail, etc.</a>'
+
+
+
 
 var ComSec2_Menu=new Array()
 ComSec2_Menu[0]='<span class="yellowsans">Security Tools</span>'
@@ -799,6 +824,8 @@ ComSec2_Menu[41]='<a class="whitelink" href="http://commons.oreilly.com/wiki/ind
 ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
 
 // https://html5sec.org/">Cure53s HTML5 Security Cheatsheet</A>'
+//www.dfir.training/
+
 
 // 
 // ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
