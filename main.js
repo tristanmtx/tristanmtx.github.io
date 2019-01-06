@@ -368,6 +368,16 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 //Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
 // https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
 
+
+
+// https://icinga.com/">Icinga</A>'
+// https://sensu.io/">Sensu</A>'
+// https://www.ntop.org/">NTopNG</A>'
+// https://sourceforge.net/projects/opennms/">OpenNMS</A>'
+// https://prometheus.io/">Prometheus</A>'
+// https://mathias-kettner.com/">Check_MK</A>'
+// https://www.op5.com">OP5 Monitor</a>'
+
 // http://pcp.io">Performance Co-Pilot system metrics</A>'
 //Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
 // Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
