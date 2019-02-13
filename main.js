@@ -157,6 +157,9 @@ WebTools_Menu[12]='<a class="whitelink" href="http://cantwellengineering.com/cal
 WebTools_Menu[13]='<a class="whitelink" HREF="https://questtel.com/wiki/">QuestTels Wiki (QAM, etc ref)</A>'
 // HREF="https://questtel.com/wiki/catv-qam-channel-center-frequency">CATV QAM Channel Center Frequency Table</A>'
 // HREF="http://www.cantwellengineering.com/calculator/convert/dBmV">Convert from dBmV Cantwell Engineering</A>'
+// https://www.telcodata.us/">TelcoData.us tools</A>'
+// http://www.npanxxsource.com/nalennd.php">npanxxsource.com lookups/tools</A>'
+// https://www.area-codes.com/">AreaCodes.com NPA-NXX lookup</A>'
 
 WebTools_Menu[14]='<span class="yellowsans">File convert and download</span>'
 WebTools_Menu[15]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert file formats</A>'
@@ -229,7 +232,7 @@ Radio_Menu[7]='<a class="whitelink" href="https://support.ruckuswireless.com/">R
 
 Radio_Menu[9]='<span class="yellowsans">(see Kali menus for scan/pentest)</span>'
 
-
+/// https://www.voip-info.org/">VoIP-info reference
 
 
 
@@ -370,6 +373,12 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 
 
 
+
+
+
+
+
+// EXTRACTED FOR SCRAP WORK
 // https://icinga.com/">Icinga</A>'
 // https://sensu.io/">Sensu</A>'
 // https://www.ntop.org/">NTopNG</A>'
@@ -377,13 +386,47 @@ Net2_Menu[38]='<a class="whitelink" href="http://www.traceroute.org">Public rout
 // https://prometheus.io/">Prometheus</A>'
 // https://mathias-kettner.com/">Check_MK</A>'
 // https://www.op5.com">OP5 Monitor</a>'
+// http://pcp.io">Performance Co-Pilot</A>'
 
-// http://pcp.io">Performance Co-Pilot system metrics</A>'
 //Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
 // Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
 //Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
 //Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
 // http://www.qosient.com/argus/">QoSient Argus</A>'
+
+// https://osquery.io/">Osquery</A>'
+// https://osquery.io/schema/3.3.2">Osquery Schema Reference</A>'
+
+// https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>
+
+
+
+
+
+
+
+
+
+// New NetDevOps Section?
+// secdev.org
+// https://thepacketgeek.com/series/building-network-tools-with-scapy/
+
+
+// https://github.com/thepacketgeek/cloud-pcap
+// https://kiminewt.github.io/pyshark/ 
+
+//https://scapy.net/">scapy.net &#8211; Scapy Homepage</a></li>
+//https://scapy.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer">Scapy Documentation</a></li>
+//https://github.com/secdev/scapy/">Scapy on GitHub</a></li>
+//http://media.packetlife.net/media/library/36/scapy.pdf" target="_blank" rel="noopener noreferrer">Packetlife.net &#8211; Scapy Cheat Sheet</a></li>
+//</ul>
+//<p>Here are some cool projects I found on GitHub that use Scapy:</p>
+//<ul>
+//<li><a title="Scapy-HTTP" href="https://github.com/invernizzi/scapy-http" target="_blank" rel="noopener noreferrer">Scapy-HTTP</a> (HTTP Layer support)</li>
+//<li><a title="DHCPig" href="https://github.com/kamorin/DHCPig" target="_blank" rel="noopener noreferrer">DHCPig</a>  (DHCP Exhaustion Script)</li>
+//<li><a title="Scapy-to-API" href="https://www.github.com/thepacketgeek/scapy-to-api" target="_blank" rel="noopener noreferrer">Scapy-to-API </a>(From yours truly)</li>
+
+
 
 var Gov_Menu2=new Array()
 Gov_Menu2[0]='<span class="yellowsans">US Govt Resources</span>'
@@ -839,7 +882,16 @@ ComSec2_Menu[38]='<a class="whitelink" href="http://www.kb.cert.org/vuls/"/>CMU-
 ComSec2_Menu[39]='<span class="yellowsans">Rule/ Pattern Matching Resources</span>'
 ComSec2_Menu[40]='<a class="whitelink" href="https://www.snort.org/downloads/#rule-downloads">Snort Rules download</a>'
 ComSec2_Menu[41]='<a class="whitelink" href="http://commons.oreilly.com/wiki/index.php/Snort_Cookbook">Snort Cookbook @ OReilly</A>'
-ComSec2_Menu[42]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
+
+ComSec2_Menu[42]='<a class="whitelink" href="https://virustotal.github.io/yara/">YARA</A>'
+ComSec2_Menu[43]='<a class="whitelink" href="https://github.com/Yara-Rules/rules">YARA rules</A>'
+ComSec2_Menu[44]='<a class="whitelink" href="https://crits.github.io/">CRITs</A>'
+ComSec2_Menu[45]='<a class="whitelink" href="https://www.misp-project.org/">MISP</A>'
+
+ComSec2_Menu[46]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
+
+
+
 
 // https://html5sec.org/">Cure53s HTML5 Security Cheatsheet</A>'
 //www.dfir.training/
@@ -1157,11 +1209,14 @@ CMCICD_Menu[8]='<a class="whitelink" HREF="https://downloads.chef.io/">Chef Down
 CMCICD_Menu[9]='<a class="whitelink" HREF="https://github.com/chef">Chef at Github</A>'
 CMCICD_Menu[10]='<a class="whitelink" HREF="https://learn.chef.io/">Chef Tutorials</A>'
 CMCICD_Menu[11]='<span class="yellowsans">Ansible</span>'
-CMCICD_Menu[12]='<a class="whitelink" HREF="http://www.ansible.com/">Ansible (main)</A>'
-CMCICD_Menu[13]='<a class="whitelink" HREF="https://www.ansible.com/resources">Ansible Resources</A>'
+
+
+CMCICD_Menu[12]='<a class="whitelink" HREF="https://www.ansible.com/resources">Ansible.com Resources</A>'
+CMCICD_Menu[13]='<a class="whitelink" HREF="https://galaxy.ansible.com/">Ansible Galaxy</A>'
 CMCICD_Menu[14]='<a class="whitelink" HREF="http://docs.ansible.com/">Ansible Documentation</A>'
 CMCICD_Menu[15]='<a class="whitelink" HREF="http://docs.ansible.com/ansible/list_of_all_modules.html">List of all modules</A>'
 CMCICD_Menu[16]='<a class="whitelink" HREF="https://github.com/ansible/">Ansible at Github</A>'
+// https://github.com/network-automation">Network Automation-specific GitHub</A>'
 CMCICD_Menu[17]='<a class="whitelink" HREF="https://github.com/jdauphant/awesome-ansible">JDauphants Ansible list</A>'
 
 CMCICD_Menu[18]='<span class="yellowsans">SaltStack</span>'
@@ -1278,6 +1333,9 @@ Prog_Menu[19]='<a class="whitelink" href="http://awesome-python.com/">Awesome Py
 Prog_Menu[20]='<a class="whitelink" href="http://www.scipy.org/">Scientific Python</A>'
 Prog_Menu[21]='<a class="whitelink" href="https://pythontips.com/python-resources/">PythonTips.com resource list</a>'
 Prog_Menu[22]='<a class="whitelink" href="https://www.fullstackpython.com/best-python-resources.html">FullStackPython.com list</A>'
+// http://book.pythontips.com/en/latest/">Intermediate Python</a>'
+// https://pypi.org/">PyPI- Python Package Index</a>'
+// https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/
 
 Prog_Menu[23]='<span class="yellowsans">Ruby Specific</span>'
 Prog_Menu[24]='<a class="whitelink" href="https://www.ruby-lang.org/Ruby-Lang.org</A>'
@@ -1286,18 +1344,29 @@ Prog_Menu[26]='<a class="whitelink" href="http://ruby-doc.org/">Ruby-Doc.org</a>
 Prog_Menu[27]='<a class="whitelink" href="https://www.ruby-toolbox.com/">The Ruby Toolbox</a>'
 Prog_Menu[28]='<a class="whitelink" href="http://www.rubyonrails.org/">Rubyonrails.org w/ API</A>'
 Prog_Menu[29]='<a class="whitelink" href="http://learnrubythehardway.org/book/">Ruby the Hard Way</A>'
-Prog_Menu[30]='<a class="whitelink" href="http:/www.railstutorial.org/">Ruby on Rails Tutorial- Hartl</A>'
+Prog_Menu[30]='<a class="whitelink" href="http://www.railstutorial.org/">Ruby on Rails Tutorial- Hartl</A>'
 Prog_Menu[31]='<a class="whitelink" href="http://railscasts.com/">RailCasts.com - screencasts</A>'
 Prog_Menu[32]='<a class="whitelink" href="https://gorails.com/">GoRails.com - screencasts</A>'
 
-Prog_Menu[33]='<span class="yellowsans">General Programming</span>'
+Prog_Menu[33]='<span class="yellowsans">General Programming and Forums</span>'
 Prog_Menu[34]='<a class="whitelink" href="http://perldoc.perl.org/">PerlDoc</A>'
 Prog_Menu[35]='<a class="whitelink" href="http://www.rosettacode.org/">Rosetta Code</A>'
-Prog_Menu[36]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange Site Map</A>'
+Prog_Menu[36]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange</A>'
 Prog_Menu[37]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
 Prog_Menu[40]='<a class="whitelink" href="http://www.developershed.com/">Developer Shed</a>'
 Prog_Menu[41]='<a class="whitelink" href="https://dzone.com/portals">DZone areas (includes Java)</A>'
 Prog_Menu[42]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
+
+Prog_Menu[43]='<a class="whitelink" href="https://www.dreamincode.net/">Dream.In.Code</a>'
+Prog_Menu[44]='<a class="whitelink" href="https://codeproject.com">CodeProject</a>'
+Prog_Menu[45]='<a class="whitelink" href="https://go4expert.com">Go4Expert</a>'
+Prog_Menu[46]='<a class="whitelink" href="https://codingforums.com">CodingForums.com</a>' 
+
+
+
+
+
+
 
 
 var Game_Menu=new Array()
