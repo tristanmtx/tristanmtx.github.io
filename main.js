@@ -180,6 +180,7 @@ WebTools_Menu[25]='<a class="whitelink" href="http://www.thetimezoneconverter.co
 
 WebTools_Menu[26]='<span class="yellowsans">Developer</span>'
 // https://www.draw.io/">Draw.io Diagram-maker</a>'
+// http://cidr.xyz/">CIDR.xyz IP tool</A>'
 WebTools_Menu[27]='<a class="whitelink" href="http://scraping.pro/">scraping.pro web scraping</A>'
 WebTools_Menu[28]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
 WebTools_Menu[29]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
@@ -1314,7 +1315,7 @@ Prog_Menu[10]='<a class="whitelink" href="https://www.javacodegeeks.com/">JavaCo
 // https://groups.google.com/group/golang-nuts 
 // https://github.com/golang/go/wiki
 
-
+// https://yaml.org/
 
 Prog_Menu[11]='<span class="yellowsans">Python Specific</span>'
 Prog_Menu[12]='<a class="whitelink" href="https://www.python.org/">Python.org</A>'
