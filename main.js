@@ -161,6 +161,8 @@ WebTools_Menu[13]='<a class="whitelink" HREF="https://questtel.com/wiki/">QuestT
 // http://www.npanxxsource.com/nalennd.php">npanxxsource.com lookups/tools</A>'
 // https://www.area-codes.com/">AreaCodes.com NPA-NXX lookup</A>'
 
+// https://www.synology.com/en-us/support/RAID_calculator
+
 WebTools_Menu[14]='<span class="yellowsans">File convert and download</span>'
 WebTools_Menu[15]='<a class="whitelink" href="https://www.online-convert.com/">Online-Convert file formats</A>'
 WebTools_Menu[16]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
@@ -177,6 +179,7 @@ WebTools_Menu[25]='<a class="whitelink" href="http://www.thetimezoneconverter.co
 
 
 WebTools_Menu[26]='<span class="yellowsans">Developer</span>'
+// https://www.draw.io/">Draw.io Diagram-maker</a>'
 WebTools_Menu[27]='<a class="whitelink" href="http://scraping.pro/">scraping.pro web scraping</A>'
 WebTools_Menu[28]='<a class="whitelink" href="http://developerutils.com">DeveloperUtils.com</A>'
 WebTools_Menu[29]='<a class="whitelink" href="http://www.ascii-code.com/">ascii-code.com</a>'
@@ -656,6 +659,7 @@ HW_Menu[33]='<a class="whitelink" href="http://www.overclockers.com/">Overclocke
 HW_Menu[34]='<a class="whitelink" href="http://www.overclockersclub.com/">Overclockers Club</A>'
 HW_Menu[35]='<a class="whitelink" href="http://techreport.com/">TechReport.com</A>'
 HW_Menu[36]='<a class="whitelink" href="http://hothardware.com">HotHardware</a>'
+// https://wccftech.com">WCCFTech</A>'
 HW_Menu[37]='<a class="whitelink" href="http://www.hardocp.com/">HardOCP</A>'
 HW_Menu[38]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardware Canucks</a>'
 HW_Menu[39]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
@@ -740,6 +744,7 @@ Cluster2_Menu[15]='<a class="whitelink" href="https://status.aws.amazon.com/">AW
 Cluster2_Menu[16]='<a class="whitelink" href="https://calculator.aws">AWS Pricing Calc (beta)</A>'
 Cluster2_Menu[17]='<a class="whitelink" href="https://calculator.s3.amazonaws.com">AWS Monthly Calculator</A>'
 Cluster2_Menu[18]='<a class="whitelink" href="http://EC2Instances.info">EC2Instance.info (specs/pricing)</A>'
+// https://awspolicygen.s3.amazonaws.com/policygen.html
 Cluster2_Menu[19]='<a class="whitelink" href="https://aws.amazon.com/cli/">AWS CLI resources</A>'
 Cluster2_Menu[20]='<a class="whitelink" href="http://docs.aws.amazon.com/powershell/latest/reference/Index.html">AWS Tools for PowerShell</A>'
 Cluster2_Menu[21]='<span class="yellowsans">VMWare Resources</span>'
