@@ -277,6 +277,54 @@ body {
 	background-image: url('../images/header-bottom.jpg');
 	background-repeat: repeat-x;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+	Obviously not interested in playing the role of code monkey and cleaning this shit up
+	I realise I did a hack job on this to begin with and who ares its July 4th and I just 
+	need to make a minor change so here are some new classes simply ames class2 to replace 
+	old ones - this shouldnt be a significant performance hit since this mess is still 
+	under 128k or something
+ */
+
+.slider_bg2
+{
+	background-color: #000000;
+	background-image: url('../images/bottom-junk.jpg');
+		background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.main_bg2
+{
+	background-color: #880000;
+	background-image: url(../images/dark-red-tile.png);
+	background-repeat: repeat;
+}
+/* 
+	END OF NEW CRAP ADDED
+ */
+
+
+
 .slider{
 	text-align:center;
 	line-height: 1.0 em;
