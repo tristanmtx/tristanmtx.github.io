@@ -319,6 +319,16 @@ body {
 	background-image: url(../images/dark-red-tile.png);
 	background-repeat: repeat;
 }
+
+
+.main_bg3
+{
+	background-color: #880000;
+	background-image: url(../images/dark-blue-tile.png);
+	background-repeat: repeat;
+}
+
+
 /* 
 	END OF NEW CRAP ADDED
  */
