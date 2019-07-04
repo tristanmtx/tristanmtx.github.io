@@ -314,6 +314,7 @@ body {
 
 .main_bg3
 {
+	height: 5px;
 	background-color: #880000;
 	background-image: url(../images/dark-blue-tile.png);
 	background-repeat: repeat;
@@ -321,6 +322,7 @@ body {
 
 .main_bg5
 {
+	height: 5px;
 	background-color: #880000;
 	background-image: url(../images/dark-green-tile.png);
 	background-repeat: repeat;
