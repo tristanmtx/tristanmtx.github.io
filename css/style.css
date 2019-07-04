@@ -279,24 +279,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 
 	Obviously not interested in playing the role of code monkey and cleaning this shit up
 	I realise I did a hack job on this to begin with and who ares its July 4th and I just 
@@ -313,6 +295,15 @@ body {
 	background-position: bottom;
 }
 
+
+.slider_bg4
+{
+	background-color: #000000;
+	background-image: url('../images/header-top.jpg');
+	background-repeat: repeat-x;
+}
+
+
 .main_bg2
 {
 	background-color: #880000;
@@ -325,6 +316,13 @@ body {
 {
 	background-color: #880000;
 	background-image: url(../images/dark-blue-tile.png);
+	background-repeat: repeat;
+}
+
+.main_bg5
+{
+	background-color: #880000;
+	background-image: url(../images/dark-green-tile.png);
 	background-repeat: repeat;
 }
 
