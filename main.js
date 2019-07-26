@@ -299,7 +299,7 @@ NetTool_Menu[43]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">
 
 // http://www.firewall.cx/site-map.html
 
-
+// https://www.oetiker.ch/en/oss/projects/ ---- put in software? download smokeping MRTG RDDTool
 
 var Net2_Menu=new Array()
 Net2_Menu[0]='<span class="yellowsans">General Reference</span>'
@@ -667,70 +667,70 @@ HW_Menu[39]='<a class="whitelink" href="http://www.legionhardware.com/">Legion H
 HW_Menu[40]='<a class="whitelink" href="http://pcpartpicker.com/">PCPartPicker</A>'
 
 var Cluster_Menu=new Array()
-Cluster_Menu[0]='<span class="yellowsans">Kubernetes - Ubernetes</span>'
-Cluster_Menu[1]='<a class="whitelink" href="http://kubernetes.io/">Kubernetes</A>'
-Cluster_Menu[2]='<a class="whitelink" href="http://kubernetes.io/docs/reference/">Kubernetes Docs</a>'
-Cluster_Menu[3]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes">K8s GitHub (lots more)</A>'
-Cluster_Menu[4]='<a class="whitelink" href="http://k8s.info/">K8s Community Pgs</A>'
-Cluster_Menu[5]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/proposals/federation.md">K8s Federation</a>'
-Cluster_Menu[6]='<a class="whitelink" href="http://blog.kubernetes.io/">Kubernetes Blog</A>'
+Cluster_Menu[0]='<span class="yellowsans">Kubernetes Platforms</span>'
+Cluster_Menu[1]='<a class="whitelink" href="http://kubernetes.io/">K8s @ Linux Foundation</a>'
+Cluster_Menu[2]='<a class="whitelink" href="https://github.com/kubernetes/kubernetes">K8s GitHub</A>'
+Cluster_Menu[3]='<a class="whitelink" href="https://www.weave.works">Weaveworks</A>'
+Cluster_Menu[4]='<a class="whitelink" href="https://rancher.com">Rancher</A>'
+Cluster_Menu[5]='<a class="whitelink" href="https://coreos.com/">CoreOS (see OpenShift)</A>'
+Cluster_Menu[6]='<a class="whitelink" href="https://www.openshift.com/">Red Hat OpenShift</A>'
+Cluster_Menu[7]='<a class="whitelink" href="https://www.okd.io/">OKD- OpenShift Community distro</A>'
+Cluster_Menu[8]='<a class="whitelink" href="https://access.redhat.com/containers/">RH Container Catalog</A>'
 
-Cluster_Menu[7]='<span class="yellowsans">OpenShift Stuff</span>'
-Cluster_Menu[8]='<a class="whitelink" href="https://docs.openshift.com/">OpenShift Docs</A>'
-Cluster_Menu[9]='<a class="whitelink" href="https://docs.openshift.org/">OpenShift Origin Docs</A>'
-Cluster_Menu[10]='<a class="whitelink" href="http://commons.openshift.org/">OpenShift Commons</A>'
-Cluster_Menu[11]='<a class="whitelink" href="https://www.openshift.com/enterprise/resources.html">OpenShift Resources</A>'
-Cluster_Menu[12]='<a class="whitelink" href="https://github.com/openshift/origin">OpenShift Origin at GitHub</A>'
-Cluster_Menu[13]='<a class="whitelink" href="https://hub.openshift.com/">OpenShift Hub</A>'
-Cluster_Menu[14]='<a class="whitelink" href="https://developers.openshift.com">OpenShift Developer</a>'
+Cluster_Menu[9]='<span class="yellowsans">Service Mesh</span>'
+Cluster_Menu[10]='<a class="whitelink" href="https://layer5.io/">Layer5 - Meshery</a>'
+Cluster_Menu[11]='<a class="whitelink" href="https://istio.io">Istio - Service Mesh</a>'
+Cluster_Menu[12]='<a class="whitelink" href="https://linkerd.io/">Linkerd</A>'
+Cluster_Menu[13]='<a class="whitelink" href="https://www.consul.io/">HashiCorp Consul</A>'
+Cluster_Menu[14]='<a class="whitelink" href="https://www.octarinesec.com">Octarine</A>'
 
-Cluster_Menu[15]='<span class="yellowsans">Apache Mesos Ecosystem</span>'
-Cluster_Menu[16]='<a class="whitelink" href="https://mesos.apache.org/">Apache Mesos</A>'
-Cluster_Menu[17]='<a class="whitelink" href="http://mesos.apache.org/documentation/">Mesos Documentation</A>'
-Cluster_Menu[18]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
-Cluster_Menu[19]='<a class="whitelink" href="https://github.com/apache/mesos/blob/master/docs/frameworks.md">Mesos Frameworks</A>'
-Cluster_Menu[20]='<a class="whitelink" href="https://github.com/mesosphere">Mesospheres GitHub</A>'
+Cluster_Menu[15]='<span class="yellowsans">Docker Specific</span>'
+Cluster_Menu[16]='<a class="whitelink" href="https://www.docker.com/">Docker main page</A>'
+Cluster_Menu[17]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
 
-Cluster_Menu[21]='<span class="yellowsans">CoreOS [Tectonic-Quay-rkt-fleet]</span>'
-Cluster_Menu[23]='<a class="whitelink" href="https://coreos.com/">CoreOS Main</A>'
-Cluster_Menu[24]='<a class="whitelink" href="https://coreos.com/docs/">CoreOS Project Docs</A>'
-Cluster_Menu[25]='<a class="whitelink" href="https://github.com/coreos/">CoreOS GitHub</A>'
+Cluster_Menu[18]='<span class="yellowsans">MicroVM Solutions</span>'
+Cluster_Menu[19]='<a class="whitelink" href="https://katacontainers.io/">Kata Containers</A>'
+Cluster_Menu[20]='<a class="whitelink" href="https://firecracker-microvm.github.io/">Firecracker</A>'
+Cluster_Menu[21]='<a class="whitelink" href="https://gvisor.dev/">gVisor</A>'
+Cluster_Menu[22]='<a class="whitelink" href="http://osv.io/">OSv</a>'
+
+Cluster_Menu[23]='<span class="yellowsans">Emulation/ Virtualization (general)</span>'
+Cluster_Menu[24]='<a class="whitelink" href="https://kb.vmware.com">VMWare Knowledgebase</A>'
+Cluster_Menu[25]='<a class="whitelink" href="http://www.eve-ng.net/">EVE-NG</A>'
+Cluster_Menu[26]='<a class="whitelink" href="https://www.vagrantup.com/">Hashicorp Vagrant</A>'
+Cluster_Menu[27]='<a class="whitelink" href="https://app.vagrantup.com/boxes/search">Vagrant Boxes</A>'
+Cluster_Menu[28]='<a class="whitelink" href="http://xenserver.org/">Citrix XenServer</A>'
+Cluster_Menu[29]='<a class="whitelink" href="https://wiki.xenproject.org/wiki/Main_Page">Xen Project Wiki</A>'
+Cluster_Menu[30]='<a class="whitelink" href="http://www.virt-tools.org/">Community Virt Tools (KVM, QEMU)</a>'
+
+Cluster_Menu[30]='<span class="yellowsans">Other Items</span>'
+Cluster_Menu[32]='<a class="whitelink" href="https://mesos.apache.org/">Apache Mesos</A>'
+Cluster_Menu[33]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
+Cluster_Menu[34]='<a class="whitelink" href="https://github.com/mesosphere">Mesosphere GitHub</A>'
+Cluster_Menu[35]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>'
+Cluster_Menu[36]='<a class="whitelink" href="https://www.nomadproject.io/">Nomad Project</A>'
+Cluster_Menu[37]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
+Cluster_Menu[38]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
 
 
 
-Cluster_Menu[26]='<span class="yellowsans">Docker Provisioning</span>'
-Cluster_Menu[27]='<a class="whitelink" href="https://docs.docker.com/">Docker Docs</A>'
-Cluster_Menu[28]='<a class="whitelink" href="https://hub.docker.com/explore/">Docker Hub</A>'
-Cluster_Menu[29]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
-Cluster_Menu[30]='<a class="whitelink" href="https://www.docker.com/docker-security">Docker Security</A>'
-Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit">InfraKit Orchestration</A>'
-Cluster_Menu[32]='<a class="whitelink" href="https://docs.docker.com/datacenter/ucp/2.1/guides/">DCC UCP docs</A>'
-Cluster_Menu[33]='<a class="whitelink" href="http://container-solutions.com/resources/">container-solutions.com</A>'
-// https://katacontainers.io/">Kata Containers
-// https://firecracker-microvm.github.io/">Firecracker
-// https://gvisor.dev/">gVisor</A>
 
-// need to add Rancher Weaveworks, etc; cut down on redundant links and reconsolidate
-// the Cluster_Menus to be more up to modern standards
 
-Cluster_Menu[34]='<span class="yellowsans">OpenStack Ecosystem</span>'
-Cluster_Menu[35]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
-Cluster_Menu[36]='<a class="whitelink" href="http://docs.openstack.org/cli-reference/">Openstack CLI Ref</A>'
-Cluster_Menu[37]='<a class="whitelink" href="http://developer.openstack.org/">OpenStack Developer</A>'
-Cluster_Menu[38]='<a class="whitelink" href="https://github.com/openstack">OpenStack GitHub</A>'
-Cluster_Menu[39]='<a class="whitelink" href="https://wiki.openstack.org">OpenStack Wiki</A>'
-Cluster_Menu[41]='<a class="whitelink" href="http://docs.openstack.org/training_labs/">Training Labs</A>'
 
-Cluster_Menu[42]='<span class="yellowsans">Other Items</span>'
-Cluster_Menu[43]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>'
-Cluster_Menu[44]='<a class="whitelink" href="https://www.nomadproject.io/">Nomad Project</A>'
-Cluster_Menu[45]='<a class="whitelink" href="http://osv.io/">OSv Platform</a>'
-Cluster_Menu[46]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
-Cluster_Menu[47]='<a class="whitelink" href="http://docs.getcloudify.org/">Cloudify</A>'
-Cluster_Menu[48]='<a class="whitelink" href="http://www.eve-ng.net/">EVE-NG</A>'
+
+
+
+
+
+
+
+
+
+
+
+
 
 var Cluster2_Menu=new Array()
-
 Cluster2_Menu[0]='<span class="yellowsans">Google Cloud Resources</span>'
 Cluster2_Menu[1]='<a class="whitelink" href="https://cloud.google.com/docs/">Google Cloud docs</a>'
 Cluster2_Menu[2]='<a class="whitelink" href="https://cloud.google.com/sdk/">Google Cloud SDK/CLI</A>'
@@ -754,22 +754,7 @@ Cluster2_Menu[18]='<a class="whitelink" href="http://EC2Instances.info">EC2Insta
 // https://awspolicygen.s3.amazonaws.com/policygen.html
 Cluster2_Menu[19]='<a class="whitelink" href="https://aws.amazon.com/cli/">AWS CLI resources</A>'
 Cluster2_Menu[20]='<a class="whitelink" href="http://docs.aws.amazon.com/powershell/latest/reference/Index.html">AWS Tools for PowerShell</A>'
-Cluster2_Menu[21]='<span class="yellowsans">VMWare Resources</span>'
-Cluster2_Menu[22]='<a class="whitelink" href="https://www.vmware.com/support/pubs/">VMWare Docs</A>'
-Cluster2_Menu[23]='<a class="whitelink" href="https://kb.vmware.com">VMWare Knowledgebase</A>'
-Cluster2_Menu[24]='<a class="whitelink" href="http://blogs.vmware.com">VMWare Support blogs</A>'
-Cluster2_Menu[25]='<a class="whitelink" href="https://communities.vmware.com">VMWare Technology Network</A>'
-Cluster2_Menu[26]='<a class="whitelink" href="https://my.vmware.com/">MyVMware Login</a>'
-Cluster2_Menu[27]='<span class="yellowsans">Xen Project - XenServer</span>'
-Cluster2_Menu[28]='<a class="whitelink" href="http://xenserver.org/">XenServer</A>'
-Cluster2_Menu[29]='<a class="whitelink" href="https://xenproject.org/">Xen Project</a>'
-Cluster2_Menu[30]='<a class="whitelink" href="https://wiki.xenproject.org/wiki/Main_Page">Xen Project Wiki</A>'
-Cluster2_Menu[31]='<span class="yellowsans">More Good Stuff</span>'
-Cluster2_Menu[32]='<a class="whitelink" href="https://wiki.libvirt.org/page/Main_Page">Libvirt wiki</A>'
-Cluster2_Menu[33]='<a class="whitelink" href="http://www.virt-tools.org/">Community Virt Tools (KVM, QEMU)</a>'
-Cluster2_Menu[34]='<a class="whitelink" href="https://www.virtualbox.org/">Oracle VirtualBox</A>'
-Cluster2_Menu[35]='<a class="whitelink" href="https://www.vagrantup.com/">Hashicorp Vagrant</A>'
-Cluster2_Menu[36]='<a class="whitelink" href="https://app.vagrantup.com/boxes/search">Vagrant Boxes</A>'
+
 
 
 var SDNNFV_Menu=new Array()
@@ -1236,13 +1221,14 @@ CMCICD_Menu[29]='<a class="whitelink" HREF="https://jenkins.io/doc/">Jenkins doc
 CMCICD_Menu[30]='<a class="whitelink" HREF="https://jenkins.io/doc/book/managing/cli/">Jenkins CLI</A>'
 CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/">Cloudbees</A>'
 
-CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, etc</span>'
+CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, IaC, etc</span>'
 CMCICD_Menu[33]='<a class="whitelink" HREF="https://travis-ci.org/">Travis CI</A>'
 CMCICD_Menu[34]='<a class="whitelink" HREF="https://circleci.com">CircleCI</A>'
 CMCICD_Menu[35]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
-CMCICD_Menu[36]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
-CMCICD_Menu[37]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
-CMCICD_Menu[38]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
+CMCICD_Menu[36]='<a class="whitelink" HREF="https://www.hashicorp.com/products/terraform/">HashiCorp Terraform</A>'
+CMCICD_Menu[37]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
+CMCICD_Menu[38]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
+CMCICD_Menu[39]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
 
 
 
