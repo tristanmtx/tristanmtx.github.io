@@ -706,7 +706,12 @@ Cluster_Menu[30]='<a class="whitelink" href="https://www.docker.com/docker-secur
 Cluster_Menu[31]='<a class="whitelink" href="https://github.com/docker/infrakit">InfraKit Orchestration</A>'
 Cluster_Menu[32]='<a class="whitelink" href="https://docs.docker.com/datacenter/ucp/2.1/guides/">DCC UCP docs</A>'
 Cluster_Menu[33]='<a class="whitelink" href="http://container-solutions.com/resources/">container-solutions.com</A>'
+// https://katacontainers.io/">Kata Containers
+// https://firecracker-microvm.github.io/">Firecracker
+// https://gvisor.dev/">gVisor</A>
 
+// need to add Rancher Weaveworks, etc; cut down on redundant links and reconsolidate
+// the Cluster_Menus to be more up to modern standards
 
 Cluster_Menu[34]='<span class="yellowsans">OpenStack Ecosystem</span>'
 Cluster_Menu[35]='<a class="whitelink" href="http://docs.openstack.org/">OpenStack Docs</A>'
@@ -731,6 +736,7 @@ Cluster2_Menu[1]='<a class="whitelink" href="https://cloud.google.com/docs/">Goo
 Cluster2_Menu[2]='<a class="whitelink" href="https://cloud.google.com/sdk/">Google Cloud SDK/CLI</A>'
 Cluster2_Menu[3]='<a class="whitelink" href="https://cloud.google.com/python/">Google Cloud Python APIs</A>'
 Cluster2_Menu[4]='<a class="whitelink" href="https://cloud.google.com/shell/">Google Cloud Shell (in-browser)</A>'
+
 Cluster2_Menu[5]='<span class="yellowsans">Amazon Web Services</span>'
 Cluster2_Menu[6]='<a class="whitelink" href="https://console.aws.amazon.com">AWS Console Login</A>'
 Cluster2_Menu[7]='<a class="whitelink" href="https://aws.amazon.com/documentation/">AWS Documentation</A>'
@@ -1127,7 +1133,7 @@ MSStuff_Menu[22]='<a class="whitelink" href="https://docs.microsoft.com/en-us/cl
 
 MSStuff_Menu[23]='<span class="yellowsans">Azure Resources</span>'
 MSStuff_Menu[24]='<a class="whitelink" href="https://azure.microsoft.com/en-us/resources/">Azure Resource Center</A>'
-MSStuff_Menu[25]='<a class="whitelink" href="https://github.com/Azure">Azure at GittHub</A>'
+MSStuff_Menu[25]='<a class="whitelink" href="https://github.com/Azure">Azure at GitHub</A>'
 MSStuff_Menu[26]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
 MSStuff_Menu[27]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
 MSStuff_Menu[28]='<a class="whitelink" href="https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
@@ -1228,13 +1234,17 @@ CMCICD_Menu[27]='<a class="whitelink" HREF="https://plugins.jenkins.io/">Jenkins
 CMCICD_Menu[28]='<a class="whitelink" HREF="https://wiki.jenkins-ci.org/display/JENKINS/Use+Jenkins">Jenkins wiki</A>'
 CMCICD_Menu[29]='<a class="whitelink" HREF="https://jenkins.io/doc/">Jenkins documentation</A>'
 CMCICD_Menu[30]='<a class="whitelink" HREF="https://jenkins.io/doc/book/managing/cli/">Jenkins CLI</A>'
-CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/jenkins/about">Cloudbees Jenkins Stuff</A>'
+CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/">Cloudbees</A>'
 
 CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, etc</span>'
-CMCICD_Menu[33]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
-CMCICD_Menu[34]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
-CMCICD_Menu[35]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
-CMCICD_Menu[36]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
+CMCICD_Menu[33]='<a class="whitelink" HREF="https://travis-ci.org/">Travis CI</A>'
+CMCICD_Menu[34]='<a class="whitelink" HREF="https://circleci.com">CircleCI</A>'
+CMCICD_Menu[35]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
+CMCICD_Menu[36]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
+CMCICD_Menu[37]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
+CMCICD_Menu[38]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
+
+
 
 var Distro_DL_Menu=new Array()
 Distro_DL_Menu[0]='<a class="yellowsans" href="http://distrowatch.com/">General Distros (also DistroWatch)</a>'
@@ -1316,6 +1326,9 @@ Prog_Menu[10]='<a class="whitelink" href="https://www.javacodegeeks.com/">JavaCo
 // https://github.com/golang/go/wiki
 
 // https://yaml.org/
+
+// https://git-scm.com/book/en/v2">Pro Git</A>'
+// https://eagain.net/articles/git-for-computer-scientists/">Git for Comp Scientists</A>
 
 Prog_Menu[11]='<span class="yellowsans">Python Specific</span>'
 Prog_Menu[12]='<a class="whitelink" href="https://www.python.org/">Python.org</A>'
