@@ -1300,7 +1300,7 @@ Distro_DL_Menu[44]='<a class="whitelink" href="http://www.linux-live.org/">Linux
 var Prog_Menu=new Array()
 Prog_Menu[0]='<span class="yellowsans">C/C++ and Java</span>'
 Prog_Menu[1]='<a class="whitelink" href="http://www.stroustrup.com/C++.html">Bjarne Stroustrups C++ Page</A>'
-Prog_Menu[2]='<a class="whitelink" href="http://www.cprogramming.com/">CProgramming.com</A>'
+Prog_Menu[2]='<a class="whitelink" href="http://www.c .com/">CProgramming.com</A>'
 Prog_Menu[3]='<a class="whitelink" href="http://en.cppreference.com/w/Main_Page">CPPReference.com</A>'
 Prog_Menu[4]='<a class="whitelink" href="https://isocpp.org/">The C++ Foundation</A>'
 Prog_Menu[5]='<a class="whitelink" href="http://www.cplusplus.com/">cplusplus.com</A>'
@@ -1314,13 +1314,6 @@ Prog_Menu[10]='<a class="whitelink" href="https://www.javacodegeeks.com/">JavaCo
 // https://docs.oracle.com/javaee/7/api/toc.htm">Java EE7 Spec APIs</a>'
 // http://docs.oracle.com/javadb/10.10.1.2/javadoc/jdbc4/index.html">JavaDB/Derby 10.10 API</A>'
 
-// https://www.tiobe.com/tiobe-index/
-
-
-// https://golang.org/
-// https://go.googlesource.com/go
-// https://groups.google.com/group/golang-nuts 
-// https://github.com/golang/go/wiki
 
 // https://yaml.org/
 
@@ -1339,27 +1332,37 @@ Prog_Menu[19]='<a class="whitelink" href="http://awesome-python.com/">Awesome Py
 Prog_Menu[20]='<a class="whitelink" href="http://www.scipy.org/">Scientific Python</A>'
 Prog_Menu[21]='<a class="whitelink" href="https://pythontips.com/python-resources/">PythonTips.com resource list</a>'
 Prog_Menu[22]='<a class="whitelink" href="https://www.fullstackpython.com/best-python-resources.html">FullStackPython.com list</A>'
-// http://book.pythontips.com/en/latest/">Intermediate Python</a>'
+Prog_Menu[23]='<a class="whitelink" href="http://book.pythontips.com/en/latest/">Intermediate Python</a>'
+Prog_Menu[24]='<a class="whitelink" href="https://pynative.com/">PyNative</A>'
+Prog_Menu[25]='<a class="whitelink" href="https://realpython.com">Real Python</A>'
 // https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/
-// https://pynative.com/
-// https://realpython.com
 
-Prog_Menu[23]='<span class="yellowsans">Ruby Specific</span>'
-Prog_Menu[24]='<a class="whitelink" href="https://www.ruby-lang.org/Ruby-Lang.org</A>'
-Prog_Menu[25]='<a class="whitelink" href="http://www.rubygems.org/">RubyGems.org</a>'
-Prog_Menu[26]='<a class="whitelink" href="http://ruby-doc.org/">Ruby-Doc.org</a>'
-Prog_Menu[27]='<a class="whitelink" href="https://www.ruby-toolbox.com/">The Ruby Toolbox</a>'
-Prog_Menu[28]='<a class="whitelink" href="http://www.rubyonrails.org/">Rubyonrails.org w/ API</A>'
-Prog_Menu[29]='<a class="whitelink" href="http://learnrubythehardway.org/book/">Ruby the Hard Way</A>'
-Prog_Menu[30]='<a class="whitelink" href="http://www.railstutorial.org/">Ruby on Rails Tutorial- Hartl</A>'
-Prog_Menu[31]='<a class="whitelink" href="http://railscasts.com/">RailCasts.com - screencasts</A>'
-Prog_Menu[32]='<a class="whitelink" href="https://gorails.com/">GoRails.com - screencasts</A>'
+Prog_Menu[26]='<span class="yellowsans">Go Specific</span>'
+Prog_Menu[27]='<a class="whitelink" href="https://golang.org/">Go official home</A>'
+Prog_Menu[28]='<a class="whitelink" href="https://awesome-go.com/">Awesome Go - resources</A>'
+Prog_Menu[29]='<a class="whitelink" href="https://github.com/golang/go/wiki">Go wiki</A>'
+Prog_Menu[30]='<a class="whitelink" href="https://godoc.org/">GoDoc package docs</a>'
+Prog_Menu[31]='<a class="whitelink" href="https://golangprograms.com">golangprograms.com</A>'
+Prog_Menu[32]='<a class="whitelink" href="https://www.reddit.com/r/golang/">Reddit /r/golang</a>'
+Prog_Menu[33]='<a class="whitelink" href="https://github.com/google/gopacket">Go packet processing</a>'
 
-Prog_Menu[33]='<span class="yellowsans">General Programming and Forums</span>'
-Prog_Menu[34]='<a class="whitelink" href="http://perldoc.perl.org/">PerlDoc</A>'
-Prog_Menu[35]='<a class="whitelink" href="http://www.rosettacode.org/">Rosetta Code</A>'
-Prog_Menu[36]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange</A>'
-Prog_Menu[37]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
+// Prog_Menu[23]='<span class="yellowsans">Ruby Specific</span>'
+// Prog_Menu[24]='<a class="whitelink" href="https://www.ruby-lang.org/Ruby-Lang.org</A>'
+// Prog_Menu[25]='<a class="whitelink" href="http://www.rubygems.org/">RubyGems.org</a>'
+// Prog_Menu[26]='<a class="whitelink" href="http://ruby-doc.org/">Ruby-Doc.org</a>'
+// Prog_Menu[27]='<a class="whitelink" href="https://www.ruby-toolbox.com/">The Ruby Toolbox</a>'
+// Prog_Menu[28]='<a class="whitelink" href="http://www.rubyonrails.org/">Rubyonrails.org w/ API</A>'
+// Prog_Menu[29]='<a class="whitelink" href="http://learnrubythehardway.org/book/">Ruby the Hard Way</A>'
+// Prog_Menu[30]='<a class="whitelink" href="http://www.railstutorial.org/">Ruby on Rails Tutorial- Hartl</A>'
+// Prog_Menu[31]='<a class="whitelink" href="http://railscasts.com/">RailCasts.com - screencasts</A>'
+// Prog_Menu[32]='<a class="whitelink" href="https://gorails.com/">GoRails.com - screencasts</A>'
+
+Prog_Menu[34]='<span class="yellowsans">General Programming and Forums</span>'
+Prog_Menu[35]='<a class="whitelink" href="https://www.tiobe.com/tiobe-index/">TIOBE Index</A>'
+Prog_Menu[36]='<a class="whitelink" href="http://perldoc.perl.org/">PerlDoc</A>'
+Prog_Menu[37]='<a class="whitelink" href="http://www.rosettacode.org/">Rosetta Code</A>'
+Prog_Menu[38]='<a class="whitelink" href="http://stackexchange.com/sites#">StackExchange</A>'
+Prog_Menu[39]='<a class="whitelink" href="http://stackoverflow.com/">StackOverflow.com</A>'
 Prog_Menu[40]='<a class="whitelink" href="http://www.developershed.com/">Developer Shed</a>'
 Prog_Menu[41]='<a class="whitelink" href="https://dzone.com/portals">DZone areas (includes Java)</A>'
 Prog_Menu[42]='<a class="whitelink" href="https://console.developers.google.com/apis/library">Google Developer APIs</a>'
@@ -1368,7 +1371,9 @@ Prog_Menu[43]='<a class="whitelink" href="https://www.dreamincode.net/">Dream.In
 Prog_Menu[44]='<a class="whitelink" href="https://codeproject.com">CodeProject</a>'
 Prog_Menu[45]='<a class="whitelink" href="https://go4expert.com">Go4Expert</a>'
 Prog_Menu[46]='<a class="whitelink" href="https://codingforums.com">CodingForums.com</a>' 
-
+Prog_Menu[47]='<a class="whitelink" href="https://yaml.org/">YAML.org</A>'
+Prog_Menu[48]='<a class="whitelink" href="https://git-scm.com/book/en/v2">Pro Git</A>'
+Prog_Menu[49]='<a class="whitelink" href="https://eagain.net/articles/git-for-computer-scientists/">Git for Computer Scientists</A>'
 
 
 
