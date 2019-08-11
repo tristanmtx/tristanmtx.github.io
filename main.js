@@ -1267,6 +1267,7 @@ CMCICD_Menu[36]='<a class="whitelink" HREF="https://www.hashicorp.com/products/t
 CMCICD_Menu[37]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
 CMCICD_Menu[38]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
 CMCICD_Menu[39]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
+CMCICD_Menu[40]='<a class="whitelink" HREF="https://www.weave.works/technologies/gitops/">GitOps Methodology</A>'
 
 
 
