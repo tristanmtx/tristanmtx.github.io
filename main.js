@@ -293,13 +293,6 @@ NetTool_Menu[42]='<a class="whitelink" HREF="http://www.ip2location.com">IP2Loca
 NetTool_Menu[43]='<a class="whitelink" HREF="https://yoursunny.com/p/pcap-map/">PCAP Map Visualizer</A>' 
 
 
-//NetTool_Menu[45]='<a class="whitelink" href="http://www.potaroo.net/cgi-bin/ipv6addr">IPv6 Addr Rpt (Geoff Huston)</a>'
-
-//ComSec2_Menu[9]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
-
-// http://www.firewall.cx/site-map.html
-
-// https://www.oetiker.ch/en/oss/projects/ ---- put in software? download smokeping MRTG RDDTool
 
 var Net2_Menu=new Array()
 Net2_Menu[0]='<span class="yellowsans">General Reference</span>'
@@ -317,43 +310,40 @@ Net2_Menu[11]='<a class="whitelink" href="https://www.iana.org/assignments/proto
 Net2_Menu[12]='<a class="whitelink" href="https://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xhtml">IANA IPv6 Address Space</A>'
 Net2_Menu[13]='<a class="whitelink" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt">IANA Transport Protocol #s</A>'
 Net2_Menu[14]='<span class="yellowsans">Cisco Related</span>'
-Net2_Menu[15]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
-Net2_Menu[16]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
-Net2_Menu[17]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
-Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
-Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
-Net2_Menu[20]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
-Net2_Menu[21]='<a class="whitelink" href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mpls/command/mp-cr-book.html">Cisco IOS MPLS Cmd Ref</A>'
-Net2_Menu[22]='<a class="whitelink" href="https://sites.google.com/site/amitsciscozone/home">Amit Bhagats pages</A>'
-Net2_Menu[23]='<a class="whitelink" href="https://market.alcatel-lucent.com/release/jsp/sso/login.jsp">Nokia Alcatel-Lucent Portal</A>' 
-Net2_Menu[24]='<a class="whitelink" href="https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
-Net2_Menu[25]='<a class="whitelink" href="https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
-Net2_Menu[26]='<a class="whitelink" href="https://www.extremenetworks.com/support/">Extreme Networks docs</A>'
-Net2_Menu[27]='<a class="whitelink" href="https://supportforums.adtran.com">ADTRAN support</A>'
-// Net2_Menu[27]='<a class="whitelink" href="https://www.advaoptical.com">ADVA Optical</A>'
-// Net2_Menu[27]='<a class="whitelink" href="https://www.rad.com/">RAD Optical</A>'
-Net2_Menu[28]='<span class="yellowsans">AS/ BGP Lookups</span>'
-Net2_Menu[29]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
-Net2_Menu[30]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
-Net2_Menu[31]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BGP Tools</A>'
-Net2_Menu[32]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
-Net2_Menu[33]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
-Net2_Menu[34]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
-Net2_Menu[35]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
-Net2_Menu[36]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
-Net2_Menu[37]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
-Net2_Menu[38]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
-Net2_Menu[39]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
-Net2_Menu[40]='<a class="whitelink" href="http://www.traceroute.org/">Traceroute.org Jumppoints</a>' 
-Net2_Menu[41]='<span class="yellowsans">Route Servers, etc</span>'
-Net2_Menu[42]='<a class="whitelink" href="telnet://route-server.ip.att.net">telnet://route-server.ip.att.net</A>'
-Net2_Menu[43]='<a class="whitelink" href="telnet://route-server.rogers.com">telnet://route-server.rogers.com</A>'
-Net2_Menu[44]='<a class="whitelink" href="telnet://route-server.cerf.net">telnet://route-server.cerf.net</A>'
-Net2_Menu[45]='<a class="whitelink" href="telnet://route-server.videotron.net">telnet://route-server.videotron.net</A>'
-Net2_Menu[46]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
-Net2_Menu[47]='<a class="whitelink" href="https://www.irr.net">Internet Routing Registry (IRR)</A>'
-Net2_Menu[48]='<a class="whitelink" href="https://irrexplorer.nlnog.net">NL NOG IRR Explorer</A>'
-Net2_Menu[49]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools</A>'
+Net2_Menu[15]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
+Net2_Menu[16]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
+Net2_Menu[17]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
+Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco- Product/Tech Support Tool</A>'
+Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
+Net2_Menu[20]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
+Net2_Menu[21]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
+Net2_Menu[22]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
+Net2_Menu[23]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
+Net2_Menu[24]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
+Net2_Menu[25]='<a class="whitelink" href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mpls/command/mp-cr-book.html">Cisco IOS MPLS Cmd Ref</A>'
+Net2_Menu[26]='<a class="whitelink" href="https://sites.google.com/site/amitsciscozone/home">Amit Bhagats pages</A>'
+Net2_Menu[27]='<span class="yellowsans">AS/ BGP Lookups</span>'
+Net2_Menu[28]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
+Net2_Menu[29]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
+Net2_Menu[30]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BGP Tools</A>'
+Net2_Menu[31]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
+Net2_Menu[32]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
+Net2_Menu[33]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
+Net2_Menu[34]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
+Net2_Menu[35]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
+Net2_Menu[36]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
+Net2_Menu[37]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
+Net2_Menu[38]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
+Net2_Menu[39]='<a class="whitelink" href="http://www.traceroute.org/">Traceroute.org Jumppoints</a>' 
+Net2_Menu[40]='<span class="yellowsans">Route Servers, etc</span>'
+Net2_Menu[41]='<a class="whitelink" href="telnet://route-server.ip.att.net">telnet://route-server.ip.att.net</A>'
+Net2_Menu[42]='<a class="whitelink" href="telnet://route-server.rogers.com">telnet://route-server.rogers.com</A>'
+Net2_Menu[43]='<a class="whitelink" href="telnet://route-server.cerf.net">telnet://route-server.cerf.net</A>'
+Net2_Menu[44]='<a class="whitelink" href="telnet://route-server.videotron.net">telnet://route-server.videotron.net</A>'
+Net2_Menu[45]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
+Net2_Menu[46]='<a class="whitelink" href="https://www.irr.net">Internet Routing Registry (IRR)</A>'
+Net2_Menu[47]='<a class="whitelink" href="https://irrexplorer.nlnog.net">NL NOG IRR Explorer</A>'
+Net2_Menu[48]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools</A>'
 
 // ITU-T Y.1564
 //sourceforge.net/projects/ethperf
@@ -376,30 +366,6 @@ Net2_Menu[49]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools
 
 
 
-
-
-
-
-// EXTRACTED FOR SCRAP WORK
-// https://icinga.com/">Icinga</A>'
-// https://sensu.io/">Sensu</A>'
-// https://www.ntop.org/">NTopNG</A>'
-// https://sourceforge.net/projects/opennms/">OpenNMS</A>'
-// https://prometheus.io/">Prometheus</A>'
-// https://mathias-kettner.com/">Check_MK</A>'
-// https://www.op5.com">OP5 Monitor</a>'
-// http://pcp.io">Performance Co-Pilot</A>'
-
-//Firewall_Menu[29]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
-// Firewall_Menu[30]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
-//Firewall_Menu[31]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
-//Firewall_Menu[32]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
-// http://www.qosient.com/argus/">QoSient Argus</A>'
-
-// https://osquery.io/">Osquery</A>'
-// https://osquery.io/schema/3.3.2">Osquery Schema Reference</A>'
-
-// https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>
 
 
 
@@ -621,7 +587,6 @@ Unix_Menu[41]='<a class="whitelink" href="https://access.redhat.com/documentatio
 Unix_Menu[42]='<a class="whitelink" href="https://fedoraproject.org/wiki/Fedora_Project_Wiki">Fedora Project Wiki</A>'
 Unix_Menu[43]='<a class="whitelink" href="http://www.freebsd.net/">The FreeBSD Project</A>'
 
-
 var HW_Menu=new Array()
 HW_Menu[0]='<span class="yellowsans">Hardware Reference Sources</span>'
 HW_Menu[1]='<a class="whitelink" href="https://apps.fcc.gov/oetcf/eas/reports/GenericSearch.cfm">Search Equipment FCCIDs</a>'
@@ -643,28 +608,19 @@ HW_Menu[16]='<a class="whitelink" href="http://toshiba.semicon-storage.com/ap-en
 HW_Menu[17]='<a class="whitelink" href="http://www.gigabyte.us/support-downloads/support-downloads.aspx">Gigabyte Support</A>'
 HW_Menu[18]='<a class="whitelink" href="http://www.seagate.com/support-home/">Seagate (Maxtor, LaCie, Samsung)</A>'
 HW_Menu[19]='<a class="whitelink" href="http://support.wdc.com">Western Digital (HGST, SanDisk)</A>'
-HW_Menu[20]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
-HW_Menu[21]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
-HW_Menu[22]='<a class="whitelink" href="https://www.infoblox.com/">Infoblox</A>'
-HW_Menu[23]='<a class="whitelink" href="https://www.riverbed.com">Riverbed</A>' 
-HW_Menu[24]='<a class="whitelink" href="http://docwiki.cisco.com/wiki/Main_Page">Cisco DocWiki</A>'
-HW_Menu[25]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
-HW_Menu[26]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
-HW_Menu[27]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco- Product/Tech Support Tool</A>'
-HW_Menu[28]='<span class="yellowsans">Product Review Sites</span>'
-HW_Menu[29]='<a class="whitelink" href="http://arstechnica.com/discipline/hardware-it/">ArsTechnica - IT Hardware</A>'
-HW_Menu[30]='<a class="whitelink" href="http://tomshardware.com/">Toms Hardware</a>'
-HW_Menu[31]='<a class="whitelink" href="http://www.anandtech.com/">AnandTech</a>'
-HW_Menu[32]='<a class="whitelink" href="http://benchmarkreviews.com/">Benchmark Reviews</a>'
-HW_Menu[33]='<a class="whitelink" href="http://www.overclockers.com/">Overclockers.com</a>'
-HW_Menu[34]='<a class="whitelink" href="http://www.overclockersclub.com/">Overclockers Club</A>'
-HW_Menu[35]='<a class="whitelink" href="http://techreport.com/">TechReport.com</A>'
-HW_Menu[36]='<a class="whitelink" href="http://hothardware.com">HotHardware</a>'
-// https://wccftech.com">WCCFTech</A>'
-HW_Menu[37]='<a class="whitelink" href="http://www.hardocp.com/">HardOCP</A>'
-HW_Menu[38]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardware Canucks</a>'
-HW_Menu[39]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
-HW_Menu[40]='<a class="whitelink" href="http://pcpartpicker.com/">PCPartPicker</A>'
+HW_Menu[20]='<span class="yellowsans">Product Review Sites</span>'
+HW_Menu[21]='<a class="whitelink" href="http://arstechnica.com/discipline/hardware-it/">ArsTechnica - IT Hardware</A>'
+HW_Menu[22]='<a class="whitelink" href="http://tomshardware.com/">Toms Hardware</a>'
+HW_Menu[23]='<a class="whitelink" href="http://www.anandtech.com/">AnandTech</a>'
+HW_Menu[24]='<a class="whitelink" href="http://benchmarkreviews.com/">Benchmark Reviews</a>'
+HW_Menu[25]='<a class="whitelink" href="http://www.overclockers.com/">Overclockers.com</a>'
+HW_Menu[26]='<a class="whitelink" href="http://www.overclockersclub.com/">Overclockers Club</A>'
+HW_Menu[27]='<a class="whitelink" href="http://techreport.com/">TechReport.com</A>'
+HW_Menu[28]='<a class="whitelink" href="http://hothardware.com">HotHardware</a>'
+HW_Menu[29]='<a class="whitelink" href="http://www.hardocp.com/">HardOCP</A>'
+HW_Menu[30]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardware Canucks</a>'
+HW_Menu[31]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
+HW_Menu[32]='<a class="whitelink" href="http://pcpartpicker.com/">PCPartPicker</A>'
 
 var Cluster_Menu=new Array()
 Cluster_Menu[0]='<span class="yellowsans">Kubernetes Platforms</span>'
@@ -680,6 +636,7 @@ Cluster_Menu[8]='<a class="whitelink" href="https://coreos.com/">CoreOS (see Ope
 
 Cluster_Menu[9]='<span class="yellowsans">Service Mesh</span>'
 Cluster_Menu[10]='<a class="whitelink" href="https://layer5.io/">Layer5 - Meshery</a>'
+// Solo.io
 Cluster_Menu[11]='<a class="whitelink" href="https://istio.io">Istio - Service Mesh</a>'
 Cluster_Menu[12]='<a class="whitelink" href="https://linkerd.io/">Linkerd</A>'
 Cluster_Menu[13]='<a class="whitelink" href="https://www.consul.io/">HashiCorp Consul</A>'
@@ -1038,6 +995,54 @@ Malware_Menu[38]='<a class="whitelink" href="https://zeltser.com/malicious-ip-bl
 
 
 
+var Monitoring_Menu=new Array()
+Monitoring_Menu[0]='<span class="yellowsans">Network and Systems (Some OSS)</span>'
+Monitoring_Menu[1]='<a class="whitelink" href="https://prometheus.io/">Prometheus</A>'
+Monitoring_Menu[2]='<a class="whitelink" href="https://sensu.io/">Sensu</A>'
+Monitoring_Menu[3]='<a class="whitelink" href="http://pcp.io">Performance Co-Pilot</A>'
+Monitoring_Menu[4]='<a class="whitelink" href="http://www.zabbix.org/">Zabbix wiki</A>'
+Monitoring_Menu[5]='<a class="whitelink" href="https://mathias-kettner.com/">Check_MK</A>'
+Monitoring_Menu[6]='<a class="whitelink" href="https://www.op5.com">OP5 Monitor</a>'
+Monitoring_Menu[7]='<a class="whitelink" href="https://www.ntop.org/">NTopNG</A>'
+Monitoring_Menu[8]='<a class="whitelink" href="https://sourceforge.net/projects/opennms/">OpenNMS</A>'
+Monitoring_Menu[9]='<a class="whitelink" href="http://www.zenoss.com/">Zenoss</a>'
+Monitoring_Menu[10]='<a class="whitelink" href="https://sciencelogic.com">ScienceLogic</A>'
+Monitoring_Menu[11]='<a class="whitelink" href="https://www.datadoghq.com">Datadog</A>'
+Monitoring_Menu[12]='<a class="whitelink" href="https://www.dynatrace.com">Dynatrace</A>'
+Monitoring_Menu[13]='<a class="whitelink" href="https://newrelic.com">New Relic</a>'
+Monitoring_Menu[14]='<a class="whitelink" href="http://www.bmc.com/">BMC software</a>'
+Monitoring_Menu[15]='<a class="whitelink" href="https://www.solarwinds.com/">SolarWinds</A>'
+Monitoring_Menu[16]='<a class="whitelink" href="https://community.spiceworks.com">SpiceWorks</A>'
+Monitoring_Menu[17]='<span class="yellowsans">Vulnerability/ Security Focused</span>'
+Monitoring_Menu[18]='<a class="whitelink" href="http://www.openvas.org/">OpenVAS</a>'
+Monitoring_Menu[19]='<a class="whitelink" href="https://docs.tenable.com/">Tenable - Nessus</a>'
+Monitoring_Menu[20]='<a class="whitelink" href="https://community.qualys.com">Qualys Community</a>'
+Monitoring_Menu[21]='<a class="whitelink" href="https://support.nagios.com/forum/">Nagios forums</a>'
+Monitoring_Menu[22]='<a class="whitelink" href="https://library.nagios.com/">Nagios Library</a>'
+Monitoring_Menu[23]='<a class="whitelink" href="https://exchange.nagios.org/">Nagios Exchange</A>'
+Monitoring_Menu[24]='<a class="whitelink" href="https://www.monitoring-plugins.org/">Monitoring-Plugins.org</A>'
+Monitoring_Menu[25]='<a class="whitelink" href="https://forum.centreon.com/">Centreon forums</a>'
+Monitoring_Menu[26]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
+Monitoring_Menu[27]='<a class="whitelink" href="https://community.rapid7.com/">Rapid7 Community</a>'
+Monitoring_Menu[28]='<a class="whitelink" href="https://www.alienvault.com/forums/">AlienVault forums</A>'
+Monitoring_Menu[29]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
+Monitoring_Menu[30]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
+Monitoring_Menu[31]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
+Monitoring_Menu[32]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
+Monitoring_Menu[33]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
+Monitoring_Menu[34]='<span class="yellowsans">More SIEM/ Analysis</span>'
+Monitoring_Menu[35]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
+Monitoring_Menu[36]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
+Monitoring_Menu[37]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
+Monitoring_Menu[38]='<a class="whitelink" href="https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>'
+Monitoring_Menu[39]='<a class="whitelink" href="https://www.elastic.co/products">Elasticsearch-Logstash-Kibana</A>'
+Monitoring_Menu[40]='<a class="whitelink" href="https://www.elastic.co/guide/index.html">Elastic documentation</A>'
+Monitoring_Menu[41]='<a class="whitelink" href="https://github.com/elastic">Elastic.co @ GitHub</A>'
+Monitoring_Menu[42]='<a class="whitelink" href="https://logz.io/learn/complete-guide-elk-stack/">Logz.io ELK Stack Guide</A>'
+Monitoring_Menu[43]='<a class="whitelink" href="http://blog.eagerelk.com/">EagerElk blog (Jurgens du Toit)</A>'
+Monitoring_Menu[44]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
+Monitoring_Menu[45]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
+Monitoring_Menu[46]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
 
 
 
