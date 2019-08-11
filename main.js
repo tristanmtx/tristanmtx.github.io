@@ -267,6 +267,8 @@ NetTool_Menu[18]='<a class="whitelink" HREF="http://www.afrinic.net/en/services/
 NetTool_Menu[19]='<a class="whitelink" HREF="http://whois.arin.net/ui/advanced.jsp">ARIN Adv Whois</A>'
 NetTool_Menu[20]='<a class="whitelink" HREF="https://stat.ripe.net/">RIPEstat Lookup</A>'
 
+//NetTool_Menu[45]='<a class="whitelink" href="http://www.potaroo.net/cgi-bin/ipv6addr">IPv6 WHOIS</a>'
+
 NetTool_Menu[21]='<span class="yellowsans">Other DNS-Specific Tools</span>'
 NetTool_Menu[22]='<a class="whitelink" HREF="https://dnsdumpster.com/">DNS Dumpster</A>'
 NetTool_Menu[23]='<a class="whitelink" HREF="https://stat.ripe.net/widget/list">RIPEstat Widget List</A>'
@@ -285,6 +287,7 @@ NetTool_Menu[35]='<a class="whitelink" HREF="http://dnscheck.iis.se/">DNS Check 
 NetTool_Menu[36]='<a class="whitelink" HREF="http://dnssec-debugger.verisignlabs.com/">DNSSEC Analyzer</a>'
 NetTool_Menu[37]='<a class="whitelink" HREF="http://dnssectest.sidn.nl/">SIDN DNSSEC Test</a>'
 NetTool_Menu[38]='<a class="whitelink" HREF="https://cryptoreport.websecurity.symantec.com/checker/">Symantec SSL/TLS CryptoReport</a>'
+
 
 NetTool_Menu[39]='<span class="yellowsans">IP Geolocation</span>'
 NetTool_Menu[40]='<a class="whitelink" HREF="http://www.ipaddresslocation.org/">IPAddressLocation.org</A>'
@@ -345,32 +348,53 @@ Net2_Menu[46]='<a class="whitelink" href="https://www.irr.net">Internet Routing 
 Net2_Menu[47]='<a class="whitelink" href="https://irrexplorer.nlnog.net">NL NOG IRR Explorer</A>'
 Net2_Menu[48]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools</A>'
 
-// ITU-T Y.1564
-//sourceforge.net/projects/ethperf
-//github.com/jwbensley/Etherate
-
-
-
-
-
-
-//Net2_Menu[6]='<span class="yellowsans">Tools and Practice</span>'
-//Net2_Menu[7]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
-//Net2_Menu[8]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
-//Net2_Menu[9]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
-//Net2_Menu[10]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
-//Net2_Menu[11]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
-//Net2_Menu[12]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
-// https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
-
-
-
-
-
-
-
-
-
+var Net3_Menu=new Array()
+Net3_Menu[0]='<span class="yellowsans">Firewall</span>'
+Net3_Menu[1]='<a class="whitelink" href="http://www.netfilter.org">netfilter.org --iptables --ipset</A>'
+Net3_Menu[2]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html">Cisco ASA Support main</A>'
+Net3_Menu[3]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-command-reference-list.html">Cisco ASA Command Refs</A>'
+Net3_Menu[4]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html">ASA/ASDM Configuration Guides</A>'
+Net3_Menu[5]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
+Net3_Menu[6]='<a class="whitelink" href="https://docs.fortinet.com">Fortinet docs and cookbook</A>'
+Net3_Menu[7]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
+Net3_Menu[8]='<a class="whitelink" href="https://www.pfsense.org">pfSense Main</A>'
+Net3_Menu[9]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense Forum</A>'
+Net3_Menu[10]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
+Net3_Menu[11]='<span class="yellowsans">Misc HW Vendors</span>'
+Net3_Menu[12]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
+Net3_Menu[13]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
+Net3_Menu[14]='<a class="whitelink" href="https://market.alcatel-lucent.com/release/jsp/sso/login.jsp">Nokia Alcatel-Lucent Portal</A>' 
+Net3_Menu[15]='<a class="whitelink" href="https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
+Net3_Menu[16]='<a class="whitelink" href="https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
+Net3_Menu[17]='<a class="whitelink" href="https://www.extremenetworks.com/support/">Extreme Networks docs</A>'
+Net3_Menu[18]='<a class="whitelink" href="https://supportforums.adtran.com">ADTRAN support</A>'
+Net3_Menu[19]='<a class="whitelink" href="https://www.advaoptical.com">ADVA Optical</A>'
+Net3_Menu[20]='<a class="whitelink" href="https://www.rad.com/">RAD Optical</A>'
+Net3_Menu[21]='<a class="whitelink" href="https://www.infoblox.com/">Infoblox</A>'
+Net3_Menu[22]='<a class="whitelink" href="https://www.riverbed.com">Riverbed</A>' 
+Net3_Menu[23]='<a class="whitelink" href="https://support.f5.com/">f5 KBase</A>'
+Net3_Menu[24]='<span class="yellowsans">Tools -most are in NetOps/NetRecon</span>'
+Net3_Menu[25]='<a class="whitelink" href="sourceforge.net/projects/ethperf">EthPerf - Y.1731/Y.1564 testing</A>'
+Net3_Menu[26]='<a class="whitelink" href="github.com/jwbensley/Etherate">Etherrate - Layer 2 testing</A>'
+Net3_Menu[27]='<a class="whitelink" href="https://iperf.fr/">iPerf3 - L3/4 testing/tuning</A>'
+Net3_Menu[28]='<a class="whitelink" href="https://sourceforge.net/projects/iperf/files/jperf/jperf%202.0.0/">jPerf (iPerf frontend)</A>'
+Net3_Menu[29]='<a class="whitelink" href="https://kiminewt.github.io/pyshark/">PyShark - wrapper for TShark</A>' 
+Net3_Menu[30]='<a class="whitelink" href="https://cloudshark.io/">CloudShark</A>'
+Net3_Menu[31]='<a class="whitelink" href="https://scapy.net/">Scapy - packet crafting</A>'
+Net3_Menu[32]='<a class="whitelink" href="https://ostinato.org/">Ostinato - packet gen</a>'
+Net3_Menu[33]='<a class="whitelink" href="https://osquery.io/">Osquery - query endpoints</A>'
+Net3_Menu[34]='<a class="whitelink" href="https://osquery.io/schema/3.3.2">Osquery Schema Reference</A>'
+Net3_Menu[35]='<a class="whitelink" href="https://github.com/maclennann/dashiell">Dashiell - osquery/facter frontend</A>'
+Net3_Menu[36]='<a class="whitelink" href="https://www.oetiker.ch/en/oss/projects/">Oetiker (MRTG RDDTool etc)</A>'
+Net3_Menu[37]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
+Net3_Menu[38]='<a class="whitelink" href="https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
+Net3_Menu[39]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
+Net3_Menu[40]='<span class="yellowsans">Calcs and Practice</span>'
+Net3_Menu[41]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
+Net3_Menu[42]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
+Net3_Menu[43]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
+Net3_Menu[44]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
+Net3_Menu[45]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
 
 
 
@@ -387,9 +411,6 @@ Net2_Menu[48]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools
 //https://scapy.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer">Scapy Documentation</a></li>
 //https://github.com/secdev/scapy/">Scapy on GitHub</a></li>
 //http://media.packetlife.net/media/library/36/scapy.pdf" target="_blank" rel="noopener noreferrer">Packetlife.net &#8211; Scapy Cheat Sheet</a></li>
-//</ul>
-//<p>Here are some cool projects I found on GitHub that use Scapy:</p>
-//<ul>
 //<li><a title="Scapy-HTTP" href="https://github.com/invernizzi/scapy-http" target="_blank" rel="noopener noreferrer">Scapy-HTTP</a> (HTTP Layer support)</li>
 //<li><a title="DHCPig" href="https://github.com/kamorin/DHCPig" target="_blank" rel="noopener noreferrer">DHCPig</a>  (DHCP Exhaustion Script)</li>
 //<li><a title="Scapy-to-API" href="https://www.github.com/thepacketgeek/scapy-to-api" target="_blank" rel="noopener noreferrer">Scapy-to-API </a>(From yours truly)</li>
