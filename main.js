@@ -386,7 +386,7 @@ Net3_Menu[33]='<a class="whitelink" href="https://osquery.io/">Osquery - query e
 Net3_Menu[34]='<a class="whitelink" href="https://osquery.io/schema/3.3.2">Osquery Schema Reference</A>'
 Net3_Menu[35]='<a class="whitelink" href="https://github.com/maclennann/dashiell">Dashiell - osquery/facter frontend</A>'
 Net3_Menu[36]='<a class="whitelink" href="https://www.oetiker.ch/en/oss/projects/">Oetiker (MRTG RDDTool etc)</A>'
-Net3_Menu[37]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
+Net3_Menu[37]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Tools list @ Stanford</A>'
 Net3_Menu[38]='<a class="whitelink" href="https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
 Net3_Menu[39]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
 Net3_Menu[40]='<span class="yellowsans">Calcs and Practice</span>'
