@@ -1261,14 +1261,18 @@ CMCICD_Menu[30]='<a class="whitelink" HREF="https://jenkins.io/doc/book/managing
 CMCICD_Menu[31]='<a class="whitelink" HREF="https://www.cloudbees.com/">Cloudbees</A>'
 
 CMCICD_Menu[32]='<span class="yellowsans">Other Config Mgmt, IaC, etc</span>'
-CMCICD_Menu[33]='<a class="whitelink" HREF="https://travis-ci.org/">Travis CI</A>'
-CMCICD_Menu[34]='<a class="whitelink" HREF="https://circleci.com">CircleCI</A>'
-CMCICD_Menu[35]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
-CMCICD_Menu[36]='<a class="whitelink" HREF="https://www.hashicorp.com/products/terraform/">HashiCorp Terraform</A>'
-CMCICD_Menu[37]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
-CMCICD_Menu[38]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
-CMCICD_Menu[39]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
-CMCICD_Menu[40]='<a class="whitelink" HREF="https://www.weave.works/technologies/gitops/">GitOps Methodology</A>'
+CMCICD_Menu[33]='<a class="whitelink" HREF="https://www.weave.works/technologies/gitops/">GitOps Methodology</A>'
+CMCICD_Menu[34]='<a class="whitelink" HREF="https://www.xenonstack.com/insights/what-is-gitops/">More on GitOps</A>'
+CMCICD_Menu[35]='<a class="whitelink" HREF="https://github.com/fluxcd/flux/">Flux (K8s GitOps)</A>'
+CMCICD_Menu[36]='<a class="whitelink" HREF="https://travis-ci.org/">Travis CI</A>'
+CMCICD_Menu[37]='<a class="whitelink" HREF="https://circleci.com">CircleCI</A>'
+CMCICD_Menu[38]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
+CMCICD_Menu[39]='<a class="whitelink" HREF="https://www.hashicorp.com/products/terraform/">HashiCorp Terraform</A>'
+CMCICD_Menu[40]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
+CMCICD_Menu[41]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
+CMCICD_Menu[42]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
+
+
 
 
 
