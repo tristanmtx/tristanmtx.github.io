@@ -667,7 +667,7 @@ Cluster_Menu[15]='<span class="yellowsans">Docker Specific</span>'
 Cluster_Menu[16]='<a class="whitelink" href="https://www.docker.com/">Docker main page</A>'
 Cluster_Menu[17]='<a class="whitelink" href="https://github.com/docker/">Docker GitHub</A>'
 
-Cluster_Menu[18]='<span class="yellowsans">MicroVM Solutions</span>'
+Cluster_Menu[18]='<span class="yellowsans">MicroVM/ Container Runtime</span>'
 Cluster_Menu[19]='<a class="whitelink" href="https://katacontainers.io/">Kata Containers</A>'
 Cluster_Menu[20]='<a class="whitelink" href="https://firecracker-microvm.github.io/">Firecracker</A>'
 Cluster_Menu[21]='<a class="whitelink" href="https://containerd.io/">containerd runtime</A>'
