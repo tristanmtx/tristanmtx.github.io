@@ -252,6 +252,10 @@ NetTool_Menu[6]='<a class="whitelink" HREF="http://network-tools.com/">Network-T
 NetTool_Menu[7]='<a class="whitelink" HREF="http://www.kloth.net/services/">Kloth.net Services</A>'
 NetTool_Menu[8]='<a class="whitelink" HREF="https://centralops.net/co/">CentralOps.net</A>'
 
+// https://www.speedguide.net/sg_tools.php">SpeedGuide Tools</A>'
+// http://www.t1shopper.com/tools/
+// https://www.adminsub.net
+
 NetTool_Menu[9]='<a class="whitelink" HREF="https://www.ultratools.com">ultratools.com</A>'
 NetTool_Menu[10]='<a class="whitelink" HREF="https://dnslytics.com/">DNSlytics (was tcpiputils.com)</A>'
 NetTool_Menu[11]='<a class="whitelink" HREF="http://www.ipvoid.com/">IPVoid tools</A>'
@@ -313,10 +317,11 @@ Net2_Menu[11]='<a class="whitelink" href="https://www.iana.org/assignments/icmp-
 Net2_Menu[12]='<a class="whitelink" href="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml">IANA Internet Protocol #s</A>'
 Net2_Menu[13]='<a class="whitelink" href="https://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xhtml">IANA IPv6 Address Space</A>'
 Net2_Menu[14]='<a class="whitelink" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt">IANA Transport Protocol #s</A>'
-Net2_Menu[15]='<span class="yellowsans">Cisco Related</span>'
-Net2_Menu[16]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
-Net2_Menu[17]='<a class="whitelink" href="https://learningspace.cisco.com/">Cisco Learning Network</A>'
-Net2_Menu[18]='<a class="whitelink" href="http://www.cisco.com/cisco/web/psa/default.html">Cisco- Product/Tech Support Tool</A>'
+Net2_Menu[15]='<a class="whitelink" href="https://www.speedguide.net/ports.php">SpeedGuide PortDB (use/misuse)</A>'
+
+Net2_Menu[16]='<span class="yellowsans">Cisco Related</span>'
+Net2_Menu[17]='<a class="whitelink" href="https://developer.cisco.com/site/devnet/home/index.gsp">Cisco DevNet</A>'
+Net2_Menu[18]='<a class="whitelink" href="https://www.cisco.com/c/en/us/support/all-products.html">Cisco Support- All Products</A>'
 Net2_Menu[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
 Net2_Menu[20]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
 Net2_Menu[21]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
@@ -472,51 +477,51 @@ Gov_Menu2[45]='<a class="whitelink" href="http://www.abanet.org/">American Bar A
 Gov_Menu2[46]='<a class="whitelink" href="http://www.abanet.org/legalservices/lris/directory.html">ABA Lawyer Referal</A>'
 Gov_Menu2[47]='<a class="whitelink" href="http://www.aclu.org/">ACLU</A>'
 
-var UTexas_Menu=new Array()
-UTexas_Menu[0]='<span class="yellowsans">The University of Texas</span>'
-UTexas_Menu[1]='<a class="whitelink" href="http://www.utexas.edu/">UT Austin - Main</A>'
-UTexas_Menu[2]='<a class="whitelink" href="http://www.lib.utexas.edu/">UT Libraries</a>'
-UTexas_Menu[3]='<a class="whitelink" href="http://x500.utexas.edu/">x500 Directory</a>'
-UTexas_Menu[4]='<a class="whitelink" href="http://www.hrc.utexas.edu/">Harry Ransom Center</a>'
-UTexas_Menu[5]='<a class="whitelink" href="http://www.dailytexanonline.com/">The Daily Texan</A>'
-
-
-var Business_Menu=new Array()
-Business_Menu[0]='<span class="yellowsans">Employment: Career Resources</span>'
-Business_Menu[1]='<a class="whitelink" href="http://www.indeed.com/">Indeed</A>'
-Business_Menu[2]='<a class="whitelink" href="http://www.careerjet.com/">CareerJet</A>'
-Business_Menu[3]='<a class="whitelink" href="http://www.simplyhired.com/">SimplyHired</a>'
-Business_Menu[4]='<a class="whitelink" href="https://www.ziprecruiter.com/">ZipRecruiter</A>'
-Business_Menu[5]='<a class="whitelink" href="http://www.careerbuilder.com/">CareerBuilder</A>'
-Business_Menu[6]='<a class="whitelink" href="https://monster.com/">Monster.com</a>'
-Business_Menu[7]='<a class="whitelink" href="https://www.dice.com/">Dice.com</A>'
-Business_Menu[8]='<a class="whitelink" href="http://hotjobs.yahoo.com/">HotJobs</A>'
-Business_Menu[9]='<a class="whitelink" href="https://www.usajobs.gov">US Govt - USAJobs.gov</A>'
-Business_Menu[10]='<a class="whitelink" href="http://www.careeronestop.org/">CareerOneStop (US Dept of Labor)</A>'
-Business_Menu[11]='<a class="whitelink" href="http://us.jobs">US.Jobs - Natl Labor Exchg</A>'
-Business_Menu[12]='<a class="whitelink" href="http://www.jobsafari.co.uk/">JobSafari [UK]</A>'
-Business_Menu[13]='<a class="whitelink" href="http://www.jobrobot.de/">JobRobot [DE]</A>'
-Business_Menu[14]='--------------'
-Business_Menu[15]='<a class="whitelink" href="https://www.theladders.com">TheLadders.com</A>'
-Business_Menu[16]='<a class="whitelink" href="https://www.skillgigs.com/">SkillGigs</a>'
-Business_Menu[17]='<a class="whitelink" href="http://www.payscale.com/">PayScale</A>'
-Business_Menu[18]='<a class="whitelink" href="http://www.glassdoor.com/">Glassdoor</A>'
-Business_Menu[19]='<a class="whitelink" href="https://www.careerbliss.com/">CareerBliss</A>'
-// http://theundercoverrecruiter.com/">The Undercover Recruiter</a>
-
-Business_Menu[20]='<span class="yellowsans">Business News and Data</span>'
-Business_Menu[21]='<a class="whitelink" href="http://www.ceoexpress.com/">CEOExpress</A>'
-Business_Menu[22]='<a class="whitelink" href="http://www.businesswire.com/">BusinessWire</A>'
-Business_Menu[23]='<a class="whitelink" href="http://www.redherring.com/">Red Herring</A>'
-Business_Menu[24]='<a class="whitelink" href="http://www.bloomberg.com/">Bloomberg Business</A>'
-Business_Menu[25]='--------------'
-Business_Menu[26]='<a class="whitelink" href="http://www.bbb.com/">BBB Company Search</A>'
-Business_Menu[27]='<a class="whitelink" href="http://hoovweb.hoovers.com/">Hoovers Handbook Online</A>'
-Business_Menu[28]='<a class="whitelink" href="http://finance.yahoo.com/">Yahoo Finance</A>'
-Business_Menu[29]='<a class="whitelink" href="http://www.morningstar.com/">MorningStar</a>'
-Business_Menu[30]='<a class="whitelink" href="https://www.crunchbase.com">CrunchBase</A>'
-Business_Menu[31]='<a class="whitelink" href="http://www.inc.com">Inc.com</A>'
-Business_Menu[32]='<a class="whitelink" href="https://www.vbprofiles.com/">VentureBeat Profiles</a>'
+// var UTexas_Menu=new Array()
+// UTexas_Menu[0]='<span class="yellowsans">The University of Texas</span>'
+// UTexas_Menu[1]='<a class="whitelink" href="http://www.utexas.edu/">UT Austin - Main</A>'
+// UTexas_Menu[2]='<a class="whitelink" href="http://www.lib.utexas.edu/">UT Libraries</a>'
+// UTexas_Menu[3]='<a class="whitelink" href="http://x500.utexas.edu/">x500 Directory</a>'
+// UTexas_Menu[4]='<a class="whitelink" href="http://www.hrc.utexas.edu/">Harry Ransom Center</a>'
+// UTexas_Menu[5]='<a class="whitelink" href="http://www.dailytexanonline.com/">The Daily Texan</A>'
+// 
+// 
+// var Business_Menu=new Array()
+// Business_Menu[0]='<span class="yellowsans">Employment: Career Resources</span>'
+// Business_Menu[1]='<a class="whitelink" href="http://www.indeed.com/">Indeed</A>'
+// Business_Menu[2]='<a class="whitelink" href="http://www.careerjet.com/">CareerJet</A>'
+// Business_Menu[3]='<a class="whitelink" href="http://www.simplyhired.com/">SimplyHired</a>'
+// Business_Menu[4]='<a class="whitelink" href="https://www.ziprecruiter.com/">ZipRecruiter</A>'
+// Business_Menu[5]='<a class="whitelink" href="http://www.careerbuilder.com/">CareerBuilder</A>'
+// Business_Menu[6]='<a class="whitelink" href="https://monster.com/">Monster.com</a>'
+// Business_Menu[7]='<a class="whitelink" href="https://www.dice.com/">Dice.com</A>'
+// Business_Menu[8]='<a class="whitelink" href="http://hotjobs.yahoo.com/">HotJobs</A>'
+// Business_Menu[9]='<a class="whitelink" href="https://www.usajobs.gov">US Govt - USAJobs.gov</A>'
+// Business_Menu[10]='<a class="whitelink" href="http://www.careeronestop.org/">CareerOneStop (US Dept of Labor)</A>'
+// Business_Menu[11]='<a class="whitelink" href="http://us.jobs">US.Jobs - Natl Labor Exchg</A>'
+// Business_Menu[12]='<a class="whitelink" href="http://www.jobsafari.co.uk/">JobSafari [UK]</A>'
+// Business_Menu[13]='<a class="whitelink" href="http://www.jobrobot.de/">JobRobot [DE]</A>'
+// Business_Menu[14]='--------------'
+// Business_Menu[15]='<a class="whitelink" href="https://www.theladders.com">TheLadders.com</A>'
+// Business_Menu[16]='<a class="whitelink" href="https://www.skillgigs.com/">SkillGigs</a>'
+// Business_Menu[17]='<a class="whitelink" href="http://www.payscale.com/">PayScale</A>'
+// Business_Menu[18]='<a class="whitelink" href="http://www.glassdoor.com/">Glassdoor</A>'
+// Business_Menu[19]='<a class="whitelink" href="https://www.careerbliss.com/">CareerBliss</A>'
+// // http://theundercoverrecruiter.com/">The Undercover Recruiter</a>
+// 
+// Business_Menu[20]='<span class="yellowsans">Business News and Data</span>'
+// Business_Menu[21]='<a class="whitelink" href="http://www.ceoexpress.com/">CEOExpress</A>'
+// Business_Menu[22]='<a class="whitelink" href="http://www.businesswire.com/">BusinessWire</A>'
+// Business_Menu[23]='<a class="whitelink" href="http://www.redherring.com/">Red Herring</A>'
+// Business_Menu[24]='<a class="whitelink" href="http://www.bloomberg.com/">Bloomberg Business</A>'
+// Business_Menu[25]='--------------'
+// Business_Menu[26]='<a class="whitelink" href="http://www.bbb.com/">BBB Company Search</A>'
+// Business_Menu[27]='<a class="whitelink" href="http://hoovweb.hoovers.com/">Hoovers Handbook Online</A>'
+// Business_Menu[28]='<a class="whitelink" href="http://finance.yahoo.com/">Yahoo Finance</A>'
+// Business_Menu[29]='<a class="whitelink" href="http://www.morningstar.com/">MorningStar</a>'
+// Business_Menu[30]='<a class="whitelink" href="https://www.crunchbase.com">CrunchBase</A>'
+// Business_Menu[31]='<a class="whitelink" href="http://www.inc.com">Inc.com</A>'
+// Business_Menu[32]='<a class="whitelink" href="https://www.vbprofiles.com/">VentureBeat Profiles</a>'
  
 
 
@@ -643,6 +648,71 @@ HW_Menu[30]='<a class="whitelink" href="http://www.hardwarecanucks.com/">Hardwar
 HW_Menu[31]='<a class="whitelink" href="http://www.legionhardware.com/">Legion Hardware</A>'
 HW_Menu[32]='<a class="whitelink" href="http://pcpartpicker.com/">PCPartPicker</A>'
 
+
+
+
+
+var K8Sec_Menu=new Array()
+K8Sec_Menu[0]='<a class="whitelink" href="https://sysdig.com/blog/33-kubernetes-security-tools/">This list from this link</A>'
+
+K8Sec_Menu[1]='<span class="yellowsans">K8s image scan/ analysis</span>'
+K8Sec_Menu[2]='<a class="whitelink" href="https://anchore.com/">Anchore</A>'
+K8Sec_Menu[3]='<a class="whitelink" href="https://coreos.com/clair">Clair</A>'
+K8Sec_Menu[4]='<a class="whitelink" href="https://github.com/eliasgranderubio/dagda">Dagda</A>'
+K8Sec_Menu[5]='<a class="whitelink" href="https://github.com/jfrog/kubexray">KubeXRay</A>'
+K8Sec_Menu[6]='<a class="whitelink" href="https://snyk.io/">Snyk</A>'
+K8Sec_Menu[7]='<a class="whitelink" href="https://github.com/knqyf263/trivy">Trivy</a>'
+
+K8Sec_Menu[8]='<span class="yellowsans">K8s runtime security</span>'
+K8Sec_Menu[9]='<a class="whitelink" href="https://falco.org/">Falco</A>'
+K8Sec_Menu[10]='<a class="whitelink" href="https://sysdig.com/opensource/">Sysdig open source</a>'
+
+K8Sec_Menu[11]='<span class="yellowsans">K8s net security</span>'
+K8Sec_Menu[12]='<a class="whitelink" href="https://www.aporeto.com/">Aporeto</A>'
+K8Sec_Menu[13]='<a class="whitelink" href="https://www.projectcalico.org/">Calico</A>'
+K8Sec_Menu[14]='<a class="whitelink" href="https://www.cilium.io/">Cilium</A>'
+K8Sec_Menu[15]='<a class="whitelink" href="https://istio.io/">Istio</A>'
+K8Sec_Menu[16]='<a class="whitelink" href="https://www.tigera.io/">Tigera</A>'
+K8Sec_Menu[17]='<a class="whitelink" href="https://www.aporeto.com/opensource/">Trireme</a>'
+
+K8Sec_Menu[18]='<span class="yellowsans">Image distrib; secrets mgmt</span>'
+K8Sec_Menu[19]='<a class="whitelink" href="https://grafeas.io/">Grafeas</A>'
+K8Sec_Menu[20]='<a class="whitelink" href="https://in-toto.github.io/">In-toto</A>'
+K8Sec_Menu[21]='<a class="whitelink" href="https://github.com/IBM/portieris">Portieris</A>'
+K8Sec_Menu[22]='<a class="whitelink" href="https://github.com/IBM/portieris">Vault</a>'
+
+K8Sec_Menu[23]='<span class="yellowsans">K8s security audit</span>'
+K8Sec_Menu[24]='<a class="whitelink" href="https://github.com/aquasecurity/kube-bench">Kube-bench</A>'
+K8Sec_Menu[25]='<a class="whitelink" href="https://github.com/aquasecurity/kube-hunter">Kube-hunter</A>'
+K8Sec_Menu[26]='<a class="whitelink" href="https://github.com/Shopify/kubeaudit">Kubeaudit</A>'
+K8Sec_Menu[27]='<a class="whitelink" href="https://kubesec.io/">Kubesec</A>'
+K8Sec_Menu[28]='<a class="whitelink" href="https://www.openpolicyagent.org/">Open Policy Agent</a>'
+
+K8Sec_Menu[29]='<span class="yellowsans">Big commercial sec pkgs</span>'
+K8Sec_Menu[30]='<a class="whitelink" href="https://www.aquasec.com/">Aqua Security</A>'
+K8Sec_Menu[31]='<a class="whitelink" href="https://capsule8.com/">Capsule8</A>'
+K8Sec_Menu[32]='<a class="whitelink" href="https://www.cavirin.com/">Cavirin</A>'
+K8Sec_Menu[33]='<a class="whitelink" href="https://cloud.google.com/security-command-center/">Google SCC</A>'
+K8Sec_Menu[34]='<a class="whitelink" href="https://layeredinsight.com/">Layered Insight (Qualys)</A>'
+K8Sec_Menu[35]='<a class="whitelink" href="https://neuvector.com/">Neuvector</A>'
+K8Sec_Menu[36]='<a class="whitelink" href="https://www.stackrox.com/">StackRox</A>'
+K8Sec_Menu[37]='<a class="whitelink" href="https://sysdig.com/products/secure/">Sysdig Secure</A>'
+K8Sec_Menu[38]='<a class="whitelink" href="https://www.tenable.com/products/tenable-io/container-security">Tenable Container Security</A>'
+K8Sec_Menu[39]='<a class="whitelink" href="https://www.twistlock.com/">Twistlock (Palo Alto)</a>'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var Cluster_Menu=new Array()
 Cluster_Menu[0]='<span class="yellowsans">Kubernetes Platforms</span>'
 Cluster_Menu[1]='<a class="whitelink" href="http://kubernetes.io/">K8s @ Linux Foundation</a>'
@@ -685,13 +755,14 @@ Cluster_Menu[31]='<a class="whitelink" href="https://wiki.xenproject.org/wiki/Ma
 Cluster_Menu[32]='<a class="whitelink" href="http://www.virt-tools.org/">Community Virt Tools (KVM, QEMU)</a>'
 
 Cluster_Menu[33]='<span class="yellowsans">Other Items</span>'
+// https://sysdig.com/blog/33-kubernetes-security-tools/">
 Cluster_Menu[34]='<a class="whitelink" href="https://mesos.apache.org/">Apache Mesos</A>'
 Cluster_Menu[35]='<a class="whitelink" href="https://github.com/mesos/">Mesos on GitHub</A>'
 Cluster_Menu[36]='<a class="whitelink" href="https://github.com/mesosphere">Mesosphere GitHub</A>'
 Cluster_Menu[37]='<a class="whitelink" href="http://deis.io/">Deis Workflow</A>'
 Cluster_Menu[38]='<a class="whitelink" href="https://www.nomadproject.io/">Nomad Project</A>'
 Cluster_Menu[39]='<a class="whitelink" href="http://docs.cloudfoundry.org/">CloudFoundry docs</a>'
-Cluster_Menu[39]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
+Cluster_Menu[40]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
 
 
 
@@ -873,28 +944,49 @@ ComSec2_Menu[46]='<span class="whitesans">Find RegEx tools in Online Tools</span
 // https://html5sec.org/">Cure53s HTML5 Security Cheatsheet</A>'
 //www.dfir.training/
 
+var Sec_News_REAL=new Array()
+Sec_News_REAL[0]='<span class="yellowsans">Security News</span>'
+Sec_News_REAL[1]='<a class="whitelink" href="https://isc.sans.edu/newssummary.html">SANS news aggregator</A>'
+Sec_News_REAL[2]='<a class="whitelink" href="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
+Sec_News_REAL[3]='<a class="whitelink" href="http://thehackernews.com/">The Hacker News</A>'
+Sec_News_REAL[4]='<a class="whitelink" href="http://krebsonsecurity.com">Krebs on Security</A>'
+Sec_News_REAL[5]='<a class="whitelink" href="http://www.csoonline.com">IDGs CSO Online</A>' 
+Sec_News_REAL[6]='<a class="whitelink" href="http://www.darkreading.com">UBMs Dark Reading</A>'
+Sec_News_REAL[7]='<a class="whitelink" href="https://threatpost.com/">Kaspersky ThreatPost</A>'
+Sec_News_REAL[8]='<a class="whitelink" href="http://www.theregister.co.uk/security/">The Register- Security</A>'
+Sec_News_REAL[9]='<a class="whitelink" href="http://www.networkworld.com/category/security">Network World- Security</A>'
+Sec_News_REAL[10]='<a class="whitelink" href="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
+Sec_News_REAL[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
+Sec_News_REAL[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
+Sec_News_REAL[13]='<a class="whitelink" href="http://blogs.cisco.com/security/">Cisco Security blog</A>'
+Sec_News_REAL[14]='<a class="whitelink" href="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
+Sec_News_REAL[15]='<a class="whitelink" href="http://blog.trendmicro.com/trendlabs-security-intelligence/">TrendMicro TrendLabs blog</A>'
+Sec_News_REAL[16]='<a class="whitelink" href="https://www.virustotal.com/en/community/">VirusTotal Community blog</A>'
+Sec_News_REAL[17]='<a class="whitelink" href="http://www.darknet.org.uk/">darknet.org.uk</A>'
+Sec_News_REAL[18]='<a class="whitelink" href="http://sanesecurity.blogspot.co.uk/">Sanesecurity</A>'
+Sec_News_REAL[19]='<a class="whitelink" href="http://blog.didierstevens.com/">Didier Stevens blog</A>'
 
-// 
-// ComSec_Menu[0]='<span class="yellowsans">Security News</span>'
-// ComSec_Menu[2]='<a class="whitelink" href="https://www.eff.org/deeplinks">EFFs Deeplinks</A>'
-// ComSec_Menu[3]='<a class="whitelink" href="http://thehackernews.com/">The Hacker News</A>'
-// ComSec_Menu[4]='<a class="whitelink" href="http://krebsonsecurity.com">Krebs on Security</A>'
-// ComSec_Menu[5]='<a class="whitelink" href="http://www.csoonline.com">IDGs CSO Online</A>' 
-// ComSec_Menu[6]='<a class="whitelink" href="http://www.darkreading.com">UBMs Dark Reading</A>'
-// ComSec_Menu[7]='<a class="whitelink" href="https://threatpost.com/">Kaspersky ThreatPost</A>'
-// ComSec_Menu[8]='<a class="whitelink" href="http://www.theregister.co.uk/security/">The Register- Security</A>'
-// ComSec_Menu[9]='<a class="whitelink" href="http://www.networkworld.com/category/security">Network World- Security</A>'
-// ComSec_Menu[10]='<a class="whitelink" href="http://arstechnica.com/security/">ArsTechnica- Risk Assessment</A>'
-// ComSec_Menu[11]='<a class="whitelink" href="http://www.LinuxSecurity.com/">LinuxSecurity.com</a>'
-// ComSec_Menu[12]='<a class="whitelink" href="http://www.net-security.org/">Help Net Security</a>'
-// ComSec_Menu[13]='<a class="whitelink" href="http://blogs.cisco.com/security/">Cisco Security blog</A>'
-// ComSec_Menu[14]='<a class="whitelink" href="https://blog.malwarebytes.com/">MalwareBytes blog</A>'
-// ComSec_Menu[15]='<a class="whitelink" href="http://blog.trendmicro.com/trendlabs-security-intelligence/">TrendMicro TrendLabs blog</A>'
-// ComSec_Menu[16]='<a class="whitelink" href="https://www.virustotal.com/en/community/">VirusTotal Community blog</A>'
-// ComSec_Menu[17]='<a class="whitelink" href="http://www.darknet.org.uk/">darknet.org.uk</A>'
-// ComSec_Menu[18]='<a class="whitelink" href="http://sanesecurity.blogspot.co.uk/">Sanesecurity</A>'
-// ComSec_Menu[19]='<a class="whitelink" href="http://blog.didierstevens.com/">Didier Stevens blog</A>'
-// 
+Sec_News_REAL[20]='<a class="whitelink" href="http://welivesecurity.com">WeLiveSecurity</A>'
+Sec_News_REAL[21]='<a class="whitelink" href="http://nakedsecurity.sophos.com">Naked Security</A>'
+Sec_News_REAL[22]='<a class="whitelink" href="http://ehackingnews.com">E Hacking News</A>'
+Sec_News_REAL[23]='<a class="whitelink" href="http://securityweek.com">SecurityWeek</A>'
+Sec_News_REAL[24]='<a class="whitelink" href="http://hackread.com">HackRead</a>'
+
+Sec_News_REAL[25]='<span class="yellowsans">Security Maps</span>'
+Sec_News_REAL[26]='<a class="whitelink" href="https://www.digitalattackmap.com">Arbor Networks map</A>'
+Sec_News_REAL[27]='<a class="whitelink" href="https://livethreatmap.radware.com/">Radware map</A>'
+Sec_News_REAL[28]='<a class="whitelink" href="https://www.fireeye.com/cyber-map/threat-map.html">FireEye map</A>'
+Sec_News_REAL[29]='<a class="whitelink" href="https://threatmap.checkpoint.com/">Checkpoint ThreatCloud map</A>'
+Sec_News_REAL[30]='<a class="whitelink" href="https://cybermap.kaspersky.com/">Kasperskys map</A>'
+Sec_News_REAL[31]='<a class="whitelink" href="https://map.lookingglasscyber.com/">LookingGlass map</A>'
+Sec_News_REAL[32]='<a class="whitelink" href="https://threatmap.bitdefender.com/">BitDefender map</A>'
+Sec_News_REAL[33]='<a class="whitelink" href="https://threatmap.fortiguard.com/">Fortinets map</A>'
+Sec_News_REAL[34]='<a class="whitelink" href="https://threatbutt.com/map/">ThreatButt map (Firefox wont work)</A>'
+Sec_News_REAL[35]='<a class="whitelink" href="https://talosintelligence.com/fullpage_maps/pulse">Talos Spam/Malware Map</A>'
+Sec_News_REAL[36]='<a class="whitelink" href="https://botnet-cd.trendmicro.com/">TrendMicro botnet map</A>'
+Sec_News_REAL[37]='<a class="whitelink" href="https://apt-ecosystem.com/russia/map/">Russian APT Ecosystem Map</A>'
+
+
 
 
 var ComSec_Menu=new Array()
@@ -1050,21 +1142,25 @@ Monitoring_Menu[29]='<a class="whitelink" href="https://www.alienvault.com/resou
 Monitoring_Menu[30]='<a class="whitelink" href="https://www.fidelissecurity.com/resources/">Fidelis Resources</A>'
 Monitoring_Menu[31]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_qradar_siem?productContext=387411221">IBM QRadar SIEM Support</a>'
 Monitoring_Menu[32]='<a class="whitelink" href="https://www-947.ibm.com/support/entry/portal/product/ibm_security/ibm_security_support_%28general%29">IBM Security support- general</A>'
-Monitoring_Menu[33]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
-Monitoring_Menu[34]='<span class="yellowsans">More SIEM/ Analysis</span>'
-Monitoring_Menu[35]='<a class="whitelink" href="https://logrhythm.com/">LogRhythm</A>'
-Monitoring_Menu[37]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
-Monitoring_Menu[37]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
-Monitoring_Menu[38]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
-Monitoring_Menu[39]='<a class="whitelink" href="https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>'
-Monitoring_Menu[40]='<a class="whitelink" href="https://www.elastic.co/products">Elasticsearch-Logstash-Kibana</A>'
-Monitoring_Menu[41]='<a class="whitelink" href="https://www.elastic.co/guide/index.html">Elastic documentation</A>'
-Monitoring_Menu[42]='<a class="whitelink" href="https://github.com/elastic">Elastic.co @ GitHub</A>'
-Monitoring_Menu[43]='<a class="whitelink" href="https://logz.io/learn/complete-guide-elk-stack/">Logz.io ELK Stack Guide</A>'
-Monitoring_Menu[44]='<a class="whitelink" href="http://blog.eagerelk.com/">EagerElk blog (Jurgens du Toit)</A>'
-Monitoring_Menu[45]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
-Monitoring_Menu[46]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
-Monitoring_Menu[47]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
+Monitoring_Menu[33]='<a class="whitelink" href="https://www.rsa.com/en-us/products/threat-detection-response/network-security-network-monitoring">RSA NetWitness (Dell)</A>'
+Monitoring_Menu[34]='<a class="whitelink" href="https://www.protect724.hpe.com/">HPE Protect724 Community</a>'
+Monitoring_Menu[35]='<a class="whitelink" href="https://www.demisto.com/">Demisto SOAR (Palo Alto)</A>'
+Monitoring_Menu[36]='<a class="whitelink" href="https://demisto.developers.paloaltonetworks.com/">Demisto Developer site</A>'
+
+Monitoring_Menu[37]='<span class="yellowsans">More SIEM/ Analysis</span>'
+Monitoring_Menu[38]='<a class="whitelink" href="https://logrhythm.com/">LogRhythm</A>'
+Monitoring_Menu[39]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
+Monitoring_Menu[40]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
+Monitoring_Menu[41]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
+Monitoring_Menu[42]='<a class="whitelink" href="https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>'
+Monitoring_Menu[43]='<a class="whitelink" href="https://www.elastic.co/products">Elasticsearch-Logstash-Kibana</A>'
+Monitoring_Menu[44]='<a class="whitelink" href="https://www.elastic.co/guide/index.html">Elastic documentation</A>'
+Monitoring_Menu[45]='<a class="whitelink" href="https://github.com/elastic">Elastic.co @ GitHub</A>'
+Monitoring_Menu[46]='<a class="whitelink" href="https://logz.io/learn/complete-guide-elk-stack/">Logz.io ELK Stack Guide</A>'
+Monitoring_Menu[47]='<a class="whitelink" href="http://blog.eagerelk.com/">EagerElk blog (Jurgens du Toit)</A>'
+Monitoring_Menu[48]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
+Monitoring_Menu[49]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
+Monitoring_Menu[50]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
 
 
 
@@ -1269,6 +1365,7 @@ CMCICD_Menu[37]='<a class="whitelink" HREF="https://circleci.com">CircleCI</A>'
 CMCICD_Menu[38]='<a class="whitelink" HREF="https://octopus.com/">Octopus Deploy</A>'
 CMCICD_Menu[39]='<a class="whitelink" HREF="https://www.hashicorp.com/products/terraform/">HashiCorp Terraform</A>'
 CMCICD_Menu[40]='<a class="whitelink" HREF="https://access.redhat.com/products/red-hat-satellite/">Red Hat Satellite</A>'
+CMCICD_Menu[40]='<a class="whitelink" HREF="https://www.hcl2json.com/">HCL-YAML-JSON Converter</A>'
 CMCICD_Menu[41]='<a class="whitelink" HREF="https://community.shavlik.com">Shavlik</A>'
 CMCICD_Menu[42]='<a class="whitelink" HREF="https://yipee.io">Yipee.io</A>'
 
