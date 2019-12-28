@@ -150,6 +150,8 @@ WebTools_Menu[5]='<a class="whitelink" href="http://www.endmemo.com/">Endmemo co
 WebTools_Menu[6]='<a class="whitelink" href="https://www.danstools.com/">DansTools.com</A>'
 WebTools_Menu[7]='<a class="whitelink" href="https://www.browserling.com/tools/">Webtools at Browserling</A>'
 WebTools_Menu[8]='<a class="whitelink" href="http://www.kylesconverter.com/">Kyles converters/calculators</A>'
+// https://www.checkyourmath.com/index.php">CheckYourMath</A>'
+
 WebTools_Menu[9]='<a class="whitelink" href="http://www.webtoolhub.com/tools.aspx">WebToolHub webtools</A>'
 WebTools_Menu[10]='<a class="whitelink" href="https://www.tools4noobs.com/online_tools/">&quot;Tools4Noobs&quot; webtools</A>'
 WebTools_Menu[11]='<a class="whitelink" href="http://calculatoredge.com/">CalculatorEdge for Engineers</a>'
@@ -678,12 +680,11 @@ K8Sec_Menu[17]='<a class="whitelink" href="https://www.aporeto.com/opensource/">
 K8Sec_Menu[18]='<span class="yellowsans">Image distrib; secrets mgmt</span>'
 K8Sec_Menu[19]='<a class="whitelink" href="https://grafeas.io/">Grafeas</A>'
 K8Sec_Menu[20]='<a class="whitelink" href="https://in-toto.github.io/">In-toto</A>'
-K8Sec_Menu[21]='<a class="whitelink" href="https://github.com/IBM/portieris">Portieris</A>'
-K8Sec_Menu[22]='<a class="whitelink" href="https://github.com/IBM/portieris">Vault</a>'
+K8Sec_Menu[21]='<a class="whitelink" href="https://github.com/IBM/portieris">Portieris + Vault</a>'
 
 K8Sec_Menu[23]='<span class="yellowsans">K8s security audit</span>'
-K8Sec_Menu[24]='<a class="whitelink" href="https://github.com/aquasecurity/kube-bench">Kube-bench</A>'
-K8Sec_Menu[25]='<a class="whitelink" href="https://github.com/aquasecurity/kube-hunter">Kube-hunter</A>'
+K8Sec_Menu[24]='<a class="whitelink" href="https://github.com/aquasecurity/kube-bench">Aqua Kube-bench</A>'
+K8Sec_Menu[25]='<a class="whitelink" href="https://github.com/aquasecurity/kube-hunter">Aqua Kube-hunter</A>'
 K8Sec_Menu[26]='<a class="whitelink" href="https://github.com/Shopify/kubeaudit">Kubeaudit</A>'
 K8Sec_Menu[27]='<a class="whitelink" href="https://kubesec.io/">Kubesec</A>'
 K8Sec_Menu[28]='<a class="whitelink" href="https://www.openpolicyagent.org/">Open Policy Agent</a>'
@@ -696,7 +697,7 @@ K8Sec_Menu[33]='<a class="whitelink" href="https://cloud.google.com/security-com
 K8Sec_Menu[34]='<a class="whitelink" href="https://layeredinsight.com/">Layered Insight (Qualys)</A>'
 K8Sec_Menu[35]='<a class="whitelink" href="https://neuvector.com/">Neuvector</A>'
 K8Sec_Menu[36]='<a class="whitelink" href="https://www.stackrox.com/">StackRox</A>'
-K8Sec_Menu[37]='<a class="whitelink" href="https://sysdig.com/products/secure/">Sysdig Secure</A>'
+
 K8Sec_Menu[38]='<a class="whitelink" href="https://www.tenable.com/products/tenable-io/container-security">Tenable Container Security</A>'
 K8Sec_Menu[39]='<a class="whitelink" href="https://www.twistlock.com/">Twistlock (Palo Alto)</a>'
 
@@ -771,52 +772,50 @@ Cluster_Menu[40]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
 
 
 
-
-
-
-
-
-
-
-
-
 var Cluster2_Menu=new Array()
-Cluster2_Menu[0]='<span class="yellowsans">Google Cloud Resources</span>'
-Cluster2_Menu[1]='<a class="whitelink" href="https://console.cloud.google.com/">GCP Console</A>'
-Cluster2_Menu[2]='<a class="whitelink" href="https://cloud.google.com/docs/">Google Cloud docs</a>'
-Cluster2_Menu[3]='<a class="whitelink" href="https://cloud.google.com/sdk/">Google Cloud SDK/CLI</A>'
-Cluster2_Menu[4]='<a class="whitelink" href="https://cloud.google.com/python/">Google Cloud Python APIs</A>'
 
+Cluster2_Menu[0]='<span class="yellowsans">Image and Container Repos</span>'
+Cluster2_Menu[1]='<a class="whitelink" href="https://hub.helm.sh/">Helm Hub - Charts</A>'
+Cluster2_Menu[2]='<a class="whitelink" href="https://hub.docker.com/search?q=&type=image">Docker Hub</A>'
+Cluster2_Menu[3]='<a class="whitelink" href="https://hub.kubeapps.com/charts/stable#!">Kubeapps Hub</A>'
+Cluster2_Menu[4]='<a class="whitelink" href="https://elements.heroku.com/buildpacks">Heroku Buildpacks</A>'
+Cluster2_Menu[5]='<a class="whitelink" href="https://app.vagrantup.com/boxes/search">Vagrant Boxes</A>'
 
-Cluster2_Menu[5]='<span class="yellowsans">Amazon Web Services</span>'
-Cluster2_Menu[6]='<a class="whitelink" href="https://aws.amazon.com/documentation/">AWS main</A>'
-Cluster2_Menu[7]='<a class="whitelink" href="https://console.aws.amazon.com">AWS Console Login</A>'
-Cluster2_Menu[8]='<a class="whitelink" href="https://forums.aws.amazon.com">AWS Discussion Forums</A>'
-Cluster2_Menu[9]='<a class="whitelink" href="http://aws.amazon.com/blogs/aws/">AWS Blogs</A>'
-Cluster2_Menu[10]='<a class="whitelink" href="https://aws.amazon.com/tools/">AWS SDKs and Dev Tools</A>'
-Cluster2_Menu[11]='<a class="whitelink" href="https://github.com/aws/">AWS at GitHub</A>'
-Cluster2_Menu[12]='<a class="whitelink" href="http://aws.amazon.com/products/">AWS Service Listing</A>'
-Cluster2_Menu[13]='<a class="whitelink" href="https://status.aws.amazon.com/">AWS Service Health Dashboard</A>'
-Cluster2_Menu[14]='<a class="whitelink" href="https://calculator.aws">AWS Pricing Calc (beta)</A>'
-Cluster2_Menu[15]='<a class="whitelink" href="https://calculator.s3.amazonaws.com">AWS Monthly Calculator</A>'
-Cluster2_Menu[16]='<a class="whitelink" href="http://EC2Instances.info">EC2Instance.info (specs/pricing)</A>'
-Cluster2_Menu[17]='<a class="whitelink" href="https://awspolicygen.s3.amazonaws.com/policygen.html">AWS Policy Generator</A>'
-Cluster2_Menu[18]='<a class="whitelink" href="https://aws.amazon.com/cli/">AWS CLI resources</A>'
-Cluster2_Menu[19]='<a class="whitelink" href="http://docs.aws.amazon.com/powershell/latest/reference/Index.html">AWS Tools for PowerShell</A>'
+Cluster2_Menu[6]='<span class="yellowsans">Google Cloud Resources</span>'
+Cluster2_Menu[7]='<a class="whitelink" href="https://console.cloud.google.com/">GCP Console</A>'
+Cluster2_Menu[8]='<a class="whitelink" href="https://cloud.google.com/docs/">Google Cloud docs</a>'
+Cluster2_Menu[9]='<a class="whitelink" href="https://cloud.google.com/sdk/">Google Cloud SDK/CLI</A>'
+Cluster2_Menu[10]='<a class="whitelink" href="https://cloud.google.com/python/">Google Cloud Python APIs</A>'
 
-Cluster2_Menu[20]='<span class="yellowsans">Azure Resources</span>'
-Cluster2_Menu[21]='<a class="whitelink" href="https://azure.microsoft.com/en-us/resources/">Azure Resource Center</A>'
-Cluster2_Menu[22]='<a class="whitelink" href="https://github.com/Azure">Azure at GitHub</A>'
-Cluster2_Menu[23]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
-Cluster2_Menu[24]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
-Cluster2_Menu[25]='<a class="whitelink" href="https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
-Cluster2_Menu[26]='<a class="whitelink" href="https://docs.microsoft.com/en-us/cli/azure/">Azure CLI 2.0 Ref Feb. 2017</a>'
-Cluster2_Menu[27]='<a class="whitelink" href="https://blogs.msdn.microsoft.com/edutech/">MSDN Edutech - Azure AD</A>'
+Cluster2_Menu[11]='<span class="yellowsans">Amazon Web Services</span>'
+Cluster2_Menu[12]='<a class="whitelink" href="https://aws.amazon.com/documentation/">AWS main</A>'
+Cluster2_Menu[13]='<a class="whitelink" href="https://console.aws.amazon.com">AWS Console Login</A>'
+Cluster2_Menu[14]='<a class="whitelink" href="https://forums.aws.amazon.com">AWS Discussion Forums</A>'
+Cluster2_Menu[15]='<a class="whitelink" href="http://aws.amazon.com/blogs/aws/">AWS Blogs</A>'
+Cluster2_Menu[16]='<a class="whitelink" href="https://aws.amazon.com/tools/">AWS SDKs and Dev Tools</A>'
+Cluster2_Menu[17]='<a class="whitelink" href="https://github.com/aws/">AWS at GitHub</A>'
+Cluster2_Menu[18]='<a class="whitelink" href="http://aws.amazon.com/products/">AWS Service Listing</A>'
+Cluster2_Menu[19]='<a class="whitelink" href="https://status.aws.amazon.com/">AWS Service Health Dashboard</A>'
+Cluster2_Menu[20]='<a class="whitelink" href="https://calculator.aws">AWS Pricing Calc (beta)</A>'
+Cluster2_Menu[21]='<a class="whitelink" href="https://calculator.s3.amazonaws.com">AWS Monthly Calculator</A>'
+Cluster2_Menu[22]='<a class="whitelink" href="http://EC2Instances.info">EC2Instance.info (specs/pricing)</A>'
+Cluster2_Menu[23]='<a class="whitelink" href="https://awspolicygen.s3.amazonaws.com/policygen.html">AWS Policy Generator</A>'
+Cluster2_Menu[24]='<a class="whitelink" href="https://aws.amazon.com/cli/">AWS CLI resources</A>'
+Cluster2_Menu[25]='<a class="whitelink" href="http://docs.aws.amazon.com/powershell/latest/reference/Index.html">AWS Tools for PowerShell</A>'
 
-Cluster2_Menu[28]='<span class="yellowsans">Other Cloud Providers</span>'
-Cluster2_Menu[29]='<a class="whitelink" href="https://www.alibabacloud.com/help">Alibaba Cloud documentation</A>'
-Cluster2_Menu[30]='<a class="whitelink" href="https://cloud.oracle.com">Oracle Cloud</A>'
-Cluster2_Menu[31]='<a class="whitelink" href="https://cloud.ibm.com/docs/home/alldocs">IBM Cloud documentation</A>'
+Cluster2_Menu[25]='<span class="yellowsans">Azure Resources</span>'
+Cluster2_Menu[26]='<a class="whitelink" href="https://azure.microsoft.com/en-us/resources/">Azure Resource Center</A>'
+Cluster2_Menu[27]='<a class="whitelink" href="https://github.com/Azure">Azure at GitHub</A>'
+Cluster2_Menu[28]='<a class="whitelink" href="https://azure.microsoft.com/en-us/documentation/">Microsoft Azure docs</a>'
+Cluster2_Menu[29]='<a class="whitelink" href="https://azure.microsoft.com/en-us/support/forums/">Azure Forums</a>'
+Cluster2_Menu[30]='<a class="whitelink" href="https://docs.microsoft.com/en-us/azure/xplat-cli-install">Azure CLI Install</A>'
+Cluster2_Menu[31]='<a class="whitelink" href="https://docs.microsoft.com/en-us/cli/azure/">Azure CLI 2.0 Ref Feb. 2017</a>'
+Cluster2_Menu[32]='<a class="whitelink" href="https://blogs.msdn.microsoft.com/edutech/">MSDN Edutech - Azure AD</A>'
+
+Cluster2_Menu[33]='<span class="yellowsans">Other Cloud Providers</span>'
+Cluster2_Menu[34]='<a class="whitelink" href="https://www.alibabacloud.com/help">Alibaba Cloud documentation</A>'
+Cluster2_Menu[35]='<a class="whitelink" href="https://cloud.oracle.com">Oracle Cloud</A>'
+Cluster2_Menu[36]='<a class="whitelink" href="https://cloud.ibm.com/docs/home/alldocs">IBM Cloud documentation</A>'
 
 var SDNNFV_Menu=new Array()
 SDNNFV_Menu[0]='<span class="yellowsans">NFV Orchestration</span>'
@@ -986,8 +985,9 @@ Sec_News_REAL[35]='<a class="whitelink" href="https://talosintelligence.com/full
 Sec_News_REAL[36]='<a class="whitelink" href="https://botnet-cd.trendmicro.com/">TrendMicro botnet map</A>'
 Sec_News_REAL[37]='<a class="whitelink" href="https://apt-ecosystem.com/russia/map/">Russian APT Ecosystem Map</A>'
 
-
-
+Sec_News_REAL[38]='<span class="yellowsans">&quot;Awesome Lists&quot;</span>'
+Sec_News_REAL[39]='<a class="whitelink" href="https://github.com/sbilly/awesome-security">Awesome Security</A>'
+Sec_News_REAL[40]='<a class="whitelink" href="https://github.com/enaqx/awesome-pentest">Awesome Penetration Testing</A>'
 
 var ComSec_Menu=new Array()
 ComSec_Menu[0]='<span class="yellowsans">Resource Sites, Conferences</span>'
@@ -1502,6 +1502,7 @@ Prog_Menu[44]='<a class="whitelink" href="https://codeproject.com">CodeProject</
 Prog_Menu[45]='<a class="whitelink" href="https://go4expert.com">Go4Expert</a>'
 Prog_Menu[46]='<a class="whitelink" href="https://codingforums.com">CodingForums.com</a>' 
 Prog_Menu[47]='<a class="whitelink" href="https://yaml.org/">YAML.org</A>'
+// yamllint.com">YAML Lint</a>'
 Prog_Menu[48]='<a class="whitelink" href="https://git-scm.com/book/en/v2">Pro Git</A>'
 Prog_Menu[49]='<a class="whitelink" href="https://eagain.net/articles/git-for-computer-scientists/">Git for Computer Scientists</A>'
 
