@@ -170,7 +170,7 @@ WebTools_Menu[15]='<a class="whitelink" href="https://www.online-convert.com/">O
 WebTools_Menu[16]='<a class="whitelink" href="https://www.freeformatter.com/">FreeFormatter.com tools</A>'
 WebTools_Menu[17]='<a class="whitelink" href="https://convertio.co/">convertio.co</A>'
 WebTools_Menu[18]='<a class="whitelink" href="http://www.convertfiles.com/">convertfiles.com</A>'
-WebTools_Menu[19]='<a class="whitelink" href="http://www.keepvid.com">KeepVid Downloader</A>' 
+WebTools_Menu[19]='<a class="whitelink" href="https://loader.to">Loader.to video downloader</A>' 
 WebTools_Menu[20]='<a class="whitelink" href="http://99downloader.com/">99Downloader (FB/Twitter/etc)</A>'  
 
 WebTools_Menu[21]='<span class="yellowsans">Time tools</span>'
@@ -612,6 +612,9 @@ Unix_Menu[38]='<a class="whitelink" href="https://wiki.archlinux.org/">Arch Linu
 Unix_Menu[39]='<a class="whitelink" href="https://wiki.debian.org/">Debian Wiki</A>'
 Unix_Menu[40]='<a class="whitelink" href="http://docs.slackware.com/">Slackware Wiki</A>'
 Unix_Menu[41]='<a class="whitelink" href="https://access.redhat.com/documentation/en/">Red Hat Documentation</A>'
+// https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/index
+// https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/securing_networks/index
+
 Unix_Menu[42]='<a class="whitelink" href="https://fedoraproject.org/wiki/Fedora_Project_Wiki">Fedora Project Wiki</A>'
 Unix_Menu[43]='<a class="whitelink" href="http://www.freebsd.net/">The FreeBSD Project</A>'
 
