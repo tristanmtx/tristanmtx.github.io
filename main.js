@@ -1139,6 +1139,7 @@ Monitoring_Menu[23]='<a class="whitelink" href="https://exchange.nagios.org/">Na
 Monitoring_Menu[24]='<a class="whitelink" href="https://www.monitoring-plugins.org/">Monitoring-Plugins.org</A>'
 Monitoring_Menu[25]='<a class="whitelink" href="https://forum.centreon.com/">Centreon forums</a>'
 Monitoring_Menu[26]='<a class="whitelink" href="https://securityonion.net/">Security Onion</a>'
+// https://securityonion.readthedocs.io/en/latest/tricks.html
 Monitoring_Menu[27]='<a class="whitelink" href="https://community.rapid7.com/">Rapid7 Community</a>'
 Monitoring_Menu[28]='<a class="whitelink" href="https://www.alienvault.com/forums/">AlienVault forums</A>'
 Monitoring_Menu[29]='<a class="whitelink" href="https://www.alienvault.com/resource-center">AlienVault Resource Center</A>'
@@ -1154,6 +1155,7 @@ Monitoring_Menu[37]='<span class="yellowsans">More SIEM/ Analysis</span>'
 Monitoring_Menu[38]='<a class="whitelink" href="https://logrhythm.com/">LogRhythm</A>'
 Monitoring_Menu[39]='<a class="whitelink" href="https://splunkbase.splunk.com/">Splunkbase</A>'
 Monitoring_Menu[40]='<a class="whitelink" href="http://docs.splunk.com">Splunk docs</A>'
+// https://docs.splunk.com/Documentation/CIM/4.15.0/User/NetworkTraffic
 Monitoring_Menu[41]='<a class="whitelink" href="https://answers.splunk.com/">Splunk> Answers</a>'
 Monitoring_Menu[42]='<a class="whitelink" href="https://docs.splunk.com/Documentation/Splunk/6.4.1/SearchReference/WhatsInThisManual">Splunk SPL Reference</A>'
 Monitoring_Menu[43]='<a class="whitelink" href="https://www.elastic.co/products">Elasticsearch-Logstash-Kibana</A>'
