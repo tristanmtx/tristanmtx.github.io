@@ -1,74 +1,46 @@
-[0]='<span class="yellowsans">General Reference</span>'
-[1]='<a class="whitelink" href="https://www.rfc-editor.org/search/rfc_search.php">RFC Editor search</A>'
-[2]='<a class="whitelink" href="https://datatracker.ietf.org/">IETF DataTracker</A>'
-[3]='<a class="whitelink" href="https://wiki.wireshark.org/FrontPage">The Wireshark Wiki</A>'
-[4]='<a class="whitelink" href="http://www.tcpipguide.com/">TCPIPGuide.com Wiki</A>'
-[5]='<a class="whitelink" href="https://wiki.mef.net">MEF (Metro Ethernet Forum) Wiki</A>'
-[6]='<a class="whitelink" href="https://wiki.geant.org/display/public/EK/Welcome+to+the+eduPERT+Knowledge+Base">Geant PERT KB</A>
-[7]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'
-[8]='<a class="whitelink" href="http://www.ascii-code.com/">ASCII-BIN-HEX-OCT Convert</a>'
-[9]='<a class="whitelink" href="https://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml">IANA EtherType &amp; OUI #s</A>'
-[10]='<a class="whitelink" href="https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml">IANA ICMP Types &amp; Codes</A>'
-[11]='<a class="whitelink" href="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml">IANA Internet Protocol #s</A>'
-[12]='<a class="whitelink" href="https://www.iana.org/assignments/ipv6-address-space/ipv6-address-space.xhtml">IANA IPv6 Address Space</A>'
-[13]='<a class="whitelink" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt">IANA Transport Protocol #s</A>'
-[14]='<span class="yellowsans">Cisco Related</span>'
-[15]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6-2-t/model.html">Cisco IOS 15.6(2)T Cmd Refs</A>'
-[16]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-command-reference-list.html">IOS 15.6(2) Services Cmd Guides</A>' 
-[17]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-software-release-15-6m-t/products-installation-and-configuration-guides-list.html">Cisco IOS 15.6(2)T Config Guides</A>'
-[18]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3e/tsd-products-support-series-home.html">Cisco IOS XE 3.x Cmd Refs</a>'
-[19]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/tsd-products-support-series-home.html">Cisco IOS XR Cmd Refs</a>'
-[20]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/ios-nx-os-software/nx-os-software/tsd-products-support-series-home.html">Cisco IOS NX Cmd Refs</a>'
-[21]='<a class="whitelink" href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mpls/command/mp-cr-book.html">Cisco IOS MPLS Cmd Ref</A>'
-[22]='<a class="whitelink" href="https://sites.google.com/site/amitsciscozone/home
-[23]='<a class="whitelink" href="https://market.alcatel-lucent.com/release/jsp/sso/login.jsp">Nokia Alcatel-Lucent Portal</A>' 
-[24]='<a class="whitelink" href="https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
-[25]='<a class="whitelink" href="https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
-[26]='<a class="whitelink" href="https://www.extremenetworks.com/support/">Extreme Networks - support and docs</A>'
-[27]='<a class="whitelink" href="https://supportforums.adtran.com">ADTRAN support</A>'
-[28]='<span class="yellowsans">AS/ BGP Lookups</span>'
-[29]='<a class="whitelink" href="https://www.bgpmon.net/">BGPMon Dashboard</A>'
-[30]='<a class="whitelink" href="http://bgp.he.net/">Hurricane Electric BGP Tools</A>'
-[31]='<a class="whitelink" href="http://www.netconfigs.com/">netconfigs.com BGP Tools</A>'
-[32]='<a class="whitelink" href="http://www.as3257.net/lg/">GTT BGP Looking Glass</A>'
-[33]='<a class="whitelink" href="https://prefix.pch.net/">Packet Clearinghouse</A>'
-[34]='<a class="whitelink" href="https://www.peeringdb.com/advanced_search">PeeringDB Adv Search</A>'
-[35]='<a class="whitelink" href="http://cyclops.cs.ucla.edu/">Cyclops network audit tool</A>'
-[36]='<a class="whitelink" href="https://www.team-cymru.org/services.html">Team Cymru IP-to-ASN, etc</A>'
-[37]='<a class="whitelink" href="https://www.findip-address.com/">Findip-address.com Lookup</A>'
-[38]='<a class="whitelink" href="https://myip.ms/">myip.ms Host Info</a>'
-[39]='<a class="whitelink" href="http://trace.die.net/">die.net TraceRoute Explorer</a>'
-[40]='<a class="whitelink" href="http://www.traceroute.org/">Traceroute.org Jumppoints</a>' 
-[41]='<span class="yellowsans">Route Servers, etc</span>'
-[42]='<a class="whitelink" href="telnet://route-server.ip.att.net">telnet://route-server.ip.att.net</A>'
-[43]='<a class="whitelink" href="telnet://route-server.rogers.com">telnet://route-server.rogers.com</A>'
-[44]='<a class="whitelink" href="telnet://route-server.cerf.net">telnet://route-server.cerf.net</A>'
-[45]='<a class="whitelink" href="telnet://route-server.videotron.net">telnet://route-server.videotron.net</A>'
-[46]='<a class="whitelink" href="http://www.traceroute.org">Public route servers list</A>'
-[47]='<a class="whitelink" href="https://www.irr.net">Internet Routing Registry (IRR)</A>'
-[48]='<a class="whitelink" href="https://irrexplorer.nlnog.net">NL NOG IRR Explorer</A>'
-[49]='<a class="whitelink" href="https://nlnog.net/tools/">NL NOG tools</A>'
-[50]=
-[51]=
-[52]=
-[53]=
-[54]=
-[55]=
-[56]=
-[57]=
-[58]=
-[59]=
-[60]=
-[61]=
-[62]=
-[63]=
-[64]=
-[65]=
-[66]=
-[67]=
-[68]=
-[69]=
-[70]=
-=
-var6"$(seq -s '] [' 1 70)"=
-$ echo "$var6"=
+Net3_Menu[0]='<span class="yellowsans">Firewall</span>'
+Net3_Menu[1]='<a class="whitelink" href="http://www.netfilter.org">netfilter.org --iptables --ipset</A>'
+Net3_Menu[2]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/adaptive-security-appliance-asa-software/tsd-products-support-series-home.html">Cisco ASA Support main</A>'
+Net3_Menu[3]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-command-reference-list.html">Cisco ASA Command Refs</A>'
+Net3_Menu[4]='<a class="whitelink" href="http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html">ASA/ASDM Configuration Guides</A>'
+Net3_Menu[5]='<a class="whitelink" href="https://live.paloaltonetworks.com/">Palo Alto Networks Live</A>'
+Net3_Menu[6]='<a class="whitelink" href="https://docs.fortinet.com">Fortinet docs and cookbook</A>'
+Net3_Menu[7]='<a class="whitelink" href="https://community.fireeye.com/">FireEye Community/ Kbase</A>'
+Net3_Menu[8]='<a class="whitelink" href="https://www.pfsense.org">pfSense Main</A>'
+Net3_Menu[9]='<a class="whitelink" href="https://forum.pfsense.org/">pfSense Forum</A>'
+Net3_Menu[10]='<a class="whitelink" href="http://pfsensesetup.com/">pfSense Setup HQ</A>'
+Net3_Menu[11]='<span class="yellowsans">Misc HW Vendors</span>'
+Net3_Menu[12]='<a class="whitelink" href="https://www.juniper.net/customers/support/">Juniper Support</A>'
+Net3_Menu[13]='<a class="whitelink" href="https://support.ruckuswireless.com/">Ruckus Support</A>'
+Net3_Menu[14]='<a class="whitelink" href="https://market.alcatel-lucent.com/release/jsp/sso/login.jsp">Nokia Alcatel-Lucent Portal</A>' 
+Net3_Menu[15]='<a class="whitelink" href="https://www.arista.com/en/support/product-documentation">Arista reference docs</A>' 
+Net3_Menu[16]='<a class="whitelink" href="https://www.arista.com/en/um-eos/eos-command-line-interface">Arista EOS CLI Reference</A>'
+Net3_Menu[17]='<a class="whitelink" href="https://www.extremenetworks.com/support/">Extreme Networks docs</A>'
+Net3_Menu[18]='<a class="whitelink" href="https://supportforums.adtran.com">ADTRAN support</A>'
+Net3_Menu[19]='<a class="whitelink" href="https://www.advaoptical.com">ADVA Optical</A>'
+Net3_Menu[20]='<a class="whitelink" href="https://www.rad.com/">RAD Optical</A>'
+Net3_Menu[21]='<a class="whitelink" href="https://www.infoblox.com/">Infoblox</A>'
+Net3_Menu[22]='<a class="whitelink" href="https://www.riverbed.com">Riverbed</A>' 
+Net3_Menu[23]='<a class="whitelink" href="https://support.f5.com/">f5 KBase</A>'
+Net3_Menu[24]='<span class="yellowsans">Tools (mostly in NetOps/NetRecon menus)</span>'
+Net3_Menu[25]='<a class="whitelink" href="sourceforge.net/projects/ethperf">EthPerf - Y.1731/Y.1564 testing</A>'
+Net3_Menu[26]='<a class="whitelink" href="github.com/jwbensley/Etherate">Etherrate - Layer 2 testing</A>'
+Net3_Menu[27]='<a class="whitelink" href="https://iperf.fr/">iPerf3 - L3/4 testing/tuning</A>'
+Net3_Menu[28]='<a class="whitelink" href="https://sourceforge.net/projects/iperf/files/jperf/jperf%202.0.0/">jPerf (iPerf frontend)</A>'
+Net3_Menu[29]='<a class="whitelink" href="https://kiminewt.github.io/pyshark/">PyShark - wrapper for TShark</A>' 
+Net3_Menu[30]='<a class="whitelink" href="https://cloudshark.io/">CloudShark</A>'
+Net3_Menu[31]='<a class="whitelink" href="https://scapy.net/">Scapy - packet crafting</A>'
+Net3_Menu[32]='<a class="whitelink" href="https://ostinato.org/">Ostinato - packet gen</a>'
+Net3_Menu[33]='<a class="whitelink" href="https://osquery.io/">Osquery - query endpoints</A>'
+Net3_Menu[34]='<a class="whitelink" href="https://osquery.io/schema/3.3.2">Osquery Schema Reference</A>'
+Net3_Menu[35]='<a class="whitelink" href="https://github.com/maclennann/dashiell">Dashiell - osquery/facter frontend</A>'
+Net3_Menu[36]='<a class="whitelink" href="https://www.oetiker.ch/en/oss/projects/">Oetiker (SmokePing MRTG RDDTool)</A>'
+Net3_Menu[37]='<a class="whitelink" href="http://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html">Net Monitoring Tools list @ Stanford</A>'
+Net3_Menu[38]='<a class="whitelink" href="https://wiki.wireshark.org/Tools">Wireshark wiki tool list</a>'
+Net3_Menu[39]='<a class="whitelink" href="http://www.firewall.cx/downloads.html">firewall.cx downloads</A>'
+Net3_Menu[40]='<span class="yellowsans">Calcs and Practice</span>'
+Net3_Menu[41]='<a class="whitelink" href="http://rednectar.net/GNS3-workbench/">GNS3 Workbench</A>'
+Net3_Menu[42]='<a class="whitelink" href="https://gns3vault.com/">GNS3Vault</A>'
+Net3_Menu[43]='<a class="whitelink" href="http://www.freeccnaworkbook.com/">FreeCCNAWorkbook.com</A>'
+Net3_Menu[44]='<a class="whitelink" href="http://www.subnettingquestions.com/">SubnettingQuestions.com</A>'
+Net3_Menu[45]='<a class="whitelink" href="http://www.subnet-calculator.com/">Subnet-calculator.com</A>'

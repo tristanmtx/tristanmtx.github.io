@@ -107,7 +107,7 @@ WebS_Menu[12]='<a class="whitelink" href="http://vlib.org/">The WWW Virtual Libr
 
 WebS_Menu[13]='<span class="yellowsans">OSINT Resources</span>'
 WebS_Menu[14]='<a class="whitelink" href="http://osintframework.com/">OSINT Framework interface</A>'
-WebS_Menu[15]='<a class="whitelink" href="http://www.i-intelligence.eu/open-source-intelligence-tools-and-resources-handbook/">iIntelligence OSINT listing</A>'
+WebS_Menu[15]='<a class="whitelink" href="https://www.i-intelligence.eu/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf">i-Intelligence.eu OSINT Handbook</A>'
 WebS_Menu[16]='<a class="whitelink" href="https://inteltechniques.com/links.html">OSINT links @ intelTechniques.com</A>'
 WebS_Menu[17]='<a class="whitelink" href="http://www.panopticongroup.com/osint-links/">OSINT links @ Panopticon Group</A>'
 WebS_Menu[18]='<a class="whitelink" href="http://netbootcamp.org/osinttools/">NetBootCamp.org OSINT links</A>'
@@ -218,9 +218,12 @@ WebTools_Menu[49]='<a class="whitelink" href="http://www.regexpal.com/">RegexPal
 // WebTools_Menu[56]='<a class="whitelink" href="https://www.edrawsoft.com/share-flowchart.php">Edraw flowchart templates</A>'
 // WebTools_Menu[57]='<a class="whitelink" href="https://stenciltown.omnigroup.com/">Stenciltown for OmniGraffle</A>'
 
-
-
-
+//  https://www.mapchannels.com/
+// https://www.windy.com/?36.138,-101.799,5
+//  https://www.flightradar24.com/30.93,-97.99/9
+//  https://www.openrailwaymap.org/?lang=en&lat=30.267222&lon=-97.743056&zoom=12&style=standard
+//  https://www.marinetraffic.com/en/ais/home/centerx:-94.7/centery:29.3/zoom:9
+//  https://coronavirus.jhu.edu/map.html
 
 
 
@@ -642,6 +645,7 @@ HW_Menu[19]='<a class="whitelink" href="http://support.wdc.com">Western Digital 
 HW_Menu[20]='<span class="yellowsans">Product Review Sites</span>'
 HW_Menu[21]='<a class="whitelink" href="http://arstechnica.com/discipline/hardware-it/">ArsTechnica - IT Hardware</A>'
 HW_Menu[22]='<a class="whitelink" href="http://tomshardware.com/">Toms Hardware</a>'
+// cpu-world.com 
 HW_Menu[23]='<a class="whitelink" href="http://www.anandtech.com/">AnandTech</a>'
 HW_Menu[24]='<a class="whitelink" href="http://benchmarkreviews.com/">Benchmark Reviews</a>'
 HW_Menu[25]='<a class="whitelink" href="http://www.overclockers.com/">Overclockers.com</a>'
@@ -821,10 +825,15 @@ Cluster2_Menu[35]='<a class="whitelink" href="https://cloud.oracle.com">Oracle C
 Cluster2_Menu[36]='<a class="whitelink" href="https://cloud.ibm.com/docs/home/alldocs">IBM Cloud documentation</A>'
 
 var SDNNFV_Menu=new Array()
+
+// "https://www.lfnetworking.org/">LFNetworking - Linux Foundation</A>'
+
+
 SDNNFV_Menu[0]='<span class="yellowsans">NFV Orchestration</span>'
 SDNNFV_Menu[1]='<a class="whitelink" href="https://wiki.opnfv.org/">OPNVF</A>'
 SDNNFV_Menu[2]='<a class="whitelink" href="https://osm.etsi.org/">Open Source MANO (OSM)</A>'
 SDNNFV_Menu[3]='<a class="whitelink" href="https://wiki.onap.org/">ONAP</A>'
+ // Open Network Automation Platform 
 SDNNFV_Menu[4]='<a class="whitelink" href="http://opencord.org/">OpenCORD</A>'  
 SDNNFV_Menu[5]='<a class="whitelink" href="http://openbaton.github.io/">OpenBaton NFV MANO</A>' 
 SDNNFV_Menu[6]='<a class="whitelink" href="http://docs.getcloudify.org/">Cloudify</A>'
@@ -1008,7 +1017,7 @@ ComSec_Menu[11]='<a class="whitelink" href="http://forensicswiki.org/">Forensics
 ComSec_Menu[12]='<a class="whitelink" href="https://www.owasp.org">OWASP Wiki</A>'
 
 ComSec_Menu[13]='<span class="yellowsans">Stds and Regulatory Compliance</span>'
-ComSec_Menu[14]='<a class="whitelink" href="http://csrc.nist.gov/groups/SMA/fisma/library.html">NIST FISMA Library (FIPS, SP) </a>'
+ComSec_Menu[14]='<a class="whitelink" href="https://csrc.nist.gov/publications">NIST CSRC Library (FIPS, SP)</a>'
 ComSec_Menu[15]='<a class="whitelink" href="http://www.iso.org/iso/home/standards/management-standards/iso27001.htm">ISO/IEC 27001 ISMS</A>'
 ComSec_Menu[16]='<a class="whitelink" href="http://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx">NERC - CIP Standards</A>'
 ComSec_Menu[17]='<a class="whitelink" href="https://www.cisecurity.org/critical-controls/Library.cfm">CIS Critical Security Controls</A>'
@@ -1166,8 +1175,9 @@ Monitoring_Menu[47]='<a class="whitelink" href="http://blog.eagerelk.com/">Eager
 Monitoring_Menu[48]='<a class="whitelink" href="https://github.com/StamusNetworks/SELKS">SELKS [Suricata+ELK+Scirius]</A>'
 Monitoring_Menu[49]='<a class="whitelink" href="http://docs.graylog.org/">Greylog documentation</A>'
 Monitoring_Menu[50]='<a class="whitelink" href="https://github.com/Graylog2">Greylog at Github</a>'
-
-
+Monitoring_Menu[51]='<a class="whitelink" href="https://www.humio.com/">Humio</a>'
+// https://www.imfsecurity.com/why-log-md
+// https://bigfix.me/
 
 
 
@@ -1471,6 +1481,7 @@ Prog_Menu[23]='<a class="whitelink" href="http://book.pythontips.com/en/latest/"
 Prog_Menu[24]='<a class="whitelink" href="https://pynative.com/">PyNative</A>'
 Prog_Menu[25]='<a class="whitelink" href="https://realpython.com">Real Python</A>'
 // https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/
+// https://bitbucket.org/%7B74d4008b-19fd-420b-af24-827c9a5697cd%7D/">Doug Hellmann's BitBucket
 
 Prog_Menu[26]='<span class="yellowsans">Go Specific</span>'
 Prog_Menu[27]='<a class="whitelink" href="https://golang.org/">Go official home</A>'
@@ -1511,10 +1522,10 @@ Prog_Menu[47]='<a class="whitelink" href="https://yaml.org/">YAML.org</A>'
 Prog_Menu[48]='<a class="whitelink" href="https://git-scm.com/book/en/v2">Pro Git</A>'
 Prog_Menu[49]='<a class="whitelink" href="https://eagain.net/articles/git-for-computer-scientists/">Git for Computer Scientists</A>'
 
+// https://www.vsixhub.com/">VsixHub - VSCode Extensions</A>'
 
-
-
-
+// Database - https://debezium.io/">Debezium.io DB connectors for microservice CAP consistency stream
+// uses Kafka Connect framework - data federation
 
 
 var Game_Menu=new Array()
@@ -1547,6 +1558,7 @@ KaliNet1_Menu[2]='<A class="whitelink" HREF="https://github.com/laramies/theHarv
 KaliNet1_Menu[3]='<A class="whitelink" HREF="http://www.tekdefense.com/automater/">Automater [URL/IP addr multi-lookup]</A>'
 KaliNet1_Menu[4]='<A class="whitelink" HREF="https://bitbucket.org/LaNMaSteR53/recon-ng">Recon-ng recon framework</A>'
 KaliNet1_Menu[5]='<A class="whitelink" HREF="https://sparta.secforce.com/">Sparta recon frontend</A>'
+// <a href="https://govanguard.com/legion">Legion (Sparta fork)</A>
 KaliNet1_Menu[6]='<A class="whitelink" HREF="https://github.com/golismero/golismero">GoLismero - The Web Knife</A>'
 
 KaliNet1_Menu[7]='<span class="yellowsans">DNS Analysis</span>'
@@ -1562,6 +1574,7 @@ KaliNet1_Menu[15]='<A class="whitelink" HREF="https://github.com/mschwager/fierc
 
 KaliNet1_Menu[16]='<span class="yellowsans">Host ID/ Network/ Port Scanners</span>'
 KaliNet1_Menu[17]='<A class="whitelink" HREF="https://nmap.org/download.html">Nmap-Zenmap-Ncat-Nping</A>'
+// https://nmap.org/nsedoc/  Nmap Scripting Engine (NSE) scripts
 KaliNet1_Menu[18]='<A class="whitelink" HREF="https://sourceforge.net/p/dnmap/wiki/Home/">DNmap [Distributed NMap]</A>'
 KaliNet1_Menu[19]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/nmap_scripts">Nmap parser</A>'
 KaliNet1_Menu[20]='<A class="whitelink" HREF="http://www.hping.org/">Hping [packet assembler/analyzer]</A>'
