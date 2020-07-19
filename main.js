@@ -136,7 +136,7 @@ WebS_Menu[37]='<A class="whitelink" HREF="https://github.com/humble-desser/jigsa
 WebS_Menu[38]='<A class="whitelink" HREF="https://github.com/altjx/ipwn/tree/master/pyfoca">pyFOCA [Google for docs, extract metadata]</A>'
 
 
-
+  
 
 
 
@@ -949,8 +949,8 @@ ComSec2_Menu[45]='<a class="whitelink" href="https://www.misp-project.org/">MISP
 
 ComSec2_Menu[46]='<span class="whitesans">Find RegEx tools in Online Tools</span>'
 
-
-
+// https://www.EventID.Net">EventID.Net</A>'
+// https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx">Windows Security Log Events</A>'
 
 // https://html5sec.org/">Cure53s HTML5 Security Cheatsheet</A>'
 //www.dfir.training/
