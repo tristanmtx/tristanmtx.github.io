@@ -176,7 +176,7 @@ WebTools_Menu[20]='<a class="whitelink" href="http://99downloader.com/">99Downlo
 WebTools_Menu[21]='<span class="yellowsans">Time tools</span>'
 WebTools_Menu[22]='<a class="whitelink" href="https://www.timeanddate.com">timeanddate.com</a>'
 WebTools_Menu[23]='<a class="whitelink" href="http://www.worldtimeserver.com/">WorldTimeServer.com</A>' 
-WebTools_Menu[24]='<a class="whitelink" href="http://www.timebie.com/std/utc.php">Timebie- UTC to local time</a>'
+WebTools_Menu[24]='<a class="whitelink" href="http://www.timebie.com/std/utc.php">Timebie- UTC to local</a>'
 WebTools_Menu[25]='<a class="whitelink" href="http://www.thetimezoneconverter.com/"The Time Zone Converter</A>'
 
 
@@ -781,7 +781,7 @@ Cluster_Menu[40]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
 
 var Cluster2_Menu=new Array()
 
-Cluster2_Menu[0]='<span class="yellowsans">Image and Container Repos</span>'
+Cluster2_Menu[0]='<a class="whitelink" href="https://registry.terraform.io/">Terraform Registry</A>'
 Cluster2_Menu[1]='<a class="whitelink" href="https://hub.helm.sh/">Helm Hub - Charts</A>'
 Cluster2_Menu[2]='<a class="whitelink" href="https://hub.docker.com/search?q=&type=image">Docker Hub</A>'
 Cluster2_Menu[3]='<a class="whitelink" href="https://hub.kubeapps.com/charts/stable#!">Kubeapps Hub</A>'
