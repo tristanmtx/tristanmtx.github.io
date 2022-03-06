@@ -1,0 +1,250 @@
+RECEIVED TDH BUREAU OF RADIATION CONTROL SEP O3 1998
+
+======
+
+
+September 2, 1998
+
+
+Ruth E. McBurney, C.H.P.
+Director	
+Divislon of Licensing, Registration, and Standards	
+Bureau of Radiation Control
+Texas Department of Health
+1100 W. 49th Street
+Austin, Texas 78756	
+
+
+Attn: Phil Shaver
+RE: Waste Control Specialists, LLC
+License No. L04971
+
+Dear Ms. McBurney:
+
+Waste Control Specialists (WCS) requests an amendment to our license number L04971 to:
+1. Clarify when bioassays are required for license condition 30;
+2. Change the frequency of Fecal Sampling to as detemlined by the RSO;
+3. Clarify wording in the Rad Con manual for whole body counting.
+4. Change the holding time requirements for processing waste;
+5. Change the definition of interim storage;
+6. Allow records from the WCS site to be retained at the Andrews, TX office; and
+7. Include the BSA as an area to sample LSA I material.
+
+A more detailed description of these proposed changes follows:
+
+1. License Condition 30 states that an airborne release in excess of ten times the limits of 25 TAC ¤
+289.202 (ggg) (2), Table II Column 3 requires a bioassay to be performed on all individuals. The 
+cited reference is incorrect and should be Table I. The following is the proposed change to License
+Condition 30:
+
+"If air sample results indicate that an airborne release in excess of ten times the levels of 25 TAC 
+¤ 289.202 (ggg) (2), Table I Column 3 occurred to the restricted area or to any portion of the 
+restricted area, the licensee shall within 72 hours of the exposure, perform bioassays on all 
+individuais who may have received 10% or more of their annual exposure limit."
+
+2. The Radcon Manual currently, under article 521 (5), lists the frequency for fecal analysis as 
+"Fecal analysis as required by RSO but not less than annually;" we purpose to change this to "Fecal 
+analysis as detemlined by RSO;". It is not an industry standard to perfomm baseline fecal samples. 
+Fecal samples are usually perfommed after uptake of a non-soluble contaminant.
+
+3. The Radcon Manual currently, under article 521 (4), indicates "A biennial whole body count is
+performed to qualitatively evaluate the radiation safety program." And then under article 521 (5)
+indicates "Whole body counts are perforned annually to qualitatively evaluate the radiation safety
+program;" For consistency we purpose a change to article 521 (5) to reflect "Whole body counts are
+performed biennially."
+
+4. In License Condition 25 waste holding times are limited to 10 days for processing after placement
+within the Stabilization Building; 30 days for transfer out of the Stabilization building after 
+placement within the building; 180 days for placement into interim storage or transferred from the 
+initial date of receipt; and 60 days for return to generator for waste under 23.D.4. which supercedes 
+commitments contained in the letter submitted on May 2, 1997 subpart Q.
+
+Many of the waste materials that will be accepted at the facility require processing prior to being
+placed in interim storage due to RCRA requirements. The RCRA permit allows holding of waste for 1
+year prior to processing. It is requested that the current requirement be modified to coincide with 
+the RCRA permit. This is needed to develop processing plans, install equipment, request modifications
+and permits needed for treatment of materials. It is requested that wastes be allowed in the
+stabilization building for 30 days prior to processing to allow sampling and development of treatment
+plans.
+
+It is further requested that materials be allowed to remain in the stabilization building for 90 days 
+after treatment. This will facilitate the post-treatment RCRA stabilization sampling to ensure 
+materials meet land disposal requirements. This will eliminate the need of moving materials multiple 
+'times to and from the bin storage areas and the container storage building thus meeting ALARA goals.
+
+Material that falls under 23.D.4 could be discovered during processing and exceed the time period
+currently in the license. It is requested to change this to 180 days from date waste is determined to
+meet License Condition 23.D.4. This would allow discovery, development of disposal options for the
+waste and the arrangement of shipment to the generator or another facility. The following is proposed
+for License Condition 25:
+
+"All waste holding times shall be limited to the following:
+
+	A.All wastes shall be initially processed within 30 days of placement within the Stabilization 
+Building. All waste shall be transferred out of the Stabilization building within 90 days of
+treatment in the Stabilization Building.
+
+	B.All waste shall be placed into interim storage or transferred to an authorized recipient within 1 
+year of initial date of receipt; and
+
+	C.All waste authorized under License Condition No. 23.D.4 shall be returned to the generator or
+ an appropriately authorized waste processor within 180 days of determining waste is subject
+to License Condition No. 23.D.4.
+
+5. In License Condition 15.C. the definition of interim storage begins with the word stabilized.
+The use of this adjective is unnecessary to describe the requirement for waste to be placed in
+storage and creates confusion since this term is also used to describe the treatment process
+utilized for mixed waste. The remainder of the definition adequately states the requirements
+for waste acceptance for interim storage. It is proposed that the word "stabilized" be deleted
+from this definition.
+
+6. Currently all documents and records are required by the License to be stored at the WCS site, 
+Subsite 000. It is requested that records be allowed to be transferred to the WCS Andrews office at 
+1710 West Broadway, Andrews, TX 79714. This will facilitate the ability to transfer records to 
+microfilm, CD ROM, or other media for historical archiving. The Andrews office has better storage 
+facilities, including a fireproof vault install for all records. The following is proposed for 
+License Condition 10:
+
+"Copies of all documents and records required by this license shall be maintained for Agency review
+at Site 000 or at the WCS Andrews office at 1710 West Broadway, Andrews, TX 79714."
+
+7. It is requested that the Bin Storage Area be added to the areas listed in License Condition 29 A 
+to enable the sampling and maintenance of rolloff containers. The following is proposed for License
+Condition 29 A:
+
+"Waste containers containing radioactive waste meeting the requirements of low specific activity
+material, group I (LSA-I), as specified in Title 49 of the Code of Federal Regulations, Section
+173.403, may be opened for sampling of the contents or container maintenance or repair in a
+PermaCon, the Container Storage Building, Bin Storage Building, or Stabilization Building."
+
+If you have any questions or need additional information please call me at 888/789-2783.
+
+Sincerely,
+[signed]
+David Lee Kania
+Radiation Safety Officer
+
+Cc:	Ken Bigham, WCS, Pasadena
+William Dornsife, WCS, Pasadena
+Ron Hance, WCS, Andrews
+Richard Grondin, WCS, Andrews
+Allen Messenger, AM Environmental
+Michael Woodward, Hance, Scarborough, Woodward & Weisbart
+
+
+
+
+
+===============================================================================================
+
+Texas Department of Health
+1100 West 49th Street	
+Austin, Texas 78756-3189
+(512) 458-7111
+Radiation Control (512) 834-6688
+
+William R. Archer III, M.D.	Commissioner
+Patti J. Patterson, M.D., M.P.H. Executive Deputy Commissioner
+
+March 15, 1999
+
+WASTE CONTROL SPECIALISTS LLC
+ATTN DAVID LEE KANIA
+1710 WEST BROADWAY
+ANDREWS TX 79714
+
+Re: Radioactive Material License No. L04971
+Log No. 1998-09-0423
+
+Dear Mr. Kania:
+
+We are currently processing your request dated September 2, 1998, for an amendment of Radioactive 
+Material License No. L04971. With the following exceptions your requests are acceptable and will be 
+incorporated into your license. Before further action can be taken on the changes you have requested, 
+we need the following changes in your submittal:
+
+- Number 3 of your proposed changes should be changed to reflect annual whole counting in both 
+article 521(4) and article 521(5) of the Radcon Manual.
+
+- Title 25 Texas Administrative Code ¤289.202 requires that all records relevant to operations be 
+maintained at the site of operations.  As such we will not be able to comply with your request to 
+authorize the transfer of records to the WCS Andrews office.
+
+Upon receipt of two copies of the information specified above we will resume the processing of the 
+request.  Please respond within 60 days of the date of this letter, referencing the above-mentioned 
+license number in your reply. If you have any questions concerning this matter, do not hesitate to 
+contact me at (512) 834-6688 ext. 2208.
+
+Sincerely,
+[signed]
+Eugene (Gene) Forrer
+
+Division of Licensing,
+Registration, and Standards
+Bureau of Radiation Control
+bcc: file
+EF: ef
+
+
+
+
+
+===============================================================================================
+
+RECEIVED TDH RADIATION CONTROL	APR O5 1999
+==========
+
+April 1, 1999
+
+Eugene (Gene) Forrer
+Division of Licensing, Registration, and Standards
+Bureau of Radiation Control
+Texas Department of Health	
+1100 W. 49th Street
+Austin, Texas 78756
+
+RE: Waste Control Specialists, LLC	
+License No. L04971
+Log No. 1998-09-0423
+
+Dear Mr. Forrer:
+
+This letter responds to the two items listed in your March 15, 1999 letter regarding the license
+amendment application submitted September 2, 1998. Waste Control Specialists (WCS) requests the
+ following changes to the September 2, 1999 submittal.
+
+Item 3.
+The Radcon Manual currently, under article 521 (4), indicates "A biennial whole body count is
+performed to qualitatively evaluate the radiation safety program." And then under article 521 (5)
+indicates "Whole body counts are performed annually to qualitatively evaluate the radiation safety
+program." For consistency we purpose a change to reflect annual whole body counting in both
+articles.
+
+WCS withdraws the proposed amendment to Condition 10 and requests to store inactive records, records
+greater than 2 years old, in the WCS Andrews of fice at 1710 West Broadway, Andrews, TX 79714.
+
+If you have any questions or need additional information please call me at 888/789-2783.
+
+Sincerely,
+[signed]
+David Lee Kania
+Radiation Safety Officer
+
+cc:	Ken Bigham, WCS, Pasadena
+William Dornsife, WCS, Pasadena
+Paul Nowlin, WCS, Andrews
+Richard Grondin, WCS, Andrews
+Mark Turnbough, MT & Associates
+Allen Messenger, AM Environmental
+Michael Woodward, Hance, Scarborough, Woodward & Weisbart
+
+
+
+
+
+
+
+
+
+
+
