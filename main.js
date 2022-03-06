@@ -781,7 +781,7 @@ Cluster_Menu[40]='<a class="whitelink" href="https://cloudify.co/">Cloudify</A>'
 
 var Cluster2_Menu=new Array()
 
-Cluster2_Menu[0]='<span class="yellowsans">Image and Container Repos</span>'
+Cluster2_Menu[0]='<a class="whitelink" href="https://registry.terraform.io/">Terraform Registry</A>'
 Cluster2_Menu[1]='<a class="whitelink" href="https://hub.helm.sh/">Helm Hub - Charts</A>'
 Cluster2_Menu[2]='<a class="whitelink" href="https://hub.docker.com/search?q=&type=image">Docker Hub</A>'
 Cluster2_Menu[3]='<a class="whitelink" href="https://hub.kubeapps.com/charts/stable#!">Kubeapps Hub</A>'
