@@ -1,0 +1,150 @@
+RECEIVED TDH JAN 04 1999 BUREAU OF RADIATION CONTROL
+===================
+
+December 30, 1998
+Ruth E. McBurney, C.H.P.
+Director
+Division of Licensing, Registration, and Standards
+Bureau of Radiation Control
+Texas Department of Health
+1100 W. 49th Street
+Austin. Texas 78756
+
+
+Attn: Phil Shaver
+RE: Waste Control Specialists, LLC
+License No. L04971
+
+Dear Ms. McBurney:
+
+Waste Control Specialist LLC requests an amendment to the above referenced Class C license. This
+amendment includes:
+
+1. A clarification to condition 22(D) to indicate the processing allowed includes the treatment of
+materials as described within the WCS TNRCC Permit.
+
+2. An increase of the limit of the volume of waste present in the Stabilization Building from 3 675
+cubic feet to 8,000 cubic feet in condition 23(A)(3).
+
+3. A change to allow bulk unpackaged waste to be inventoried by actual volume within the transport
+container in condition 23(B).
+
+4. Removal of the 10-day processing requirement and 30-day waste transfer requirement in the
+Stabilization Building, condition 25(A).
+
+In addition, this document officially submits the current resumes listing all pertinent education,
+training, and experience for the Management Oversight Representatives, Environmental Health and
+Safety Manager, Radiation Safety Supervisor, and the Laboratory Manager, as required in license
+condition 14. However, the management organization structure has been modified and the title of the
+ Environmental Health and Safety Manger is now the Health and Safety Manager.
+
+The WCS organization chart has been rewritten to divide the Environmental Health and Safety Manager
+position and responsibilities into two separate positions; the Health and Safety Manager, and the
+Quality Assurance Manager, Environmental Compliance. Both positions report directly to the Facility
+ Manager. Additionally, the Health and Safety Officer has been removed and those responsibilities 
+ are included in the responsibilities of the Health and Safety Manager. A copy of the organizational 
+chart is included with this letter.
+
+The educational requirements for the Health and Safety Manager have been changed to an associate 
+degree in industrial/occupational safety, radiological safety, physical science, or sixty (60) hours
+of related study and four (4) years experience in industrial/occupational safety in the fields of 
+hazardous waste management, environmental science, radiological health, and/or related sciences. 
+The educational requirements for the Quality Assurance Manager, Environmental Compliance remain 
+the same.
+
+The Management Oversight, Health and Safety Manager, Radiation Safety Supervisor and Laboratory 
+Manager positions have been filled with the following individuals whose resumes are included with 
+this letter:
+
+	Jesse Walker, Health and Safety Manager
+	Lynn Parker, Radiation Safety Supervisor
+	Steve Schneider, Laboratory Manager
+	Michael Woodward, Management Oversight
+	William Dornsife, Management Oversight
+	Allen Messenger, Management Oversight
+	Mark Turnbough, Management Oversight
+
+ITEM 1:
+
+The process described within condition 22(D)(1) is not consistent with the TNRCC permit for onsite 
+treatment of hazardous waste at WCS. This has caused WCS to be disqualified on proposals where 
+reviewers were looking for a particular wording. WCS requests the process described in condition 
+22(D)(1) include the word "treatment" and a definition for treatment be added to condition 22 or 
+condition 15. Two procedures are attached for the treatment of materials in the Permacon or 
+equivalent enclosure. The recommended wording for condition 22(D)(1) is:
+
+	"Solidification, stabilization, and treatment of liquid or solid radioactive waste using media
+	acceptable to low-level waste disposal sites utilizing a 55 gallon Enrico Barrel Mixer, or
+	 equivalent. This use is restricted to the Stabilization Building; and"
+
+The recommended wording, consistent with the TNRCC permit, of a definition for treatment is:
+
+	"Treatment: Material processed by chemical fixation, oxidation, reduction, ph adjustment, or
+	other means to meet land disposal requirements."
+
+ITEM 2:
+
+Material in the Stabilization Building is primarily material in transit to other buildings and K061
+ waste for processing. Since the K061 waste is not required to be processed inside the Permacon 
+Structure, there is more available space in the Stabilization Building for processing waste. WCS 
+would like to allow 8,000 cubic feet of material in the Stabilization Building without increasing the 
+total volume allowed on site. Condition 23(A)(3) should be increased from 3,675 cubic feet to 8,000 
+cubic feet of waste.
+
+ITEM 3:
+
+Bulk unpackaged waste, i.e. material in rolloff bins, is material that is usually disposed of on a 
+"per cubic foot" or "unit weight of the material" and the container is returned to the owner. Bulk 
+unpackaged material is required to be very low activity by DOT and materials are protected from rain 
+by an easily removal cover, usually canvas. Due to the container construction and low activity of 
+materials, the volumes are easily verifiable. WCS requests a change in condition 23(B) that would 
+allow bulk unpackaged waste to be inventoried by actual volume within the transport container. The 
+recommended wording for condition 23(B) is:
+
+	"Any waste container shall be counted as a full container in the volume inventory unless it can 
+	be readily verified as empty or actual volume readily determined for bulk unpackaged waste."
+
+ITEM 4:
+
+WCS proposes to remove the time requirements in condition 25(A) for processing all waste within 10 
+days of placement within the Stabilization Building and transferring waste out of the Stabilization 
+Building within 30 days.  This was a self-imposed time requirement that requires material to be 
+unnecessarily moved and handled, which causes additional radiation exposure to our personnel. 
+Eliminating condition 25(A) will reduce personnel exposure and facilitate a more practical means of 
+tracking waste.
+
+Please contact me at 888/789-2783 if you have any questions or need additional information concerning
+ the proposed changes.
+
+Sincerely,
+[signed]
+David Lee Kania
+Radiation Safety Officer
+
+Enclosures: Resumes
+WCS Organizational Chart
+OP-1.2.18 - Treating Mixed Waste in the Permacon (new)
+OP- 1.4.4 - In Drum Treatment Operations (revised)
+
+Cc:
+Ken Bigham, WCS, Pasadena
+William Dornsife, WCS, Pasadena
+Ron Hance, WCS, Andrews
+Richard Grondin, WCS, Andrews
+Mark Turnbough, MT & Associates
+Allen Messenger, AM Environmental
+Michael Woodward, Hance, Scarborough, Woodward & Weisbart
+file
+
+
+
+
+
+
+
+
+
+
+
+
+
