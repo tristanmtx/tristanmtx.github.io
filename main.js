@@ -1482,6 +1482,7 @@ Prog_Menu[22]='<a class="whitelink" href="https://www.fullstackpython.com/best-p
 Prog_Menu[23]='<a class="whitelink" href="http://book.pythontips.com/en/latest/">Intermediate Python</a>'
 Prog_Menu[24]='<a class="whitelink" href="https://pynative.com/">PyNative</A>'
 Prog_Menu[25]='<a class="whitelink" href="https://realpython.com">Real Python</A>'
+// https://github.com/TheAlgorithms/Python">The Algorithms</A>
 // https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/
 // https://bitbucket.org/%7B74d4008b-19fd-420b-af24-827c9a5697cd%7D/">Doug Hellmann's BitBucket
 
