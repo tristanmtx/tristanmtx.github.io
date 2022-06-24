@@ -572,7 +572,7 @@ SW_Menu[32]='<a class="whitelink" href="http://www.filesearching.com/advanced/">
 SW_Menu[33]='<a class="whitelink" href="http://www.filewatcher.org">FileWatcher</a>'
 SW_Menu[34]='<a class="whitelink" href="http://www.driverguide.com/">DriverGuide.com</A>'
 SW_Menu[35]='<a class="whitelink" href="http://driveragent.com/c/scanorsearch">DriverAgent.com</A>'
-
+SW_Menu[36]='<a class="whitelink" href="https://www.dll-files.com/">DLLFiles.com</A>'
 
 var Unix_Menu=new Array()
 Unix_Menu[0]='<span class="yellowsans">Linux Support, Info</span>'
