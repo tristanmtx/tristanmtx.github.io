@@ -1468,8 +1468,9 @@ Prog_Menu[10]='<a class="whitelink" href="https://www.javacodegeeks.com/">JavaCo
 // https://eagain.net/articles/git-for-computer-scientists/">Git for Comp Scientists</A>
 
 Prog_Menu[11]='<span class="yellowsans">Python Specific</span>'
-Prog_Menu[12]='<a class="whitelink" href="https://www.python.org/">Python.org</A>'
-Prog_Menu[13]='<a class="whitelink" href="https://docs.python.org/">Docs.Python.org</A>'
+
+Prog_Menu[12]='<a class="whitelink" href="https://docs.python.org/">Docs.Python.org</A>'
+Prog_Menu[13]='<a class="whitelink" href="https://docs.python.org/3/library/">Python Std Lib reference</A>'
 Prog_Menu[14]='<a class="whitelink" href="https://pypi.python.org">PyPI- Python Package Idx</A>'
 Prog_Menu[15]='<a class="whitelink" href="http://planetpython.org/">PlanetPython</A>'
 Prog_Menu[16]='<a class="whitelink" href="http://www.diveintopython3.net/">Dive Into Python 3</A>'
