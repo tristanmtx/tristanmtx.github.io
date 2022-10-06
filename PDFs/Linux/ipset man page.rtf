@@ -1,0 +1,1896 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl560\sa321\partightenfactor0
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ipset(8) - Linux man page\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\fs36 \cf2 Name\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 ipset -- administration tool for IP sets\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Synopsis\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\fs24 \cf2 ipset
+\b0  [ 
+\i OPTIONS
+\i0  ] 
+\i COMMAND
+\i0  [ 
+\i COMMAND-OPTIONS
+\i0  ]\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 COMMANDS := \{ 
+\b create
+\b0  | 
+\b add
+\b0  | 
+\b del
+\b0  | 
+\b test
+\b0  | 
+\b destroy
+\b0  | 
+\b list
+\b0  | 
+\b save
+\b0  | 
+\b restore
+\b0  | 
+\b flush
+\b0  | 
+\b rename
+\b0  | 
+\b swap
+\b0  | 
+\b help
+\b0  | 
+\b version
+\b0  | 
+\b -
+\b0  \} \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 OPTIONS
+\i0  := \{ 
+\b -exist
+\b0  | 
+\b -output
+\b0  \{ 
+\b plain
+\b0  | 
+\b save
+\b0  | 
+\b xml
+\b0  \} | 
+\b -quiet
+\b0  | 
+\b -resolve
+\b0  | 
+\b -sorted
+\b0  | 
+\b -name
+\b0  | 
+\b -terse
+\b0  \} \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 ipset create
+\b0  
+\i SETNAME TYPENAME
+\i0  [ 
+\i CREATE-OPTIONS
+\i0  ] \
+
+\b ipset add
+\b0  
+\i SETNAME ADD-ENTRY
+\i0  [ 
+\i ADD-OPTIONS
+\i0  ] \
+
+\b ipset del
+\b0  
+\i SETNAME DEL-ENTRY
+\i0  [ 
+\i DEL-OPTIONS
+\i0  ] \
+
+\b ipset test
+\b0  
+\i SETNAME TEST-ENTRY
+\i0  [ 
+\i TEST-OPTIONS
+\i0  ] \
+
+\b ipset destroy
+\b0  [ 
+\i SETNAME
+\i0  ] \
+
+\b ipset list
+\b0  [ 
+\i SETNAME
+\i0  ] \
+
+\b ipset save
+\b0  [ 
+\i SETNAME
+\i0  ] \
+
+\b ipset restore
+\b0  \
+
+\b ipset flush
+\b0  [ 
+\i SETNAME
+\i0  ] \
+
+\b ipset rename
+\b0  
+\i SETNAME-FROM SETNAME-TO
+\i0  \
+
+\b ipset swap
+\b0  
+\i SETNAME-FROM SETNAME-TO
+\i0  \
+
+\b ipset help
+\b0  [ 
+\i TYPENAME
+\i0  ] \
+
+\b ipset version
+\b0  \
+
+\b ipset -
+\b0  \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Description\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\fs24 \cf2 ipset
+\b0  is used to set up, maintain and inspect so called IP sets in the Linux kernel. Depending on the type of the set, an IP set may store IP(v4/v6) addresses, (TCP/UDP) port numbers, IP and MAC address pairs, IP address and port number pairs, etc. See the set type definitions below.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Iptables
+\b0  matches and targets referring to sets create references, which protect the given sets in the kernel. A set cannot be destroyed while there is a single reference pointing to it. \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Options\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The options that are recognized by 
+\b ipset
+\b0  can be divided into several different groups.\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 Commands\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 These options specify the desired action to perform. Only one of them can be specified on the command line unless otherwise specified below. For all the long versions of the command names, you need to use only enough letters to ensure that 
+\b ipset
+\b0  can differentiate it from all other commands. The 
+\b ipset
+\b0  parser follows the order here when looking for the shortest match in the long command names.\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 n
+\b0 , 
+\b create
+\b0  
+\i SETNAME TYPENAME
+\i0  [ 
+\i CREATE-OPTIONS
+\i0  ] \
+Create a set identified with setname and specified type. The type may require type specific options. If the 
+\b -exist
+\b0  option is specified, 
+\b ipset
+\b0  ignores the error otherwise raised when the same set (setname and create parameters are identical) already exists. \
+
+\b add
+\b0  
+\i SETNAME ADD-ENTRY
+\i0  [ 
+\i ADD-OPTIONS
+\i0  ] \
+Add a given entry to the set. If the 
+\b -exist
+\b0  option is specified, 
+\b ipset
+\b0  ignores if the entry already added to the set. \
+
+\b del
+\b0  
+\i SETNAME DEL-ENTRY
+\i0  [ 
+\i DEL-OPTIONS
+\i0  ] \
+Delete an entry from a set. If the 
+\b -exist
+\b0  option is specified, 
+\b ipset
+\b0  ignores if the entry does not added to (already expired from) the set. \
+
+\b test
+\b0  
+\i SETNAME TEST-ENTRY
+\i0  [ 
+\i TEST-OPTIONS
+\i0  ] \
+Test wether an entry is in a set or not. Exit status number is zero if the tested entry is in the set and nonzero if it is missing from the set. \
+
+\b x
+\b0 , 
+\b destroy
+\b0  [ 
+\i SETNAME
+\i0  ] \
+Destroy the specified set or all the sets if none is given.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 If the set has got 
+\b reference
+\b0 (s), nothing is done and no set destroyed. \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 list
+\b0  [ 
+\i SETNAME
+\i0  ] [ 
+\i OPTIONS
+\i0  ] \
+List the header data and the entries for the specified set, or for all sets if none is given. The 
+\b -resolve
+\b0  option can be used to force name lookups (which may be slow). When the 
+\b -sorted
+\b0  option is given, the entries are listed sorted (if the given set type supports the operation). The option 
+\b -output
+\b0  can be used to control the format of the listing: 
+\b plain
+\b0 , 
+\b save
+\b0  or 
+\b xml
+\b0 . (The default is 
+\b plain
+\b0 .) If the option 
+\b -name
+\b0  is specified, just the names of the existing sets are listed. If the option 
+\b -terse
+\b0  is specified, just the set names and headers are listed. \
+
+\b save
+\b0  [ 
+\i SETNAME
+\i0  ] \
+Save the given set, or all sets if none is given to stdout in a format that 
+\b restore
+\b0  can read. \
+
+\b restore
+\b0  \
+Restore a saved session generated by 
+\b save
+\b0 . The saved session can be fed from stdin. \
+
+\b flush
+\b0  [ 
+\i SETNAME
+\i0  ] \
+Flush all entries from the specified set or flush all sets if none is given. \
+
+\b e
+\b0 , 
+\b rename
+\b0  
+\i SETNAME-FROM SETNAME-TO
+\i0  \
+Rename a set. Set identified by 
+\i SETNAME-TO
+\i0  must not exist. \
+
+\b w
+\b0 , 
+\b swap
+\b0  
+\i SETNAME-FROM SETNAME-TO
+\i0  \
+Swap the content of two sets, or in another words, exchange the name of two sets. The referred sets must exist and identical type of sets can be swapped only. \
+
+\b help
+\b0  [ 
+\i TYPENAME
+\i0  ] \
+Print help and set type specific help if 
+\i TYPENAME
+\i0  is specified. \
+
+\b version
+\b0  \
+Print program version. \
+
+\b -
+\b0  \
+If a dash is specified as command, then 
+\b ipset
+\b0  enters a simple interactive mode and the commands are read from the standard input. The interactive mode can be finished by entering the pseudo-command 
+\b quit
+\b0 .\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 Other Options\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The following additional options can be specified. The long option names cannot be abbreviated.\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 -!
+\b0 , 
+\b -exist
+\b0  \
+Ignore errors when the exactly the same set is to be created or already added entry is added or missing entry is deleted. \
+
+\b -o
+\b0 , 
+\b -output
+\b0  \{ 
+\b plain
+\b0  | 
+\b save
+\b0  | 
+\b xml
+\b0  \} \
+Select the output format to the 
+\b list
+\b0  command. \
+
+\b -q
+\b0 , 
+\b -quiet
+\b0  \
+Suppress any output to stdout and stderr. 
+\b ipset
+\b0  will still exit with error if it cannot continue. \
+
+\b -r
+\b0 , 
+\b -resolve
+\b0  \
+When listing sets, enforce name lookup. The program will try to display the IP entries resolved to host names which requires 
+\b slow
+\b0  DNS lookups. \
+
+\b -s
+\b0 , 
+\b -sorted
+\b0  \
+Sorted output. When listing sets entries are listed sorted. Not supported yet. \
+
+\b -n
+\b0 , 
+\b -name
+\b0  \
+List just the names of the existing sets, i.e. suppress listing of set headers and members. \
+
+\b -t
+\b0 , 
+\b -terse
+\b0  \
+List the set names and headers, i.e. suppress listing of set members.\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Set Types\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 A set type comprises of the storage method by which the data is stored and the data 
+\b type
+\b0 (s) which are stored in the set. Therefore the 
+\i TYPENAME
+\i0  parameter of the 
+\b create
+\b0  command follows the syntax\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 TYPENAME
+\i0  := 
+\i method
+\i0\b :
+\i\b0 datatype
+\i0 [
+\b ,
+\i\b0 datatype
+\i0 [
+\b ,
+\i\b0 datatype
+\i0 ]] \
+where the current list of the methods are 
+\b bitmap
+\b0 , 
+\b hash
+\b0 , and 
+\b list
+\b0  and the possible data types are 
+\b ip
+\b0 , 
+\b net
+\b0 , 
+\b mac
+\b0 , 
+\b port
+\b0  and 
+\b iface
+\b0 . The dimension of a set is equal to the number of data types in its type name. \
+When adding, deleting or testing entries in a set, the same comma separated data syntax must be used for the entry parameter of the commands, i.e \
+ipset add foo \
+ipaddr,portnum,ipaddr \
+The 
+\b bitmap
+\b0  and 
+\b list
+\b0  types use a fixed sized storage. The 
+\b hash
+\b0  types use a hash to store the elements. In order to avoid clashes in the hash, a limited number of chaining, and if that is exhausted, the doubling of the hash size is performed when adding entries by the 
+\b ipset
+\b0  command. When entries added by the 
+\b SET
+\b0  target of 
+\b iptables/ip6tables
+\b0 , then the hash size is fixed and the set won't be duplicated, even if the new entry cannot be added to the set. \
+All set types support the optional \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 timeout
+\b0  \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 value
+\i0  \
+parameter when creating a set and adding entries. The value of the 
+\b timeout
+\b0  parameter for the 
+\b create
+\b0  command means the default timeout value (in seconds) for new entries. If a set is created with timeout support, then the same 
+\b timeout
+\b0  option can be used to specify non-default timeout values when adding entries. Zero timeout value means the entry is added permanent to the set. The timeout value of already added elements can be changed by readding the element using the 
+\b -exist
+\b0  option. \
+The 
+\b hash
+\b0  set types which can store 
+\b net
+\b0  type of data (i.e. hash:*net*) support the optional \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 nomatch
+\b0  \
+option when adding entries. When matching elements in the set, entries marked as 
+\b nomatch
+\b0  are skipped as if those were no added to the set, which makes possible to build up sets with exceptions. See the example at hash type 
+\b hash:net
+\b0  below. \
+If host names or service names with dash in the name are used instead of IP addresses or service numbers, then the host name or service name must be enclosed in square brackets. Example: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset add foo [test-hostname],[ftp-data]\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 bitmap:ip\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b bitmap:ip
+\b0  set type uses a memory range to store either IPv4 host (default) or IPv4 network addresses. A 
+\b bitmap:ip
+\b0  type of set can store up to 65536 entries.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := 
+\b range
+\b0  
+\i fromip
+\i0 -
+\i toip
+\i0 |
+\i ip
+\i0 /
+\i cidr
+\i0  [ 
+\b netmask
+\b0  
+\i cidr
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := \{ 
+\i ip
+\i0  | 
+\i fromip
+\i0 -
+\i toip
+\i0  | 
+\i ip
+\i0 /
+\i cidr
+\i0  \} \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := \{ 
+\i ip
+\i0  | 
+\i fromip
+\i0 -
+\i toip
+\i0  | 
+\i ip
+\i0 /
+\i cidr
+\i0  \} \
+
+\i TEST-ENTRY
+\i0  := 
+\i ip
+\i0  \
+Mandatory 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 range
+\b0  
+\i fromip
+\i0 -
+\i toip
+\i0 |
+\i ip
+\i0 /
+\i cidr
+\i0  \
+Create the set from the specified inclusive address range expressed in an IPv4 address range or network. The size of the range (in entries) cannot exceed the limit of maximum 65536 elements.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 netmask
+\b0  
+\i cidr
+\i0  \
+When the optional 
+\b netmask
+\b0  parameter specified, network addresses will be stored in the set instead of IP host addresses. The 
+\i cidr
+\i0  prefix value must be between 1-32. An IP address will be in the set if the network address, which is resulted by masking the address with the specified netmask calculated from the prefix, can be found in the set.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The 
+\b bitmap:ip
+\b0  type supports adding or deleting multiple entries in one command. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo bitmap:ip range 192.168.0.0/16 \
+ipset add foo 192.168.1/24 \
+ipset test foo 192.168.1.1\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 bitmap:ip,mac\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b bitmap:ip,mac
+\b0  set type uses a memory range to store IPv4 and a MAC address pairs. A 
+\b bitmap:ip,mac
+\b0  type of set can store up to 65536 entries.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := 
+\b range
+\b0  
+\i fromip
+\i0 -
+\i toip
+\i0 |
+\i ip
+\i0 /
+\i cidr
+\i0  [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i ip
+\i0 [,
+\i macaddr
+\i0 ] \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i ip
+\i0 [,
+\i macaddr
+\i0 ] \
+
+\i TEST-ENTRY
+\i0  := 
+\i ip
+\i0 [,
+\i macaddr
+\i0 ] \
+Mandatory options to use when creating a 
+\b bitmap:ip,mac
+\b0  type of set: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 range
+\b0  
+\i fromip
+\i0 -
+\i toip
+\i0 |
+\i ip
+\i0 /
+\i cidr
+\i0  \
+Create the set from the specified inclusive address range expressed in an IPv4 address range or network. The size of the range cannot exceed the limit of maximum 65536 entries.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The 
+\b bitmap:ip,mac
+\b0  type is exceptional in the sense that the MAC part can be left out when adding/deleting/testing entries in the set. If we add an entry without the MAC address specified, then when the first time the entry is matched by the kernel, it will automatically fill out the missing MAC address with the source MAC address from the packet. If the entry was specified with a timeout value, the timer starts off when the IP and MAC address pair is complete. \
+The 
+\b bitmap:ip,mac
+\b0  type of sets require two 
+\b src/dst
+\b0  parameters of the 
+\b set
+\b0  match and 
+\b SET
+\b0  target netfilter kernel modules and the second one must be 
+\b src
+\b0  to match, add or delete entries because the 
+\b set
+\b0  match and 
+\b SET
+\b0  target have access to the source MAC address only. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo bitmap:ip,mac range 192.168.0.0/16 \
+ipset add foo 192.168.1.1,12:34:56:78:9A:BC \
+ipset test foo 192.168.1.1\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 bitmap:port\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b bitmap:port
+\b0  set type uses a memory range to store port numbers and such a set can store up to 65536 ports.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := 
+\b range
+\b0  
+\i fromport
+\i0 -
+\i toport [ 
+\b timeout
+\b0  value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := \{ 
+\i port
+\i0  | 
+\i fromport
+\i0 -
+\i toport
+\i0  \} \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := \{ 
+\i port
+\i0  | 
+\i fromport
+\i0 -
+\i toport
+\i0  \} \
+
+\i TEST-ENTRY
+\i0  := 
+\i port
+\i0  \
+Mandatory options to use when creating a 
+\b bitmap:port
+\b0  type of set: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 range
+\b0  
+\i fromport
+\i0 -
+\i toport
+\i0  \
+Create the set from the specified inclusive port range.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The 
+\b set
+\b0  match and 
+\b SET
+\b0  target netfilter kernel modules interpret the stored numbers as TCP or UDP port numbers. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo bitmap:port range 0-1024 \
+ipset add foo 80 \
+ipset test foo 80\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:ip\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:ip
+\b0  set type uses a hash to store IP host addresses (default) or network addresses. Zero valued IP address cannot be stored in a 
+\b hash:ip
+\b0  type of set.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b netmask
+\b0  
+\i cidr
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i ipaddr
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i ipaddr
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i ipaddr
+\i0  \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536. \
+
+\b netmask
+\b0  
+\i cidr
+\i0  \
+When the optional 
+\b netmask
+\b0  parameter specified, network addresses will be stored in the set instead of IP host addresses. The 
+\i cidr
+\i0  prefix value must be between 1-32 for IPv4 and between 1-128 for IPv6. An IP address will be in the set if the network address, which is resulted by masking the address with the netmask calculated from the prefix, can be found in the set.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 For the 
+\b inet
+\b0  family one can add or delete multiple entries by specifying a range or a network: \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 ipaddr
+\i0  := \{ 
+\i ip
+\i0  | 
+\i fromaddr
+\i0 -
+\i toaddr
+\i0  | 
+\i ip
+\i0 /
+\i cidr
+\i0  \} \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:ip netmask 30 \
+ipset add foo 192.168.1.0/24 \
+ipset test foo 192.168.1.2\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:net\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:net
+\b0  set type uses a hash to store different sized IP network addresses. Network address with zero prefix size cannot be stored in this type of sets.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i netaddr
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] [ 
+\b nomatch
+\b0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i netaddr
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i netaddr
+\i0  \
+where 
+\i netaddr
+\i0  := 
+\i ip
+\i0 [/
+\i cidr
+\i0 ] \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 For the 
+\b inet
+\b0  family one can add or delete multiple entries by specifying a range, which is converted internally to 
+\b network
+\b0 (s) equal to the range: \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 netaddr
+\i0  := \{ 
+\i ip
+\i0 [/
+\i cidr
+\i0 ] | 
+\i fromaddr
+\i0 -
+\i toaddr
+\i0  \} \
+When adding/deleting/testing entries, if the cidr prefix parameter is not specified, then the host prefix value is assumed. When adding/deleting entries, the exact element is added/deleted and overlapping elements are not checked by the kernel. When testing entries, if a host address is tested, then the kernel tries to match the host address in the networks added to the set and reports the result accordingly. \
+From the 
+\b set
+\b0  netfilter match point of view the searching for a match always starts from the smallest size of netblock (most specific prefix) to the largest one (least specific prefix) added to the set. When adding/deleting IP addresses to the set by the 
+\b SET
+\b0  netfilter target, it will be added/deleted by the most specific prefix which can be found in the set, or by the host prefix value if the set is empty. \
+The lookup time grows linearly with the number of the different prefix values added to the set. \
+Example: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:net \
+ipset add foo 192.168.0.0/24 \
+ipset add foo 10.1.0.0/16 \
+ipset add foo 192.168.0/24 \
+ipset add foo 192.168.0/30 nomatch\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 When matching the elements in the set above, all IP addresses will match from the networks 192.168.0.0/24, 10.1.0.0/16 and 192.168.0/24 except 192.168.0/30. \
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:ip,port\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:ip,port
+\b0  set type uses a hash to store IP address and port number pairs. The port number is interpreted together with a protocol (default TCP) and zero protocol number cannot be used.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 For the 
+\b inet
+\b0  family one can add or delete multiple entries by specifying a range or a network of IPv4 addresses in the IP address part of the entry: \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 ipaddr
+\i0  := \{ 
+\i ip
+\i0  | 
+\i fromaddr
+\i0 -
+\i toaddr
+\i0  | 
+\i ip
+\i0 /
+\i cidr
+\i0  \} \
+The [
+\i proto
+\i0 :]
+\i port
+\i0  part of the elements may be expressed in the following forms, where the range variations are valid when adding or deleting entries: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\i \cf2 portname[-portname]
+\i0  \
+TCP port or range of ports expressed in TCP portname identifiers from /etc/services \
+
+\i portnumber[-portnumber]
+\i0  \
+TCP port or range of ports expressed in TCP port numbers \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 tcp
+\b0 |
+\b sctp
+\b0 |
+\b udp
+\b0 |
+\b udplite
+\b0 :
+\i portname
+\i0 |
+\i portnumber
+\i0 [-
+\i portname
+\i0 |
+\i portnumber
+\i0 ] \
+TCP, SCTP, UDP or UDPLITE port or port range expressed in port 
+\b name
+\b0 (s) or port 
+\b number
+\b0 (s) \
+
+\b icmp
+\b0 :
+\i codename
+\i0 |
+\i type
+\i0 /
+\i code
+\i0  \
+ICMP codename or type/code. The supported ICMP codename identifiers can always be listed by the help command. \
+
+\b icmpv6
+\b0 :
+\i codename
+\i0 |
+\i type
+\i0 /
+\i code
+\i0  \
+ICMPv6 codename or type/code. The supported ICMPv6 codename identifiers can always be listed by the help command. \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\i \cf2 proto
+\i0 :0 \
+All other protocols, as an identifier from /etc/protocols or number. The pseudo port number must be zero.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The 
+\b hash:ip,port
+\b0  type of sets require two 
+\b src
+\b0 /
+\b dst
+\b0  parameters of the 
+\b set
+\b0  match and 
+\b SET
+\b0  target kernel modules. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:ip,port \
+ipset add foo 192.168.1.0/24,80-82 \
+ipset add foo 192.168.1.1,udp:53 \
+ipset add foo 192.168.1.1,vrrp:0 \
+ipset test foo 192.168.1.1,80\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:net,port\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:net,port
+\b0  set type uses a hash to store different sized IP network address and port pairs. The port number is interpreted together with a protocol (default TCP) and zero protocol number cannot be used. Network address with zero prefix size is not accepted either.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] [ 
+\b nomatch
+\b0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0  \
+where 
+\i netaddr
+\i0  := 
+\i ip
+\i0 [/
+\i cidr
+\i0 ] \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 For the 
+\i netaddr
+\i0  part of the elements see the description at the 
+\b hash:net
+\b0  set type. For the [
+\i proto
+\i0 :]
+\i port
+\i0  part of the elements see the description at the 
+\b hash:ip,port
+\b0  set type. \
+When adding/deleting/testing entries, if the cidr prefix parameter is not specified, then the host prefix value is assumed. When adding/deleting entries, the exact element is added/deleted and overlapping elements are not checked by the kernel. When testing entries, if a host address is tested, then the kernel tries to match the host address in the networks added to the set and reports the result accordingly. \
+From the 
+\b set
+\b0  netfilter match point of view the searching for a match always starts from the smallest size of netblock (most specific prefix) to the largest one (least specific prefix) added to the set. When adding/deleting IP addresses to the set by the 
+\b SET
+\b0  netfilter target, it will be added/deleted by the most specific prefix which can be found in the set, or by the host prefix value if the set is empty. \
+The lookup time grows linearly with the number of the different prefix values added to the set. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:net,port \
+ipset add foo 192.168.0/24,25 \
+ipset add foo 10.1.0.0/16,80 \
+ipset test foo 192.168.0/24,25\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:ip,port,ip\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:ip,port,ip
+\b0  set type uses a hash to store IP address, port number and a second IP address triples. The port number is interpreted together with a protocol (default TCP) and zero protocol number cannot be used.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i ip
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i ip
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i ip
+\i0  \
+For the first 
+\i ipaddr
+\i0  and [
+\i proto
+\i0 :]
+\i port
+\i0  parts of the elements see the descriptions at the 
+\b hash:ip,port
+\b0  set type. \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The 
+\b hash:ip,port,ip
+\b0  type of sets require three 
+\b src
+\b0 /
+\b dst
+\b0  parameters of the 
+\b set
+\b0  match and 
+\b SET
+\b0  target kernel modules. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:ip,port,ip \
+ipset add foo 192.168.1.1,80,10.0.0.1 \
+ipset test foo 192.168.1.1,udp:53,10.0.0.1\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:ip,port,net\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:ip,port,net
+\b0  set type uses a hash to store IP address, port number and IP network address triples. The port number is interpreted together with a protocol (default TCP) and zero protocol number cannot be used. Network address with zero prefix size cannot be stored either.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i netaddr
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] [ 
+\b nomatch
+\b0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i netaddr
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i ipaddr
+\i0 ,[
+\i proto
+\i0 :]
+\i port
+\i0 ,
+\i netaddr
+\i0  \
+where 
+\i netaddr
+\i0  := 
+\i ip
+\i0 [/
+\i cidr
+\i0 ] \
+For the 
+\i ipaddr
+\i0  and [
+\i proto
+\i0 :]
+\i port
+\i0  parts of the elements see the descriptions at the 
+\b hash:ip,port
+\b0  set type. For the 
+\i netaddr
+\i0  part of the elements see the description at the 
+\b hash:net
+\b0  set type. \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 From the 
+\b set
+\b0  netfilter match point of view the searching for a match always starts from the smallest size of netblock (most specific cidr) to the largest one (least specific cidr) added to the set. When adding/deleting triples to the set by the 
+\b SET
+\b0  netfilter target, it will be added/deleted by the most specific cidr which can be found in the set, or by the host cidr value if the set is empty. \
+The lookup time grows linearly with the number of the different 
+\i cidr
+\i0  values added to the set. \
+The 
+\b hash:ip,port,net
+\b0  type of sets require three 
+\b src
+\b0 /
+\b dst
+\b0  parameters of the 
+\b set
+\b0  match and 
+\b SET
+\b0  target kernel modules. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:ip,port,net \
+ipset add foo 192.168.1,80,10.0.0/24 \
+ipset add foo 192.168.2,25,10.1.0.0/16 \
+ipset test foo 192.168.1,80.10.0.0/24\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 hash:net,iface\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b hash:net,iface
+\b0  set type uses a hash to store different sized IP network address and interface name pairs. Network address with zero prefix size is not accepted.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} ] | [ 
+\b hashsize
+\b0  
+\i value
+\i0  ] [ 
+\b maxelem
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\b physdev
+\b0 :]
+\i iface
+\i0  \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] [ 
+\b nomatch
+\b0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\b physdev
+\b0 :]
+\i iface
+\i0  \
+
+\i TEST-ENTRY
+\i0  := 
+\i netaddr
+\i0 ,[
+\b physdev
+\b0 :]
+\i iface
+\i0  \
+where 
+\i netaddr
+\i0  := 
+\i ip
+\i0 [/
+\i cidr
+\i0 ] \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 family
+\b0  \{ 
+\b inet
+\b0  | 
+\b inet6
+\b0  \} \
+The protocol family of the IP addresses to be stored in the set. The default is 
+\b inet
+\b0 , i.e IPv4. \
+
+\b hashsize
+\b0  
+\i value
+\i0  \
+The initial hash size for the set, default is 1024. The hash size must be a power of two, the kernel automatically rounds up non power of two hash sizes to the first correct value. \
+
+\b maxelem
+\b0  
+\i value
+\i0  \
+The maximal number of elements which can be stored in the set, default 65536.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 For the 
+\i netaddr
+\i0  part of the elements see the description at the 
+\b hash:net
+\b0  set type. \
+When adding/deleting/testing entries, if the cidr prefix parameter is not specified, then the host prefix value is assumed. When adding/deleting entries, the exact element is added/deleted and overlapping elements are not checked by the kernel. When testing entries, if a host address is tested, then the kernel tries to match the host address in the networks added to the set and reports the result accordingly. \
+From the 
+\b set
+\b0  netfilter match point of view the searching for a match always starts from the smallest size of netblock (most specific prefix) to the largest one (least specific prefix) added to the set. When adding/deleting IP addresses to the set by the 
+\b SET
+\b0  netfilter target, it will be added/deleted by the most specific prefix which can be found in the set, or by the host prefix value if the set is empty. \
+The second direction parameter of the 
+\b set
+\b0  match and 
+\b SET
+\b0  target modules corresponds to the incoming/outgoing interface : 
+\b src
+\b0  to the incoming, while 
+\b dst
+\b0  to the outgoing. When the interface is flagged with 
+\b physdev:
+\b0 , the interface is interpreted as the incoming/outgoing bridge port. \
+The lookup time grows linearly with the number of the different prefix values added to the set. \
+The internal restriction of the 
+\b hash:net,iface
+\b0  set type is that the same network prefix cannot be stored with more than 64 different interfaces in a single set. \
+Examples: \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 ipset create foo hash:net,iface \
+ipset add foo 192.168.0/24,eth0 \
+ipset add foo 10.1.0.0/16,eth1 \
+ipset test foo 192.168.0/24,eth0\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\b\fs28 \cf2 list:set\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 The 
+\b list:set
+\b0  type uses a simple list in which you can store set names.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\i \cf2 CREATE-OPTIONS
+\i0  := [ 
+\b size
+\b0  
+\i value
+\i0  ] [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i ADD-ENTRY
+\i0  := 
+\i setname
+\i0  [ \{ 
+\b before
+\b0  | 
+\b after
+\b0  \} 
+\i setname
+\i0  ] \
+
+\i ADD-OPTIONS
+\i0  := [ 
+\b timeout
+\b0  
+\i value
+\i0  ] \
+
+\i DEL-ENTRY
+\i0  := 
+\i setname
+\i0  [ \{ 
+\b before
+\b0  | 
+\b after
+\b0  \} 
+\i setname
+\i0  ] \
+
+\i TEST-ENTRY
+\i0  := 
+\i setname
+\i0  [ \{ 
+\b before
+\b0  | 
+\b after
+\b0  \} 
+\i setname
+\i0  ] \
+Optional 
+\b create
+\b0  options: \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b \cf2 size
+\b0  
+\i value
+\i0  \
+The size of the list, the default is 8.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 By the 
+\b ipset
+\b0  commad you can add, delete and test set names in a 
+\b list:set
+\b0  type of set. \
+By the 
+\b set
+\b0  match or 
+\b SET
+\b0  target of netfilter you can test, add or delete entries in the sets added to the 
+\b list:set
+\b0  type of set. The match will try to find a matching entry in the sets and the target will try to add an entry to the first set to which it can be added. The number of direction options of the match and target are important: sets which require more parameters than specified are skipped, while sets with equal or less parameters are checked, elements added/deleted. For example if 
+\i a
+\i0  and 
+\i b
+\i0  are 
+\b list:set
+\b0  type of sets then in the command \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 iptables -m set --match-set a src,dst -j SET --add-set b src,dst\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 the match and target will skip any set in 
+\i a
+\i0  and 
+\i b
+\i0  which stores data triples, but will match all sets with single or double data storage in 
+\i a
+\i0  set and stop matching at the first successful set, and add src to the first single or src,dst to the first double data storage set in 
+\i b
+\i0  to which the entry can be added. You can imagine a 
+\b list:set
+\b0  type of set as an ordered union of the set elements. \
+Please note: by the 
+\b ipset
+\b0  commad you can add, delete and 
+\b test
+\b0  the setnames in a 
+\b list:set
+\b0  type of set, and 
+\b not
+\b0  the presence of a set's member (such as an IP address). \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 General Restrictions\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 Zero valued set entries cannot be used with hash methods. Zero protocol value with ports cannot be used.\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Comments\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 If you want to store same size subnets from a given network (say /24 blocks from a /8 network), use the 
+\b bitmap:ip
+\b0  set type. If you want to store random same size networks (say random /24 blocks), use the 
+\b hash:ip
+\b0  set type. If you have got random size of netblocks, use 
+\b hash:net
+\b0 .\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 Backward compatibility is maintained and old 
+\b ipset
+\b0  syntax is still supported. \
+The 
+\b iptree
+\b0  and 
+\b iptreemap
+\b0  set types are removed: if you refer to them, they are automatically replaced by 
+\b hash:ip
+\b0  type of sets. \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Diagnostics\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 Various error messages are printed to standard error. The exit code is 0 for correct functioning.\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Bugs\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 Bugs? No, just funny features. :-) OK, just kidding...\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 See Also\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://linux.die.net/man/8/iptables"}}{\fldrslt 
+\i\fs24 \cf3 \ul \ulc3 \strokec3 iptables}}
+\i\b0\fs24 (8)
+\i0 , {\field{\*\fldinst{HYPERLINK "https://linux.die.net/man/8/ip6tables"}}{\fldrslt 
+\i\b \cf3 \ul \ulc3 \strokec3 ip6tables}}
+\i (8)
+\i0 \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Authors\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 Jozsef Kadlecsik wrote ipset, which is based on ippool by Joakim Axelsson, Patrick Schaaf and Martin Josefsson.\
+Sven Wegener wrote the iptreemap type.\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Last Remark\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\fs24 \cf2 I stand on the shoulders of giants.
+\b0 \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Referenced By\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://linux.die.net/man/8/iptables-1.4.7"}}{\fldrslt 
+\fs24 \cf3 \ul \ulc3 \strokec3 iptables-1.4.7}}
+\b0\fs24 (8) }
