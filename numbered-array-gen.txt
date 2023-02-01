@@ -70,4 +70,4 @@
 [70]=
 
 var6="$(seq -s '] [' 1 70)"
-$ echo "$var6"
+$ echo "$var6" 
