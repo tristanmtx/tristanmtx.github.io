@@ -512,9 +512,11 @@ body {
 	height: 25px;
 }
 
-
+.address li i.fa-transp{
+	background: url('../images/transpacer.png') no-repeat 10px 2px;
+}
 .address li i.fa-pdf{
-	background: url('../images/word.png') no-repeat 10px 2px;
+	background: url('../images/pdf.png') no-repeat 10px 2px;
 }
 .address li i.fa-linked{
 	background: url('../images/linkedin2.png') no-repeat 13px 4px;
