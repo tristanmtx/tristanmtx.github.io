@@ -513,7 +513,11 @@ body {
 }
 
 .address li i.fa-transp{
-	background: url('../images/transpacer.png') no-repeat 10px 2px;
+	color: #a0a0a0; background: url('../images/transpacer.png') no-repeat 9px 2px; 
+}
+.desctxt li span{
+	color: #848484;
+	font-size: 9px;
 }
 .address li i.fa-pdf{
 	background: url('../images/pdf.png') no-repeat 10px 2px;
